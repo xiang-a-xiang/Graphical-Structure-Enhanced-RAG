@@ -398,18 +398,17 @@ class TextChunker:
             
         return chunks
     
-def make_chunked_json_file(book_file, output_file, encoder_name, context_window=5, similarity_percentile_threshold=30, min_chunk_size=5, keep_natural_order=True):
+def make_chunked_json_file(book_file, output_file, chunker, context_window=5, similarity_percentile_threshold=30, min_chunk_size=5, keep_natural_order=True):
     """
     Make a chunked json file from a Harry Potter book text file.
     book_file: str, path to the book text file
     output_file: str, path to the output json file
-    encoder_name: TextChunker object model name
+    chunker: TextChunker object
     context_window: int, context window size
     similarity_percentile_threshold: float, percentile threshold for similarity
     min_chunk_size: int, minimum chunk size
     keep_natural_order: bool, whether to keep natural order
     """
-    chunker = TextChunker(encoder_name)
     with open(book_file, "r") as f:
         book_text = f.read()
     book = process_book_text(book_text, int(book_file.split('.')[0][-1]))
@@ -422,13 +421,7 @@ def make_chunked_json_file(book_file, output_file, encoder_name, context_window=
                 json.dump({"title_num" : title_num, "title": title, "chapter_num" : chapter.chapter_num, "chapter_name": chapter.chapter_name, "passage": passage}, f)
                 f.write("\n")
 
-# Define a wrapper that unpacks the tuple and instantiates the chunker in the worker.
-def make_chunked_json_file_wrapper(args_tuple):
-    (input_file, output_file, encoder_model_name, context_window,
-     similarity_threshold, min_chunk_size, keep_natural_order) = args_tuple
-    return make_chunked_json_file(input_file, output_file, encoder_model_name, context_window, similarity_threshold, min_chunk_size, keep_natural_order)
-
-
 if __name__ == "__main__":
-    make_chunked_json_file("data/hp1.txt", "data/hp1_chunked.json", "sentence-transformers/all-mpnet-base-v1")
+    chunker = TextChunker()
+    make_chunked_json_file("data/hp1.txt", "data/hp1_chunked.json", chunker)
     print("Done!")
