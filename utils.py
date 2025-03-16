@@ -131,6 +131,92 @@ class QA(NLPBase):
         )
         trainer.train()
 
+##  Query Optimalization trail version 1.0
+from sentence_transformers import SentenceTransformer
+from typing import List, Dict
+import re
+import numpy as np
+
+class QO:
+    def __init__(self, embedding_model_name: str = "sentence-transformers/all-mpnet-base-v1", llm=None):
+        self.embedding_model = SentenceTransformer(embedding_model_name)
+        self.llm = llm  # Language model for text generation (HyDE, Step-Back)
+    
+    def hyde(self, query: str) -> np.ndarray:
+        if self.llm is None:
+            raise ValueError("LLM model is required for HyDE transformation.")
+        hypothetical_doc = self.llm.generate(query)
+        embedding = self.embedding_model.encode(hypothetical_doc)
+        return embedding
+
+    def step_back(self, query: str) -> str:
+        if self.llm is None:
+            raise ValueError("LLM model is required for Step-Back Prompting.")
+        prompt = f"Rephrase the query into a more abstract question about its core concept:\nQuery: \"{query}\""
+        abstract_question = self.llm.generate(prompt)
+        return abstract_question
+
+    def semantic_routing(self, query: str, sources: Dict[str, Dict]) -> str:
+        query_lower = query.lower()
+        for source_name, info in sources.items():
+            for kw in info.get("keywords", []):
+                if kw in query_lower:
+                    return source_name
+        # Default fallback source
+        return list(sources.keys())[0]
+
+    def metadata_filter(self, query: str, available_meta: Dict[str, Dict] = None) -> Dict[str, any]:
+        filters = {}
+        year_match = re.search(r"\b(19|20)\d{2}\b", query)
+        if year_match:
+            filters["year"] = int(year_match.group(0))
+        if available_meta and "book" in available_meta:
+            for book_id, title in available_meta["book"].items():
+                if title.lower() in query.lower():
+                    filters["book"] = book_id
+                    break
+        return filters
+
+    def multi_query(self, query: str) -> List[str]:
+        variants = [query]
+        if query.lower().startswith("when "):
+            variants.append(query.replace("When", "What year").replace("when", "what year", 1))
+        if query.lower().startswith("who "):
+            variants.append(query.replace("Who", "Which person").replace("who", "which person", 1))
+        # Remove stopwords for a keyword-based variant
+        keywords = re.sub(r'\b(where|what|when|who|is|the|a|an|did|do|in|of|to)\b', ' ', query, flags=re.IGNORECASE)
+        keywords = ' '.join(keywords.split()).strip()
+        if keywords and keywords.lower() != query.lower():
+            variants.append(keywords)
+        if self.llm is not None:
+            paraphrase = self.llm.generate(f"Paraphrase the query: '{query}'")
+            variants.append(paraphrase)
+        # Deduplicate and clean up
+        variants = [q.strip() for q in dict.fromkeys(variants) if q.strip()]
+        return variants
+
+    def sub_questions(self, query: str) -> List[str]:
+        subqs = []
+        parts = query.split(" and ")
+        if len(parts) > 1:
+            for i, part in enumerate(parts):
+                part = part.strip()
+                if not part:
+                    continue
+                if not part.endswith("?"):
+                    part += "?"
+                if i > 0:
+                    # Take a capitalized word from first part as subject (simple heuristic)
+                    main_subject_match = re.search(r"\b([A-Z][a-z]+)\b", parts[0])
+                    if main_subject_match:
+                        subject = main_subject_match.group(1)
+                        part = re.sub(r'\b(his|her|their|he|she|they|it)\b', subject, part, flags=re.IGNORECASE)
+                subqs.append(part)
+        else:
+            subqs.append(query)
+        return subqs
+##  Query Optimalization trail version 1.0 END
+
 
 num2title = {
     1: "Harry Potter and the Philosopher's Stone",
