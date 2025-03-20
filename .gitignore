@@ -1,3 +1,9 @@
 .DS_Store
 ner_model/
 __pycache__/
+
+generation/models
+
+generation/pythia-1b-deduped
+
+/generation/pythia-70m-deduped
