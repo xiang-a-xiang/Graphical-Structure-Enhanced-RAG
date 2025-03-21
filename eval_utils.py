@@ -3,6 +3,7 @@ from typing import List, Union, Dict
 from nltk.translate.bleu_score import sentence_bleu
 from rouge_score import rouge_scorer
 from bert_score import score
+import math
 
 class Metric(ABC):
     """Abstract base class for all metrics."""
@@ -406,14 +407,12 @@ class MetricCollection:
         """
         self.metrics = metrics
 
-    def update(self, predictions, references):
+    def update(self, predictions, references, metric_type='all'):
         for metric in self.metrics.values():
-            metric.update(predictions, references)
-
-    def compute(self):
-        return {name: metric.compute() for name, metric in self.metrics.items()}
+            if metric.metric_type == metric_type or metric_type == 'all':
+                metric.update(predictions, references)
     
-    def compute_by_type(self, metric_type='all')->Union[Dict[str, Union[Dict[str, float],float]], Dict[str, Dict[str, Union[Dict[str, float],float]]]]:
+    def compute(self, metric_type='all')->Union[Dict[str, Union[Dict[str, float],float]], Dict[str, Dict[str, Union[Dict[str, float],float]]]]:
         if metric_type == 'all':
             return {
                 metric.metric_type: {
@@ -430,9 +429,10 @@ class MetricCollection:
                 if metric.metric_type == metric_type
             }
 
-    def reset(self):
+    def reset(self, metric_type='all'):
         for metric in self.metrics.values():
-            metric.reset()
+            if metric.metric_type == metric_type or metric_type == 'all':
+                metric.reset()
 
     def get_metrics_by_type(self, metric_type: str):
         """Return a sub-dict of metrics that match the given type."""
