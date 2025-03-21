@@ -1,14 +1,26 @@
 # Import the QO class from utils.py
 from utils import QO
 import cohere
+from dotenv import load_dotenv
 import os
+
+load_dotenv("/Users/yandu/NLP_project/key.env")  # Loads variables from .env into the environment
+# print(os.environ) 
+api_key = os.environ.get('COHERE_API_KEY')
+# print(api_key)  # Verify that the key is loaded
 
 # Assume we have an LLM instance that supports a .generate() method.
 # This could be any language model interface you have implemented.
 # For demonstration purposes, we create a dummy LLM:
 class MyLLM:
+    def __init__(self):
+        # Retrieve the API key from the environment variable.
+        self.api_key = api_key
+        if not self.api_key:
+            raise ValueError("Please set the COHERE_API_KEY environment variable")
+
     def generate(self, prompt: str) -> str:
-        co = cohere.ClientV2(api_key="2YR7FbBNMB1pnucs4Jqc4sZlfF6G9Z65w2al0K6I")
+        co = cohere.ClientV2(api_key=self.api_key)
         res = co.chat(
             model="command-a-03-2025",
             messages=[
@@ -19,6 +31,7 @@ class MyLLM:
             ],
         )
         return res.message.content[0].text
+
 
 
 # Create an instance of your dummy LLM and the QO class
