@@ -2,73 +2,73 @@
     {
         "question": "On which street do the Dursleys live at the beginning of the story?",
         "answer": "They live at Number Four, Privet Drive.",
-        "list of reference": 1,
+        "list of reference": [1],
         "id": 1
     },
     {
         "question": "What is the name of the wizarding bank Harry visits with Hagrid?",
         "answer": "The bank is called Gringotts.",
-        "list of reference": 138,
+        "list of reference": [138],
         "id": 2
     },
     {
         "question": "Which Hogwarts house does Harry get sorted into?",
         "answer": "Harry is sorted into Gryffindor.",
-        "list of reference": 271,
+        "list of reference": [271],
         "id": 3
     },
     {
         "question": "Who is the Keeper of Keys and Grounds at Hogwarts?",
         "answer": "Rubeus Hagrid holds that position.",
-        "list of reference": 101,
+        "list of reference": [101],
         "id": 4
     },
     {
         "question": "What is the name of the house-elf who warns Harry not to return to Hogwarts?",
         "answer": "That house-elf is Dobby.",
-        "list of reference": 750,
+        "list of reference": [750],
         "id": 5
     },
     {
         "question": "Who is widely believed to be the Heir of Slytherin responsible for the attacks at Hogwarts?",
         "answer": "Many suspect that Harry is the Heir of Slytherin.",
-        "list of reference": 1158,
+        "list of reference": [1158],
         "id": 6
     },
     {
         "question": "Which language does Harry discover he can speak, shocking his classmates?",
         "answer": "Harry can speak Parseltongue, the language of snakes.",
-        "list of reference": 1151,
+        "list of reference": [1151],
         "id": 7
     },
     {
         "question": "Which teacher accidentally removes all the bones from Harry's arm while trying to fix it?",
         "answer": "Gilderoy Lockhart causes that mishap.",
-        "list of reference": 1103,
+        "list of reference": [1103],
         "id": 8
     },
     {
         "question": "Who is the supposed criminal believed to be after Harry?",
         "answer": "People think Sirius Black is after him.",
-        "list of reference": 1634,
+        "list of reference": [1634],
         "id": 9
     },
     {
         "question": "Which new Defense Against the Dark Arts teacher is actually a werewolf?",
         "answer": "Remus Lupin is the werewolf teacher.",
-        "list of reference": 2262,
+        "list of reference": [2262],
         "id": 10
     },
     {
         "question": "What is the name of the magical bus that rescues Harry from Privet Drive?",
         "answer": "It's called the Knight Bus.",
-        "list of reference": 1543,
+        "list of reference": [1543],
         "id": 11
     },
     {
         "question": "Which group was formed by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew during their time at Hogwarts?",
         "answer": "They were known as the Marauders.",
-        "list of reference": 2287,
+        "list of reference": [2287],
         "id": 12
     },
     {
@@ -83,61 +83,61 @@
     {
         "question": "Which house-elf does Harry encounter in the Hogwarts kitchens who once served the Crouch family?",
         "answer": "He meets Winky.",
-        "list of reference": 3310,
+        "list of reference": [3310],
         "id": 14
     },
     {
         "question": "Which student is chosen by the Goblet of Fire to represent Hogwarts alongside Harry?",
         "answer": "Cedric Diggory is selected as the other champion.",
-        "list of reference": 3073,
+        "list of reference": [3073],
         "id": 15
     },
     {
         "question": "Which big sporting event do Harry and the Weasleys attend before returning to Hogwarts?",
         "answer": "They attend the Quidditch World Cup.",
-        "list of reference": 2563,
+        "list of reference": [2563],
         "id": 16
     },
     {
         "question": "Which teacher at Hogwarts imposes numerous strict rules and punishments on the students?",
         "answer": "Professor Dolores Umbridge enforces these rules.",
-        "list of reference": 4845,
+        "list of reference": [4845],
         "id": 17
     },
     {
         "question": "What secret group do Harry, Ron, and Hermione form to practice Defense Against the Dark Arts?",
         "answer": "They form Dumbledore's Army (the D.A.).",
-        "list of reference": 5042,
+        "list of reference": [5042],
         "id": 18
     },
     {
         "question": "What is the hidden location used as the headquarters for the Order of the Phoenix?",
         "answer": "Number Twelve, Grimmauld Place, serves as headquarters.",
-        "list of reference": 4289,
+        "list of reference": [4289],
         "id": 19
     },
     {
         "question": "Which centaur becomes the Divination teacher after Professor Trelawney is briefly dismissed?",
         "answer": "Firenze the centaur takes over Divination.",
-        "list of reference": 5555,
+        "list of reference": [5555],
         "id": 20
     },
     {
         "question": "Who becomes the Potions Master at Hogwarts, allowing Harry to continue in N.E.W.T.-level Potions?",
         "answer": "Professor Horace Slughorn takes over Potions.",
-        "list of reference": 6586,
+        "list of reference": [6586],
         "id": 21
     },
     {
         "question": "Which dark magical object does Harry learn about, enabling Voldemort's survival through fragments of his soul?",
         "answer": "They are the Horcruxes.",
-        "list of reference": 7265,
+        "list of reference": [7265],
         "id": 22
     },
     {
         "question": "Which student secretly repairs the Vanishing Cabinet that lets Death Eaters enter Hogwarts?",
         "answer": "Draco Malfoy is responsible for repairing it.",
-        "list of reference": 7458,
+        "list of reference": [7458],
         "id": 23
     },
     {
@@ -153,25 +153,25 @@
     {
         "question": "Which book does Dumbledore leave to Hermione in his will?",
         "answer": "He leaves her The Tales of Beedle the Bard.",
-        "list of reference": 7845,
+        "list of reference": [7845],
         "id": 25
     },
     {
         "question": "Where do Bill and Fleur live, providing the Trio with shelter after they escape from Malfoy Manor?",
         "answer": "They live at Shell Cottage.",
-        "list of reference": 8417,
+        "list of reference": [8417],
         "id": 26
     },
     {
         "question": "Which goblin agrees to help Harry break into Gringotts to find a Horcrux?",
         "answer": "Griphook assists them with the break-in.",
-        "list of reference": 8690,
+        "list of reference": [8690],
         "id": 27
     },
     {
         "question": "Which object are Harry, Ron, and Hermione searching for inside Bellatrix Lestrange's vault at Gringotts?",
         "answer": "They are searching for Helga Hufflepuff's Cup.",
-        "list of reference": 8766,
+        "list of reference": [8766],
         "id": 28
     },
     {
