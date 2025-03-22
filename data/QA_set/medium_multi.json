@@ -5,7 +5,8 @@
         "list of reference": [
             "Book 5, Chapter 1, Paragraph 3",
             "Book 2, Chapter 2, Paragraph 5"
-        ]
+        ],
+        "id": 408
     },
     {
         "question": "Who teaches Harry the Patronus Charm in the third book, and how does this person relate to Harry's father?",
@@ -13,7 +14,8 @@
         "list of reference": [
             "Book 3, Chapter 10, Paragraph 2",
             "Book 1, Chapter 9, Paragraph 4"
-        ]
+        ],
+        "id": 409
     },
     {
         "question": "What object does Hermione use to attend multiple classes in the third book, and how does it later help Harry save a life?",
@@ -21,7 +23,8 @@
         "list of reference": [
             "Book 3, Chapter 6, Paragraph 1",
             "Book 3, Chapter 21, Paragraph 8"
-        ]
+        ],
+        "id": 410
     },
     {
         "question": "In the first book, what creature guards the Philosopher's Stone, and how does its weakness reappear in the sixth book?",
@@ -29,7 +32,8 @@
         "list of reference": [
             "Book 1, Chapter 15, Paragraph 7",
             "Book 6, Chapter 20, Paragraph 3"
-        ]
+        ],
+        "id": 411
     },
     {
         "question": "What does Ron sacrifice during the chess game in the first book, and how does this reflect his role in the seventh book?",
@@ -37,7 +41,8 @@
         "list of reference": [
             "Book 1, Chapter 16, Paragraph 9",
             "Book 7, Chapter 32, Paragraph 5"
-        ]
+        ],
+        "id": 412
     },
     {
         "question": "In the second book, who does Harry save from the Chamber of Secrets, and how does this person assist him in the seventh book?",
@@ -45,7 +50,8 @@
         "list of reference": [
             "Book 2, Chapter 17, Paragraph 10",
             "Book 7, Chapter 20, Paragraph 2"
-        ]
+        ],
+        "id": 413
     },
     {
         "question": "What prophecy is revealed to Harry in the fifth book, and how does it tie to an event in the fourth book?",
@@ -53,7 +59,8 @@
         "list of reference": [
             "Book 5, Chapter 37, Paragraph 4",
             "Book 4, Chapter 33, Paragraph 6"
-        ]
+        ],
+        "id": 414
     },
     {
         "question": "What creature does Hagrid introduce in the third book, and how does it play a role in the fifth book?",
@@ -61,7 +68,8 @@
         "list of reference": [
             "Book 3, Chapter 6, Paragraph 3",
             "Book 5, Chapter 21, Paragraph 2"
-        ]
+        ],
+        "id": 415
     },
     {
         "question": "In the sixth book, what potion does Harry excel at brewing, and how does this skill help him in the seventh book?",
@@ -69,7 +77,8 @@
         "list of reference": [
             "Book 6, Chapter 9, Paragraph 5",
             "Book 7, Chapter 10, Paragraph 3"
-        ]
+        ],
+        "id": 416
     },
     {
         "question": "What object does Dumbledore leave to Hermione in his will in the seventh book, and how does it connect to a lesson from the first book?",
@@ -77,7 +86,8 @@
         "list of reference": [
             "Book 7, Chapter 7, Paragraph 2",
             "Book 1, Chapter 16, Paragraph 4"
-        ]
+        ],
+        "id": 417
     },
     {
         "question": "Who helps Harry escape Privet Drive in the fifth book, and how does this person's past connect to the sixth book?",
@@ -85,7 +95,8 @@
         "list of reference": [
             "Book 5, Chapter 3, Paragraph 6",
             "Book 6, Chapter 27, Paragraph 8"
-        ]
+        ],
+        "id": 418
     },
     {
         "question": "What does Harry discover about the Mirror of Erised in the first book, and how does this relate to a revelation in the seventh book?",
@@ -93,7 +104,8 @@
         "list of reference": [
             "Book 1, Chapter 12, Paragraph 3",
             "Book 7, Chapter 34, Paragraph 5"
-        ]
+        ],
+        "id": 419
     },
     {
         "question": "In the fourth book, what task requires Harry to retrieve something from the lake, and how does this skill aid him in the sixth book?",
@@ -101,7 +113,8 @@
         "list of reference": [
             "Book 4, Chapter 26, Paragraph 7",
             "Book 6, Chapter 26, Paragraph 4"
-        ]
+        ],
+        "id": 420
     },
     {
         "question": "What secret does Harry uncover about Tom Riddle in the second book, and how does it impact his actions in the fifth book?",
@@ -109,7 +122,8 @@
         "list of reference": [
             "Book 2, Chapter 13, Paragraph 2",
             "Book 5, Chapter 38, Paragraph 3"
-        ]
+        ],
+        "id": 421
     },
     {
         "question": "Who betrays Dumbledore's Army in the fifth book, and how does this connect to a character's fate in the seventh book?",
@@ -117,7 +131,8 @@
         "list of reference": [
             "Book 5, Chapter 27, Paragraph 5",
             "Book 7, Chapter 31, Paragraph 6"
-        ]
+        ],
+        "id": 422
     },
     {
         "question": "What magical creature does Harry ride to escape in the seventh book, and how does it relate to an event in the third book?",
@@ -125,7 +140,8 @@
         "list of reference": [
             "Book 7, Chapter 4, Paragraph 8",
             "Book 3, Chapter 21, Paragraph 9"
-        ]
+        ],
+        "id": 423
     },
     {
         "question": "In the sixth book, what memory does Harry retrieve from Slughorn, and how does it connect to the second book?",
@@ -133,7 +149,8 @@
         "list of reference": [
             "Book 6, Chapter 23, Paragraph 4",
             "Book 2, Chapter 17, Paragraph 3"
-        ]
+        ],
+        "id": 424
     },
     {
         "question": "What does Harry use to destroy the diary in the second book, and how does this object reappear in the seventh book?",
@@ -141,7 +158,8 @@
         "list of reference": [
             "Book 2, Chapter 17, Paragraph 11",
             "Book 7, Chapter 36, Paragraph 7"
-        ]
+        ],
+        "id": 425
     },
     {
         "question": "Who gives Harry a broomstick in the first book, and how does this person's influence extend to the third book?",
@@ -149,7 +167,8 @@
         "list of reference": [
             "Book 1, Chapter 10, Paragraph 2",
             "Book 3, Chapter 11, Paragraph 4"
-        ]
+        ],
+        "id": 426
     },
     {
         "question": "What does Harry witness in the Pensieve in the fourth book, and how does it foreshadow an event in the sixth book?",
@@ -157,7 +176,8 @@
         "list of reference": [
             "Book 4, Chapter 30, Paragraph 3",
             "Book 6, Chapter 27, Paragraph 9"
-        ]
+        ],
+        "id": 427
     },
     {
         "question": "In the fifth book, what does Harry see in his dreams, and how does this vision connect to the seventh book?",
@@ -165,7 +185,8 @@
         "list of reference": [
             "Book 5, Chapter 24, Paragraph 2",
             "Book 7, Chapter 32, Paragraph 4"
-        ]
+        ],
+        "id": 428
     },
     {
         "question": "What creature does Harry encounter in the maze in the fourth book, and how does it relate to a lesson from the sixth book?",
@@ -173,7 +194,8 @@
         "list of reference": [
             "Book 4, Chapter 31, Paragraph 6",
             "Book 6, Chapter 15, Paragraph 3"
-        ]
+        ],
+        "id": 429
     },
     {
         "question": "Who does Harry meet in Knockturn Alley in the second book, and how does this encounter connect to the fifth book?",
@@ -181,7 +203,8 @@
         "list of reference": [
             "Book 2, Chapter 4, Paragraph 5",
             "Book 5, Chapter 33, Paragraph 2"
-        ]
+        ],
+        "id": 430
     },
     {
         "question": "What does Dumbledore show Harry in the cave in the sixth book, and how does it relate to the first book?",
@@ -189,7 +212,8 @@
         "list of reference": [
             "Book 6, Chapter 26, Paragraph 5",
             "Book 1, Chapter 15, Paragraph 8"
-        ]
+        ],
+        "id": 431
     },
     {
         "question": "In the seventh book, what does Harry learn about the Deathly Hallows, and how does it connect to a gift from the first book?",
@@ -197,7 +221,8 @@
         "list of reference": [
             "Book 7, Chapter 22, Paragraph 3",
             "Book 1, Chapter 12, Paragraph 6"
-        ]
+        ],
+        "id": 432
     },
     {
         "question": "What does Harry use to summon his broom in the fourth book, and how does this spell help him in the seventh book?",
@@ -205,7 +230,8 @@
         "list of reference": [
             "Book 4, Chapter 20, Paragraph 4",
             "Book 7, Chapter 4, Paragraph 7"
-        ]
+        ],
+        "id": 433
     },
     {
         "question": "Who does Harry save during the second task in the fourth book, and how does this person aid him in the sixth book?",
@@ -213,7 +239,8 @@
         "list of reference": [
             "Book 4, Chapter 26, Paragraph 8",
             "Book 6, Chapter 30, Paragraph 2"
-        ]
+        ],
+        "id": 434
     },
     {
         "question": "What does Harry learn about Snape in the third book, and how does this shape his view in the seventh book?",
@@ -221,7 +248,8 @@
         "list of reference": [
             "Book 3, Chapter 14, Paragraph 3",
             "Book 7, Chapter 33, Paragraph 5"
-        ]
+        ],
+        "id": 435
     },
     {
         "question": "In the fifth book, what group does Harry form, and how does it influence the battle in the seventh book?",
@@ -229,7 +257,8 @@
         "list of reference": [
             "Book 5, Chapter 18, Paragraph 2",
             "Book 7, Chapter 31, Paragraph 4"
-        ]
+        ],
+        "id": 436
     },
     {
         "question": "What does Harry find in the Room of Requirement in the sixth book, and how does it connect to the second book?",
@@ -237,7 +266,8 @@
         "list of reference": [
             "Book 6, Chapter 24, Paragraph 3",
             "Book 2, Chapter 13, Paragraph 4"
-        ]
+        ],
+        "id": 437
     },
     {
         "question": "Who does Harry impersonate using Polyjuice Potion in the seventh book, and how does this relate to the fourth book?",
@@ -245,7 +275,8 @@
         "list of reference": [
             "Book 7, Chapter 4, Paragraph 5",
             "Book 4, Chapter 25, Paragraph 2"
-        ]
+        ],
+        "id": 438
     },
     {
         "question": "What does Harry see in the Forbidden Forest in the first book, and how does it foreshadow an event in the seventh book?",
@@ -253,7 +284,8 @@
         "list of reference": [
             "Book 1, Chapter 15, Paragraph 5",
             "Book 7, Chapter 34, Paragraph 7"
-        ]
+        ],
+        "id": 439
     },
     {
         "question": "In the third book, what does Hermione use to save Sirius, and how does it connect to a tool from the fifth book?",
@@ -261,7 +293,8 @@
         "list of reference": [
             "Book 3, Chapter 21, Paragraph 6",
             "Book 5, Chapter 17, Paragraph 3"
-        ]
+        ],
+        "id": 440
     },
     {
         "question": "What does Harry receive from Hagrid in the first book, and how does it assist him in the sixth book?",
@@ -269,7 +302,8 @@
         "list of reference": [
             "Book 1, Chapter 5, Paragraph 2",
             "Book 6, Chapter 11, Paragraph 4"
-        ]
+        ],
+        "id": 441
     },
     {
         "question": "Who does Harry fight in the graveyard in the fourth book, and how does this enemy's plan evolve in the sixth book?",
@@ -277,7 +311,8 @@
         "list of reference": [
             "Book 4, Chapter 33, Paragraph 5",
             "Book 6, Chapter 27, Paragraph 7"
-        ]
+        ],
+        "id": 442
     },
     {
         "question": "What does Harry learn about the Dursleys in the fifth book, and how does it connect to his escape in the seventh book?",
@@ -285,7 +320,8 @@
         "list of reference": [
             "Book 5, Chapter 2, Paragraph 3",
             "Book 7, Chapter 4, Paragraph 6"
-        ]
+        ],
+        "id": 443
     },
     {
         "question": "In the second book, what does Harry hear in the walls, and how does this ability affect him in the sixth book?",
@@ -293,7 +329,8 @@
         "list of reference": [
             "Book 2, Chapter 7, Paragraph 2",
             "Book 6, Chapter 23, Paragraph 5"
-        ]
+        ],
+        "id": 444
     },
     {
         "question": "What does Harry use to defeat Quirrell in the first book, and how does this power manifest in the seventh book?",
@@ -301,7 +338,8 @@
         "list of reference": [
             "Book 1, Chapter 17, Paragraph 8",
             "Book 7, Chapter 36, Paragraph 6"
-        ]
+        ],
+        "id": 445
     },
     {
         "question": "Who does Harry meet in Azkaban's past in the third book, and how does this person influence the fifth book?",
@@ -309,7 +347,8 @@
         "list of reference": [
             "Book 3, Chapter 10, Paragraph 4",
             "Book 5, Chapter 35, Paragraph 3"
-        ]
+        ],
+        "id": 446
     },
     {
         "question": "What does Harry discover about the Triwizard Tournament in the fourth book, and how does it relate to the sixth book?",
@@ -317,7 +356,8 @@
         "list of reference": [
             "Book 4, Chapter 35, Paragraph 2",
             "Book 6, Chapter 27, Paragraph 6"
-        ]
+        ],
+        "id": 447
     },
     {
         "question": "In the seventh book, what does Harry use to destroy a Horcrux in the Room of Requirement, and how does it tie to the second book?",
@@ -325,7 +365,8 @@
         "list of reference": [
             "Book 7, Chapter 31, Paragraph 7",
             "Book 2, Chapter 17, Paragraph 12"
-        ]
+        ],
+        "id": 448
     },
     {
         "question": "What does Harry learn about the Elder Wand in the seventh book, and how does it connect to a duel in the fourth book?",
@@ -333,7 +374,8 @@
         "list of reference": [
             "Book 7, Chapter 35, Paragraph 4",
             "Book 4, Chapter 34, Paragraph 5"
-        ]
+        ],
+        "id": 449
     },
     {
         "question": "Who does Harry see in the Dementor attack in the fifth book, and how does this event tie to the third book?",
@@ -341,7 +383,8 @@
         "list of reference": [
             "Book 5, Chapter 1, Paragraph 4",
             "Book 3, Chapter 5, Paragraph 6"
-        ]
+        ],
+        "id": 450
     },
     {
         "question": "What does Harry find in the locket in the seventh book, and how does it relate to the fifth book?",
@@ -349,7 +392,8 @@
         "list of reference": [
             "Book 7, Chapter 10, Paragraph 5",
             "Book 5, Chapter 37, Paragraph 3"
-        ]
+        ],
+        "id": 451
     },
     {
         "question": "In the sixth book, what does Harry suspect about Draco, and how does this connect to the fourth book?",
@@ -357,7 +401,8 @@
         "list of reference": [
             "Book 6, Chapter 15, Paragraph 2",
             "Book 4, Chapter 9, Paragraph 3"
-        ]
+        ],
+        "id": 452
     },
     {
         "question": "What does Harry use to escape the dragon in the fourth book, and how does this skill aid him in the seventh book?",
@@ -365,7 +410,8 @@
         "list of reference": [
             "Book 4, Chapter 20, Paragraph 5",
             "Book 7, Chapter 4, Paragraph 9"
-        ]
+        ],
+        "id": 453
     },
     {
         "question": "Who does Harry trust with a secret in the fifth book, and how does this person's fate unfold in the sixth book?",
@@ -373,7 +419,8 @@
         "list of reference": [
             "Book 5, Chapter 4, Paragraph 2",
             "Book 6, Chapter 27, Paragraph 10"
-        ]
+        ],
+        "id": 454
     },
     {
         "question": "What does Harry learn about his scar in the second book, and how does this deepen in the seventh book?",
@@ -381,7 +428,8 @@
         "list of reference": [
             "Book 2, Chapter 18, Paragraph 3",
             "Book 7, Chapter 33, Paragraph 6"
-        ]
+        ],
+        "id": 455
     },
     {
         "question": "In the third book, what does Harry see in the tea leaves, and how does it foreshadow an event in the fifth book?",
@@ -389,7 +437,8 @@
         "list of reference": [
             "Book 3, Chapter 6, Paragraph 4",
             "Book 5, Chapter 38, Paragraph 5"
-        ]
+        ],
+        "id": 456
     },
     {
         "question": "What does Harry use to win the Quidditch match in the first book, and how does this talent help in the sixth book?",
@@ -397,7 +446,8 @@
         "list of reference": [
             "Book 1, Chapter 11, Paragraph 6",
             "Book 6, Chapter 19, Paragraph 3"
-        ]
+        ],
+        "id": 457
     },
     {
         "question": "Who does Harry confront in the Department of Mysteries in the fifth book, and how does this tie to the seventh book?",
@@ -405,7 +455,8 @@
         "list of reference": [
             "Book 5, Chapter 35, Paragraph 4",
             "Book 7, Chapter 36, Paragraph 8"
-        ]
+        ],
+        "id": 458
     },
     {
         "question": "What does Harry learn about the Basilisk in the second book, and how does it connect to a weapon in the seventh book?",
@@ -413,7 +464,8 @@
         "list of reference": [
             "Book 2, Chapter 16, Paragraph 5",
             "Book 7, Chapter 31, Paragraph 8"
-        ]
+        ],
+        "id": 459
     },
     {
         "question": "In the sixth book, what does Harry see in Dumbledore's memories, and how does it relate to the fourth book?",
@@ -421,7 +473,8 @@
         "list of reference": [
             "Book 6, Chapter 13, Paragraph 3",
             "Book 4, Chapter 33, Paragraph 7"
-        ]
+        ],
+        "id": 460
     },
     {
         "question": "What does Harry use to protect himself from Dementors in the third book, and how does this spell aid him in the fifth book?",
@@ -429,7 +482,8 @@
         "list of reference": [
             "Book 3, Chapter 5, Paragraph 5",
             "Book 5, Chapter 1, Paragraph 5"
-        ]
+        ],
+        "id": 461
     },
     {
         "question": "Who does Harry meet at the Yule Ball in the fourth book, and how does this person influence the seventh book?",
@@ -437,7 +491,8 @@
         "list of reference": [
             "Book 4, Chapter 23, Paragraph 2",
             "Book 7, Chapter 8, Paragraph 3"
-        ]
+        ],
+        "id": 462
     },
     {
         "question": "What does Harry learn about his mother in the seventh book, and how does it connect to the first book?",
@@ -445,7 +500,8 @@
         "list of reference": [
             "Book 7, Chapter 33, Paragraph 7",
             "Book 1, Chapter 1, Paragraph 4"
-        ]
+        ],
+        "id": 463
     },
     {
         "question": "In the fifth book, what does Harry teach his friends, and how does this skill help in the sixth book?",
@@ -453,7 +509,8 @@
         "list of reference": [
             "Book 5, Chapter 18, Paragraph 3",
             "Book 6, Chapter 27, Paragraph 5"
-        ]
+        ],
+        "id": 464
     },
     {
         "question": "What does Harry find in the attic in the second book, and how does it relate to the seventh book?",
@@ -461,7 +518,8 @@
         "list of reference": [
             "Book 2, Chapter 3, Paragraph 2",
             "Book 7, Chapter 20, Paragraph 4"
-        ]
+        ],
+        "id": 465
     },
     {
         "question": "Who does Harry rescue from the Ministry in the fifth book, and how does this event tie to the third book?",
@@ -469,7 +527,8 @@
         "list of reference": [
             "Book 5, Chapter 35, Paragraph 6",
             "Book 3, Chapter 21, Paragraph 10"
-        ]
+        ],
+        "id": 466
     },
     {
         "question": "What does Harry see in the cave in the sixth book, and how does it foreshadow the seventh book?",
@@ -477,7 +536,8 @@
         "list of reference": [
             "Book 6, Chapter 26, Paragraph 6",
             "Book 7, Chapter 19, Paragraph 3"
-        ]
+        ],
+        "id": 467
     },
     {
         "question": "In the fourth book, what does Harry use to breathe underwater, and how does this connect to the seventh book?",
@@ -485,7 +545,8 @@
         "list of reference": [
             "Book 4, Chapter 26, Paragraph 9",
             "Book 7, Chapter 19, Paragraph 4"
-        ]
+        ],
+        "id": 468
     },
     {
         "question": "What does Harry learn about the Marauders in the third book, and how does it impact the seventh book?",
@@ -493,7 +554,8 @@
         "list of reference": [
             "Book 3, Chapter 18, Paragraph 3",
             "Book 7, Chapter 33, Paragraph 8"
-        ]
+        ],
+        "id": 469
     },
     {
         "question": "Who does Harry see die in the fifth book, and how does this loss affect his actions in the sixth book?",
@@ -501,7 +563,8 @@
         "list of reference": [
             "Book 5, Chapter 35, Paragraph 7",
             "Book 6, Chapter 1, Paragraph 2"
-        ]
+        ],
+        "id": 470
     },
     {
         "question": "What does Harry use to escape the Dursleys in the second book, and how does this method reappear in the seventh book?",
@@ -509,7 +572,8 @@
         "list of reference": [
             "Book 2, Chapter 3, Paragraph 5",
             "Book 7, Chapter 4, Paragraph 10"
-        ]
+        ],
+        "id": 471
     },
     {
         "question": "In the sixth book, what does Harry learn about Voldemort's past, and how does it connect to the first book?",
@@ -517,7 +581,8 @@
         "list of reference": [
             "Book 6, Chapter 13, Paragraph 4",
             "Book 1, Chapter 1, Paragraph 5"
-        ]
+        ],
+        "id": 472
     },
     {
         "question": "What does Harry use to fight the dragon in the fourth book, and how does this strategy help in the fifth book?",
@@ -525,7 +590,8 @@
         "list of reference": [
             "Book 4, Chapter 20, Paragraph 6",
             "Book 5, Chapter 35, Paragraph 8"
-        ]
+        ],
+        "id": 473
     },
     {
         "question": "Who does Harry meet in Diagon Alley in the first book, and how does this person influence the seventh book?",
@@ -533,7 +599,8 @@
         "list of reference": [
             "Book 1, Chapter 5, Paragraph 3",
             "Book 7, Chapter 8, Paragraph 4"
-        ]
+        ],
+        "id": 474
     },
     {
         "question": "What does Harry learn about the prophecy in the fifth book, and how does it connect to the third book?",
@@ -541,7 +608,8 @@
         "list of reference": [
             "Book 5, Chapter 37, Paragraph 5",
             "Book 3, Chapter 15, Paragraph 2"
-        ]
+        ],
+        "id": 475
     },
     {
         "question": "In the seventh book, what does Harry use to summon help, and how does it relate to the sixth book?",
@@ -549,7 +617,8 @@
         "list of reference": [
             "Book 7, Chapter 9, Paragraph 3",
             "Book 6, Chapter 11, Paragraph 5"
-        ]
+        ],
+        "id": 476
     },
     {
         "question": "What does Harry see in the Mirror of Erised in the first book, and how does it foreshadow the seventh book?",
@@ -557,7 +626,8 @@
         "list of reference": [
             "Book 1, Chapter 12, Paragraph 4",
             "Book 7, Chapter 34, Paragraph 8"
-        ]
+        ],
+        "id": 477
     },
     {
         "question": "Who does Harry save from the Basilisk in the second book, and how does this act connect to the fifth book?",
@@ -565,7 +635,8 @@
         "list of reference": [
             "Book 2, Chapter 17, Paragraph 13",
             "Book 5, Chapter 18, Paragraph 4"
-        ]
+        ],
+        "id": 478
     },
     {
         "question": "In the third book, what does Harry learn about his Patronus, and how does it tie to the seventh book?",
@@ -573,7 +644,8 @@
         "list of reference": [
             "Book 3, Chapter 12, Paragraph 3",
             "Book 7, Chapter 34, Paragraph 9"
-        ]
+        ],
+        "id": 479
     },
     {
         "question": "What does Harry use to solve the riddle in the fourth book, and how does this skill help in the sixth book?",
@@ -581,7 +653,8 @@
         "list of reference": [
             "Book 4, Chapter 31, Paragraph 7",
             "Book 6, Chapter 23, Paragraph 6"
-        ]
+        ],
+        "id": 480
     },
     {
         "question": "Who does Harry trust in the fifth book, and how does this trust break in the sixth book?",
@@ -589,7 +662,8 @@
         "list of reference": [
             "Book 5, Chapter 4, Paragraph 3",
             "Book 6, Chapter 27, Paragraph 11"
-        ]
+        ],
+        "id": 481
     },
     {
         "question": "What does Harry find in the forest in the seventh book, and how does it connect to the third book?",
@@ -597,7 +671,8 @@
         "list of reference": [
             "Book 7, Chapter 19, Paragraph 5",
             "Book 3, Chapter 21, Paragraph 11"
-        ]
+        ],
+        "id": 482
     },
     {
         "question": "In the second book, what does Harry learn about Hagrid, and how does it impact the sixth book?",
@@ -605,7 +680,8 @@
         "list of reference": [
             "Book 2, Chapter 14, Paragraph 2",
             "Book 6, Chapter 20, Paragraph 4"
-        ]
+        ],
+        "id": 483
     },
     {
         "question": "What does Harry use to escape the maze in the fourth book, and how does this relate to the seventh book?",
@@ -613,7 +689,8 @@
         "list of reference": [
             "Book 4, Chapter 31, Paragraph 8",
             "Book 7, Chapter 32, Paragraph 6"
-        ]
+        ],
+        "id": 484
     },
     {
         "question": "Who does Harry meet in the Shrieking Shack in the third book, and how does this person affect the fifth book?",
@@ -621,7 +698,8 @@
         "list of reference": [
             "Book 3, Chapter 17, Paragraph 4",
             "Book 5, Chapter 38, Paragraph 6"
-        ]
+        ],
+        "id": 485
     },
     {
         "question": "What does Harry learn about the Horcruxes in the sixth book, and how does it tie to the second book?",
@@ -629,7 +707,8 @@
         "list of reference": [
             "Book 6, Chapter 23, Paragraph 7",
             "Book 2, Chapter 17, Paragraph 14"
-        ]
+        ],
+        "id": 486
     },
     {
         "question": "In the seventh book, what does Harry use to enter Hogwarts, and how does it connect to the first book?",
@@ -637,7 +716,8 @@
         "list of reference": [
             "Book 7, Chapter 28, Paragraph 3",
             "Book 1, Chapter 9, Paragraph 5"
-        ]
+        ],
+        "id": 487
     },
     {
         "question": "What does Harry see in the potion in the fifth book, and how does it foreshadow the sixth book?",
@@ -645,7 +725,8 @@
         "list of reference": [
             "Book 5, Chapter 37, Paragraph 6",
             "Book 6, Chapter 27, Paragraph 12"
-        ]
+        ],
+        "id": 488
     },
     {
         "question": "Who does Harry fight in the Chamber of Secrets in the second book, and how does this battle connect to the seventh book?",
@@ -653,7 +734,8 @@
         "list of reference": [
             "Book 2, Chapter 17, Paragraph 15",
             "Book 7, Chapter 36, Paragraph 9"
-        ]
+        ],
+        "id": 489
     },
     {
         "question": "What does Harry use to summon his Patronus in the third book, and how does this moment tie to the seventh book?",
@@ -661,7 +743,8 @@
         "list of reference": [
             "Book 3, Chapter 12, Paragraph 4",
             "Book 7, Chapter 34, Paragraph 10"
-        ]
+        ],
+        "id": 490
     },
     {
         "question": "In the fourth book, what does Harry learn about the Death Eaters, and how does it impact the sixth book?",
@@ -669,7 +752,8 @@
         "list of reference": [
             "Book 4, Chapter 33, Paragraph 8",
             "Book 6, Chapter 27, Paragraph 13"
-        ]
+        ],
+        "id": 491
     },
     {
         "question": "What does Harry find in the Gryffindor common room in the first book, and how does it connect to the seventh book?",
@@ -677,7 +761,8 @@
         "list of reference": [
             "Book 1, Chapter 12, Paragraph 5",
             "Book 7, Chapter 36, Paragraph 10"
-        ]
+        ],
+        "id": 492
     },
     {
         "question": "Who does Harry save in the lake in the fourth book, and how does this act influence the fifth book?",
@@ -685,7 +770,8 @@
         "list of reference": [
             "Book 4, Chapter 26, Paragraph 10",
             "Book 5, Chapter 18, Paragraph 5"
-        ]
+        ],
+        "id": 493
     },
     {
         "question": "What does Harry learn about Snape's loyalty in the seventh book, and how does it connect to the third book?",
@@ -693,7 +779,8 @@
         "list of reference": [
             "Book 7, Chapter 33, Paragraph 9",
             "Book 3, Chapter 14, Paragraph 4"
-        ]
+        ],
+        "id": 494
     },
     {
         "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
@@ -701,7 +788,8 @@
         "list of reference": [
             "Book 6, Chapter 21, Paragraph 3",
             "Book 1, Chapter 12, Paragraph 6"
-        ]
+        ],
+        "id": 495
     },
     {
         "question": "What does Harry see in the forest in the fifth book, and how does it foreshadow the seventh book?",
@@ -709,7 +797,8 @@
         "list of reference": [
             "Book 5, Chapter 28, Paragraph 2",
             "Book 7, Chapter 34, Paragraph 11"
-        ]
+        ],
+        "id": 496
     },
     {
         "question": "Who does Harry meet in the Burrow in the second book, and how does this person help in the seventh book?",
@@ -717,7 +806,8 @@
         "list of reference": [
             "Book 2, Chapter 4, Paragraph 6",
             "Book 7, Chapter 6, Paragraph 3"
-        ]
+        ],
+        "id": 497
     },
     {
         "question": "What does Harry use to defeat Voldemort in the seventh book, and how does it connect to the fourth book?",
@@ -725,7 +815,8 @@
         "list of reference": [
             "Book 7, Chapter 36, Paragraph 11",
             "Book 4, Chapter 34, Paragraph 6"
-        ]
+        ],
+        "id": 498
     },
     {
         "question": "In the third book, what does Harry learn about the map, and how does it aid him in the sixth book?",
@@ -733,7 +824,8 @@
         "list of reference": [
             "Book 3, Chapter 10, Paragraph 5",
             "Book 6, Chapter 21, Paragraph 4"
-        ]
+        ],
+        "id": 499
     },
     {
         "question": "What does Harry find in the potion in the sixth book, and how does it relate to the second book?",
@@ -741,7 +833,8 @@
         "list of reference": [
             "Book 6, Chapter 9, Paragraph 6",
             "Book 2, Chapter 13, Paragraph 5"
-        ]
+        ],
+        "id": 500
     },
     {
         "question": "What does Harry learn about the invisibility cloak in the first book, and how does this knowledge shape his actions in the seventh book?",
@@ -749,7 +842,8 @@
         "list of reference": [
             "Book 1, Chapter 12, Paragraph 6",
             "Book 7, Chapter 35, Paragraph 3"
-        ]
+        ],
+        "id": 501
     },
     {
         "question": "In the second book, what creature does Harry encounter in the pipes, and how does its defeat connect to a discovery in the sixth book?",
@@ -757,7 +851,8 @@
         "list of reference": [
             "Book 2, Chapter 16, Paragraph 6",
             "Book 6, Chapter 23, Paragraph 8"
-        ]
+        ],
+        "id": 502
     },
     {
         "question": "Who does Harry save from a Dementor in the third book, and how does this act influence an event in the fifth book?",
@@ -765,7 +860,8 @@
         "list of reference": [
             "Book 3, Chapter 20, Paragraph 4",
             "Book 5, Chapter 35, Paragraph 9"
-        ]
+        ],
+        "id": 503
     },
     {
         "question": "What does Harry use to communicate with Sirius in the fourth book, and how does this method reappear in the seventh book?",
@@ -773,7 +869,8 @@
         "list of reference": [
             "Book 4, Chapter 28, Paragraph 2",
             "Book 7, Chapter 22, Paragraph 4"
-        ]
+        ],
+        "id": 504
     },
     {
         "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
@@ -781,7 +878,8 @@
         "list of reference": [
             "Book 5, Chapter 22, Paragraph 3",
             "Book 6, Chapter 27, Paragraph 14"
-        ]
+        ],
+        "id": 505
     },
     {
         "question": "What does Harry learn about the Half-Blood Prince's book in the sixth book, and how does it tie to a confrontation in the second book?",
@@ -789,7 +887,8 @@
         "list of reference": [
             "Book 6, Chapter 28, Paragraph 5",
             "Book 2, Chapter 17, Paragraph 16"
-        ]
+        ],
+        "id": 506
     },
     {
         "question": "In the seventh book, what does Harry use to locate the sword of Gryffindor, and how does this connect to a gift from the third book?",
@@ -797,7 +896,8 @@
         "list of reference": [
             "Book 7, Chapter 19, Paragraph 6",
             "Book 3, Chapter 10, Paragraph 6"
-        ]
+        ],
+        "id": 507
     },
     {
         "question": "What does Harry discover about the Philosopher's Stone in the first book, and how does this relate to a revelation in the fifth book?",
@@ -805,7 +905,8 @@
         "list of reference": [
             "Book 1, Chapter 13, Paragraph 2",
             "Book 5, Chapter 37, Paragraph 7"
-        ]
+        ],
+        "id": 508
     },
     {
         "question": "Who does Harry meet in the forest in the fourth book, and how does this encounter foreshadow an alliance in the seventh book?",
@@ -813,7 +914,8 @@
         "list of reference": [
             "Book 4, Chapter 28, Paragraph 4",
             "Book 7, Chapter 32, Paragraph 7"
-        ]
+        ],
+        "id": 509
     },
     {
         "question": "In the sixth book, what does Harry see in the Pensieve about Voldemort's mother, and how does it connect to the second book?",
@@ -821,6 +923,7 @@
         "list of reference": [
             "Book 6, Chapter 10, Paragraph 3",
             "Book 2, Chapter 13, Paragraph 6"
-        ]
+        ],
+        "id": 510
     }
 ]

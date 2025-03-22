@@ -5,7 +5,8 @@
         "list of reference": [
             "book_1, chapter_11, paragraph_3",
             "book_3, chapter_7, paragraph_5"
-        ]
+        ],
+        "id": 609
     },
     {
         "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
@@ -13,7 +14,8 @@
         "list of reference": [
             "book_1, chapter_10, paragraph_8",
             "book_2, chapter_16, paragraph_10"
-        ]
+        ],
+        "id": 610
     },
     {
         "question": "Which professor's casual remark about a potion in the first book connects to a trap's ingredient in the fourth book's tournament?",
@@ -21,7 +23,8 @@
         "list of reference": [
             "book_1, chapter_8, paragraph_4",
             "book_4, chapter_26, paragraph_5"
-        ]
+        ],
+        "id": 611
     },
     {
         "question": "What specific detail about a mirror in the first book, when paired with a family revelation in the fifth book, suggests a hidden bloodline connection?",
@@ -29,7 +32,8 @@
         "list of reference": [
             "book_1, chapter_12, paragraph_2",
             "book_5, chapter_6, paragraph_3"
-        ]
+        ],
+        "id": 612
     },
     {
         "question": "Which chess piece's role in the first book's underground challenge mirrors a character's protective move in the seventh book's battle?",
@@ -37,7 +41,8 @@
         "list of reference": [
             "book_1, chapter_16, paragraph_12",
             "book_7, chapter_31, paragraph_9"
-        ]
+        ],
+        "id": 613
     },
     {
         "question": "What minor comment about a plant in the first book connects to a creature's vulnerability in the sixth book's cave?",
@@ -45,7 +50,8 @@
         "list of reference": [
             "book_1, chapter_16, paragraph_6",
             "book_6, chapter_26, paragraph_8"
-        ]
+        ],
+        "id": 614
     },
     {
         "question": "Which spell taught in the first book's class, when paired with a duel in the fifth book, reveals a character's underestimated skill?",
@@ -53,7 +59,8 @@
         "list of reference": [
             "book_1, chapter_10, paragraph_5",
             "book_5, chapter_35, paragraph_7"
-        ]
+        ],
+        "id": 615
     },
     {
         "question": "What detail about a pet in the second book, combined with a map detail in the third book, uncovers a hidden traitor?",
@@ -61,7 +68,8 @@
         "list of reference": [
             "book_2, chapter_4, paragraph_6",
             "book_3, chapter_10, paragraph_9"
-        ]
+        ],
+        "id": 616
     },
     {
         "question": "Which sound in the second book's pipes, when connected to a professor's lesson in the sixth book, hints at a potion's defensive use?",
@@ -69,7 +77,8 @@
         "list of reference": [
             "book_2, chapter_11, paragraph_5",
             "book_6, chapter_9, paragraph_3"
-        ]
+        ],
+        "id": 617
     },
     {
         "question": "What object in the second book's shop scene, paired with a memory in the sixth book, suggests a dark artifact's origin?",
@@ -77,7 +86,8 @@
         "list of reference": [
             "book_2, chapter_4, paragraph_3",
             "book_6, chapter_13, paragraph_5"
-        ]
+        ],
+        "id": 618
     },
     {
         "question": "Which phrase in a riddle in the second book, when linked to a prophecy in the fifth book, hints at a founder's legacy?",
@@ -85,7 +95,8 @@
         "list of reference": [
             "book_2, chapter_15, paragraph_5",
             "book_5, chapter_37, paragraph_5"
-        ]
+        ],
+        "id": 619
     },
     {
         "question": "What specific detail about a feather in the second book, combined with a creature's song in the seventh book, reveals a shared magical core?",
@@ -93,7 +104,8 @@
         "list of reference": [
             "book_2, chapter_12, paragraph_6",
             "book_7, chapter_31, paragraph_9"
-        ]
+        ],
+        "id": 620
     },
     {
         "question": "Which student's taunt in the second book's Quidditch match, when paired with a duel in the fifth book, predicts a rivalry's escalation?",
@@ -101,7 +113,8 @@
         "list of reference": [
             "book_2, chapter_7, paragraph_8",
             "book_5, chapter_35, paragraph_4"
-        ]
+        ],
+        "id": 621
     },
     {
         "question": "What overlooked detail about a bathroom sink in the second book, combined with a spell in the sixth book, hints at a hidden entrance?",
@@ -109,7 +122,8 @@
         "list of reference": [
             "book_2, chapter_16, paragraph_3",
             "book_6, chapter_20, paragraph_7"
-        ]
+        ],
+        "id": 622
     },
     {
         "question": "What specific detail about a map in the third book, when paired with a room's absence in the fifth book, reveals its magical limitation?",
@@ -117,7 +131,8 @@
         "list of reference": [
             "book_3, chapter_10, paragraph_9",
             "book_5, chapter_18, paragraph_3"
-        ]
+        ],
+        "id": 623
     },
     {
         "question": "Which animal's cry in the third book's escape, when connected to a Patronus in the seventh book, hints at a familial bond?",
@@ -125,7 +140,8 @@
         "list of reference": [
             "book_3, chapter_19, paragraph_11",
             "book_7, chapter_19, paragraph_3"
-        ]
+        ],
+        "id": 624
     },
     {
         "question": "What minor detail about a broom in the third book, paired with a gift's origin in the fifth book, suggests a benefactor's intent?",
@@ -133,7 +149,8 @@
         "list of reference": [
             "book_3, chapter_11, paragraph_3",
             "book_5, chapter_23, paragraph_5"
-        ]
+        ],
+        "id": 625
     },
     {
         "question": "Which spell cast in the third book's defense class, when linked to a battle in the sixth book, reveals a teacher's hidden prowess?",
@@ -141,7 +158,8 @@
         "list of reference": [
             "book_3, chapter_7, paragraph_5",
             "book_6, chapter_27, paragraph_4"
-        ]
+        ],
+        "id": 626
     },
     {
         "question": "What specific detail about a shack in the third book, paired with a memory in the sixth book, hints at a dark past?",
@@ -149,7 +167,8 @@
         "list of reference": [
             "book_3, chapter_17, paragraph_4",
             "book_6, chapter_20, paragraph_6"
-        ]
+        ],
+        "id": 627
     },
     {
         "question": "Which creature's behavior in the third book's forest, when connected to a prediction in the fifth book, suggests a coming conflict?",
@@ -157,7 +176,8 @@
         "list of reference": [
             "book_3, chapter_15, paragraph_9",
             "book_5, chapter_27, paragraph_5"
-        ]
+        ],
+        "id": 628
     },
     {
         "question": "What overlooked detail about a clock in the third book, paired with a paradox in the seventh book, reveals a time anomaly?",
@@ -165,7 +185,8 @@
         "list of reference": [
             "book_3, chapter_21, paragraph_6",
             "book_7, chapter_19, paragraph_4"
-        ]
+        ],
+        "id": 629
     },
     {
         "question": "What specific detail about a dragon in the fourth book's task, when paired with a creature's weakness in the sixth book, hints at a shared vulnerability?",
@@ -173,7 +194,8 @@
         "list of reference": [
             "book_4, chapter_20, paragraph_7",
             "book_6, chapter_26, paragraph_8"
-        ]
+        ],
+        "id": 630
     },
     {
         "question": "Which object in the fourth book's World Cup, combined with a ritual in the seventh book, suggests a dark connection?",
@@ -181,7 +203,8 @@
         "list of reference": [
             "book_4, chapter_8, paragraph_9",
             "book_7, chapter_1, paragraph_5"
-        ]
+        ],
+        "id": 631
     },
     {
         "question": "What minor comment about water in the fourth book, paired with a charm in the fifth book, predicts a champion's strategy?",
@@ -189,7 +212,8 @@
         "list of reference": [
             "book_4, chapter_23, paragraph_5",
             "book_5, chapter_18, paragraph_6"
-        ]
+        ],
+        "id": 632
     },
     {
         "question": "Which spell mispronounced in the fourth book's class, when connected to a duel in the sixth book, reveals a student's growth?",
@@ -197,7 +221,8 @@
         "list of reference": [
             "book_4, chapter_15, paragraph_3",
             "book_6, chapter_24, paragraph_8"
-        ]
+        ],
+        "id": 633
     },
     {
         "question": "What specific detail about a gravestone in the fourth book, paired with a memory in the sixth book, hints at a family's downfall?",
@@ -205,7 +230,8 @@
         "list of reference": [
             "book_4, chapter_32, paragraph_6",
             "book_6, chapter_10, paragraph_7"
-        ]
+        ],
+        "id": 634
     },
     {
         "question": "Which creature's song in the fourth book's task, when linked to a rescue in the seventh book, suggests a recurring savior?",
@@ -213,7 +239,8 @@
         "list of reference": [
             "book_4, chapter_26, paragraph_4",
             "book_7, chapter_23, paragraph_4"
-        ]
+        ],
+        "id": 635
     },
     {
         "question": "What overlooked detail about a wand in the fourth book's duel, paired with a revelation in the seventh book, uncovers a shared core?",
@@ -221,7 +248,8 @@
         "list of reference": [
             "book_4, chapter_34, paragraph_6",
             "book_7, chapter_5, paragraph_3"
-        ]
+        ],
+        "id": 636
     },
     {
         "question": "What specific detail about a dream in the fifth book, when paired with a memory in the sixth book, hints at a snake's role?",
@@ -229,7 +257,8 @@
         "list of reference": [
             "book_5, chapter_21, paragraph_5",
             "book_6, chapter_20, paragraph_7"
-        ]
+        ],
+        "id": 637
     },
     {
         "question": "Which object in the fifth book's headquarters, combined with a portrait in the seventh book, reveals a family's loyalty?",
@@ -237,7 +266,8 @@
         "list of reference": [
             "book_5, chapter_6, paragraph_3",
             "book_7, chapter_12, paragraph_5"
-        ]
+        ],
+        "id": 638
     },
     {
         "question": "What minor comment about a spell in the fifth book's DA meeting, paired with a battle in the seventh book, shows a student's bravery?",
@@ -245,7 +275,8 @@
         "list of reference": [
             "book_5, chapter_18, paragraph_9",
             "book_7, chapter_31, paragraph_7"
-        ]
+        ],
+        "id": 639
     },
     {
         "question": "Which sound in the fifth book's Ministry, when connected to a creature in the sixth book, hints at a trap's design?",
@@ -253,7 +284,8 @@
         "list of reference": [
             "book_5, chapter_34, paragraph_6",
             "book_6, chapter_26, paragraph_5"
-        ]
+        ],
+        "id": 640
     },
     {
         "question": "What specific detail about a quill in the fifth book, paired with a curse in the sixth book, suggests a teacher's cruelty?",
@@ -261,7 +293,8 @@
         "list of reference": [
             "book_5, chapter_13, paragraph_8",
             "book_6, chapter_16, paragraph_4"
-        ]
+        ],
+        "id": 641
     },
     {
         "question": "Which creature's behavior in the fifth book's forest, when linked to a battle in the seventh book, predicts a faction's allegiance?",
@@ -269,7 +302,8 @@
         "list of reference": [
             "book_5, chapter_30, paragraph_8",
             "book_7, chapter_31, paragraph_9"
-        ]
+        ],
+        "id": 642
     },
     {
         "question": "What overlooked detail about a textbook in the fifth book, combined with a potion in the sixth book, reveals a student's talent?",
@@ -277,7 +311,8 @@
         "list of reference": [
             "book_5, chapter_12, paragraph_4",
             "book_6, chapter_9, paragraph_5"
-        ]
+        ],
+        "id": 643
     },
     {
         "question": "What specific detail about a potion in the sixth book, when paired with a memory in the seventh book, hints at a Horcrux's protection?",
@@ -285,7 +320,8 @@
         "list of reference": [
             "book_6, chapter_9, paragraph_5",
             "book_7, chapter_10, paragraph_6"
-        ]
+        ],
+        "id": 644
     },
     {
         "question": "Which object in the sixth book's shop, combined with a theft in the seventh book, suggests a dark artifact's journey?",
@@ -293,7 +329,8 @@
         "list of reference": [
             "book_6, chapter_6, paragraph_4",
             "book_7, chapter_27, paragraph_5"
-        ]
+        ],
+        "id": 645
     },
     {
         "question": "What minor comment about a spell in the sixth book, paired with a duel in the seventh book, reveals a teacher's hidden intent?",
@@ -301,7 +338,8 @@
         "list of reference": [
             "book_6, chapter_12, paragraph_4",
             "book_7, chapter_32, paragraph_7"
-        ]
+        ],
+        "id": 646
     },
     {
         "question": "Which sound in the sixth book's tower, when connected to a Patronus in the seventh book, hints at a protector's arrival?",
@@ -309,7 +347,8 @@
         "list of reference": [
             "book_6, chapter_27, paragraph_3",
             "book_7, chapter_19, paragraph_3"
-        ]
+        ],
+        "id": 647
     },
     {
         "question": "What specific detail about a ring in the sixth book, paired with a tale in the seventh book, uncovers a Hallow's origin?",
@@ -317,7 +356,8 @@
         "list of reference": [
             "book_6, chapter_13, paragraph_5",
             "book_7, chapter_21, paragraph_6"
-        ]
+        ],
+        "id": 648
     },
     {
         "question": "Which creature's behavior in the sixth book's cave, when linked to a battle in the seventh book, suggests a recurring defense?",
@@ -325,7 +365,8 @@
         "list of reference": [
             "book_6, chapter_26, paragraph_8",
             "book_7, chapter_31, paragraph_5"
-        ]
+        ],
+        "id": 649
     },
     {
         "question": "What overlooked detail about a necklace in the sixth book, combined with a curse in the seventh book, reveals a Horcrux's danger?",
@@ -333,7 +374,8 @@
         "list of reference": [
             "book_6, chapter_12, paragraph_6",
             "book_7, chapter_14, paragraph_4"
-        ]
+        ],
+        "id": 650
     },
     {
         "question": "What specific detail about a forest shadow in the seventh book, when paired with a spell in the third book, hints at a protector's identity?",
@@ -341,7 +383,8 @@
         "list of reference": [
             "book_7, chapter_19, paragraph_3",
             "book_3, chapter_20, paragraph_5"
-        ]
+        ],
+        "id": 651
     },
     {
         "question": "Which object in the seventh book's vault, combined with a trap in the fourth book, suggests a shared magical defense?",
@@ -349,7 +392,8 @@
         "list of reference": [
             "book_7, chapter_26, paragraph_5",
             "book_4, chapter_31, paragraph_4"
-        ]
+        ],
+        "id": 652
     },
     {
         "question": "What minor comment about a wand in the seventh book, paired with a duel in the fifth book, reveals a core's power?",
@@ -357,7 +401,8 @@
         "list of reference": [
             "book_7, chapter_5, paragraph_3",
             "book_5, chapter_35, paragraph_6"
-        ]
+        ],
+        "id": 653
     },
     {
         "question": "Which sound in the seventh book's manor, when connected to a charm in the fourth book, predicts an elf's rescue?",
@@ -365,7 +410,8 @@
         "list of reference": [
             "book_7, chapter_23, paragraph_4",
             "book_4, chapter_28, paragraph_5"
-        ]
+        ],
+        "id": 654
     },
     {
         "question": "What specific detail about a tale in the seventh book, paired with a memory in the sixth book, uncovers a Hallow's purpose?",
@@ -373,7 +419,8 @@
         "list of reference": [
             "book_7, chapter_21, paragraph_6",
             "book_6, chapter_13, paragraph_5"
-        ]
+        ],
+        "id": 655
     },
     {
         "question": "Which creature's cry in the seventh book's battle, when linked to a song in the fourth book, suggests a recurring savior?",
@@ -381,7 +428,8 @@
         "list of reference": [
             "book_7, chapter_31, paragraph_9",
             "book_4, chapter_34, paragraph_6"
-        ]
+        ],
+        "id": 656
     },
     {
         "question": "What overlooked detail about a cloak in the seventh book, combined with a gift in the first book, reveals its true nature?",
@@ -389,7 +437,8 @@
         "list of reference": [
             "book_7, chapter_21, paragraph_3",
             "book_1, chapter_12, paragraph_8"
-        ]
+        ],
+        "id": 657
     },
     {
         "question": "What detail about a trap in the first book's underground chamber, when paired with a spell in the fifth book, suggests a shared defensive strategy?",
@@ -397,7 +446,8 @@
         "list of reference": [
             "book_1, chapter_16, paragraph_6",
             "book_5, chapter_35, paragraph_7"
-        ]
+        ],
+        "id": 658
     },
     {
         "question": "Which professor's remark about a creature in the first book, combined with a forest encounter in the third book, hints at a hidden protector?",
@@ -405,7 +455,8 @@
         "list of reference": [
             "book_1, chapter_11, paragraph_3",
             "book_3, chapter_15, paragraph_9"
-        ]
+        ],
+        "id": 659
     },
     {
         "question": "What object in the first book's Christmas scene, when linked to a creature's behavior in the sixth book, reveals a recurring savior?",
@@ -413,7 +464,8 @@
         "list of reference": [
             "book_1, chapter_10, paragraph_8",
             "book_6, chapter_27, paragraph_3"
-        ]
+        ],
+        "id": 660
     },
     {
         "question": "Which detail about a mirror's frame in the first book, paired with a family artifact in the seventh book, suggests a legacy's origin?",
@@ -421,7 +473,8 @@
         "list of reference": [
             "book_1, chapter_12, paragraph_2",
             "book_7, chapter_21, paragraph_3"
-        ]
+        ],
+        "id": 661
     },
     {
         "question": "What specific phrase in a potions lesson in the first book, when connected to a Horcrux clue in the sixth book, hints at a soul's division?",
@@ -429,7 +482,8 @@
         "list of reference": [
             "book_1, chapter_8, paragraph_4",
             "book_6, chapter_23, paragraph_7"
-        ]
+        ],
+        "id": 662
     },
     {
         "question": "Which creature's shadow in the first book's corridor, paired with a spell in the fourth book, predicts a champion's tactic?",
@@ -437,7 +491,8 @@
         "list of reference": [
             "book_1, chapter_11, paragraph_5",
             "book_4, chapter_20, paragraph_7"
-        ]
+        ],
+        "id": 663
     },
     {
         "question": "What minor detail about a feast in the first book, when linked to a betrayal in the third book, suggests a hidden identity?",
@@ -445,7 +500,8 @@
         "list of reference": [
             "book_1, chapter_7, paragraph_5",
             "book_3, chapter_19, paragraph_11"
-        ]
+        ],
+        "id": 664
     },
     {
         "question": "What detail about a diary in the second book, when paired with a memory in the sixth book, reveals a dark object's creation?",
@@ -453,7 +509,8 @@
         "list of reference": [
             "book_2, chapter_13, paragraph_6",
             "book_6, chapter_23, paragraph_5"
-        ]
+        ],
+        "id": 665
     },
     {
         "question": "Which sound in the second book's bathroom, combined with a spell in the seventh book, hints at a linguistic key?",
@@ -461,7 +518,8 @@
         "list of reference": [
             "book_2, chapter_12, paragraph_8",
             "book_7, chapter_19, paragraph_3"
-        ]
+        ],
+        "id": 666
     },
     {
         "question": "What object in the second book's shop, when linked to a curse in the fifth book, suggests a recurring danger?",
@@ -469,7 +527,8 @@
         "list of reference": [
             "book_2, chapter_4, paragraph_3",
             "book_5, chapter_31, paragraph_6"
-        ]
+        ],
+        "id": 667
     },
     {
         "question": "Which phrase in the second book's riddle, paired with a prophecy in the fourth book, predicts a nemesis's return?",
@@ -477,7 +536,8 @@
         "list of reference": [
             "book_2, chapter_15, paragraph_5",
             "book_4, chapter_33, paragraph_7"
-        ]
+        ],
+        "id": 668
     },
     {
         "question": "What detail about a plant in the second book, when connected to a trap in the sixth book, reveals a shared vulnerability?",
@@ -485,7 +545,8 @@
         "list of reference": [
             "book_2, chapter_5, paragraph_7",
             "book_6, chapter_26, paragraph_8"
-        ]
+        ],
+        "id": 669
     },
     {
         "question": "Which student's remark in the second book's duel, combined with a battle in the seventh book, hints at a rivalry's end?",
@@ -493,7 +554,8 @@
         "list of reference": [
             "book_2, chapter_10, paragraph_7",
             "book_7, chapter_36, paragraph_5"
-        ]
+        ],
+        "id": 670
     },
     {
         "question": "What minor detail about a feather in the second book, when paired with a wand in the fourth book, uncovers a magical bond?",
@@ -501,7 +563,8 @@
         "list of reference": [
             "book_2, chapter_12, paragraph_6",
             "book_4, chapter_34, paragraph_6"
-        ]
+        ],
+        "id": 671
     },
     {
         "question": "What detail about a map in the third book, when linked to a room in the sixth book, suggests a hidden flaw?",
@@ -509,7 +572,8 @@
         "list of reference": [
             "book_3, chapter_10, paragraph_9",
             "book_6, chapter_20, paragraph_4"
-        ]
+        ],
+        "id": 672
     },
     {
         "question": "Which creature's cry in the third book's forest, paired with a Patronus in the fifth book, hints at a protector's identity?",
@@ -517,7 +581,8 @@
         "list of reference": [
             "book_3, chapter_15, paragraph_9",
             "book_5, chapter_35, paragraph_5"
-        ]
+        ],
+        "id": 673
     },
     {
         "question": "What object in the third book's gift, when combined with a revelation in the seventh book, reveals a benefactor's motive?",
@@ -525,7 +590,8 @@
         "list of reference": [
             "book_3, chapter_11, paragraph_3",
             "book_7, chapter_4, paragraph_5"
-        ]
+        ],
+        "id": 674
     },
     {
         "question": "Which spell in the third book's class, paired with a duel in the sixth book, predicts a teacher's skill?",
@@ -533,7 +599,8 @@
         "list of reference": [
             "book_3, chapter_7, paragraph_5",
             "book_6, chapter_27, paragraph_4"
-        ]
+        ],
+        "id": 675
     },
     {
         "question": "What detail about a shack in the third book, when linked to a memory in the fifth book, hints at a past betrayal?",
@@ -541,7 +608,8 @@
         "list of reference": [
             "book_3, chapter_17, paragraph_4",
             "book_5, chapter_22, paragraph_6"
-        ]
+        ],
+        "id": 676
     },
     {
         "question": "Which phrase in the third book's escape, combined with a prophecy in the seventh book, suggests a traitor's fate?",
@@ -549,7 +617,8 @@
         "list of reference": [
             "book_3, chapter_19, paragraph_11",
             "book_7, chapter_36, paragraph_7"
-        ]
+        ],
+        "id": 677
     },
     {
         "question": "What minor detail about a clock in the third book, when paired with a spell in the fourth book, reveals a time manipulation?",
@@ -557,7 +626,8 @@
         "list of reference": [
             "book_3, chapter_21, paragraph_6",
             "book_4, chapter_20, paragraph_5"
-        ]
+        ],
+        "id": 678
     },
     {
         "question": "What detail about a tent in the fourth book's World Cup, when linked to a ritual in the sixth book, hints at a dark allegiance?",
@@ -565,7 +635,8 @@
         "list of reference": [
             "book_4, chapter_8, paragraph_9",
             "book_6, chapter_1, paragraph_4"
-        ]
+        ],
+        "id": 679
     },
     {
         "question": "Which creature's behavior in the fourth book's task, paired with a spell in the seventh book, suggests a shared defense?",
@@ -573,7 +644,8 @@
         "list of reference": [
             "book_4, chapter_20, paragraph_7",
             "book_7, chapter_9, paragraph_5"
-        ]
+        ],
+        "id": 680
     },
     {
         "question": "What object in the fourth book's lake, when combined with a rescue in the fifth book, predicts a friend's loyalty?",
@@ -581,7 +653,8 @@
         "list of reference": [
             "book_4, chapter_26, paragraph_5",
             "book_5, chapter_35, paragraph_7"
-        ]
+        ],
+        "id": 681
     },
     {
         "question": "Which phrase in the fourth book's vision, paired with a memory in the sixth book, reveals a family's curse?",
@@ -589,7 +662,8 @@
         "list of reference": [
             "book_4, chapter_33, paragraph_7",
             "book_6, chapter_10, paragraph_6"
-        ]
+        ],
+        "id": 682
     },
     {
         "question": "What detail about a maze plant in the fourth book, when linked to a trap in the seventh book, hints at a magical obstacle?",
@@ -597,7 +671,8 @@
         "list of reference": [
             "book_4, chapter_31, paragraph_4",
             "book_7, chapter_26, paragraph_5"
-        ]
+        ],
+        "id": 683
     },
     {
         "question": "Which spell in the fourth book's duel, combined with a revelation in the seventh book, uncovers a wand's loyalty?",
@@ -605,7 +680,8 @@
         "list of reference": [
             "book_4, chapter_34, paragraph_6",
             "book_7, chapter_36, paragraph_5"
-        ]
+        ],
+        "id": 684
     },
     {
         "question": "What minor detail about a badge in the fourth book, when paired with a betrayal in the sixth book, suggests a hidden agenda?",
@@ -613,7 +689,8 @@
         "list of reference": [
             "book_4, chapter_18, paragraph_3",
             "book_6, chapter_27, paragraph_4"
-        ]
+        ],
+        "id": 685
     },
     {
         "question": "What detail about a dream in the fifth book, when linked to a creature in the seventh book, hints at a mental connection?",
@@ -621,7 +698,8 @@
         "list of reference": [
             "book_5, chapter_21, paragraph_5",
             "book_7, chapter_10, paragraph_4"
-        ]
+        ],
+        "id": 686
     },
     {
         "question": "Which object in the fifth book's headquarters, paired with a spell in the sixth book, reveals a family's magic?",
@@ -629,7 +707,8 @@
         "list of reference": [
             "book_5, chapter_6, paragraph_3",
             "book_6, chapter_27, paragraph_5"
-        ]
+        ],
+        "id": 687
     },
     {
         "question": "What phrase in the fifth book's prophecy, when combined with a memory in the sixth book, predicts a chosen one's burden?",
@@ -637,7 +716,8 @@
         "list of reference": [
             "book_5, chapter_37, paragraph_5",
             "book_6, chapter_23, paragraph_7"
-        ]
+        ],
+        "id": 688
     },
     {
         "question": "Which creature's behavior in the fifth book's forest, paired with a battle in the seventh book, suggests a late alliance?",
@@ -645,7 +725,8 @@
         "list of reference": [
             "book_5, chapter_30, paragraph_8",
             "book_7, chapter_31, paragraph_9"
-        ]
+        ],
+        "id": 689
     },
     {
         "question": "What detail about a quill in the fifth book, when linked to a curse in the seventh book, hints at a teacher's malice?",
@@ -653,7 +734,8 @@
         "list of reference": [
             "book_5, chapter_13, paragraph_8",
             "book_7, chapter_13, paragraph_6"
-        ]
+        ],
+        "id": 690
     },
     {
         "question": "Which spell in the fifth book's DA meeting, combined with a duel in the sixth book, reveals a student's growth?",
@@ -661,7 +743,8 @@
         "list of reference": [
             "book_5, chapter_18, paragraph_9",
             "book_6, chapter_27, paragraph_4"
-        ]
+        ],
+        "id": 691
     },
     {
         "question": "What minor detail about a portrait in the fifth book, when paired with a message in the seventh book, suggests a hidden ally?",
@@ -669,7 +752,8 @@
         "list of reference": [
             "book_5, chapter_22, paragraph_7",
             "book_7, chapter_12, paragraph_5"
-        ]
+        ],
+        "id": 692
     },
     {
         "question": "What detail about a potion in the sixth book, when linked to a trap in the seventh book, hints at a Horcrux's defense?",
@@ -677,7 +761,8 @@
         "list of reference": [
             "book_6, chapter_9, paragraph_5",
             "book_7, chapter_10, paragraph_6"
-        ]
+        ],
+        "id": 693
     },
     {
         "question": "Which object in the sixth book's memory, paired with a tale in the seventh book, reveals a Hallow's origin?",
@@ -685,7 +770,8 @@
         "list of reference": [
             "book_6, chapter_10, paragraph_6",
             "book_7, chapter_21, paragraph_6"
-        ]
+        ],
+        "id": 694
     },
     {
         "question": "What phrase in the sixth book's lesson, when combined with a duel in the seventh book, suggests a spell's true purpose?",
@@ -693,7 +779,8 @@
         "list of reference": [
             "book_6, chapter_12, paragraph_4",
             "book_7, chapter_32, paragraph_7"
-        ]
+        ],
+        "id": 695
     },
     {
         "question": "Which creature's behavior in the sixth book's cave, paired with a spell in the fifth book, predicts a recurring weakness?",
@@ -701,7 +788,8 @@
         "list of reference": [
             "book_6, chapter_26, paragraph_8",
             "book_5, chapter_35, paragraph_6"
-        ]
+        ],
+        "id": 696
     },
     {
         "question": "What detail about a necklace in the sixth book, when linked to a curse in the seventh book, hints at a Horcrux's influence?",
@@ -709,7 +797,8 @@
         "list of reference": [
             "book_6, chapter_12, paragraph_6",
             "book_7, chapter_14, paragraph_4"
-        ]
+        ],
+        "id": 697
     },
     {
         "question": "Which sound in the sixth book's tower, paired with a Patronus in the seventh book, suggests a mentor's legacy?",
@@ -717,7 +806,8 @@
         "list of reference": [
             "book_6, chapter_27, paragraph_3",
             "book_7, chapter_19, paragraph_3"
-        ]
+        ],
+        "id": 698
     },
     {
         "question": "What minor detail about a textbook in the sixth book, when combined with a battle in the seventh book, reveals a student's ingenuity?",
@@ -725,7 +815,8 @@
         "list of reference": [
             "book_6, chapter_9, paragraph_4",
             "book_7, chapter_31, paragraph_5"
-        ]
+        ],
+        "id": 699
     },
     {
         "question": "What detail about a forest shadow in the seventh book, when linked to a spell in the third book, uncovers a protector's identity?",
@@ -733,7 +824,8 @@
         "list of reference": [
             "book_7, chapter_19, paragraph_3",
             "book_3, chapter_20, paragraph_5"
-        ]
+        ],
+        "id": 700
     },
     {
         "question": "Which object in the seventh book's tent, paired with a gift in the first book, suggests a friend's return?",
@@ -741,7 +833,8 @@
         "list of reference": [
             "book_7, chapter_15, paragraph_4",
             "book_1, chapter_10, paragraph_8"
-        ]
+        ],
+        "id": 701
     },
     {
         "question": "What phrase in the seventh book's tale, when combined with a memory in the sixth book, reveals a Hallow's power?",
@@ -749,7 +842,8 @@
         "list of reference": [
             "book_7, chapter_21, paragraph_6",
             "book_6, chapter_13, paragraph_5"
-        ]
+        ],
+        "id": 702
     },
     {
         "question": "Which creature's cry in the seventh book's battle, paired with a song in the fourth book, hints at a recurring rescue?",
@@ -757,7 +851,8 @@
         "list of reference": [
             "book_7, chapter_31, paragraph_9",
             "book_4, chapter_34, paragraph_6"
-        ]
+        ],
+        "id": 703
     },
     {
         "question": "What detail about a vault trap in the seventh book, when linked to a spell in the fifth book, suggests a shared magic?",
@@ -765,7 +860,8 @@
         "list of reference": [
             "book_7, chapter_26, paragraph_5",
             "book_5, chapter_35, paragraph_7"
-        ]
+        ],
+        "id": 704
     },
     {
         "question": "Which sound in the seventh book's manor, paired with a charm in the fourth book, predicts an elf's loyalty?",
@@ -773,7 +869,8 @@
         "list of reference": [
             "book_7, chapter_23, paragraph_4",
             "book_4, chapter_28, paragraph_5"
-        ]
+        ],
+        "id": 705
     },
     {
         "question": "What minor detail about a wand in the seventh book, when combined with a duel in the fifth book, reveals a core's strength?",
@@ -781,6 +878,7 @@
         "list of reference": [
             "book_7, chapter_5, paragraph_3",
             "book_5, chapter_35, paragraph_6"
-        ]
+        ],
+        "id": 706
     }
 ]
