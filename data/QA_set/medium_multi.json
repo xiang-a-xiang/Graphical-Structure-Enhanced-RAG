@@ -1,0 +1,929 @@
+[
+    {
+        "question": "What spell does Harry use to save his cousin Dudley from danger in the fifth book, and how does this connect to an event in the second book?",
+        "answer": "Harry casts a spell to repel a threat, which echoes an earlier moment when he unknowingly used magic to protect himself from a different danger.",
+        "list of reference": [
+            "Book 5, Chapter 1, Paragraph 3",
+            "Book 2, Chapter 2, Paragraph 5"
+        ],
+        "id": 408
+    },
+    {
+        "question": "Who teaches Harry the Patronus Charm in the third book, and how does this person relate to Harry's father?",
+        "answer": "The teacher is someone who knew Harry's father well, having been a close friend during their school years.",
+        "list of reference": [
+            "Book 3, Chapter 10, Paragraph 2",
+            "Book 1, Chapter 9, Paragraph 4"
+        ],
+        "id": 409
+    },
+    {
+        "question": "What object does Hermione use to attend multiple classes in the third book, and how does it later help Harry save a life?",
+        "answer": "Hermione uses a magical device to manage her schedule, which later plays a key role in reversing time to rescue someone important.",
+        "list of reference": [
+            "Book 3, Chapter 6, Paragraph 1",
+            "Book 3, Chapter 21, Paragraph 8"
+        ],
+        "id": 410
+    },
+    {
+        "question": "In the first book, what creature guards the Philosopher's Stone, and how does its weakness reappear in the sixth book?",
+        "answer": "A creature with a specific vulnerability protects the stone, and this same vulnerability is exploited years later in a different context.",
+        "list of reference": [
+            "Book 1, Chapter 15, Paragraph 7",
+            "Book 6, Chapter 20, Paragraph 3"
+        ],
+        "id": 411
+    },
+    {
+        "question": "What does Ron sacrifice during the chess game in the first book, and how does this reflect his role in the seventh book?",
+        "answer": "Ron gives up something significant to ensure victory, foreshadowing his willingness to risk himself for others in the final battle.",
+        "list of reference": [
+            "Book 1, Chapter 16, Paragraph 9",
+            "Book 7, Chapter 32, Paragraph 5"
+        ],
+        "id": 412
+    },
+    {
+        "question": "In the second book, who does Harry save from the Chamber of Secrets, and how does this person assist him in the seventh book?",
+        "answer": "Harry rescues someone dear to him, and this individual later provides crucial support during the hunt for hidden objects.",
+        "list of reference": [
+            "Book 2, Chapter 17, Paragraph 10",
+            "Book 7, Chapter 20, Paragraph 2"
+        ],
+        "id": 413
+    },
+    {
+        "question": "What prophecy is revealed to Harry in the fifth book, and how does it tie to an event in the fourth book?",
+        "answer": "A prediction about Harry's fate is unveiled, linking back to a moment when he faced a resurrected enemy.",
+        "list of reference": [
+            "Book 5, Chapter 37, Paragraph 4",
+            "Book 4, Chapter 33, Paragraph 6"
+        ],
+        "id": 414
+    },
+    {
+        "question": "What creature does Hagrid introduce in the third book, and how does it play a role in the fifth book?",
+        "answer": "Hagrid brings a misunderstood beast into Harry's life, which later becomes significant during a rebellion against authority.",
+        "list of reference": [
+            "Book 3, Chapter 6, Paragraph 3",
+            "Book 5, Chapter 21, Paragraph 2"
+        ],
+        "id": 415
+    },
+    {
+        "question": "In the sixth book, what potion does Harry excel at brewing, and how does this skill help him in the seventh book?",
+        "answer": "Harry masters a complex potion with guidance from a book, and this knowledge aids him in a critical moment of survival later on.",
+        "list of reference": [
+            "Book 6, Chapter 9, Paragraph 5",
+            "Book 7, Chapter 10, Paragraph 3"
+        ],
+        "id": 416
+    },
+    {
+        "question": "What object does Dumbledore leave to Hermione in his will in the seventh book, and how does it connect to a lesson from the first book?",
+        "answer": "Dumbledore bequeaths a seemingly ordinary item with hidden meaning, tying back to a challenge that tested the trio's intellect years earlier.",
+        "list of reference": [
+            "Book 7, Chapter 7, Paragraph 2",
+            "Book 1, Chapter 16, Paragraph 4"
+        ],
+        "id": 417
+    },
+    {
+        "question": "Who helps Harry escape Privet Drive in the fifth book, and how does this person's past connect to the sixth book?",
+        "answer": "A trusted ally aids Harry's departure, and their history with a secret organization becomes pivotal in a later tragedy.",
+        "list of reference": [
+            "Book 5, Chapter 3, Paragraph 6",
+            "Book 6, Chapter 27, Paragraph 8"
+        ],
+        "id": 418
+    },
+    {
+        "question": "What does Harry discover about the Mirror of Erised in the first book, and how does this relate to a revelation in the seventh book?",
+        "answer": "Harry learns the mirror shows deep desires, which foreshadows a later discovery about a powerful object tied to his family.",
+        "list of reference": [
+            "Book 1, Chapter 12, Paragraph 3",
+            "Book 7, Chapter 34, Paragraph 5"
+        ],
+        "id": 419
+    },
+    {
+        "question": "In the fourth book, what task requires Harry to retrieve something from the lake, and how does this skill aid him in the sixth book?",
+        "answer": "Harry must dive into water to recover something precious, a skill that proves useful when exploring a dangerous location later.",
+        "list of reference": [
+            "Book 4, Chapter 26, Paragraph 7",
+            "Book 6, Chapter 26, Paragraph 4"
+        ],
+        "id": 420
+    },
+    {
+        "question": "What secret does Harry uncover about Tom Riddle in the second book, and how does it impact his actions in the fifth book?",
+        "answer": "Harry learns about Riddle's early life, which influences his determination to oppose a growing threat years later.",
+        "list of reference": [
+            "Book 2, Chapter 13, Paragraph 2",
+            "Book 5, Chapter 38, Paragraph 3"
+        ],
+        "id": 421
+    },
+    {
+        "question": "Who betrays Dumbledore's Army in the fifth book, and how does this connect to a character's fate in the seventh book?",
+        "answer": "A student reveals the group's secrets, and their actions indirectly tie to a dramatic confrontation in the final conflict.",
+        "list of reference": [
+            "Book 5, Chapter 27, Paragraph 5",
+            "Book 7, Chapter 31, Paragraph 6"
+        ],
+        "id": 422
+    },
+    {
+        "question": "What magical creature does Harry ride to escape in the seventh book, and how does it relate to an event in the third book?",
+        "answer": "Harry uses a creature capable of flight to flee danger, reminiscent of a similar escape aided by a different winged being years before.",
+        "list of reference": [
+            "Book 7, Chapter 4, Paragraph 8",
+            "Book 3, Chapter 21, Paragraph 9"
+        ],
+        "id": 423
+    },
+    {
+        "question": "In the sixth book, what memory does Harry retrieve from Slughorn, and how does it connect to the second book?",
+        "answer": "Harry obtains a recollection about a dark object, which ties back to an earlier encounter with a similar item hidden in a diary.",
+        "list of reference": [
+            "Book 6, Chapter 23, Paragraph 4",
+            "Book 2, Chapter 17, Paragraph 3"
+        ],
+        "id": 424
+    },
+    {
+        "question": "What does Harry use to destroy the diary in the second book, and how does this object reappear in the seventh book?",
+        "answer": "Harry employs a sharp tool to defeat a dark artifact, and this same tool resurfaces as a key weapon in the final battle.",
+        "list of reference": [
+            "Book 2, Chapter 17, Paragraph 11",
+            "Book 7, Chapter 36, Paragraph 7"
+        ],
+        "id": 425
+    },
+    {
+        "question": "Who gives Harry a broomstick in the first book, and how does this person's influence extend to the third book?",
+        "answer": "A mentor figure provides Harry with a flying gift, and their guidance continues to shape his abilities in a later adventure.",
+        "list of reference": [
+            "Book 1, Chapter 10, Paragraph 2",
+            "Book 3, Chapter 11, Paragraph 4"
+        ],
+        "id": 426
+    },
+    {
+        "question": "What does Harry witness in the Pensieve in the fourth book, and how does it foreshadow an event in the sixth book?",
+        "answer": "Harry sees a memory of a trial, hinting at a betrayal that unfolds dramatically in a later year.",
+        "list of reference": [
+            "Book 4, Chapter 30, Paragraph 3",
+            "Book 6, Chapter 27, Paragraph 9"
+        ],
+        "id": 427
+    },
+    {
+        "question": "In the fifth book, what does Harry see in his dreams, and how does this vision connect to the seventh book?",
+        "answer": "Harry experiences visions of a dark place, which later becomes a real location he must confront to end the war.",
+        "list of reference": [
+            "Book 5, Chapter 24, Paragraph 2",
+            "Book 7, Chapter 32, Paragraph 4"
+        ],
+        "id": 428
+    },
+    {
+        "question": "What creature does Harry encounter in the maze in the fourth book, and how does it relate to a lesson from the sixth book?",
+        "answer": "Harry faces a dangerous beast in a challenge, and its nature ties to a lesson about magical creatures taught later.",
+        "list of reference": [
+            "Book 4, Chapter 31, Paragraph 6",
+            "Book 6, Chapter 15, Paragraph 3"
+        ],
+        "id": 429
+    },
+    {
+        "question": "Who does Harry meet in Knockturn Alley in the second book, and how does this encounter connect to the fifth book?",
+        "answer": "Harry meets a shady character in a dark place, whose family ties become significant in a later conflict.",
+        "list of reference": [
+            "Book 2, Chapter 4, Paragraph 5",
+            "Book 5, Chapter 33, Paragraph 2"
+        ],
+        "id": 430
+    },
+    {
+        "question": "What does Dumbledore show Harry in the cave in the sixth book, and how does it relate to the first book?",
+        "answer": "Dumbledore reveals a hidden danger tied to a dark object, echoing an earlier quest for something powerfully protected.",
+        "list of reference": [
+            "Book 6, Chapter 26, Paragraph 5",
+            "Book 1, Chapter 15, Paragraph 8"
+        ],
+        "id": 431
+    },
+    {
+        "question": "In the seventh book, what does Harry learn about the Deathly Hallows, and how does it connect to a gift from the first book?",
+        "answer": "Harry uncovers the truth about legendary items, one of which relates to an object he received years earlier.",
+        "list of reference": [
+            "Book 7, Chapter 22, Paragraph 3",
+            "Book 1, Chapter 12, Paragraph 6"
+        ],
+        "id": 432
+    },
+    {
+        "question": "What does Harry use to summon his broom in the fourth book, and how does this spell help him in the seventh book?",
+        "answer": "Harry casts a spell to retrieve an object, a technique that proves vital during a desperate escape later on.",
+        "list of reference": [
+            "Book 4, Chapter 20, Paragraph 4",
+            "Book 7, Chapter 4, Paragraph 7"
+        ],
+        "id": 433
+    },
+    {
+        "question": "Who does Harry save during the second task in the fourth book, and how does this person aid him in the sixth book?",
+        "answer": "Harry rescues someone close to him from danger, and this individual later offers support in a time of grief.",
+        "list of reference": [
+            "Book 4, Chapter 26, Paragraph 8",
+            "Book 6, Chapter 30, Paragraph 2"
+        ],
+        "id": 434
+    },
+    {
+        "question": "What does Harry learn about Snape in the third book, and how does this shape his view in the seventh book?",
+        "answer": "Harry discovers Snape's animosity has deep roots, which he later reinterprets through a surprising revelation.",
+        "list of reference": [
+            "Book 3, Chapter 14, Paragraph 3",
+            "Book 7, Chapter 33, Paragraph 5"
+        ],
+        "id": 435
+    },
+    {
+        "question": "In the fifth book, what group does Harry form, and how does it influence the battle in the seventh book?",
+        "answer": "Harry organizes a secret society to resist oppression, and its members play a key role in the final stand against evil.",
+        "list of reference": [
+            "Book 5, Chapter 18, Paragraph 2",
+            "Book 7, Chapter 31, Paragraph 4"
+        ],
+        "id": 436
+    },
+    {
+        "question": "What does Harry find in the Room of Requirement in the sixth book, and how does it connect to the second book?",
+        "answer": "Harry stumbles upon a hidden object in a secret place, which ties back to an earlier item linked to dark magic.",
+        "list of reference": [
+            "Book 6, Chapter 24, Paragraph 3",
+            "Book 2, Chapter 13, Paragraph 4"
+        ],
+        "id": 437
+    },
+    {
+        "question": "Who does Harry impersonate using Polyjuice Potion in the seventh book, and how does this relate to the fourth book?",
+        "answer": "Harry takes on the appearance of someone to infiltrate a secure location, a tactic reminiscent of a disguise used in an earlier tournament.",
+        "list of reference": [
+            "Book 7, Chapter 4, Paragraph 5",
+            "Book 4, Chapter 25, Paragraph 2"
+        ],
+        "id": 438
+    },
+    {
+        "question": "What does Harry see in the Forbidden Forest in the first book, and how does it foreshadow an event in the seventh book?",
+        "answer": "Harry witnesses a dark act in the woods, which hints at a sacrifice he will face years later.",
+        "list of reference": [
+            "Book 1, Chapter 15, Paragraph 5",
+            "Book 7, Chapter 34, Paragraph 7"
+        ],
+        "id": 439
+    },
+    {
+        "question": "In the third book, what does Hermione use to save Sirius, and how does it connect to a tool from the fifth book?",
+        "answer": "Hermione employs a device to alter time, similar to how a different object helps Harry communicate in a later year.",
+        "list of reference": [
+            "Book 3, Chapter 21, Paragraph 6",
+            "Book 5, Chapter 17, Paragraph 3"
+        ],
+        "id": 440
+    },
+    {
+        "question": "What does Harry receive from Hagrid in the first book, and how does it assist him in the sixth book?",
+        "answer": "Hagrid gives Harry a sentimental gift, which later provides comfort and a clue during a difficult time.",
+        "list of reference": [
+            "Book 1, Chapter 5, Paragraph 2",
+            "Book 6, Chapter 11, Paragraph 4"
+        ],
+        "id": 441
+    },
+    {
+        "question": "Who does Harry fight in the graveyard in the fourth book, and how does this enemy's plan evolve in the sixth book?",
+        "answer": "Harry battles a resurrected foe, whose schemes grow more intricate with the help of a trusted ally in a later year.",
+        "list of reference": [
+            "Book 4, Chapter 33, Paragraph 5",
+            "Book 6, Chapter 27, Paragraph 7"
+        ],
+        "id": 442
+    },
+    {
+        "question": "What does Harry learn about the Dursleys in the fifth book, and how does it connect to his escape in the seventh book?",
+        "answer": "Harry uncovers a secret about his relatives' fears, which influences how he leaves their home for the final time.",
+        "list of reference": [
+            "Book 5, Chapter 2, Paragraph 3",
+            "Book 7, Chapter 4, Paragraph 6"
+        ],
+        "id": 443
+    },
+    {
+        "question": "In the second book, what does Harry hear in the walls, and how does this ability affect him in the sixth book?",
+        "answer": "Harry perceives strange voices others cannot, a skill that later hints at a deeper connection to his enemy.",
+        "list of reference": [
+            "Book 2, Chapter 7, Paragraph 2",
+            "Book 6, Chapter 23, Paragraph 5"
+        ],
+        "id": 444
+    },
+    {
+        "question": "What does Harry use to defeat Quirrell in the first book, and how does this power manifest in the seventh book?",
+        "answer": "Harry relies on an innate protection to overcome a foe, which reemerges as a shield in his final confrontation.",
+        "list of reference": [
+            "Book 1, Chapter 17, Paragraph 8",
+            "Book 7, Chapter 36, Paragraph 6"
+        ],
+        "id": 445
+    },
+    {
+        "question": "Who does Harry meet in Azkaban's past in the third book, and how does this person influence the fifth book?",
+        "answer": "Harry learns about a prisoner from a dark memory, whose escape later fuels a major conflict.",
+        "list of reference": [
+            "Book 3, Chapter 10, Paragraph 4",
+            "Book 5, Chapter 35, Paragraph 3"
+        ],
+        "id": 446
+    },
+    {
+        "question": "What does Harry discover about the Triwizard Tournament in the fourth book, and how does it relate to the sixth book?",
+        "answer": "Harry uncovers a plot behind the competition, which connects to a betrayal by someone close to Dumbledore later on.",
+        "list of reference": [
+            "Book 4, Chapter 35, Paragraph 2",
+            "Book 6, Chapter 27, Paragraph 6"
+        ],
+        "id": 447
+    },
+    {
+        "question": "In the seventh book, what does Harry use to destroy a Horcrux in the Room of Requirement, and how does it tie to the second book?",
+        "answer": "Harry employs a destructive tool against a dark object, recalling a similar act of bravery from his earlier years.",
+        "list of reference": [
+            "Book 7, Chapter 31, Paragraph 7",
+            "Book 2, Chapter 17, Paragraph 12"
+        ],
+        "id": 448
+    },
+    {
+        "question": "What does Harry learn about the Elder Wand in the seventh book, and how does it connect to a duel in the fourth book?",
+        "answer": "Harry discovers the wand's unique power, which explains an unusual outcome from an earlier magical clash.",
+        "list of reference": [
+            "Book 7, Chapter 35, Paragraph 4",
+            "Book 4, Chapter 34, Paragraph 5"
+        ],
+        "id": 449
+    },
+    {
+        "question": "Who does Harry see in the Dementor attack in the fifth book, and how does this event tie to the third book?",
+        "answer": "Harry encounters a figure during a dark assault, linking back to a moment when he first mastered a protective spell.",
+        "list of reference": [
+            "Book 5, Chapter 1, Paragraph 4",
+            "Book 3, Chapter 5, Paragraph 6"
+        ],
+        "id": 450
+    },
+    {
+        "question": "What does Harry find in the locket in the seventh book, and how does it relate to the fifth book?",
+        "answer": "Harry uncovers a message inside a dark artifact, which echoes a prophecy he heard years earlier.",
+        "list of reference": [
+            "Book 7, Chapter 10, Paragraph 5",
+            "Book 5, Chapter 37, Paragraph 3"
+        ],
+        "id": 451
+    },
+    {
+        "question": "In the sixth book, what does Harry suspect about Draco, and how does this connect to the fourth book?",
+        "answer": "Harry grows wary of Draco's secretive behavior, which ties back to a moment when Draco's family allegiance was hinted at.",
+        "list of reference": [
+            "Book 6, Chapter 15, Paragraph 2",
+            "Book 4, Chapter 9, Paragraph 3"
+        ],
+        "id": 452
+    },
+    {
+        "question": "What does Harry use to escape the dragon in the fourth book, and how does this skill aid him in the seventh book?",
+        "answer": "Harry relies on his flying ability to evade danger, a talent that proves essential during a chaotic getaway later.",
+        "list of reference": [
+            "Book 4, Chapter 20, Paragraph 5",
+            "Book 7, Chapter 4, Paragraph 9"
+        ],
+        "id": 453
+    },
+    {
+        "question": "Who does Harry trust with a secret in the fifth book, and how does this person's fate unfold in the sixth book?",
+        "answer": "Harry confides in a loyal friend, whose bravery leads to a tragic end in a later year.",
+        "list of reference": [
+            "Book 5, Chapter 4, Paragraph 2",
+            "Book 6, Chapter 27, Paragraph 10"
+        ],
+        "id": 454
+    },
+    {
+        "question": "What does Harry learn about his scar in the second book, and how does this deepen in the seventh book?",
+        "answer": "Harry realizes his scar has a mysterious link, which expands into a profound connection revealed in the final chapters.",
+        "list of reference": [
+            "Book 2, Chapter 18, Paragraph 3",
+            "Book 7, Chapter 33, Paragraph 6"
+        ],
+        "id": 455
+    },
+    {
+        "question": "In the third book, what does Harry see in the tea leaves, and how does it foreshadow an event in the fifth book?",
+        "answer": "Harry interprets a grim omen in a divination class, which hints at a loss he will suffer years later.",
+        "list of reference": [
+            "Book 3, Chapter 6, Paragraph 4",
+            "Book 5, Chapter 38, Paragraph 5"
+        ],
+        "id": 456
+    },
+    {
+        "question": "What does Harry use to win the Quidditch match in the first book, and how does this talent help in the sixth book?",
+        "answer": "Harry's quick reflexes secure a victory, a skill that later aids him in a dangerous pursuit.",
+        "list of reference": [
+            "Book 1, Chapter 11, Paragraph 6",
+            "Book 6, Chapter 19, Paragraph 3"
+        ],
+        "id": 457
+    },
+    {
+        "question": "Who does Harry confront in the Department of Mysteries in the fifth book, and how does this tie to the seventh book?",
+        "answer": "Harry battles a cunning enemy in a hidden place, setting the stage for a final reckoning in the war.",
+        "list of reference": [
+            "Book 5, Chapter 35, Paragraph 4",
+            "Book 7, Chapter 36, Paragraph 8"
+        ],
+        "id": 458
+    },
+    {
+        "question": "What does Harry learn about the Basilisk in the second book, and how does it connect to a weapon in the seventh book?",
+        "answer": "Harry discovers the creature's deadly power, which relates to a tool he later uses to destroy dark objects.",
+        "list of reference": [
+            "Book 2, Chapter 16, Paragraph 5",
+            "Book 7, Chapter 31, Paragraph 8"
+        ],
+        "id": 459
+    },
+    {
+        "question": "In the sixth book, what does Harry see in Dumbledore's memories, and how does it relate to the fourth book?",
+        "answer": "Harry views a past event involving a dark ritual, which connects to a night when evil returned in full force.",
+        "list of reference": [
+            "Book 6, Chapter 13, Paragraph 3",
+            "Book 4, Chapter 33, Paragraph 7"
+        ],
+        "id": 460
+    },
+    {
+        "question": "What does Harry use to protect himself from Dementors in the third book, and how does this spell aid him in the fifth book?",
+        "answer": "Harry casts a spell to summon a guardian, which becomes a vital defense during a later attack.",
+        "list of reference": [
+            "Book 3, Chapter 5, Paragraph 5",
+            "Book 5, Chapter 1, Paragraph 5"
+        ],
+        "id": 461
+    },
+    {
+        "question": "Who does Harry meet at the Yule Ball in the fourth book, and how does this person influence the seventh book?",
+        "answer": "Harry encounters a notable figure at a dance, whose actions later shape the fight against dark forces.",
+        "list of reference": [
+            "Book 4, Chapter 23, Paragraph 2",
+            "Book 7, Chapter 8, Paragraph 3"
+        ],
+        "id": 462
+    },
+    {
+        "question": "What does Harry learn about his mother in the seventh book, and how does it connect to the first book?",
+        "answer": "Harry uncovers a sacrifice his mother made, which explains a protection he felt from the very beginning.",
+        "list of reference": [
+            "Book 7, Chapter 33, Paragraph 7",
+            "Book 1, Chapter 1, Paragraph 4"
+        ],
+        "id": 463
+    },
+    {
+        "question": "In the fifth book, what does Harry teach his friends, and how does this skill help in the sixth book?",
+        "answer": "Harry instructs others in defensive magic, which proves crucial during an unexpected ambush later.",
+        "list of reference": [
+            "Book 5, Chapter 18, Paragraph 3",
+            "Book 6, Chapter 27, Paragraph 5"
+        ],
+        "id": 464
+    },
+    {
+        "question": "What does Harry find in the attic in the second book, and how does it relate to the seventh book?",
+        "answer": "Harry discovers an object tied to his past, which later becomes part of a larger mystery about his heritage.",
+        "list of reference": [
+            "Book 2, Chapter 3, Paragraph 2",
+            "Book 7, Chapter 20, Paragraph 4"
+        ],
+        "id": 465
+    },
+    {
+        "question": "Who does Harry rescue from the Ministry in the fifth book, and how does this event tie to the third book?",
+        "answer": "Harry saves someone from captivity, echoing an earlier mission to free an innocent person.",
+        "list of reference": [
+            "Book 5, Chapter 35, Paragraph 6",
+            "Book 3, Chapter 21, Paragraph 10"
+        ],
+        "id": 466
+    },
+    {
+        "question": "What does Harry see in the cave in the sixth book, and how does it foreshadow the seventh book?",
+        "answer": "Harry witnesses a grim task in a dark place, hinting at the sacrifices he'll face in the final hunt.",
+        "list of reference": [
+            "Book 6, Chapter 26, Paragraph 6",
+            "Book 7, Chapter 19, Paragraph 3"
+        ],
+        "id": 467
+    },
+    {
+        "question": "In the fourth book, what does Harry use to breathe underwater, and how does this connect to the seventh book?",
+        "answer": "Harry employs a magical aid to survive submersion, a skill that echoes a later underwater retrieval.",
+        "list of reference": [
+            "Book 4, Chapter 26, Paragraph 9",
+            "Book 7, Chapter 19, Paragraph 4"
+        ],
+        "id": 468
+    },
+    {
+        "question": "What does Harry learn about the Marauders in the third book, and how does it impact the seventh book?",
+        "answer": "Harry discovers the identities of a secret group, whose legacy aids him in the final battle.",
+        "list of reference": [
+            "Book 3, Chapter 18, Paragraph 3",
+            "Book 7, Chapter 33, Paragraph 8"
+        ],
+        "id": 469
+    },
+    {
+        "question": "Who does Harry see die in the fifth book, and how does this loss affect his actions in the sixth book?",
+        "answer": "Harry loses someone dear in a tragic fight, driving him to seek justice in the following year.",
+        "list of reference": [
+            "Book 5, Chapter 35, Paragraph 7",
+            "Book 6, Chapter 1, Paragraph 2"
+        ],
+        "id": 470
+    },
+    {
+        "question": "What does Harry use to escape the Dursleys in the second book, and how does this method reappear in the seventh book?",
+        "answer": "Harry flees with help from a magical vehicle, a tactic that resurfaces in a more desperate escape later.",
+        "list of reference": [
+            "Book 2, Chapter 3, Paragraph 5",
+            "Book 7, Chapter 4, Paragraph 10"
+        ],
+        "id": 471
+    },
+    {
+        "question": "In the sixth book, what does Harry learn about Voldemort's past, and how does it connect to the first book?",
+        "answer": "Harry uncovers details of a dark origin, which ties back to the night his own story began.",
+        "list of reference": [
+            "Book 6, Chapter 13, Paragraph 4",
+            "Book 1, Chapter 1, Paragraph 5"
+        ],
+        "id": 472
+    },
+    {
+        "question": "What does Harry use to fight the dragon in the fourth book, and how does this strategy help in the fifth book?",
+        "answer": "Harry employs a clever spell to outwit a beast, a tactic he adapts for a different confrontation later.",
+        "list of reference": [
+            "Book 4, Chapter 20, Paragraph 6",
+            "Book 5, Chapter 35, Paragraph 8"
+        ],
+        "id": 473
+    },
+    {
+        "question": "Who does Harry meet in Diagon Alley in the first book, and how does this person influence the seventh book?",
+        "answer": "Harry encounters a friendly figure in a magical place, whose wisdom guides him in the final quest.",
+        "list of reference": [
+            "Book 1, Chapter 5, Paragraph 3",
+            "Book 7, Chapter 8, Paragraph 4"
+        ],
+        "id": 474
+    },
+    {
+        "question": "What does Harry learn about the prophecy in the fifth book, and how does it connect to the third book?",
+        "answer": "Harry discovers a fate tied to his enemy, which echoes an earlier hint about his destiny.",
+        "list of reference": [
+            "Book 5, Chapter 37, Paragraph 5",
+            "Book 3, Chapter 15, Paragraph 2"
+        ],
+        "id": 475
+    },
+    {
+        "question": "In the seventh book, what does Harry use to summon help, and how does it relate to the sixth book?",
+        "answer": "Harry calls for aid with a magical object, a method tied to a gift he received in a previous year.",
+        "list of reference": [
+            "Book 7, Chapter 9, Paragraph 3",
+            "Book 6, Chapter 11, Paragraph 5"
+        ],
+        "id": 476
+    },
+    {
+        "question": "What does Harry see in the Mirror of Erised in the first book, and how does it foreshadow the seventh book?",
+        "answer": "Harry gazes at a vision of his deepest wish, which hints at a reunion he'll experience later.",
+        "list of reference": [
+            "Book 1, Chapter 12, Paragraph 4",
+            "Book 7, Chapter 34, Paragraph 8"
+        ],
+        "id": 477
+    },
+    {
+        "question": "Who does Harry save from the Basilisk in the second book, and how does this act connect to the fifth book?",
+        "answer": "Harry risks his life to protect someone, a bravery that inspires loyalty in a later fight.",
+        "list of reference": [
+            "Book 2, Chapter 17, Paragraph 13",
+            "Book 5, Chapter 18, Paragraph 4"
+        ],
+        "id": 478
+    },
+    {
+        "question": "In the third book, what does Harry learn about his Patronus, and how does it tie to the seventh book?",
+        "answer": "Harry discovers his Patronus reflects something personal, which becomes a symbol of hope in the end.",
+        "list of reference": [
+            "Book 3, Chapter 12, Paragraph 3",
+            "Book 7, Chapter 34, Paragraph 9"
+        ],
+        "id": 479
+    },
+    {
+        "question": "What does Harry use to solve the riddle in the fourth book, and how does this skill help in the sixth book?",
+        "answer": "Harry relies on his problem-solving to overcome a challenge, a talent that aids him in deciphering a mystery later.",
+        "list of reference": [
+            "Book 4, Chapter 31, Paragraph 7",
+            "Book 6, Chapter 23, Paragraph 6"
+        ],
+        "id": 480
+    },
+    {
+        "question": "Who does Harry trust in the fifth book, and how does this trust break in the sixth book?",
+        "answer": "Harry relies on a mentor's guidance, only to face a shattering betrayal in the following year.",
+        "list of reference": [
+            "Book 5, Chapter 4, Paragraph 3",
+            "Book 6, Chapter 27, Paragraph 11"
+        ],
+        "id": 481
+    },
+    {
+        "question": "What does Harry find in the forest in the seventh book, and how does it connect to the third book?",
+        "answer": "Harry discovers a hidden ally in the woods, echoing an earlier encounter with a creature of significance.",
+        "list of reference": [
+            "Book 7, Chapter 19, Paragraph 5",
+            "Book 3, Chapter 21, Paragraph 11"
+        ],
+        "id": 482
+    },
+    {
+        "question": "In the second book, what does Harry learn about Hagrid, and how does it impact the sixth book?",
+        "answer": "Harry uncovers a secret from Hagrid's past, which influences a dangerous decision years later.",
+        "list of reference": [
+            "Book 2, Chapter 14, Paragraph 2",
+            "Book 6, Chapter 20, Paragraph 4"
+        ],
+        "id": 483
+    },
+    {
+        "question": "What does Harry use to escape the maze in the fourth book, and how does this relate to the seventh book?",
+        "answer": "Harry navigates danger with a spell, a technique that helps him flee a deadly trap later.",
+        "list of reference": [
+            "Book 4, Chapter 31, Paragraph 8",
+            "Book 7, Chapter 32, Paragraph 6"
+        ],
+        "id": 484
+    },
+    {
+        "question": "Who does Harry meet in the Shrieking Shack in the third book, and how does this person affect the fifth book?",
+        "answer": "Harry encounters a surprising figure in a hidden place, whose actions ripple into a later rebellion.",
+        "list of reference": [
+            "Book 3, Chapter 17, Paragraph 4",
+            "Book 5, Chapter 38, Paragraph 6"
+        ],
+        "id": 485
+    },
+    {
+        "question": "What does Harry learn about the Horcruxes in the sixth book, and how does it tie to the second book?",
+        "answer": "Harry discovers the nature of dark objects tied to his enemy, one of which he unknowingly destroyed years before.",
+        "list of reference": [
+            "Book 6, Chapter 23, Paragraph 7",
+            "Book 2, Chapter 17, Paragraph 14"
+        ],
+        "id": 486
+    },
+    {
+        "question": "In the seventh book, what does Harry use to enter Hogwarts, and how does it connect to the first book?",
+        "answer": "Harry employs a secret passage to return, recalling an early adventure through hidden corridors.",
+        "list of reference": [
+            "Book 7, Chapter 28, Paragraph 3",
+            "Book 1, Chapter 9, Paragraph 5"
+        ],
+        "id": 487
+    },
+    {
+        "question": "What does Harry see in the potion in the fifth book, and how does it foreshadow the sixth book?",
+        "answer": "Harry glimpses a vision in a mysterious liquid, hinting at a loss he'll suffer soon after.",
+        "list of reference": [
+            "Book 5, Chapter 37, Paragraph 6",
+            "Book 6, Chapter 27, Paragraph 12"
+        ],
+        "id": 488
+    },
+    {
+        "question": "Who does Harry fight in the Chamber of Secrets in the second book, and how does this battle connect to the seventh book?",
+        "answer": "Harry faces a dark entity in a hidden lair, a struggle that foreshadows his ultimate showdown.",
+        "list of reference": [
+            "Book 2, Chapter 17, Paragraph 15",
+            "Book 7, Chapter 36, Paragraph 9"
+        ],
+        "id": 489
+    },
+    {
+        "question": "What does Harry use to summon his Patronus in the third book, and how does this moment tie to the seventh book?",
+        "answer": "Harry draws on a happy memory to cast a spell, which becomes a source of strength in the final battle.",
+        "list of reference": [
+            "Book 3, Chapter 12, Paragraph 4",
+            "Book 7, Chapter 34, Paragraph 10"
+        ],
+        "id": 490
+    },
+    {
+        "question": "In the fourth book, what does Harry learn about the Death Eaters, and how does it impact the sixth book?",
+        "answer": "Harry discovers the loyalty of dark followers, which sets the stage for a betrayal in a later year.",
+        "list of reference": [
+            "Book 4, Chapter 33, Paragraph 8",
+            "Book 6, Chapter 27, Paragraph 13"
+        ],
+        "id": 491
+    },
+    {
+        "question": "What does Harry find in the Gryffindor common room in the first book, and how does it connect to the seventh book?",
+        "answer": "Harry receives a gift in a familiar place, which ties to a powerful object he wields in the end.",
+        "list of reference": [
+            "Book 1, Chapter 12, Paragraph 5",
+            "Book 7, Chapter 36, Paragraph 10"
+        ],
+        "id": 492
+    },
+    {
+        "question": "Who does Harry save in the lake in the fourth book, and how does this act influence the fifth book?",
+        "answer": "Harry rescues a friend from danger, strengthening a bond that aids him in a later fight.",
+        "list of reference": [
+            "Book 4, Chapter 26, Paragraph 10",
+            "Book 5, Chapter 18, Paragraph 5"
+        ],
+        "id": 493
+    },
+    {
+        "question": "What does Harry learn about Snape's loyalty in the seventh book, and how does it connect to the third book?",
+        "answer": "Harry uncovers a hidden truth about Snape's allegiance, recontextualizing an earlier moment of distrust.",
+        "list of reference": [
+            "Book 7, Chapter 33, Paragraph 9",
+            "Book 3, Chapter 14, Paragraph 4"
+        ],
+        "id": 494
+    },
+    {
+        "question": "In the sixth book, what does Harry use to spy on Draco, and how does it relate to the first book?",
+        "answer": "Harry employs a secretive tool to uncover plans, reminiscent of an early gift that aided his adventures.",
+        "list of reference": [
+            "Book 6, Chapter 21, Paragraph 3",
+            "Book 1, Chapter 12, Paragraph 6"
+        ],
+        "id": 495
+    },
+    {
+        "question": "What does Harry see in the forest in the fifth book, and how does it foreshadow the seventh book?",
+        "answer": "Harry encounters a dark presence in the woods, hinting at a sacrifice he'll face later.",
+        "list of reference": [
+            "Book 5, Chapter 28, Paragraph 2",
+            "Book 7, Chapter 34, Paragraph 11"
+        ],
+        "id": 496
+    },
+    {
+        "question": "Who does Harry meet in the Burrow in the second book, and how does this person help in the seventh book?",
+        "answer": "Harry meets a family member in a cozy home, whose skills prove vital in the final journey.",
+        "list of reference": [
+            "Book 2, Chapter 4, Paragraph 6",
+            "Book 7, Chapter 6, Paragraph 3"
+        ],
+        "id": 497
+    },
+    {
+        "question": "What does Harry use to defeat Voldemort in the seventh book, and how does it connect to the fourth book?",
+        "answer": "Harry turns a powerful force against his enemy, echoing a moment when their wands clashed years before.",
+        "list of reference": [
+            "Book 7, Chapter 36, Paragraph 11",
+            "Book 4, Chapter 34, Paragraph 6"
+        ],
+        "id": 498
+    },
+    {
+        "question": "In the third book, what does Harry learn about the map, and how does it aid him in the sixth book?",
+        "answer": "Harry discovers a tool that reveals secrets, which later helps him track a suspicious figure.",
+        "list of reference": [
+            "Book 3, Chapter 10, Paragraph 5",
+            "Book 6, Chapter 21, Paragraph 4"
+        ],
+        "id": 499
+    },
+    {
+        "question": "What does Harry find in the potion in the sixth book, and how does it relate to the second book?",
+        "answer": "Harry excels with a recipe from a hidden source, tying back to an earlier encounter with a deceptive book.",
+        "list of reference": [
+            "Book 6, Chapter 9, Paragraph 6",
+            "Book 2, Chapter 13, Paragraph 5"
+        ],
+        "id": 500
+    },
+    {
+        "question": "What does Harry learn about the invisibility cloak in the first book, and how does this knowledge shape his actions in the seventh book?",
+        "answer": "Harry discovers the cloak's unique properties from a mysterious gift, which he later uses strategically to evade danger and fulfill a destiny.",
+        "list of reference": [
+            "Book 1, Chapter 12, Paragraph 6",
+            "Book 7, Chapter 35, Paragraph 3"
+        ],
+        "id": 501
+    },
+    {
+        "question": "In the second book, what creature does Harry encounter in the pipes, and how does its defeat connect to a discovery in the sixth book?",
+        "answer": "Harry battles a monstrous being hidden in the school, and its destruction ties to a later revelation about objects containing dark magic.",
+        "list of reference": [
+            "Book 2, Chapter 16, Paragraph 6",
+            "Book 6, Chapter 23, Paragraph 8"
+        ],
+        "id": 502
+    },
+    {
+        "question": "Who does Harry save from a Dementor in the third book, and how does this act influence an event in the fifth book?",
+        "answer": "Harry protects someone close to him from a soul-sucking creature, an act of bravery that strengthens their bond during a later crisis.",
+        "list of reference": [
+            "Book 3, Chapter 20, Paragraph 4",
+            "Book 5, Chapter 35, Paragraph 9"
+        ],
+        "id": 503
+    },
+    {
+        "question": "What does Harry use to communicate with Sirius in the fourth book, and how does this method reappear in the seventh book?",
+        "answer": "Harry employs a magical means to stay in touch with a distant ally, a technique that resurfaces when he seeks guidance in a time of need.",
+        "list of reference": [
+            "Book 4, Chapter 28, Paragraph 2",
+            "Book 7, Chapter 22, Paragraph 4"
+        ],
+        "id": 504
+    },
+    {
+        "question": "In the fifth book, what does Harry see in the fire at Grimmauld Place, and how does it connect to a moment in the sixth book?",
+        "answer": "Harry witnesses a conversation through flames, foreshadowing a loss that strikes him deeply in the following year.",
+        "list of reference": [
+            "Book 5, Chapter 22, Paragraph 3",
+            "Book 6, Chapter 27, Paragraph 14"
+        ],
+        "id": 505
+    },
+    {
+        "question": "What does Harry learn about the Half-Blood Prince's book in the sixth book, and how does it tie to a confrontation in the second book?",
+        "answer": "Harry uncovers the identity behind a helpful textbook, linking back to an earlier battle with a memory preserved in writing.",
+        "list of reference": [
+            "Book 6, Chapter 28, Paragraph 5",
+            "Book 2, Chapter 17, Paragraph 16"
+        ],
+        "id": 506
+    },
+    {
+        "question": "In the seventh book, what does Harry use to locate the sword of Gryffindor, and how does this connect to a gift from the third book?",
+        "answer": "Harry follows a guiding light to find a powerful weapon, reminiscent of a tool he received that once revealed hidden truths.",
+        "list of reference": [
+            "Book 7, Chapter 19, Paragraph 6",
+            "Book 3, Chapter 10, Paragraph 6"
+        ],
+        "id": 507
+    },
+    {
+        "question": "What does Harry discover about the Philosopher's Stone in the first book, and how does this relate to a revelation in the fifth book?",
+        "answer": "Harry learns the stone's power to extend life, which parallels a later discovery about objects tied to immortality.",
+        "list of reference": [
+            "Book 1, Chapter 13, Paragraph 2",
+            "Book 5, Chapter 37, Paragraph 7"
+        ],
+        "id": 508
+    },
+    {
+        "question": "Who does Harry meet in the forest in the fourth book, and how does this encounter foreshadow an alliance in the seventh book?",
+        "answer": "Harry crosses paths with an unexpected figure in a dark place, hinting at a partnership that emerges in the final struggle.",
+        "list of reference": [
+            "Book 4, Chapter 28, Paragraph 4",
+            "Book 7, Chapter 32, Paragraph 7"
+        ],
+        "id": 509
+    },
+    {
+        "question": "In the sixth book, what does Harry see in the Pensieve about Voldemort's mother, and how does it connect to the second book?",
+        "answer": "Harry views a memory of a desperate woman's actions, which ties to an object he destroyed years earlier that held her son's essence.",
+        "list of reference": [
+            "Book 6, Chapter 10, Paragraph 3",
+            "Book 2, Chapter 13, Paragraph 6"
+        ],
+        "id": 510
+    }
+]
