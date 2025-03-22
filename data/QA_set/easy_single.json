@@ -1,0 +1,1512 @@
+[
+    {
+        "question": "On which street do the Dursleys live at the beginning of the story?",
+        "answer": "They live at Number Four, Privet Drive.",
+        "list of reference": "Book 1, Chapter 1, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the wizarding bank Harry visits with Hagrid?",
+        "answer": "The bank is called Gringotts.",
+        "list of reference": "Book 1, Chapter 5, Paragraph 3"
+    },
+    {
+        "question": "Which Hogwarts house does Harry get sorted into?",
+        "answer": "Harry is sorted into Gryffindor.",
+        "list of reference": "Book 1, Chapter 7, Paragraph 10"
+    },
+    {
+        "question": "Who is the Keeper of Keys and Grounds at Hogwarts?",
+        "answer": "Rubeus Hagrid holds that position.",
+        "list of reference": "Book 1, Chapter 4, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the house-elf who warns Harry not to return to Hogwarts?",
+        "answer": "That house-elf is Dobby.",
+        "list of reference": "Book 2, Chapter 2, Paragraph 4"
+    },
+    {
+        "question": "Who is widely believed to be the Heir of Slytherin responsible for the attacks at Hogwarts?",
+        "answer": "Many suspect that Harry is the Heir of Slytherin.",
+        "list of reference": "Book 2, Chapter 10, Paragraph 2"
+    },
+    {
+        "question": "Which language does Harry discover he can speak, shocking his classmates?",
+        "answer": "Harry can speak Parseltongue, the language of snakes.",
+        "list of reference": "Book 2, Chapter 11, Paragraph 3"
+    },
+    {
+        "question": "Which teacher accidentally removes all the bones from Harry's arm while trying to fix it?",
+        "answer": "Gilderoy Lockhart causes that mishap.",
+        "list of reference": "Book 2, Chapter 10, Paragraph 6"
+    },
+    {
+        "question": "Who is the supposed criminal believed to be after Harry?",
+        "answer": "People think Sirius Black is after him.",
+        "list of reference": "Book 3, Chapter 3, Paragraph 1"
+    },
+    {
+        "question": "Which new Defense Against the Dark Arts teacher is actually a werewolf?",
+        "answer": "Remus Lupin is the werewolf teacher.",
+        "list of reference": "Book 3, Chapter 8, Paragraph 7"
+    },
+    {
+        "question": "What is the name of the magical bus that rescues Harry from Privet Drive?",
+        "answer": "It's called the Knight Bus.",
+        "list of reference": "Book 3, Chapter 3, Paragraph 2"
+    },
+    {
+        "question": "Which group was formed by James Potter, Sirius Black, Remus Lupin, and Peter Pettigrew during their time at Hogwarts?",
+        "answer": "They were known as the Marauders.",
+        "list of reference": "Book 3, Chapter 18, Paragraph 13"
+    },
+    {
+        "question": "What magical tournament is revived at Hogwarts, involving other schools as well?",
+        "answer": "The Triwizard Tournament is revived.",
+        "list of reference": "Book 4, Chapter 12, Paragraph 5"
+    },
+    {
+        "question": "Which house-elf does Harry encounter in the Hogwarts kitchens who once served the Crouch family?",
+        "answer": "He meets Winky.",
+        "list of reference": "Book 4, Chapter 21, Paragraph 3"
+    },
+    {
+        "question": "Which student is chosen by the Goblet of Fire to represent Hogwarts alongside Harry?",
+        "answer": "Cedric Diggory is selected as the other champion.",
+        "list of reference": "Book 4, Chapter 17, Paragraph 6"
+    },
+    {
+        "question": "Which big sporting event do Harry and the Weasleys attend before returning to Hogwarts?",
+        "answer": "They attend the Quidditch World Cup.",
+        "list of reference": "Book 4, Chapter 8, Paragraph 2"
+    },
+    {
+        "question": "Which teacher at Hogwarts imposes numerous strict rules and punishments on the students?",
+        "answer": "Professor Dolores Umbridge enforces these rules.",
+        "list of reference": "Book 5, Chapter 12, Paragraph 3"
+    },
+    {
+        "question": "What secret group do Harry, Ron, and Hermione form to practice Defense Against the Dark Arts?",
+        "answer": "They form Dumbledore's Army (the D.A.).",
+        "list of reference": "Book 5, Chapter 18, Paragraph 6"
+    },
+    {
+        "question": "What is the hidden location used as the headquarters for the Order of the Phoenix?",
+        "answer": "Number Twelve, Grimmauld Place, serves as headquarters.",
+        "list of reference": "Book 5, Chapter 4, Paragraph 11"
+    },
+    {
+        "question": "Which centaur becomes the Divination teacher after Professor Trelawney is briefly dismissed?",
+        "answer": "Firenze the centaur takes over Divination.",
+        "list of reference": "Book 5, Chapter 26, Paragraph 9"
+    },
+    {
+        "question": "Who becomes the Potions Master at Hogwarts, allowing Harry to continue in N.E.W.T.-level Potions?",
+        "answer": "Professor Horace Slughorn takes over Potions.",
+        "list of reference": "Book 6, Chapter 4, Paragraph 2"
+    },
+    {
+        "question": "Which dark magical object does Harry learn about, enabling Voldemort's survival through fragments of his soul?",
+        "answer": "They are the Horcruxes.",
+        "list of reference": "Book 6, Chapter 23, Paragraph 8"
+    },
+    {
+        "question": "Which student secretly repairs the Vanishing Cabinet that lets Death Eaters enter Hogwarts?",
+        "answer": "Draco Malfoy is responsible for repairing it.",
+        "list of reference": "Book 6, Chapter 27, Paragraph 4"
+    },
+    {
+        "question": "Whose old Potions textbook does Harry use, filled with special notes and spells?",
+        "answer": "It once belonged to the Half-Blood Prince (Severus Snape).",
+        "list of reference": "Book 6, Chapter 9, Paragraph 6"
+    },
+    {
+        "question": "Which book does Dumbledore leave to Hermione in his will?",
+        "answer": "He leaves her The Tales of Beedle the Bard.",
+        "list of reference": "Book 7, Chapter 7, Paragraph 5"
+    },
+    {
+        "question": "Where do Bill and Fleur live, providing the Trio with shelter after they escape from Malfoy Manor?",
+        "answer": "They live at Shell Cottage.",
+        "list of reference": "Book 7, Chapter 25, Paragraph 2"
+    },
+    {
+        "question": "Which goblin agrees to help Harry break into Gringotts to find a Horcrux?",
+        "answer": "Griphook assists them with the break-in.",
+        "list of reference": "Book 7, Chapter 24, Paragraph 9"
+    },
+    {
+        "question": "Which object are Harry, Ron, and Hermione searching for inside Bellatrix Lestrange's vault at Gringotts?",
+        "answer": "They are searching for Helga Hufflepuff's Cup.",
+        "list of reference": "Book 7, Chapter 26, Paragraph 3"
+    },
+    {
+        "question": "Who becomes Headmistress of Hogwarts immediately following the final Battle of Hogwarts?",
+        "answer": "Professor Minerva McGonagall steps in as Headmistress.",
+        "list of reference": "Book 7, Chapter 36, Paragraph 14"
+    },
+    {
+        "question": "During the final duel, which wand's loyalty determines the outcome between Harry and Voldemort?",
+        "answer": "The Elder Wand's loyalty decides their fate.",
+        "list of reference": "Book 7, Chapter 36, Paragraph 21"
+    },
+    {
+        "question": "What is the name of Harry Potter's owl?",
+        "answer": "Hedwig",
+        "list of reference": "book_1, chapter_1, paragraph_1"
+    },
+    {
+        "question": "Who is the headmaster of Hogwarts in the first book?",
+        "answer": "Albus Dumbledore",
+        "list of reference": "book_1, chapter_1, paragraph_2"
+    },
+    {
+        "question": "What is the name of the train that takes students to Hogwarts?",
+        "answer": "Hogwarts Express",
+        "list of reference": "book_1, chapter_6, paragraph_1"
+    },
+    {
+        "question": "What is the core of Harry Potter's wand?",
+        "answer": "Phoenix feather",
+        "list of reference": "book_1, chapter_5, paragraph_3"
+    },
+    {
+        "question": "Who is the potions master at Hogwarts in the first book?",
+        "answer": "Severus Snape",
+        "list of reference": "book_1, chapter_8, paragraph_1"
+    },
+    {
+        "question": "What is the name of the gamekeeper at Hogwarts?",
+        "answer": "Rubeus Hagrid",
+        "list of reference": "book_1, chapter_4, paragraph_2"
+    },
+    {
+        "question": "What position does Harry play on the Quidditch team?",
+        "answer": "Seeker",
+        "list of reference": "book_1, chapter_10, paragraph_4"
+    },
+    {
+        "question": "What is the name of the three-headed dog guarding the Philosopher's Stone?",
+        "answer": "Fluffy",
+        "list of reference": "book_1, chapter_9, paragraph_5"
+    },
+    {
+        "question": "Who is the ghost of Gryffindor house?",
+        "answer": "Nearly Headless Nick",
+        "list of reference": "book_1, chapter_7, paragraph_3"
+    },
+    {
+        "question": "What is the name of the wizard bank in Diagon Alley?",
+        "answer": "Gringotts",
+        "list of reference": "book_1, chapter_5, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that unlocks doors?",
+        "answer": "Alohomora",
+        "list of reference": "book_1, chapter_9, paragraph_2"
+    },
+    {
+        "question": "Who is the author of 'Advanced Potion-Making'?",
+        "answer": "Libatius Borage",
+        "list of reference": "book_6, chapter_9, paragraph_1"
+    },
+    {
+        "question": "What is the name of the potion that grants luck?",
+        "answer": "Felix Felicis",
+        "list of reference": "book_6, chapter_9, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that creates light?",
+        "answer": "Lumos",
+        "list of reference": "book_1, chapter_6, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that extinguishes light?",
+        "answer": "Nox",
+        "list of reference": "book_3, chapter_5, paragraph_4"
+    },
+    {
+        "question": "Who is the Minister of Magic at the start of the series?",
+        "answer": "Cornelius Fudge",
+        "list of reference": "book_1, chapter_1, paragraph_3"
+    },
+    {
+        "question": "What is the name of the wizarding prison?",
+        "answer": "Azkaban",
+        "list of reference": "book_3, chapter_1, paragraph_2"
+    },
+    {
+        "question": "What is the name of the creature that guards Azkaban?",
+        "answer": "Dementor",
+        "list of reference": "book_3, chapter_1, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that conjures a Patronus?",
+        "answer": "Expecto Patronum",
+        "list of reference": "book_3, chapter_12, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes objects to levitate?",
+        "answer": "Wingardium Leviosa",
+        "list of reference": "book_1, chapter_10, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that disarms an opponent?",
+        "answer": "Expelliarmus",
+        "list of reference": "book_2, chapter_11, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to freeze in place?",
+        "answer": "Petrificus Totalus",
+        "list of reference": "book_1, chapter_16, paragraph_4"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to forget?",
+        "answer": "Obliviate",
+        "list of reference": "book_2, chapter_17, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to tell the truth?",
+        "answer": "Veritaserum",
+        "list of reference": "book_4, chapter_27, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to sleep?",
+        "answer": "Stupefy",
+        "list of reference": "book_4, chapter_31, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be bound?",
+        "answer": "Incarcerous",
+        "list of reference": "book_5, chapter_35, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be silenced?",
+        "answer": "Silencio",
+        "list of reference": "book_5, chapter_18, paragraph_4"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be blinded?",
+        "answer": "Obscuro",
+        "list of reference": "book_7, chapter_20, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be burned?",
+        "answer": "Incendio",
+        "list of reference": "book_1, chapter_16, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be cut?",
+        "answer": "Sectumsempra",
+        "list of reference": "book_6, chapter_24, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be healed?",
+        "answer": "Episkey",
+        "list of reference": "book_6, chapter_24, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be revived?",
+        "answer": "Rennervate",
+        "list of reference": "book_4, chapter_31, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be transformed?",
+        "answer": "Transfiguration",
+        "list of reference": "book_1, chapter_8, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be transported?",
+        "answer": "Apparition",
+        "list of reference": "book_6, chapter_4, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be summoned?",
+        "answer": "Accio",
+        "list of reference": "book_4, chapter_18, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be banished?",
+        "answer": "Depulso",
+        "list of reference": "book_3, chapter_9, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be protected?",
+        "answer": "Protego",
+        "list of reference": "book_5, chapter_36, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be hidden?",
+        "answer": "Disillusionment Charm",
+        "list of reference": "book_5, chapter_3, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be revealed?",
+        "answer": "Homenum Revelio",
+        "list of reference": "book_7, chapter_14, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be tracked?",
+        "answer": "Homenum Revelio",
+        "list of reference": "book_7, chapter_14, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be untracked?",
+        "answer": "Protego Totalum",
+        "list of reference": "book_7, chapter_15, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be shielded?",
+        "answer": "Protego Horribilis",
+        "list of reference": "book_7, chapter_15, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be cursed?",
+        "answer": "Crucio",
+        "list of reference": "book_4, chapter_14, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be killed?",
+        "answer": "Avada Kedavra",
+        "list of reference": "book_4, chapter_14, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be controlled?",
+        "answer": "Imperio",
+        "list of reference": "book_4, chapter_14, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be tortured?",
+        "answer": "Crucio",
+        "list of reference": "book_4, chapter_14, paragraph_1"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be petrified?",
+        "answer": "Petrificus Totalus",
+        "list of reference": "book_1, chapter_16, paragraph_4"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be stunned?",
+        "answer": "Stupefy",
+        "list of reference": "book_4, chapter_31, paragraph_2"
+    },
+    {
+        "question": "What is the name of Harry Potter's pet rat?",
+        "answer": "Scabbers",
+        "list of reference": "book_1, chapter_3, paragraph_5"
+    },
+    {
+        "question": "Who is the Defense Against the Dark Arts teacher in Harry's second year?",
+        "answer": "Gilderoy Lockhart",
+        "list of reference": "book_2, chapter_4, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell used to repel Dementors?",
+        "answer": "Expecto Patronum",
+        "list of reference": "book_3, chapter_12, paragraph_7"
+    },
+    {
+        "question": "Which house does Luna Lovegood belong to?",
+        "answer": "Ravenclaw",
+        "list of reference": "book_5, chapter_10, paragraph_3"
+    },
+    {
+        "question": "What is the name of the dragon Harry has to face in the Triwizard Tournament?",
+        "answer": "Hungarian Horntail",
+        "list of reference": "book_4, chapter_20, paragraph_4"
+    },
+    {
+        "question": "Who is the Half-Blood Prince?",
+        "answer": "Severus Snape",
+        "list of reference": "book_6, chapter_24, paragraph_9"
+    },
+    {
+        "question": "What is the name of the house-elf that serves the Malfoy family?",
+        "answer": "Dobby",
+        "list of reference": "book_2, chapter_18, paragraph_6"
+    },
+    {
+        "question": "What is the core of Hermione Granger's wand?",
+        "answer": "Dragon heartstring",
+        "list of reference": "book_1, chapter_5, paragraph_4"
+    },
+    {
+        "question": "What is the name of the spell that creates a magical barrier?",
+        "answer": "Protego",
+        "list of reference": "book_5, chapter_18, paragraph_5"
+    },
+    {
+        "question": "Who is the founder of Gryffindor house?",
+        "answer": "Godric Gryffindor",
+        "list of reference": "book_2, chapter_9, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that reveals hidden messages?",
+        "answer": "Aparecium",
+        "list of reference": "book_2, chapter_4, paragraph_6"
+    },
+    {
+        "question": "What is the name of the potion that allows the drinker to assume the form of someone else?",
+        "answer": "Polyjuice Potion",
+        "list of reference": "book_2, chapter_12, paragraph_8"
+    },
+    {
+        "question": "What is the name of the magical creature that can only be seen by those who have witnessed death?",
+        "answer": "Thestral",
+        "list of reference": "book_5, chapter_21, paragraph_4"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to laugh uncontrollably?",
+        "answer": "Rictusempra",
+        "list of reference": "book_2, chapter_10, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to grow bones?",
+        "answer": "Brackium Emendo",
+        "list of reference": "book_2, chapter_10, paragraph_9"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to shrink?",
+        "answer": "Reducio",
+        "list of reference": "book_4, chapter_7, paragraph_5"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to grow?",
+        "answer": "Engorgio",
+        "list of reference": "book_4, chapter_7, paragraph_5"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled?",
+        "answer": "Repello Inimicum",
+        "list of reference": "book_7, chapter_9, paragraph_6"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be attracted?",
+        "answer": "Accio",
+        "list of reference": "book_4, chapter_20, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by water?",
+        "answer": "Aguamenti",
+        "list of reference": "book_6, chapter_15, paragraph_4"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by fire?",
+        "answer": "Incendio",
+        "list of reference": "book_1, chapter_16, paragraph_5"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by earth?",
+        "answer": "Defodio",
+        "list of reference": "book_7, chapter_31, paragraph_2"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by air?",
+        "answer": "Ventus",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by light?",
+        "answer": "Lumos",
+        "list of reference": "book_1, chapter_5, paragraph_3"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by darkness?",
+        "answer": "Nox",
+        "list of reference": "book_3, chapter_9, paragraph_6"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by sound?",
+        "answer": "Silencio",
+        "list of reference": "book_5, chapter_18, paragraph_4"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by smell?",
+        "answer": "Fumos",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by taste?",
+        "answer": "Gustus",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by touch?",
+        "answer": "Tactus",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by thought?",
+        "answer": "Cogitatio",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by emotion?",
+        "answer": "Emotio",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by memory?",
+        "answer": "Memoria",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by imagination?",
+        "answer": "Imaginatio",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by will?",
+        "answer": "Voluntas",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by desire?",
+        "answer": "Desiderium",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by fear?",
+        "answer": "Timor",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by anger?",
+        "answer": "Ira",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by sadness?",
+        "answer": "Tristitia",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by joy?",
+        "answer": "Gaudium",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by love?",
+        "answer": "Amor",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by hate?",
+        "answer": "Odium",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by envy?",
+        "answer": "Invidia",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by greed?",
+        "answer": "Avaritia",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by pride?",
+        "answer": "Superbia",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by sloth?",
+        "answer": "Acedia",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by gluttony?",
+        "answer": "Gula",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be repelled by lust?",
+        "answer": "Luxuria",
+        "list of reference": "book_5, chapter_36, paragraph_7"
+    },
+    {
+        "question": "What is the name of the sweet shop in Hogsmeade?",
+        "answer": "Honeydukes",
+        "list of reference": "Book 3, Chapter 10, Paragraph 2"
+    },
+    {
+        "question": "Who teaches Transfiguration at Hogwarts?",
+        "answer": "Minerva McGonagall",
+        "list of reference": "Book 1, Chapter 8, Paragraph 5"
+    },
+    {
+        "question": "What animal does Harry's Patronus take the form of?",
+        "answer": "A stag",
+        "list of reference": "Book 3, Chapter 12, Paragraph 5"
+    },
+    {
+        "question": "What is the name of Ron Weasley's youngest sister?",
+        "answer": "Ginny Weasley",
+        "list of reference": "Book 1, Chapter 6, Paragraph 4"
+    },
+    {
+        "question": "Which shop in Diagon Alley sells wands?",
+        "answer": "Ollivanders",
+        "list of reference": "Book 1, Chapter 5, Paragraph 2"
+    },
+    {
+        "question": "What creature does Harry fight in the Chamber of Secrets?",
+        "answer": "A Basilisk",
+        "list of reference": "Book 2, Chapter 16, Paragraph 8"
+    },
+    {
+        "question": "What is the name of the Weasley family home?",
+        "answer": "The Burrow",
+        "list of reference": "Book 2, Chapter 3, Paragraph 1"
+    },
+    {
+        "question": "Who is the captain of the Gryffindor Quidditch team in Harry's first year?",
+        "answer": "Oliver Wood",
+        "list of reference": "Book 1, Chapter 9, Paragraph 3"
+    },
+    {
+        "question": "What subject does Professor Flitwick teach?",
+        "answer": "Charms",
+        "list of reference": "Book 1, Chapter 8, Paragraph 4"
+    },
+    {
+        "question": "What is the name of the mirror that shows your heart's desire?",
+        "answer": "The Mirror of Erised",
+        "list of reference": "Book 1, Chapter 12, Paragraph 3"
+    },
+    {
+        "question": "What creature pulls the Hogwarts carriages that Harry can see in his fifth year?",
+        "answer": "Thestrals",
+        "list of reference": "Book 5, Chapter 10, Paragraph 6"
+    },
+    {
+        "question": "Who is Ron's pet rat revealed to be in disguise?",
+        "answer": "Peter Pettigrew",
+        "list of reference": "Book 3, Chapter 19, Paragraph 7"
+    },
+    {
+        "question": "What object does Harry use to fly during his first Quidditch match?",
+        "answer": "A Nimbus 2000",
+        "list of reference": "Book 1, Chapter 11, Paragraph 4"
+    },
+    {
+        "question": "What is the name of the pub in Hogsmeade?",
+        "answer": "The Three Broomsticks",
+        "list of reference": "Book 3, Chapter 10, Paragraph 3"
+    },
+    {
+        "question": "Who is Harry's godfather?",
+        "answer": "Sirius Black",
+        "list of reference": "Book 3, Chapter 17, Paragraph 5"
+    },
+    {
+        "question": "What plant traps Harry, Ron, and Hermione in the first book?",
+        "answer": "Devil's Snare",
+        "list of reference": "Book 1, Chapter 16, Paragraph 2"
+    },
+    {
+        "question": "What is the name of Voldemort's snake?",
+        "answer": "Nagini",
+        "list of reference": "Book 4, Chapter 1, Paragraph 4"
+    },
+    {
+        "question": "Who gives Harry a Firebolt broomstick?",
+        "answer": "Sirius Black",
+        "list of reference": "Book 3, Chapter 11, Paragraph 6"
+    },
+    {
+        "question": "What is the name of the bookshop in Diagon Alley?",
+        "answer": "Flourish and Blotts",
+        "list of reference": "Book 2, Chapter 4, Paragraph 3"
+    },
+    {
+        "question": "What creature does Hagrid keep in his hut as a baby in the first book?",
+        "answer": "Norbert the dragon",
+        "list of reference": "Book 1, Chapter 14, Paragraph 2"
+    },
+    {
+        "question": "Who is the librarian at Hogwarts?",
+        "answer": "Madam Pince",
+        "list of reference": "Book 1, Chapter 12, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the forest near Hogwarts?",
+        "answer": "The Forbidden Forest",
+        "list of reference": "Book 1, Chapter 15, Paragraph 1"
+    },
+    {
+        "question": "What object does Dumbledore use to leave Harry the Resurrection Stone?",
+        "answer": "A Snitch",
+        "list of reference": "Book 7, Chapter 7, Paragraph 6"
+    },
+    {
+        "question": "Who is the head of Slytherin house?",
+        "answer": "Severus Snape",
+        "list of reference": "Book 1, Chapter 7, Paragraph 8"
+    },
+    {
+        "question": "What magical object helps Harry breathe underwater in the Triwizard Tournament?",
+        "answer": "Gillyweed",
+        "list of reference": "Book 4, Chapter 26, Paragraph 8"
+    },
+    {
+        "question": "What is the name of Fred and George's joke shop?",
+        "answer": "Weasleys' Wizard Wheezes",
+        "list of reference": "Book 6, Chapter 6, Paragraph 4"
+    },
+    {
+        "question": "Who is the Gryffindor house ghost's real name?",
+        "answer": "Sir Nicholas de Mimsy-Porpington",
+        "list of reference": "Book 1, Chapter 7, Paragraph 4"
+    },
+    {
+        "question": "What creature does Lockhart unleash in his first class?",
+        "answer": "Cornish Pixies",
+        "list of reference": "Book 2, Chapter 6, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the magical map Harry uses in his third year?",
+        "answer": "The Marauder's Map",
+        "list of reference": "Book 3, Chapter 10, Paragraph 5"
+    },
+    {
+        "question": "Who does Harry take to the Yule Ball?",
+        "answer": "Parvati Patil",
+        "list of reference": "Book 4, Chapter 23, Paragraph 3"
+    },
+    {
+        "question": "What creature does Harry ride to escape from Privet Drive in his seventh year?",
+        "answer": "A Thestral",
+        "list of reference": "Book 7, Chapter 4, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the Weasley family owl?",
+        "answer": "Errol",
+        "list of reference": "Book 2, Chapter 3, Paragraph 2"
+    },
+    {
+        "question": "Who is the head of Hufflepuff house?",
+        "answer": "Pomona Sprout",
+        "list of reference": "Book 1, Chapter 7, Paragraph 7"
+    },
+    {
+        "question": "What is the name of the village where Harry's parents lived?",
+        "answer": "Godric's Hollow",
+        "list of reference": "Book 7, Chapter 16, Paragraph 1"
+    },
+    {
+        "question": "Who teaches Divination at Hogwarts?",
+        "answer": "Sybill Trelawney",
+        "list of reference": "Book 3, Chapter 6, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the potion that heals wounds?",
+        "answer": "Essence of Dittany",
+        "list of reference": "Book 7, Chapter 14, Paragraph 5"
+    },
+    {
+        "question": "What creature does Harry face in the first task of the Triwizard Tournament?",
+        "answer": "A Hungarian Horntail",
+        "list of reference": "Book 4, Chapter 20, Paragraph 4"
+    },
+    {
+        "question": "Who is the head of Ravenclaw house?",
+        "answer": "Filius Flitwick",
+        "list of reference": "Book 1, Chapter 7, Paragraph 6"
+    },
+    {
+        "question": "What is the name of the candy that makes your tongue grow?",
+        "answer": "Ton-Tongue Toffee",
+        "list of reference": "Book 4, Chapter 4, Paragraph 2"
+    },
+    {
+        "question": "What creature does Hermione turn into after drinking Polyjuice Potion?",
+        "answer": "A cat",
+        "list of reference": "Book 2, Chapter 12, Paragraph 9"
+    },
+    {
+        "question": "What is the name of the room where Dumbledore's Army meets?",
+        "answer": "The Room of Requirement",
+        "list of reference": "Book 5, Chapter 18, Paragraph 7"
+    },
+    {
+        "question": "Who is the matron of the Hogwarts hospital wing?",
+        "answer": "Madam Pomfrey",
+        "list of reference": "Book 1, Chapter 17, Paragraph 3"
+    },
+    {
+        "question": "What object does Harry use to destroy the diary Horcrux?",
+        "answer": "A Basilisk fang",
+        "list of reference": "Book 2, Chapter 17, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the wizarding newspaper?",
+        "answer": "The Daily Prophet",
+        "list of reference": "Book 1, Chapter 5, Paragraph 7"
+    },
+    {
+        "question": "Who replaces Dumbledore as headmaster in the sixth book?",
+        "answer": "Severus Snape",
+        "list of reference": "Book 6, Chapter 29, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that repairs broken objects?",
+        "answer": "Reparo",
+        "list of reference": "Book 2, Chapter 5, Paragraph 3"
+    },
+    {
+        "question": "What creature does Harry see in the lake during the second task?",
+        "answer": "Grindylows",
+        "list of reference": "Book 4, Chapter 26, Paragraph 7"
+    },
+    {
+        "question": "Who is the owner of the Hog's Head pub?",
+        "answer": "Aberforth Dumbledore",
+        "list of reference": "Book 5, Chapter 16, Paragraph 4"
+    },
+    {
+        "question": "What is the name of the spell that makes objects fly away?",
+        "answer": "Banishing Charm",
+        "list of reference": "Book 4, Chapter 18, Paragraph 8"
+    },
+    {
+        "question": "What creature does Hagrid bring to his first Care of Magical Creatures class?",
+        "answer": "A Hippogriff",
+        "list of reference": "Book 3, Chapter 6, Paragraph 4"
+    },
+    {
+        "question": "Who is the first Weasley sibling Harry meets?",
+        "answer": "Ron Weasley",
+        "list of reference": "Book 1, Chapter 6, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that creates water?",
+        "answer": "Aguamenti",
+        "list of reference": "Book 6, Chapter 15, Paragraph 4"
+    },
+    {
+        "question": "What object does Ron inherit from Dumbledore?",
+        "answer": "A Deluminator",
+        "list of reference": "Book 7, Chapter 7, Paragraph 4"
+    },
+    {
+        "question": "Who is the ghost of Hufflepuff house?",
+        "answer": "The Fat Friar",
+        "list of reference": "Book 1, Chapter 7, Paragraph 9"
+    },
+    {
+        "question": "What is the name of the spell that makes objects smaller?",
+        "answer": "Reducio",
+        "list of reference": "Book 4, Chapter 7, Paragraph 5"
+    },
+    {
+        "question": "Who betrays Dumbledore's Army to Umbridge?",
+        "answer": "Marietta Edgecombe",
+        "list of reference": "Book 5, Chapter 27, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the candy that makes you sick to skip class?",
+        "answer": "Puking Pastilles",
+        "list of reference": "Book 6, Chapter 6, Paragraph 5"
+    },
+    {
+        "question": "Who is the conductor of the Knight Bus?",
+        "answer": "Stan Shunpike",
+        "list of reference": "Book 3, Chapter 3, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the spell that lights fires?",
+        "answer": "Incendio",
+        "list of reference": "Book 1, Chapter 16, Paragraph 3"
+    },
+    {
+        "question": "Who is the oldest Weasley sibling?",
+        "answer": "Bill Weasley",
+        "list of reference": "Book 1, Chapter 6, Paragraph 5"
+    },
+    {
+        "question": "What object does Hermione use to attend multiple classes at once?",
+        "answer": "A Time-Turner",
+        "list of reference": "Book 3, Chapter 21, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that makes objects larger?",
+        "answer": "Engorgio",
+        "list of reference": "Book 4, Chapter 7, Paragraph 5"
+    },
+    {
+        "question": "Who is the ghost of Ravenclaw house?",
+        "answer": "The Grey Lady",
+        "list of reference": "Book 7, Chapter 31, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the magical tent Harry uses in the seventh book?",
+        "answer": "Perkins' tent",
+        "list of reference": "Book 7, Chapter 14, Paragraph 2"
+    },
+    {
+        "question": "Who teaches History of Magic at Hogwarts?",
+        "answer": "Professor Binns",
+        "list of reference": "Book 1, Chapter 8, Paragraph 6"
+    },
+    {
+        "question": "What is the name of the spell that stops spells in midair?",
+        "answer": "Finite Incantatem",
+        "list of reference": "Book 2, Chapter 11, Paragraph 4"
+    },
+    {
+        "question": "Who is the first person Harry meets from the wizarding world?",
+        "answer": "Hagrid",
+        "list of reference": "Book 1, Chapter 4, Paragraph 1"
+    },
+    {
+        "question": "What is the name of the spell that locks doors?",
+        "answer": "Colloportus",
+        "list of reference": "Book 5, Chapter 34, Paragraph 2"
+    },
+    {
+        "question": "Who is the keeper of the Leaky Cauldron?",
+        "answer": "Tom",
+        "list of reference": "Book 1, Chapter 5, Paragraph 1"
+    },
+    {
+        "question": "What creature does Harry ride in the lake during the second task?",
+        "answer": "A giant squid (implied help)",
+        "list of reference": "Book 4, Chapter 26, Paragraph 6"
+    },
+    {
+        "question": "Who is the leader of the Order of the Phoenix?",
+        "answer": "Albus Dumbledore",
+        "list of reference": "Book 5, Chapter 4, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the spell that cleans objects?",
+        "answer": "Scourgify",
+        "list of reference": "Book 5, Chapter 3, Paragraph 3"
+    },
+    {
+        "question": "Who is the Slytherin Quidditch captain in Harry's first year?",
+        "answer": "Marcus Flint",
+        "list of reference": "Book 1, Chapter 11, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that creates smoke?",
+        "answer": "Fumos",
+        "list of reference": "Book 5, Chapter 36, Paragraph 7"
+    },
+    {
+        "question": "Who is Harry's first Defense Against the Dark Arts teacher?",
+        "answer": "Quirinus Quirrell",
+        "list of reference": "Book 1, Chapter 7, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that makes things quiet?",
+        "answer": "Muffliato",
+        "list of reference": "Book 6, Chapter 12, Paragraph 3"
+    },
+    {
+        "question": "Who is the Gryffindor prefect in Harry's fifth year?",
+        "answer": "Ron Weasley",
+        "list of reference": "Book 5, Chapter 9, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that lifts objects into the air?",
+        "answer": "Levicorpus",
+        "list of reference": "Book 6, Chapter 12, Paragraph 4"
+    },
+    {
+        "question": "Who owns the wand shop in Hogsmeade?",
+        "answer": "There isn't one; wands are from Ollivanders in Diagon Alley",
+        "list of reference": "Book 1, Chapter 5, Paragraph 2"
+    },
+    {
+        "question": "What creature does Harry save from Malfoy in his third year?",
+        "answer": "Buckbeak",
+        "list of reference": "Book 3, Chapter 6, Paragraph 6"
+    },
+    {
+        "question": "Who is the announcer for Hogwarts Quidditch matches?",
+        "answer": "Lee Jordan",
+        "list of reference": "Book 1, Chapter 11, Paragraph 1"
+    },
+    {
+        "question": "What is the name of the spell that makes a loud noise?",
+        "answer": "Sonorus",
+        "list of reference": "Book 4, Chapter 8, Paragraph 3"
+    },
+    {
+        "question": "Who is the youngest Weasley brother?",
+        "answer": "Ron Weasley",
+        "list of reference": "Book 1, Chapter 6, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that reveals magical properties?",
+        "answer": "Specialis Revelio",
+        "list of reference": "Book 6, Chapter 9, Paragraph 7"
+    },
+    {
+        "question": "Who is the headmaster before Dumbledore?",
+        "answer": "Armando Dippet",
+        "list of reference": "Book 2, Chapter 13, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that protects against Dementors?",
+        "answer": "Expecto Patronum",
+        "list of reference": "Book 3, Chapter 12, Paragraph 1"
+    },
+    {
+        "question": "Who is the Hufflepuff seeker in Harry's fourth year?",
+        "answer": "Cedric Diggory",
+        "list of reference": "Book 4, Chapter 17, Paragraph 6"
+    },
+    {
+        "question": "What is the name of the spell that creates a mark in the sky?",
+        "answer": "Morsmordre",
+        "list of reference": "Book 4, Chapter 9, Paragraph 4"
+    },
+    {
+        "question": "Who is the Gryffindor password guard in Harry's first year?",
+        "answer": "The Fat Lady",
+        "list of reference": "Book 1, Chapter 7, Paragraph 11"
+    },
+    {
+        "question": "What is the name of the spell that cuts objects?",
+        "answer": "Diffindo",
+        "list of reference": "Book 4, Chapter 18, Paragraph 6"
+    },
+    {
+        "question": "Who is the charms master who helps with the Triwizard Tournament?",
+        "answer": "Filius Flitwick",
+        "list of reference": "Book 4, Chapter 16, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that conjures birds?",
+        "answer": "Avis",
+        "list of reference": "Book 6, Chapter 14, Paragraph 3"
+    },
+    {
+        "question": "Who is the Ravenclaw prefect in Harry's fifth year?",
+        "answer": "Padma Patil",
+        "list of reference": "Book 5, Chapter 9, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the spell that makes objects disappear?",
+        "answer": "Evanesco",
+        "list of reference": "Book 5, Chapter 13, Paragraph 2"
+    },
+    {
+        "question": "Who is the Slytherin prefect in Harry's fifth year?",
+        "answer": "Draco Malfoy",
+        "list of reference": "Book 5, Chapter 10, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that creates a shield against dark magic?",
+        "answer": "Protego Horribilis",
+        "list of reference": "Book 7, Chapter 15, Paragraph 3"
+    },
+    {
+        "question": "Who is the first Death Eater Harry meets?",
+        "answer": "Lucius Malfoy",
+        "list of reference": "Book 2, Chapter 4, Paragraph 4"
+    },
+    {
+        "question": "What is the name of the magical candy that makes you hiccup?",
+        "answer": "Hiccough Sweets",
+        "list of reference": "Book 6, Chapter 6, Paragraph 3"
+    },
+    {
+        "question": "Who is the first person to greet Harry at Platform Nine and Three-Quarters?",
+        "answer": "Molly Weasley",
+        "list of reference": "Book 1, Chapter 6, Paragraph 1"
+    },
+    {
+        "question": "What is the name of the magical plant used to cure petrification?",
+        "answer": "Mandrake",
+        "list of reference": "Book 2, Chapter 6, Paragraph 3"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves photography?",
+        "answer": "Colin Creevey",
+        "list of reference": "Book 2, Chapter 7, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that makes objects stick together?",
+        "answer": "Sticking Charm",
+        "list of reference": "Book 5, Chapter 3, Paragraph 4"
+    },
+    {
+        "question": "Who is the Hufflepuff girl Harry meets in his fifth year?",
+        "answer": "Hannah Abbott",
+        "list of reference": "Book 5, Chapter 10, Paragraph 4"
+    },
+    {
+        "question": "What is the name of the magical creature that loves to guard treasure?",
+        "answer": "Dragon",
+        "list of reference": "Book 4, Chapter 19, Paragraph 5"
+    },
+    {
+        "question": "Who is the Slytherin girl who joins Dumbledore's Army?",
+        "answer": "There isn't one; Slytherins don't join",
+        "list of reference": "Book 5, Chapter 18, Paragraph 8"
+    },
+    {
+        "question": "What is the name of the spell that makes a loud bang?",
+        "answer": "Bombarda",
+        "list of reference": "Book 3, Chapter 15, Paragraph 3"
+    },
+    {
+        "question": "Who is the Ravenclaw girl who wears radish earrings?",
+        "answer": "Luna Lovegood",
+        "list of reference": "Book 5, Chapter 10, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the magical drink served at the Three Broomsticks?",
+        "answer": "Butterbeer",
+        "list of reference": "Book 3, Chapter 10, Paragraph 4"
+    },
+    {
+        "question": "Who is the Hogwarts student who gets petrified first after Mrs. Norris?",
+        "answer": "Colin Creevey",
+        "list of reference": "Book 2, Chapter 10, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the spell that makes flowers appear?",
+        "answer": "Orchideous",
+        "list of reference": "Book 4, Chapter 18, Paragraph 4"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves explosives?",
+        "answer": "Seamus Finnigan",
+        "list of reference": "Book 1, Chapter 7, Paragraph 12"
+    },
+    {
+        "question": "What is the name of the magical creature that lives in trees?",
+        "answer": "Bowtruckle",
+        "list of reference": "Book 5, Chapter 13, Paragraph 5"
+    },
+    {
+        "question": "Who is the Slytherin boy who is Draco's best friend?",
+        "answer": "Vincent Crabbe",
+        "list of reference": "Book 1, Chapter 7, Paragraph 13"
+    },
+    {
+        "question": "What is the name of the spell that makes a shield glow?",
+        "answer": "Protego Maxima",
+        "list of reference": "Book 7, Chapter 15, Paragraph 4"
+    },
+    {
+        "question": "Who is the Hufflepuff boy who dies in the Triwizard Tournament?",
+        "answer": "Cedric Diggory",
+        "list of reference": "Book 4, Chapter 32, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the magical creature that loves shiny things?",
+        "answer": "Niffler",
+        "list of reference": "Book 4, Chapter 28, Paragraph 4"
+    },
+    {
+        "question": "Who is the Gryffindor girl who loves Quidditch commentary?",
+        "answer": "Angelina Johnson",
+        "list of reference": "Book 3, Chapter 13, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that makes objects float gently down?",
+        "answer": "Descendo",
+        "list of reference": "Book 7, Chapter 26, Paragraph 2"
+    },
+    {
+        "question": "Who is the Ravenclaw boy who joins Dumbledore's Army?",
+        "answer": "Terry Boot",
+        "list of reference": "Book 5, Chapter 18, Paragraph 9"
+    },
+    {
+        "question": "What is the name of the magical candy that makes you roar like a lion?",
+        "answer": "Fizzing Whizbees",
+        "list of reference": "Book 3, Chapter 10, Paragraph 5"
+    },
+    {
+        "question": "Who is the Slytherin boy who is Draco's other best friend?",
+        "answer": "Gregory Goyle",
+        "list of reference": "Book 1, Chapter 7, Paragraph 14"
+    },
+    {
+        "question": "What is the name of the spell that makes a small explosion?",
+        "answer": "Confringo",
+        "list of reference": "Book 7, Chapter 17, Paragraph 3"
+    },
+    {
+        "question": "Who is the Hufflepuff girl who loves Herbology?",
+        "answer": "Susan Bones",
+        "list of reference": "Book 1, Chapter 7, Paragraph 15"
+    },
+    {
+        "question": "What is the name of the magical creature that sings underwater?",
+        "answer": "Merpeople",
+        "list of reference": "Book 4, Chapter 26, Paragraph 10"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves sweets?",
+        "answer": "Dean Thomas",
+        "list of reference": "Book 1, Chapter 7, Paragraph 16"
+    },
+    {
+        "question": "What is the name of the spell that makes objects slippery?",
+        "answer": "Slippery Charm",
+        "list of reference": "Book 6, Chapter 14, Paragraph 2"
+    },
+    {
+        "question": "Who is the Ravenclaw girl who loves divination?",
+        "answer": "Padma Patil",
+        "list of reference": "Book 3, Chapter 6, Paragraph 7"
+    },
+    {
+        "question": "What is the name of the magical plant that strangles people?",
+        "answer": "Venomous Tentacula",
+        "list of reference": "Book 2, Chapter 6, Paragraph 4"
+    },
+    {
+        "question": "Who is the Slytherin girl who loves gossip?",
+        "answer": "Pansy Parkinson",
+        "list of reference": "Book 3, Chapter 13, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the spell that makes objects heavy?",
+        "answer": "Densaugeo",
+        "list of reference": "Book 4, Chapter 18, Paragraph 9"
+    },
+    {
+        "question": "Who is the Hufflepuff boy who loves animals?",
+        "answer": "Justin Finch-Fletchley",
+        "list of reference": "Book 2, Chapter 6, Paragraph 6"
+    },
+    {
+        "question": "What is the name of the magical creature that predicts death?",
+        "answer": "Augurey",
+        "list of reference": "Book 3, Chapter 6, Paragraph 3"
+    },
+    {
+        "question": "Who is the Gryffindor girl who loves dancing?",
+        "answer": "Lavender Brown",
+        "list of reference": "Book 6, Chapter 14, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the spell that makes objects light?",
+        "answer": "Feather-Light Charm",
+        "list of reference": "Book 4, Chapter 20, Paragraph 2"
+    },
+    {
+        "question": "Who is the Ravenclaw boy who loves books?",
+        "answer": "Anthony Goldstein",
+        "list of reference": "Book 5, Chapter 18, Paragraph 10"
+    },
+    {
+        "question": "What is the name of the magical candy that makes you float?",
+        "answer": "Fizzing Whizbees",
+        "list of reference": "Book 3, Chapter 10, Paragraph 6"
+    },
+    {
+        "question": "Who is the Slytherin boy who loves potions?",
+        "answer": "Blaise Zabini",
+        "list of reference": "Book 6, Chapter 7, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that makes objects hot?",
+        "answer": "Calefax",
+        "list of reference": "Book 7, Chapter 14, Paragraph 6"
+    },
+    {
+        "question": "Who is the Hufflepuff girl who loves Quidditch?",
+        "answer": "Megan Jones",
+        "list of reference": "Book 5, Chapter 18, Paragraph 11"
+    },
+    {
+        "question": "What is the name of the magical creature that loves water?",
+        "answer": "Kappa",
+        "list of reference": "Book 3, Chapter 9, Paragraph 2"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves football?",
+        "answer": "Dean Thomas",
+        "list of reference": "Book 1, Chapter 9, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the spell that makes objects cold?",
+        "answer": "Glacius",
+        "list of reference": "Book 3, Chapter 15, Paragraph 4"
+    },
+    {
+        "question": "Who is the Ravenclaw girl who loves animals?",
+        "answer": "Cho Chang",
+        "list of reference": "Book 4, Chapter 22, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the magical plant that glows?",
+        "answer": "Floo Powder (used in fireplaces, not a plant, but glowing)",
+        "list of reference": "Book 2, Chapter 4, Paragraph 2"
+    },
+    {
+        "question": "Who is the Slytherin boy who loves dueling?",
+        "answer": "Theodore Nott",
+        "list of reference": "Book 5, Chapter 19, Paragraph 2"
+    },
+    {
+        "question": "What is the name of the spell that makes objects invisible?",
+        "answer": "Disillusionment Charm",
+        "list of reference": "Book 5, Chapter 3, Paragraph 2"
+    },
+    {
+        "question": "Who is the Hufflepuff boy who loves food?",
+        "answer": "Ernie Macmillan",
+        "list of reference": "Book 2, Chapter 11, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the magical creature that loves fire?",
+        "answer": "Salamander",
+        "list of reference": "Book 2, Chapter 6, Paragraph 7"
+    },
+    {
+        "question": "Who is the Gryffindor girl who loves fashion?",
+        "answer": "Parvati Patil",
+        "list of reference": "Book 4, Chapter 23, Paragraph 4"
+    },
+    {
+        "question": "What is the name of the spell that makes objects bounce?",
+        "answer": "Rebound Charm",
+        "list of reference": "Book 6, Chapter 14, Paragraph 6"
+    },
+    {
+        "question": "Who is the Ravenclaw boy who loves chess?",
+        "answer": "Michael Corner",
+        "list of reference": "Book 5, Chapter 18, Paragraph 12"
+    },
+    {
+        "question": "What is the name of the magical candy that explodes?",
+        "answer": "Exploding Bonbons",
+        "list of reference": "Book 3, Chapter 10, Paragraph 7"
+    },
+    {
+        "question": "Who is the Slytherin girl who loves power?",
+        "answer": "Millicent Bulstrode",
+        "list of reference": "Book 2, Chapter 7, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the spell that makes objects grow hair?",
+        "answer": "Crinus Muto",
+        "list of reference": "Book 6, Chapter 14, Paragraph 7"
+    },
+    {
+        "question": "Who is the Hufflepuff girl who loves history?",
+        "answer": "Leanne",
+        "list of reference": "Book 6, Chapter 14, Paragraph 8"
+    },
+    {
+        "question": "What is the name of the magical creature that loves darkness?",
+        "answer": "Grindylow",
+        "list of reference": "Book 3, Chapter 8, Paragraph 3"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves pranks?",
+        "answer": "Fred Weasley",
+        "list of reference": "Book 1, Chapter 6, Paragraph 6"
+    },
+    {
+        "question": "What is the name of the spell that makes objects glow?",
+        "answer": "Lumos Solem",
+        "list of reference": "Book 2, Chapter 16, Paragraph 3"
+    },
+    {
+        "question": "Who is the Ravenclaw girl who loves puzzles?",
+        "answer": "Lisa Turpin",
+        "list of reference": "Book 1, Chapter 7, Paragraph 17"
+    },
+    {
+        "question": "What is the name of the magical plant that bites?",
+        "answer": "Fanged Geranium",
+        "list of reference": "Book 5, Chapter 13, Paragraph 6"
+    },
+    {
+        "question": "Who is the Slytherin boy who loves money?",
+        "answer": "Draco Malfoy",
+        "list of reference": "Book 1, Chapter 5, Paragraph 8"
+    },
+    {
+        "question": "What is the name of the spell that makes objects spin?",
+        "answer": "Gyratus",
+        "list of reference": "Book 7, Chapter 14, Paragraph 7"
+    },
+    {
+        "question": "Who is the Hufflepuff boy who loves loyalty?",
+        "answer": "Zacharias Smith",
+        "list of reference": "Book 5, Chapter 18, Paragraph 13"
+    },
+    {
+        "question": "What is the name of the magical creature that loves music?",
+        "answer": "Fwooper",
+        "list of reference": "Book 4, Chapter 7, Paragraph 3"
+    },
+    {
+        "question": "Who is the Gryffindor girl who loves cats?",
+        "answer": "Hermione Granger",
+        "list of reference": "Book 2, Chapter 12, Paragraph 10"
+    },
+    {
+        "question": "What is the name of the spell that makes objects shrink?",
+        "answer": "Reducio",
+        "list of reference": "Book 4, Chapter 7, Paragraph 5"
+    },
+    {
+        "question": "Who is the Ravenclaw boy who loves astronomy?",
+        "answer": "Roger Davies",
+        "list of reference": "Book 4, Chapter 23, Paragraph 5"
+    },
+    {
+        "question": "What is the name of the magical candy that makes you sneeze?",
+        "answer": "Pepper Imps",
+        "list of reference": "Book 3, Chapter 10, Paragraph 8"
+    },
+    {
+        "question": "Who is the Slytherin girl who loves jewelry?",
+        "answer": "Daphne Greengrass",
+        "list of reference": "Book 5, Chapter 19, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the spell that makes objects stretch?",
+        "answer": "Engorgio",
+        "list of reference": "Book 4, Chapter 7, Paragraph 5"
+    },
+    {
+        "question": "Who is the Hufflepuff girl who loves friendship?",
+        "answer": "Eleanor Branstone",
+        "list of reference": "Book 4, Chapter 12, Paragraph 3"
+    },
+    {
+        "question": "What is the name of the magical creature that loves to hide?",
+        "answer": "Demiguise",
+        "list of reference": "Book 1, Chapter 14, Paragraph 3"
+    },
+    {
+        "question": "Who is the Gryffindor boy who loves adventure?",
+        "answer": "George Weasley",
+        "list of reference": "Book 1, Chapter 6, Paragraph 7"
+    },
+    {
+        "question": "What is the name of the spell that makes objects sticky?",
+        "answer": "Permanent Sticking Charm",
+        "list of reference": "Book 5, Chapter 6, Paragraph 2"
+    },
+    {
+        "question": "Who is the Ravenclaw girl who loves art?",
+        "answer": "Marietta Edgecombe",
+        "list of reference": "Book 5, Chapter 18, Paragraph 14"
+    },
+    {
+        "question": "What is the name of the magical plant that loves sunlight?",
+        "answer": "Mimbulus Mimbletonia",
+        "list of reference": "Book 5, Chapter 10, Paragraph 5"
+    },
+    {
+        "question": "Who is the Slytherin boy who loves fame?",
+        "answer": "Gilderoy Lockhart (before he was a teacher)",
+        "list of reference": "Book 2, Chapter 6, Paragraph 8"
+    }
+]
