@@ -1,73 +1,87 @@
 [
     {
         "question": "What spell does Harry use to save his cousin Dudley from danger in the fifth book, and how does this connect to an event in the second book?",
-        "answer": "Harry casts a spell to repel a threat, which echoes an earlier moment when he unknowingly used magic to protect himself from a different danger.",
+        "answer": "Harry uses the spell Expecto Patronum to save his cousin Dudley from a Dementor attack. Dobby uses Hover Charm in Harry's house, which leads to Harry receiving a warning from the Ministry of Magic for performing spells outside school as underage wizard.",
         "list of reference": [
-            "Book 5, Chapter 1, Paragraph 3",
-            "Book 2, Chapter 2, Paragraph 5"
+            4176,
+            4178,
+            772
         ],
         "id": 408
     },
     {
         "question": "Who teaches Harry the Patronus Charm in the third book, and how does this person relate to Harry's father?",
-        "answer": "The teacher is someone who knew Harry's father well, having been a close friend during their school years.",
+        "answer": "Professor Remus Lupin teaches Harry the Patronus Charm (Expecto Patronum). Remus Lupin was one of James Potter's best friends at Hogwarts. Along with Sirius Black and Peter Pettigrew, they formed a tight-knit group known as the Marauders.",
         "list of reference": [
-            "Book 3, Chapter 10, Paragraph 2",
-            "Book 1, Chapter 9, Paragraph 4"
+            2006,
+            2284
         ],
         "id": 409
     },
     {
         "question": "What object does Hermione use to attend multiple classes in the third book, and how does it later help Harry save a life?",
-        "answer": "Hermione uses a magical device to manage her schedule, which later plays a key role in reversing time to rescue someone important.",
+        "answer": "Hermione uses a Time-Turner to attend multiple classes at once. Later, she and Harry use it to go back in time and save Sirius Black and Buckbeak.",
         "list of reference": [
-            "Book 3, Chapter 6, Paragraph 1",
-            "Book 3, Chapter 21, Paragraph 8"
+            2385,
+            2388,
+            2433
         ],
         "id": 410
     },
     {
-        "question": "In the first book, what creature guards the Philosopher's Stone, and how does its weakness reappear in the sixth book?",
-        "answer": "A creature with a specific vulnerability protects the stone, and this same vulnerability is exploited years later in a different context.",
+        "question": "In the first book, what creature guards the Philosopher's Stone and what is its weakness?",
+        "answer": "A three-headed dog named Fluffy guards the Stone. Fluffy's weakness is music as it puts him to sleep.",
         "list of reference": [
-            "Book 1, Chapter 15, Paragraph 7",
-            "Book 6, Chapter 20, Paragraph 3"
+            425,
+            426
         ],
         "id": 411
     },
     {
         "question": "What does Ron sacrifice during the chess game in the first book, and how does this reflect his role in the seventh book?",
-        "answer": "Ron gives up something significant to ensure victory, foreshadowing his willingness to risk himself for others in the final battle.",
+        "answer": "Ron sacrifices himself as a crucial chess piece during the life-sized wizard's chess game to ensure victory, foreshadowing his willingness to risk himself for others in the final battle.",
         "list of reference": [
-            "Book 1, Chapter 16, Paragraph 9",
-            "Book 7, Chapter 32, Paragraph 5"
+            659,
+            8988,
+            8989,
+            8990
         ],
         "id": 412
     },
     {
         "question": "In the second book, who does Harry save from the Chamber of Secrets, and how does this person assist him in the seventh book?",
-        "answer": "Harry rescues someone dear to him, and this individual later provides crucial support during the hunt for hidden objects.",
+        "answer": "Harry saves Ginny Weasley from the Chamber of Secrets. Ginny later becomes a key member of Dumbledore's Army and fights alongside Harry in the Battle of Hogwarts.",
         "list of reference": [
-            "Book 2, Chapter 17, Paragraph 10",
-            "Book 7, Chapter 20, Paragraph 2"
+            1432,
+            8956,
+            8958
         ],
         "id": 413
     },
     {
         "question": "What prophecy is revealed to Harry in the fifth book, and how does it tie to an event in the fourth book?",
-        "answer": "A prediction about Harry's fate is unveiled, linking back to a moment when he faced a resurrected enemy.",
+        "answer": "The prophecy, made by Professor Trelawney and revealed to Harry, states: 'Neither can live while the other survives.' This prophecy connects to the events of the Triwizard Tournament in the fourth book, where Voldemort regains his body using Harry's blood.",
         "list of reference": [
-            "Book 5, Chapter 37, Paragraph 4",
-            "Book 4, Chapter 33, Paragraph 6"
+            6153,
+            6154,
+            6155,
+            6156,
+            6157,
+            6158,
+            3918,
+            3919,
+            3920
         ],
         "id": 414
     },
     {
         "question": "What creature does Hagrid introduce in the third book, and how does it play a role in the fifth book?",
-        "answer": "Hagrid brings a misunderstood beast into Harry's life, which later becomes significant during a rebellion against authority.",
+        "answer": "Hagrid introduces Buckbeak, a Hippogriff, during his first Care of Magical Creatures lesson. In fifth book, Buckbeak was injured by Kreacher.",
         "list of reference": [
-            "Book 3, Chapter 6, Paragraph 3",
-            "Book 5, Chapter 21, Paragraph 2"
+            1722,
+            1723,
+            1724,
+            6129
         ],
         "id": 415
     },
