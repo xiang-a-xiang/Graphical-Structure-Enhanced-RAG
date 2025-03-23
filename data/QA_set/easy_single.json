@@ -1071,211 +1071,211 @@
     {
         "question": "What is the name of the spell that makes things quiet?",
         "answer": "Muffliato",
-        "list of reference": "Book 6, Chapter 12, Paragraph 3",
+        "list of reference": [6714],
         "id": 201
     },
     {
         "question": "Who is the Gryffindor prefect in Harry's fifth year?",
-        "answer": "Ron Weasley",
-        "list of reference": "Book 5, Chapter 9, Paragraph 2",
+        "answer": "Ron Weasley and Hermione Granger",
+        "list of reference": [4535],
         "id": 202
     },
     {
-        "question": "What is the name of the spell that lifts objects into the air?",
-        "answer": "Levicorpus",
-        "list of reference": "Book 6, Chapter 12, Paragraph 4",
+        "question": "What is the name of the spell that lifts objects into the air upside and down?",
+        "answer": "Dangling Jinx (Levicorpus)",
+        "list of reference": [6715,7037,8765], 
         "id": 203
     },
     {
         "question": "Who owns the wand shop in Hogsmeade?",
         "answer": "There isn't one; wands are from Ollivanders in Diagon Alley",
-        "list of reference": "Book 1, Chapter 5, Paragraph 2",
+        "list of reference": [177],
         "id": 204
     },
     {
         "question": "What creature does Harry save from Malfoy in his third year?",
         "answer": "Buckbeak",
-        "list of reference": "Book 3, Chapter 6, Paragraph 6",
+        "list of reference": [1724, 1725, 1728],
         "id": 205
     },
     {
         "question": "Who is the announcer for Hogwarts Quidditch matches?",
         "answer": "Lee Jordan",
-        "list of reference": "Book 1, Chapter 11, Paragraph 1",
+        "list of reference": [418],
         "id": 206
     },
     {
         "question": "What is the name of the spell that makes a loud noise?",
         "answer": "Sonorus",
-        "list of reference": "Book 4, Chapter 8, Paragraph 3",
+        "list of reference": [2697,3562, 3861],
         "id": 207
     },
     {
         "question": "Who is the youngest Weasley brother?",
         "answer": "Ron Weasley",
-        "list of reference": "Book 1, Chapter 6, Paragraph 2",
+        "list of reference": [220],
         "id": 208
     },
     {
         "question": "What is the name of the spell that reveals magical properties?",
         "answer": "Specialis Revelio",
-        "list of reference": "Book 6, Chapter 9, Paragraph 7",
+        "list of reference": [6625,7002],
         "id": 209
     },
     {
         "question": "Who is the headmaster before Dumbledore?",
         "answer": "Armando Dippet",
-        "list of reference": "Book 2, Chapter 13, Paragraph 2",
+        "list of reference":[1247],
         "id": 210
     },
     {
         "question": "What is the name of the spell that protects against Dementors?",
         "answer": "Expecto Patronum",
-        "list of reference": "Book 3, Chapter 12, Paragraph 1",
+        "list of reference": [2008,2009],
         "id": 211
     },
     {
         "question": "Who is the Hufflepuff seeker in Harry's fourth year?",
         "answer": "Cedric Diggory",
-        "list of reference": "Book 4, Chapter 17, Paragraph 6",
+        "list of reference": [1878],
         "id": 212
     },
     {
         "question": "What is the name of the spell that creates a mark in the sky?",
         "answer": "Morsmordre",
-        "list of reference": "Book 4, Chapter 9, Paragraph 4",
+        "list of reference": [2756],
         "id": 213
     },
     {
         "question": "Who is the Gryffindor password guard in Harry's first year?",
         "answer": "The Fat Lady",
-        "list of reference": "Book 1, Chapter 7, Paragraph 11",
+        "list of reference": [291],
         "id": 214
     },
     {
         "question": "What is the name of the spell that cuts objects?",
         "answer": "Diffindo",
-        "list of reference": "Book 4, Chapter 18, Paragraph 6",
+        "list of reference": [3221,6049],
         "id": 215
     },
     {
         "question": "Who is the charms master who helps with the Triwizard Tournament?",
         "answer": "Filius Flitwick",
-        "list of reference": "Book 4, Chapter 16, Paragraph 2",
+        "list of reference": [8902],
         "id": 216
     },
     {
         "question": "What is the name of the spell that conjures birds?",
         "answer": "Avis",
-        "list of reference": "Book 6, Chapter 14, Paragraph 3",
+        "list of reference": [3158],
         "id": 217
     },
     {
         "question": "Who is the Ravenclaw prefect in Harry's fifth year?",
         "answer": "Padma Patil",
-        "list of reference": "Book 5, Chapter 9, Paragraph 3",
+        "list of reference": [4580],
         "id": 218
     },
     {
         "question": "What is the name of the spell that makes objects disappear?",
         "answer": "Evanesco",
-        "list of reference": "Book 5, Chapter 13, Paragraph 2",
+        "list of reference": [4342,4343],
         "id": 219
     },
     {
         "question": "Who is the Slytherin prefect in Harry's fifth year?",
         "answer": "Draco Malfoy",
-        "list of reference": "Book 5, Chapter 10, Paragraph 2",
+        "list of reference": [4580],
         "id": 220
     },
     {
         "question": "What is the name of the spell that creates a shield against dark magic?",
         "answer": "Protego Horribilis",
-        "list of reference": "Book 7, Chapter 15, Paragraph 3",
+        "list of reference": [8902],
         "id": 221
     },
     {
         "question": "Who is the first Death Eater Harry meets?",
         "answer": "Lucius Malfoy",
-        "list of reference": "Book 2, Chapter 4, Paragraph 4",
+        "list of reference": [834,3930],
         "id": 222
     },
     {
         "question": "What is the name of the magical candy that makes you hiccup?",
         "answer": "Hiccough Sweets",
-        "list of reference": "Book 6, Chapter 6, Paragraph 3",
+        "list of reference": [2104],
         "id": 223
     },
     {
         "question": "Who is the first person to greet Harry at Platform Nine and Three-Quarters?",
         "answer": "Molly Weasley",
-        "list of reference": "Book 1, Chapter 6, Paragraph 1",
+        "list of reference": [204,205],
         "id": 224
     },
     {
         "question": "What is the name of the magical plant used to cure petrification?",
         "answer": "Mandrake",
-        "list of reference": "Book 2, Chapter 6, Paragraph 3",
+        "list of reference": [917],
         "id": 225
     },
     {
         "question": "Who is the Gryffindor boy who loves photography?",
         "answer": "Colin Creevey",
-        "list of reference": "Book 2, Chapter 7, Paragraph 2",
+        "list of reference": [928],
         "id": 226
     },
     {
         "question": "What is the name of the spell that makes objects stick together?",
         "answer": "Sticking Charm",
-        "list of reference": "Book 5, Chapter 3, Paragraph 4",
+        "list of reference": [4413],
         "id": 227
     },
     {
         "question": "Who is the Hufflepuff girl Harry meets in his fifth year?",
         "answer": "Hannah Abbott",
-        "list of reference": "Book 5, Chapter 10, Paragraph 4",
+        "list of reference": [4909],
         "id": 228
     },
     {
-        "question": "What is the name of the magical creature that loves to guard treasure?",
-        "answer": "Dragon",
-        "list of reference": "Book 4, Chapter 19, Paragraph 5",
+        "question": "What is the name of the magical creature that loves sparkling stuffs?",
+        "answer": "Nifflers",
+        "list of reference": [3664],
         "id": 229
     },
     {
         "question": "Who is the Slytherin girl who joins Dumbledore's Army?",
         "answer": "There isn't one; Slytherins don't join",
-        "list of reference": "Book 5, Chapter 18, Paragraph 8",
+        "list of reference": [],
         "id": 230
     },
     {
         "question": "What is the name of the spell that makes a loud bang?",
-        "answer": "Bombarda",
-        "list of reference": "Book 3, Chapter 15, Paragraph 3",
+        "answer": "Not exist in books",
+        "list of reference": [],
         "id": 231
     },
     {
         "question": "Who is the Ravenclaw girl who wears radish earrings?",
         "answer": "Luna Lovegood",
-        "list of reference": "Book 5, Chapter 10, Paragraph 3",
+        "list of reference": [6872],
         "id": 232
     },
     {
         "question": "What is the name of the magical drink served at the Three Broomsticks?",
         "answer": "Butterbeer",
-        "list of reference": "Book 3, Chapter 10, Paragraph 4",
+        "list of reference": [1917],
         "id": 233
     },
     {
         "question": "Who is the Hogwarts student who gets petrified first after Mrs. Norris?",
         "answer": "Colin Creevey",
-        "list of reference": "Book 2, Chapter 10, Paragraph 5",
+        "list of reference": [1342],
         "id": 234
     },
     {
         "question": "What is the name of the spell that makes flowers appear?",
         "answer": "Orchideous",
-        "list of reference": "Book 4, Chapter 18, Paragraph 4",
+        "list of reference": [3156],
         "id": 235
     },
     {
@@ -1287,43 +1287,43 @@
     {
         "question": "What is the name of the magical creature that lives in trees?",
         "answer": "Bowtruckle",
-        "list of reference": "Book 5, Chapter 13, Paragraph 5",
+        "list of reference": [4735],
         "id": 237
     },
     {
         "question": "Who is the Slytherin boy who is Draco's best friend?",
-        "answer": "Vincent Crabbe",
-        "list of reference": "Book 1, Chapter 7, Paragraph 13",
+        "answer": "Vincent Crabbe and Gregory Goyl",
+        "list of reference": [1644],
         "id": 238
     },
     {
         "question": "What is the name of the spell that makes a shield glow?",
-        "answer": "Protego Maxima",
-        "list of reference": "Book 7, Chapter 15, Paragraph 4",
+        "answer": "Not exist in books",
+        "list of reference": [],
         "id": 239
     },
     {
         "question": "Who is the Hufflepuff boy who dies in the Triwizard Tournament?",
         "answer": "Cedric Diggory",
-        "list of reference": "Book 4, Chapter 32, Paragraph 5",
+        "list of reference": [4103],
         "id": 240
     },
     {
         "question": "What is the name of the magical creature that loves shiny things?",
         "answer": "Niffler",
-        "list of reference": "Book 4, Chapter 28, Paragraph 4",
+        "list of reference": [3664],
         "id": 241
     },
     {
         "question": "Who is the Gryffindor girl who loves Quidditch commentary?",
-        "answer": "Angelina Johnson",
-        "list of reference": "Book 3, Chapter 13, Paragraph 2",
+        "answer": "No Gryffindor girl that loves Quidditch commentary mentioned in the book",
+        "list of reference": [],
         "id": 242
     },
     {
         "question": "What is the name of the spell that makes objects float gently down?",
         "answer": "Descendo",
-        "list of reference": "Book 7, Chapter 26, Paragraph 2",
+        "list of reference": [7782, 8970],
         "id": 243
     },
     {
@@ -1333,21 +1333,21 @@
         "id": 244
     },
     {
-        "question": "What is the name of the magical candy that makes you roar like a lion?",
+        "question": "What is the name of the magical candy that makes you float a few inches off the ground?",
         "answer": "Fizzing Whizbees",
-        "list of reference": "Book 3, Chapter 10, Paragraph 5",
+        "list of reference": [1911],
         "id": 245
     },
     {
         "question": "Who is the Slytherin boy who is Draco's other best friend?",
         "answer": "Gregory Goyle",
-        "list of reference": "Book 1, Chapter 7, Paragraph 14",
+        "list of reference": [1644],
         "id": 246
     },
     {
         "question": "What is the name of the spell that makes a small explosion?",
         "answer": "Confringo",
-        "list of reference": "Book 7, Chapter 17, Paragraph 3",
+        "list of reference": [7695,8292],
         "id": 247
     },
     {
@@ -1359,43 +1359,37 @@
     {
         "question": "What is the name of the magical creature that sings underwater?",
         "answer": "Merpeople",
-        "list of reference": "Book 4, Chapter 26, Paragraph 10",
+        "list of reference": [7566],
         "id": 249
     },
     {
         "question": "Who is the Gryffindor boy who loves sweets?",
-        "answer": "Dean Thomas",
-        "list of reference": "Book 1, Chapter 7, Paragraph 16",
+        "answer": "Ron Weasley",
+        "list of reference": [225],
         "id": 250
     },
     {
         "question": "What is the name of the spell that makes objects slippery?",
-        "answer": "Slippery Charm",
-        "list of reference": "Book 6, Chapter 14, Paragraph 2",
+        "answer": "No such spell",
+        "list of reference": [],
         "id": 251
     },
     {
-        "question": "Who is the Ravenclaw girl who loves divination?",
-        "answer": "Padma Patil",
-        "list of reference": "Book 3, Chapter 6, Paragraph 7",
-        "id": 252
-    },
-    {
         "question": "What is the name of the magical plant that strangles people?",
-        "answer": "Venomous Tentacula",
-        "list of reference": "Book 2, Chapter 6, Paragraph 4",
+        "answer": "Devil's Snare",
+        "list of reference": [643,644],
         "id": 253
     },
     {
         "question": "Who is the Slytherin girl who loves gossip?",
         "answer": "Pansy Parkinson",
-        "list of reference": "Book 3, Chapter 13, Paragraph 3",
+        "list of reference": [3143],
         "id": 254
     },
     {
-        "question": "What is the name of the spell that makes objects heavy?",
+        "question": "What is the name of the spell that causes the front teeth to elongate at an alarming rate?",
         "answer": "Densaugeo",
-        "list of reference": "Book 4, Chapter 18, Paragraph 9",
+        "list of reference": [3132],
         "id": 255
     },
     {
@@ -1406,8 +1400,8 @@
     },
     {
         "question": "What is the name of the magical creature that predicts death?",
-        "answer": "Augurey",
-        "list of reference": "Book 3, Chapter 6, Paragraph 3",
+        "answer": "The Grim",
+        "list of reference":[1706,1707],
         "id": 257
     },
     {
@@ -1419,7 +1413,7 @@
     {
         "question": "What is the name of the spell that makes objects light?",
         "answer": "Feather-Light Charm",
-        "list of reference": "Book 4, Chapter 20, Paragraph 2",
+        "list of reference": [1541],
         "id": 259
     },
     {
@@ -1431,7 +1425,7 @@
     {
         "question": "What is the name of the magical candy that makes you float?",
         "answer": "Fizzing Whizbees",
-        "list of reference": "Book 3, Chapter 10, Paragraph 6",
+        "list of reference": [1911],
         "id": 261
     },
     {
@@ -1441,9 +1435,9 @@
         "id": 262
     },
     {
-        "question": "What is the name of the spell that makes objects hot?",
-        "answer": "Calefax",
-        "list of reference": "Book 7, Chapter 14, Paragraph 6",
+        "question": "What is the name of the spell that makes air hot?",
+        "answer": "Hot Air Charm",
+        "list of reference": [5163, 5183],
         "id": 263
     },
     {
@@ -1453,21 +1447,21 @@
         "id": 264
     },
     {
-        "question": "What is the name of the magical creature that loves water?",
+        "question": "What is the name of the magical creature that live in water?",
         "answer": "Kappa",
-        "list of reference": "Book 3, Chapter 9, Paragraph 2",
+        "list of reference": [1787],
         "id": 265
     },
     {
         "question": "Who is the Gryffindor boy who loves football?",
         "answer": "Dean Thomas",
-        "list of reference": "Book 1, Chapter 9, Paragraph 5",
+        "list of reference": [316],
         "id": 266
     },
     {
         "question": "What is the name of the spell that makes objects cold?",
-        "answer": "Glacius",
-        "list of reference": "Book 3, Chapter 15, Paragraph 4",
+        "answer": "No such spell in book",
+        "list of reference": [],
         "id": 267
     },
     {
@@ -1475,12 +1469,6 @@
         "answer": "Cho Chang",
         "list of reference": "Book 4, Chapter 22, Paragraph 3",
         "id": 268
-    },
-    {
-        "question": "What is the name of the magical plant that glows?",
-        "answer": "Floo Powder (used in fireplaces, not a plant, but glowing)",
-        "list of reference": "Book 2, Chapter 4, Paragraph 2",
-        "id": 269
     },
     {
         "question": "Who is the Slytherin boy who loves dueling?",
@@ -1491,7 +1479,7 @@
     {
         "question": "What is the name of the spell that makes objects invisible?",
         "answer": "Disillusionment Charm",
-        "list of reference": "Book 5, Chapter 3, Paragraph 2",
+        "list of reference": [4277,4278],
         "id": 271
     },
     {
@@ -1501,9 +1489,9 @@
         "id": 272
     },
     {
-        "question": "What is the name of the magical creature that loves fire?",
+        "question": "What is the name of the magical creature that lives in fire?",
         "answer": "Salamander",
-        "list of reference": "Book 2, Chapter 6, Paragraph 7",
+        "list of reference": [1000],
         "id": 273
     },
     {
@@ -1514,8 +1502,8 @@
     },
     {
         "question": "What is the name of the spell that makes objects bounce?",
-        "answer": "Rebound Charm",
-        "list of reference": "Book 6, Chapter 14, Paragraph 6",
+        "answer": "No such spell in book",
+        "list of reference": [],
         "id": 275
     },
     {
@@ -1527,7 +1515,7 @@
     {
         "question": "What is the name of the magical candy that explodes?",
         "answer": "Exploding Bonbons",
-        "list of reference": "Book 3, Chapter 10, Paragraph 7",
+        "list of reference": [1911],
         "id": 277
     },
     {
@@ -1538,8 +1526,8 @@
     },
     {
         "question": "What is the name of the spell that makes objects grow hair?",
-        "answer": "Crinus Muto",
-        "list of reference": "Book 6, Chapter 14, Paragraph 7",
+        "answer": "No such spell in book",
+        "list of reference": [],
         "id": 279
     },
     {
@@ -1551,7 +1539,7 @@
     {
         "question": "What is the name of the magical creature that loves darkness?",
         "answer": "Grindylow",
-        "list of reference": "Book 3, Chapter 8, Paragraph 3",
+        "list of reference": [1813,1814],
         "id": 281
     },
     {
@@ -1563,7 +1551,7 @@
     {
         "question": "What is the name of the spell that makes objects glow?",
         "answer": "Lumos Solem",
-        "list of reference": "Book 2, Chapter 16, Paragraph 3",
+        "list of reference": [1302,1379,1542,1907,2053],
         "id": 283
     },
     {
@@ -1575,7 +1563,7 @@
     {
         "question": "What is the name of the magical plant that bites?",
         "answer": "Fanged Geranium",
-        "list of reference": "Book 5, Chapter 13, Paragraph 6",
+        "list of reference": [5841],
         "id": 285
     },
     {
@@ -1586,8 +1574,8 @@
     },
     {
         "question": "What is the name of the spell that makes objects spin?",
-        "answer": "Gyratus",
-        "list of reference": "Book 7, Chapter 14, Paragraph 7",
+        "answer": "No such spell in book",
+        "list of reference": [],
         "id": 287
     },
     {
@@ -1595,12 +1583,6 @@
         "answer": "Zacharias Smith",
         "list of reference": "Book 5, Chapter 18, Paragraph 13",
         "id": 288
-    },
-    {
-        "question": "What is the name of the magical creature that loves music?",
-        "answer": "Fwooper",
-        "list of reference": "Book 4, Chapter 7, Paragraph 3",
-        "id": 289
     },
     {
         "question": "Who is the Gryffindor girl who loves cats?",
@@ -1611,7 +1593,7 @@
     {
         "question": "What is the name of the spell that makes objects shrink?",
         "answer": "Reducio",
-        "list of reference": "Book 4, Chapter 7, Paragraph 5",
+        "list of reference":[2956, 8407, 8408],
         "id": 291
     },
     {
@@ -1621,9 +1603,9 @@
         "id": 292
     },
     {
-        "question": "What is the name of the magical candy that makes you sneeze?",
+        "question": "What is the name of the magical candy that makes you smoke at mouth?",
         "answer": "Pepper Imps",
-        "list of reference": "Book 3, Chapter 10, Paragraph 8",
+        "list of reference": [1638],
         "id": 293
     },
     {
@@ -1635,19 +1617,13 @@
     {
         "question": "What is the name of the spell that makes objects stretch?",
         "answer": "Engorgio",
-        "list of reference": "Book 4, Chapter 7, Paragraph 5",
+        "list of reference": [2955, 8407],
         "id": 295
-    },
-    {
-        "question": "Who is the Hufflepuff girl who loves friendship?",
-        "answer": "Eleanor Branstone",
-        "list of reference": "Book 4, Chapter 12, Paragraph 3",
-        "id": 296
     },
     {
         "question": "What is the name of the magical creature that loves to hide?",
         "answer": "Demiguise",
-        "list of reference": "Book 1, Chapter 14, Paragraph 3",
+        "list of reference": [8449],
         "id": 297
     },
     {
@@ -1658,8 +1634,8 @@
     },
     {
         "question": "What is the name of the spell that makes objects sticky?",
-        "answer": "Permanent Sticking Charm",
-        "list of reference": "Book 5, Chapter 6, Paragraph 2",
+        "answer": "No such spell in book",
+        "list of reference": [],
         "id": 299
     },
     {
@@ -1667,12 +1643,6 @@
         "answer": "Marietta Edgecombe",
         "list of reference": "Book 5, Chapter 18, Paragraph 14",
         "id": 300
-    },
-    {
-        "question": "What is the name of the magical plant that loves sunlight?",
-        "answer": "Mimbulus Mimbletonia",
-        "list of reference": "Book 5, Chapter 10, Paragraph 5",
-        "id": 301
     },
     {
         "question": "Who is the Slytherin boy who loves fame?",

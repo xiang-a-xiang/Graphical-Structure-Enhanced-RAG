@@ -92,9 +92,9 @@ if __name__ == "__main__":
 
     # 4. Construct a prompt that includes the retrieved passage
     prompt = (
-        "You are an assistant with expert knowledge of the Harry Potter series. "
-        "Based on the following passage, answer the question concisely in one sentence.\n\n"
-        "Passage:\n" + retrieved_passage + "\n\n"
+        "You are an assistant with expert knowledge of the Harry Potter series. Answer the question concisely in one sentence."
+        # "Based on the following passage, answer the question concisely in one sentence.\n\n"
+        # "Passage:\n" + retrieved_passage + "\n\n"
         "Question: " + question + "\n"
         "Answer:"
     )
@@ -105,7 +105,7 @@ if __name__ == "__main__":
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
-            max_length=250,
+            max_length=100,
             pad_token_id=tokenizer.eos_token_id,  # Should match your tokenizer's eos_token_id
             num_beams=5,
             no_repeat_ngram_size=3,

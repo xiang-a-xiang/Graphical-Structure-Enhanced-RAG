@@ -6,4 +6,6 @@ generation/models
 
 generation/pythia-1b-deduped
 
-/generation/pythia-70m-dedupedkey.env
+/generation/pythia-70m-deduped
+
+key.env
