@@ -548,61 +548,61 @@
     {
         "question": "Who is the ghost of Slytherin house?",
         "answer": "Bloody Baron",
-        "list of reference": "Book 1, Chapter 7, Paragraph 5",
+        "list of reference": [282],
         "id": 394
     },
     {
         "question": "What is the name of the charm that creates a shield?",
         "answer": "Protego",
-        "list of reference": "Book 5, Chapter 18, Paragraph 3",
+        "list of reference": [9209],
         "id": 395
     },
     {
         "question": "Who is the librarian at Hogwarts?",
         "answer": "Madam Pince",
-        "list of reference": "Book 2, Chapter 11, Paragraph 2",
+        "list of reference": [438],
         "id": 396
     },
     {
         "question": "What is the name of the spell that repairs broken objects?",
         "answer": "Reparo",
-        "list of reference": "Book 2, Chapter 4, Paragraph 6",
+        "list of reference": [2858],
         "id": 397
     },
     {
         "question": "What is the name of the spell that causes objects to swell in size?",
         "answer": "Engorgio",
-        "list of reference": "Book 4, Chapter 13, Paragraph 3",
+        "list of reference": [2955],
         "id": 398
     },
     {
         "question": "Who is the first student to be Sorted into Slytherin in Harry\u2019s year?",
         "answer": "Draco Malfoy",
-        "list of reference": "Book 1, Chapter 7, Paragraph 10",
+        "list of reference": [268],
         "id": 399
     },
     {
         "question": "What creature does Harry encounter in the pipes of Hogwarts?",
         "answer": "Basilisk",
-        "list of reference": "Book 2, Chapter 16, Paragraph 10",
+        "list of reference": [1340],
         "id": 400
     },
     {
         "question": "What is the name of the charm that amplifies the voice?",
         "answer": "Sonorus",
-        "list of reference": "Book 4, Chapter 18, Paragraph 5",
+        "list of reference": [2697],
         "id": 401
     },
     {
         "question": "Who replaces Sirius Black as Harry\u2019s godfather figure after his death?",
         "answer": "Remus Lupin",
-        "list of reference": "Book 6, Chapter 16, Paragraph 4",
+        "list of reference": [8724],
         "id": 402
     },
     {
         "question": "What is the name of the magical creature that guards the Sorcerer\u2019s Stone?",
         "answer": "Fluffy",
-        "list of reference": "Book 1, Chapter 11, Paragraph 6",
+        "list of reference": [425, 426, 510],
         "id": 403
     },
     {
@@ -614,19 +614,19 @@
     {
         "question": "Who becomes the Gryffindor Quidditch captain after Oliver Wood?",
         "answer": "Angelina Johnson",
-        "list of reference": "Book 5, Chapter 13, Paragraph 3",
+        "list of reference": [4656, 4657],
         "id": 405
     },
     {
         "question": "What is the name of the magical device used to replay memories?",
         "answer": "Pensieve",
-        "list of reference": "Book 4, Chapter 30, Paragraph 6",
+        "list of reference": [3810],
         "id": 406
     },
     {
         "question": "Who is the original owner of the Invisibility Cloak passed to Harry?",
         "answer": "Ignotus Peverell",
-        "list of reference": "Book 7, Chapter 21, Paragraph 5",
+        "list of reference": [8500],
         "id": 407
     }
 ]
