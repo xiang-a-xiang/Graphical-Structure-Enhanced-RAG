@@ -1579,15 +1579,9 @@
         "id": 287
     },
     {
-        "question": "Who is the Hufflepuff boy who loves loyalty?",
-        "answer": "Zacharias Smith",
-        "list of reference": "Book 5, Chapter 18, Paragraph 13",
-        "id": 288
-    },
-    {
         "question": "Who is the Gryffindor girl who loves cats?",
         "answer": "Hermione Granger",
-        "list of reference": "Book 2, Chapter 12, Paragraph 10",
+        "list of reference": [1624],
         "id": 290
     },
     {
@@ -1610,8 +1604,8 @@
     },
     {
         "question": "Who is the Slytherin girl who loves jewelry?",
-        "answer": "Daphne Greengrass",
-        "list of reference": "Book 5, Chapter 19, Paragraph 3",
+        "answer": "Pansy Parkinson",
+        "list of reference": [3170],
         "id": 294
     },
     {
@@ -1627,27 +1621,15 @@
         "id": 297
     },
     {
-        "question": "Who is the Gryffindor boy who loves adventure?",
-        "answer": "George Weasley",
-        "list of reference": "Book 1, Chapter 6, Paragraph 7",
-        "id": 298
-    },
-    {
         "question": "What is the name of the spell that makes objects sticky?",
         "answer": "No such spell in book",
         "list of reference": [],
         "id": 299
     },
     {
-        "question": "Who is the Ravenclaw girl who loves art?",
-        "answer": "Marietta Edgecombe",
-        "list of reference": "Book 5, Chapter 18, Paragraph 14",
-        "id": 300
-    },
-    {
         "question": "Who is the Slytherin boy who loves fame?",
         "answer": "Gilderoy Lockhart (before he was a teacher)",
-        "list of reference": "Book 2, Chapter 6, Paragraph 8",
+        "list of reference": [822, 862],
         "id": 302
     }
 ]
