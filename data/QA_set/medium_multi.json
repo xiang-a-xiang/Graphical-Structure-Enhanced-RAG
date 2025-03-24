@@ -86,110 +86,170 @@
         "id": 415
     },
     {
-        "question": "In the sixth book, what potion does Harry excel at brewing, and how does this skill help him in the seventh book?",
-        "answer": "Harry masters a complex potion with guidance from a book, and this knowledge aids him in a critical moment of survival later on.",
+        "question": "In the sixth book, what potion does Harry excel at brewing?",
+        "answer": "Harry excels at brewing the Draught of Living Death.",
         "list of reference": [
-            "Book 6, Chapter 9, Paragraph 5",
-            "Book 7, Chapter 10, Paragraph 3"
+            6615,
+            6616,
+            6617,
+            6618,
+            6619,
+            6620,
+            6621,
+            6622
         ],
         "id": 416
     },
     {
         "question": "What object does Dumbledore leave to Hermione in his will in the seventh book, and how does it connect to a lesson from the first book?",
-        "answer": "Dumbledore bequeaths a seemingly ordinary item with hidden meaning, tying back to a challenge that tested the trio's intellect years earlier.",
+        "answer": "Dumbledore leaves Hermione a copy of The Tales of Beedle the Bard in his will. The book Dumbledore gives her ultimately helps the trio understand the Deathly Hallows and defeat Voldemort, showing how Hermione's lifelong habit of turning to books for answers becomes a powerful asset - just as it was in their first year.",
         "list of reference": [
-            "Book 7, Chapter 7, Paragraph 2",
-            "Book 1, Chapter 16, Paragraph 4"
+            7845,
+            8441,
+            8442,
+            8443,
+            8444,
+            8445,
+            8446,
+            491,
+            492
         ],
         "id": 417
     },
     {
-        "question": "Who helps Harry escape Privet Drive in the fifth book, and how does this person's past connect to the sixth book?",
-        "answer": "A trusted ally aids Harry's departure, and their history with a secret organization becomes pivotal in a later tragedy.",
+        "question": "Where did Harry go after escaping from Privet Drive in the fifth book, and how does te place connect to the sixth book?",
+        "answer": "After escaping from Privet Drive, Harry is taken to Number 12, Grimmauld Place - the secret headquarters of the Order of the Phoenix. Harry inherits it after Sirius Black's death.",
         "list of reference": [
-            "Book 5, Chapter 3, Paragraph 6",
-            "Book 6, Chapter 27, Paragraph 8"
+            4289,
+            6317,
+            6324
         ],
         "id": 418
     },
     {
         "question": "What does Harry discover about the Mirror of Erised in the first book, and how does this relate to a revelation in the seventh book?",
-        "answer": "Harry learns the mirror shows deep desires, which foreshadows a later discovery about a powerful object tied to his family.",
+        "answer": "Harry discovers that the Mirror of Erised shows a person's deepest desire. When he looks into it, he sees his parents, revealing his longing for family and belonging. Harry uses the Resurrection Stone and sees the shades of his parents, Sirius, and Lupin walking with him as he goes to sacrifice himself.",
         "list of reference": [
-            "Book 1, Chapter 12, Paragraph 3",
-            "Book 7, Chapter 34, Paragraph 5"
+            465,
+            466,
+            467,
+            9134
         ],
         "id": 419
     },
     {
-        "question": "In the fourth book, what task requires Harry to retrieve something from the lake, and how does this skill aid him in the sixth book?",
-        "answer": "Harry must dive into water to recover something precious, a skill that proves useful when exploring a dangerous location later.",
+        "question": "In the fourth book, what task requires Harry to retrieve something from the lake? What does he use to breathe under the water?",
+        "answer": "the Second Task of the Triwizard Tournament requires Harry to retrieve something valuable taken from him from the bottom of the Black Lake - in this case, Ron, representing someone he would 'miss most.' Harry uses Gillyweed to breathe underwater and complete the task.",
         "list of reference": [
-            "Book 4, Chapter 26, Paragraph 7",
-            "Book 6, Chapter 26, Paragraph 4"
+            3562,
+            3570,
+            3571,
+            3572,
+            3573,
+            3560
         ],
         "id": 420
     },
     {
-        "question": "What secret does Harry uncover about Tom Riddle in the second book, and how does it impact his actions in the fifth book?",
-        "answer": "Harry learns about Riddle's early life, which influences his determination to oppose a growing threat years later.",
+        "question": "What secret does Harry uncover about Tom Riddle in the second book, and how does it impact his actions in the sixth book?",
+        "answer": "Harry uncovers that Tom Riddle is Lord Voldemort - his teenage identity - through the enchanted diary. He and Dunbledore use the memories from Professor Slughorn to learn more about Riddle's past and Horcruxes in the sixth book.",
         "list of reference": [
-            "Book 2, Chapter 13, Paragraph 2",
-            "Book 5, Chapter 38, Paragraph 3"
+            1407,
+            7268,
+            7269
         ],
         "id": 421
     },
     {
-        "question": "Who betrays Dumbledore's Army in the fifth book, and how does this connect to a character's fate in the seventh book?",
-        "answer": "A student reveals the group's secrets, and their actions indirectly tie to a dramatic confrontation in the final conflict.",
+        "question": "Who betrays Dumbledore's Army in the fifth book, and who betrays Death Eater in the seventh book?",
+        "answer": "Marietta Edgecombe betrays Dumbledore's Army in the fifth book. Severus Snape betrays the Death Eaters in the seventh book.",
         "list of reference": [
-            "Book 5, Chapter 27, Paragraph 5",
-            "Book 7, Chapter 31, Paragraph 6"
+            5591,
+            5592,
+            5593,
+            9018,
+            9019,
+            9020,
+            9021,
+            9022,
+            9096
         ],
         "id": 422
     },
     {
-        "question": "What magical creature does Harry ride to escape in the seventh book, and how does it relate to an event in the third book?",
-        "answer": "Harry uses a creature capable of flight to flee danger, reminiscent of a similar escape aided by a different winged being years before.",
+        "question": "What magical creature does Harry ride to escape in the seventh book, and does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tourament in the fourth book?",
+        "answer": "Harry escapes Gringotts by riding a gigantic dragon and Ukrainian Ironbelly dragon does not appear in the first task of the Triwizard Tournament.",
         "list of reference": [
-            "Book 7, Chapter 4, Paragraph 8",
-            "Book 3, Chapter 21, Paragraph 9"
+            8787,
+            3247,
+            3248
         ],
         "id": 423
     },
     {
         "question": "In the sixth book, what memory does Harry retrieve from Slughorn, and how does it connect to the second book?",
-        "answer": "Harry obtains a recollection about a dark object, which ties back to an earlier encounter with a similar item hidden in a diary.",
+        "answer": "Harry retrieves a crucial memory from Professor Slughorn that reveals Voldemort asked about Horcruxes while still a student at Hogwarts. In Book 2, Tom Riddle's diary is used to reopen the Chamber of Secrets and possess Ginny Weasley. Dumbledore explains that the diary was Voldemort's first Horcrux.",
         "list of reference": [
-            "Book 6, Chapter 23, Paragraph 4",
-            "Book 2, Chapter 17, Paragraph 3"
+            7268,
+            7269,
+            1443,
+            7273
         ],
         "id": 424
     },
     {
         "question": "What does Harry use to destroy the diary in the second book, and how does this object reappear in the seventh book?",
-        "answer": "Harry employs a sharp tool to defeat a dark artifact, and this same tool resurfaces as a key weapon in the final battle.",
+        "answer": "Harry uses a Basilisk fang to destroy Tom Riddle's diary. Harry and Ron find more Basilisk fangs in the Chamber of Secrets and use them to destroy Hufflepuff's cup.",
         "list of reference": [
-            "Book 2, Chapter 17, Paragraph 11",
-            "Book 7, Chapter 36, Paragraph 7"
+            1430,
+            8951,
+            8952,
+            8953
         ],
         "id": 425
     },
     {
         "question": "Who gives Harry a broomstick in the first book, and how does this person's influence extend to the third book?",
-        "answer": "A mentor figure provides Harry with a flying gift, and their guidance continues to shape his abilities in a later adventure.",
+        "answer": "Professor McGonagall gives Harry his first broomstick - a Nimbus 2000. McGonagall continues to support Harry's development as a Seeker, encouraging him through difficult matches and personally gives him back his Firebolt broom after it is inspected for safety.",
         "list of reference": [
-            "Book 1, Chapter 10, Paragraph 2",
-            "Book 3, Chapter 11, Paragraph 4"
+            363,
+            1993,
+            1994,
+            1995,
+            1996
         ],
         "id": 426
     },
     {
         "question": "What does Harry witness in the Pensieve in the fourth book, and how does it foreshadow an event in the sixth book?",
-        "answer": "Harry sees a memory of a trial, hinting at a betrayal that unfolds dramatically in a later year.",
+        "answer": "Harry uses Dumbledore's Pensieve and witnesses a series of memories from Death Eater trials. In the sixth book, Harry views memories of Tom Riddle's past and learns about Horcruxes from the Pensieve.",
         "list of reference": [
-            "Book 4, Chapter 30, Paragraph 3",
-            "Book 6, Chapter 27, Paragraph 9"
+            3790,
+            3791,
+            3792,
+            3793,
+            3794,
+            3795,
+            3796,
+            3797,
+            3798,
+            3799,
+            3800,
+            3801,
+            3802,
+            3803,
+            3804,
+            3805,
+            3806,
+            3807,
+            3808,
+            6761,
+            6989,
+            6990,
+            6991,
+            7119,
+            7136,
+            7261
         ],
         "id": 427
     },
