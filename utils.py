@@ -7,12 +7,24 @@ from typing import List, Dict, Any, Tuple
 import re
 import nltk
 import cohere
-nltk.download('punkt_tab')
+import os
 from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
+
+def ensure_nltk_data():
+    """Ensure all required NLTK data is downloaded."""
+    required_data = ['punkt', 'punkt_tab']
+    for data in required_data:
+        try:
+            nltk.data.find(f'tokenizers/{data}')
+        except LookupError:
+            nltk.download(data, quiet=True)
+
+# Ensure NLTK data is downloaded
+ensure_nltk_data()
 
 class NLPBase:
     def __init__(self, model_name):
