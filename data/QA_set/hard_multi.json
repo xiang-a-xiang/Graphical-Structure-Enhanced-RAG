@@ -1,884 +1,95 @@
 [
     {
-        "question": "Which creature's behavior in the first book's forbidden corridor, combined with a later professor's fear in the third book, hints at a shared mythological weakness?",
-        "answer": "Fluffy's reaction to music ties to Lupin's fear of silver, both linked to Greek myths of sleep and werewolves.",
+        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
+        "answer": "The Invisibility Cloak, given to Harry at Christmas in the first book, later helps him secretly gather information crucial to discovering the Chamber of Secrets.",
         "list of reference": [
-            "book_1, chapter_11, paragraph_3",
-            "book_3, chapter_7, paragraph_5"
+          447,
+          1298
         ],
-        "id": 609
+        "id":609
     },
     {
-        "question": "What object given as a Christmas gift in the first book later aids in decoding a clue in the second book's Chamber?",
-        "answer": "The flute from Hagrid helps Harry understand the snake language.",
+        "question": "Which professor's casual remark about a potion ingredient in the first book connects to a trap's ingredient mentioned in the fourth book's tournament?",
+        "answer": "Snape's casual mention of bezoars as antidotes in the first book connects directly to their inclusion as a precaution during the Triwizard Tournament's third task in the fourth book.",
         "list of reference": [
-            "book_1, chapter_10, paragraph_8",
-            "book_2, chapter_16, paragraph_10"
+          304,
+          3353
         ],
         "id": 610
-    },
-    {
-        "question": "Which professor's casual remark about a potion in the first book connects to a trap's ingredient in the fourth book's tournament?",
-        "answer": "Snape's mention of Wolfsbane ties to the potion-like gillyweed.",
-        "list of reference": [
-            "book_1, chapter_8, paragraph_4",
-            "book_4, chapter_26, paragraph_5"
-        ],
-        "id": 611
-    },
+    },      
     {
         "question": "What specific detail about a mirror in the first book, when paired with a family revelation in the fifth book, suggests a hidden bloodline connection?",
-        "answer": "The Mirror of Erised's inscription ties to Sirius's lineage in Grimmauld Place.",
+        "answer": "The Mirror of Erised reveals Harry's longing for family, a desire that echoes the hidden, troubled legacy of the Black family unveiled in Book 5. While the mirror doesn't bear an inscription linking to bloodlines, its reflection of secret desires pairs with the family revelations at Grimmauld Place to underscore the importance of heritage and legacy.",
         "list of reference": [
-            "book_1, chapter_12, paragraph_2",
-            "book_5, chapter_6, paragraph_3"
+            469,
+            4353
         ],
-        "id": 612
-    },
-    {
-        "question": "Which chess piece's role in the first book's underground challenge mirrors a character's protective move in the seventh book's battle?",
-        "answer": "The knight mirrors Ron's shielding of Harry.",
-        "list of reference": [
-            "book_1, chapter_16, paragraph_12",
-            "book_7, chapter_31, paragraph_9"
-        ],
-        "id": 613
-    },
-    {
-        "question": "What minor comment about a plant in the first book connects to a creature's vulnerability in the sixth book's cave?",
-        "answer": "Devil's Snare's dislike of light ties to the Inferi's fear of fire.",
-        "list of reference": [
-            "book_1, chapter_16, paragraph_6",
-            "book_6, chapter_26, paragraph_8"
-        ],
-        "id": 614
-    },
-    {
-        "question": "Which spell taught in the first book's class, when paired with a duel in the fifth book, reveals a character's underestimated skill?",
-        "answer": "Wingardium Leviosa by Hermione foreshadows her Department of Mysteries fight.",
-        "list of reference": [
-            "book_1, chapter_10, paragraph_5",
-            "book_5, chapter_35, paragraph_7"
-        ],
-        "id": 615
+        "id": 611
     },
     {
         "question": "What detail about a pet in the second book, combined with a map detail in the third book, uncovers a hidden traitor?",
         "answer": "Scabbers' long life paired with the Marauder's Map reveals Pettigrew.",
         "list of reference": [
-            "book_2, chapter_4, paragraph_6",
-            "book_3, chapter_10, paragraph_9"
+            221,
+            2272
         ],
+        "id": 612
+    },
+    {
+        "question": "Which magical object introduced in the third book, despite mapping every corner of Hogwarts, fails to reveal certain hidden locations as highlighted in the fifth book?",
+        "answer": "The Marauder's Map, while it accurately shows the whereabouts of everyone within Hogwarts, does not display magically concealed areas like the Room of Requirement, underscoring its limitation to fixed or known spaces.",
+        "list of reference": [
+          2096,
+          5026
+        ],
+        "id": 613
+    },
+    {
+        "question": "Later in the series, we learn that one character's patronus is a doe. How does this subtle detail connect back to earlier hints in the books, and what does it reveal about his personal history?",
+        "answer": "Severus Snape's Patronus is a doe—the same as Lily Potter's—which reveals his lifelong, unspoken love for her.",
+        "list of reference": [
+            9218,
+            9098
+        ],
+        "id": 614
+    },
+    {
+        "question": "In Half-Blood Prince, students learn about the complexities of Apparition. What are the three “D's” they must remember when Apparating, and how do these principles symbolize the series' broader themes of control and determination?",
+        "answer": "The three D's that students must remember when learning to Apparate are Destination, Determination, and Deliberation.",
+        "list of reference": [
+            7021,
+            7017
+        ],
+        "id": 615
+    },
+    { 
+        "question": "What is the significance of the lightning bolt scar on Harry Potter's forehead and how does it connect him to Voldemort?", 
+        "answer": "Harry's lightning bolt scar is not only a physical reminder of Voldemort's failed attempt to kill him as an infant, but it also symbolizes the mysterious, unbreakable link between Harry and the Dark Lord—a connection that foreshadows many of the challenges he will face.", 
+        "list of reference": [ 105, 232 ], 
         "id": 616
     },
-    {
-        "question": "Which sound in the second book's pipes, when connected to a professor's lesson in the sixth book, hints at a potion's defensive use?",
-        "answer": "The basilisk's hiss ties to Slughorn's venom lecture.",
-        "list of reference": [
-            "book_2, chapter_11, paragraph_5",
-            "book_6, chapter_9, paragraph_3"
-        ],
+    { 
+        "question": "How does receiving the Hogwarts acceptance letter change Harry's life and reveal his true heritage?", 
+        "answer": "When Harry receives his Hogwarts letter, it marks a dramatic turning point in his life. The letter exposes him to the magical world, revealing his true identity as a wizard and offering an escape from his oppressive life with the Dursleys, while also hinting at the extraordinary destiny that awaits him.", 
+        "list of reference": [ 310, 452 ], 
         "id": 617
-    },
-    {
-        "question": "What object in the second book's shop scene, paired with a memory in the sixth book, suggests a dark artifact's origin?",
-        "answer": "The opal necklace in Borgin and Burkes ties to Voldemort's Horcruxes.",
-        "list of reference": [
-            "book_2, chapter_4, paragraph_3",
-            "book_6, chapter_13, paragraph_5"
-        ],
-        "id": 618
-    },
-    {
-        "question": "Which phrase in a riddle in the second book, when linked to a prophecy in the fifth book, hints at a founder's legacy?",
-        "answer": "'Heir of Slytherin' connects to 'neither can live.'",
-        "list of reference": [
-            "book_2, chapter_15, paragraph_5",
-            "book_5, chapter_37, paragraph_5"
-        ],
+    }, 
+    { 
+        "question": "What role does Hagrid play in transforming Harry's fate, and how is his character introduced in the narrative?", 
+        "answer": "Hagrid acts as a catalyst in Harry's journey into the wizarding world. Introduced in a dramatic rescue, he not only retrieves Harry from the Dursleys but also provides the first glimpse of warmth, care, and belonging—qualities that help guide Harry toward embracing his magical destiny.", 
+        "list of reference": [ 520, 678 ], 
+        "id": 618 
+    }, 
+    { 
+        "question": "How does the portrayal of the Dursley family contrast with the magical world, and what impact does this have on Harry's character?", 
+        "answer": "The Dursleys' mundane, strict, and dismissive way of life stands in stark contrast to the vibrant, unpredictable nature of the magical world. This contrast not only emphasizes Harry's isolation and mistreatment but also deepens his yearning for a place where he truly belongs, setting the stage for his eventual transformation.", 
+        "list of reference": [ 88, 411 ], 
         "id": 619
-    },
-    {
-        "question": "What specific detail about a feather in the second book, combined with a creature's song in the seventh book, reveals a shared magical core?",
-        "answer": "Fawkes's feather in Harry's wand ties to the phoenix song.",
-        "list of reference": [
-            "book_2, chapter_12, paragraph_6",
-            "book_7, chapter_31, paragraph_9"
-        ],
+    }, 
+    { 
+        "question": "In what ways do Professor McGonagall's and Dumbledore's attitudes towards magic differ from those of the Dursleys, and how do these differences influence the narrative?", 
+        "answer": "While the Dursleys are fearful and dismissive of magic, both Professor McGonagall and Dumbledore celebrate it as a source of wonder and potential. Their reverence and openness toward the magical world not only highlight the stark cultural divide but also serve as a guiding light for Harry, encouraging him to explore his true self and destiny.", 
+        "list of reference": [ 321, 509 ], 
         "id": 620
-    },
-    {
-        "question": "Which student's taunt in the second book's Quidditch match, when paired with a duel in the fifth book, predicts a rivalry's escalation?",
-        "answer": "Malfoy's insult about Harry's broom foreshadows their Ministry clash.",
-        "list of reference": [
-            "book_2, chapter_7, paragraph_8",
-            "book_5, chapter_35, paragraph_4"
-        ],
-        "id": 621
-    },
-    {
-        "question": "What overlooked detail about a bathroom sink in the second book, combined with a spell in the sixth book, hints at a hidden entrance?",
-        "answer": "The snake carving ties to the Parseltongue command.",
-        "list of reference": [
-            "book_2, chapter_16, paragraph_3",
-            "book_6, chapter_20, paragraph_7"
-        ],
-        "id": 622
-    },
-    {
-        "question": "What specific detail about a map in the third book, when paired with a room's absence in the fifth book, reveals its magical limitation?",
-        "answer": "The Marauder's Map missing the Room of Requirement.",
-        "list of reference": [
-            "book_3, chapter_10, paragraph_9",
-            "book_5, chapter_18, paragraph_3"
-        ],
-        "id": 623
-    },
-    {
-        "question": "Which animal's cry in the third book's escape, when connected to a Patronus in the seventh book, hints at a familial bond?",
-        "answer": "The owl's hoot ties to Lily's doe Patronus.",
-        "list of reference": [
-            "book_3, chapter_19, paragraph_11",
-            "book_7, chapter_19, paragraph_3"
-        ],
-        "id": 624
-    },
-    {
-        "question": "What minor detail about a broom in the third book, paired with a gift's origin in the fifth book, suggests a benefactor's intent?",
-        "answer": "The Firebolt's craftsmanship ties to Sirius's affection.",
-        "list of reference": [
-            "book_3, chapter_11, paragraph_3",
-            "book_5, chapter_23, paragraph_5"
-        ],
-        "id": 625
-    },
-    {
-        "question": "Which spell cast in the third book's defense class, when linked to a battle in the sixth book, reveals a teacher's hidden prowess?",
-        "answer": "Lupin's Expelliarmus foreshadows his tower fight.",
-        "list of reference": [
-            "book_3, chapter_7, paragraph_5",
-            "book_6, chapter_27, paragraph_4"
-        ],
-        "id": 626
-    },
-    {
-        "question": "What specific detail about a shack in the third book, paired with a memory in the sixth book, hints at a dark past?",
-        "answer": "The Shrieking Shack's dust ties to Snape's memory.",
-        "list of reference": [
-            "book_3, chapter_17, paragraph_4",
-            "book_6, chapter_20, paragraph_6"
-        ],
-        "id": 627
-    },
-    {
-        "question": "Which creature's behavior in the third book's forest, when connected to a prediction in the fifth book, suggests a coming conflict?",
-        "answer": "The centaurs' unease ties to Firenze's warning.",
-        "list of reference": [
-            "book_3, chapter_15, paragraph_9",
-            "book_5, chapter_27, paragraph_5"
-        ],
-        "id": 628
-    },
-    {
-        "question": "What overlooked detail about a clock in the third book, paired with a paradox in the seventh book, reveals a time anomaly?",
-        "answer": "The Time-Turner's hourglass ties to Harry's loop.",
-        "list of reference": [
-            "book_3, chapter_21, paragraph_6",
-            "book_7, chapter_19, paragraph_4"
-        ],
-        "id": 629
-    },
-    {
-        "question": "What specific detail about a dragon in the fourth book's task, when paired with a creature's weakness in the sixth book, hints at a shared vulnerability?",
-        "answer": "The Hungarian Horntail's eye sensitivity ties to Inferi fire fear.",
-        "list of reference": [
-            "book_4, chapter_20, paragraph_7",
-            "book_6, chapter_26, paragraph_8"
-        ],
-        "id": 630
-    },
-    {
-        "question": "Which object in the fourth book's World Cup, combined with a ritual in the seventh book, suggests a dark connection?",
-        "answer": "The green tent ties to the Death Eaters' robes.",
-        "list of reference": [
-            "book_4, chapter_8, paragraph_9",
-            "book_7, chapter_1, paragraph_5"
-        ],
-        "id": 631
-    },
-    {
-        "question": "What minor comment about water in the fourth book, paired with a charm in the fifth book, predicts a champion's strategy?",
-        "answer": "Krum's dislike of swimming ties to his Bubble-Head Charm.",
-        "list of reference": [
-            "book_4, chapter_23, paragraph_5",
-            "book_5, chapter_18, paragraph_6"
-        ],
-        "id": 632
-    },
-    {
-        "question": "Which spell mispronounced in the fourth book's class, when connected to a duel in the sixth book, reveals a student's growth?",
-        "answer": "Neville's 'Leviosar' ties to his Sectumsempra defense.",
-        "list of reference": [
-            "book_4, chapter_15, paragraph_3",
-            "book_6, chapter_24, paragraph_8"
-        ],
-        "id": 633
-    },
-    {
-        "question": "What specific detail about a gravestone in the fourth book, paired with a memory in the sixth book, hints at a family's downfall?",
-        "answer": "The Riddle name ties to Gaunt's lineage.",
-        "list of reference": [
-            "book_4, chapter_32, paragraph_6",
-            "book_6, chapter_10, paragraph_7"
-        ],
-        "id": 634
-    },
-    {
-        "question": "Which creature's song in the fourth book's task, when linked to a rescue in the seventh book, suggests a recurring savior?",
-        "answer": "The merpeople's tune ties to Dobby's aid.",
-        "list of reference": [
-            "book_4, chapter_26, paragraph_4",
-            "book_7, chapter_23, paragraph_4"
-        ],
-        "id": 635
-    },
-    {
-        "question": "What overlooked detail about a wand in the fourth book's duel, paired with a revelation in the seventh book, uncovers a shared core?",
-        "answer": "The golden thread ties to the twin cores.",
-        "list of reference": [
-            "book_4, chapter_34, paragraph_6",
-            "book_7, chapter_5, paragraph_3"
-        ],
-        "id": 636
-    },
-    {
-        "question": "What specific detail about a dream in the fifth book, when paired with a memory in the sixth book, hints at a snake's role?",
-        "answer": "The slithering shadow ties to Nagini's attack.",
-        "list of reference": [
-            "book_5, chapter_21, paragraph_5",
-            "book_6, chapter_20, paragraph_7"
-        ],
-        "id": 637
-    },
-    {
-        "question": "Which object in the fifth book's headquarters, combined with a portrait in the seventh book, reveals a family's loyalty?",
-        "answer": "The Black tapestry ties to Phineas's help.",
-        "list of reference": [
-            "book_5, chapter_6, paragraph_3",
-            "book_7, chapter_12, paragraph_5"
-        ],
-        "id": 638
-    },
-    {
-        "question": "What minor comment about a spell in the fifth book's DA meeting, paired with a battle in the seventh book, shows a student's bravery?",
-        "answer": "Luna's Stupefy ties to her Hogwarts fight.",
-        "list of reference": [
-            "book_5, chapter_18, paragraph_9",
-            "book_7, chapter_31, paragraph_7"
-        ],
-        "id": 639
-    },
-    {
-        "question": "Which sound in the fifth book's Ministry, when connected to a creature in the sixth book, hints at a trap's design?",
-        "answer": "The ticking clock ties to the Inferi's timing.",
-        "list of reference": [
-            "book_5, chapter_34, paragraph_6",
-            "book_6, chapter_26, paragraph_5"
-        ],
-        "id": 640
-    },
-    {
-        "question": "What specific detail about a quill in the fifth book, paired with a curse in the sixth book, suggests a teacher's cruelty?",
-        "answer": "The blood quill ties to Umbridge's hexes.",
-        "list of reference": [
-            "book_5, chapter_13, paragraph_8",
-            "book_6, chapter_16, paragraph_4"
-        ],
-        "id": 641
-    },
-    {
-        "question": "Which creature's behavior in the fifth book's forest, when linked to a battle in the seventh book, predicts a faction's allegiance?",
-        "answer": "The centaurs' hesitation ties to their later aid.",
-        "list of reference": [
-            "book_5, chapter_30, paragraph_8",
-            "book_7, chapter_31, paragraph_9"
-        ],
-        "id": 642
-    },
-    {
-        "question": "What overlooked detail about a textbook in the fifth book, combined with a potion in the sixth book, reveals a student's talent?",
-        "answer": "Hermione's annotations tie to her Felix Felicis brew.",
-        "list of reference": [
-            "book_5, chapter_12, paragraph_4",
-            "book_6, chapter_9, paragraph_5"
-        ],
-        "id": 643
-    },
-    {
-        "question": "What specific detail about a potion in the sixth book, when paired with a memory in the seventh book, hints at a Horcrux's protection?",
-        "answer": "The emerald liquid ties to the locket's cave potion.",
-        "list of reference": [
-            "book_6, chapter_9, paragraph_5",
-            "book_7, chapter_10, paragraph_6"
-        ],
-        "id": 644
-    },
-    {
-        "question": "Which object in the sixth book's shop, combined with a theft in the seventh book, suggests a dark artifact's journey?",
-        "answer": "The Vanishing Cabinet ties to Draco's plan.",
-        "list of reference": [
-            "book_6, chapter_6, paragraph_4",
-            "book_7, chapter_27, paragraph_5"
-        ],
-        "id": 645
-    },
-    {
-        "question": "What minor comment about a spell in the sixth book, paired with a duel in the seventh book, reveals a teacher's hidden intent?",
-        "answer": "Snape's Levicorpus ties to his defensive moves.",
-        "list of reference": [
-            "book_6, chapter_12, paragraph_4",
-            "book_7, chapter_32, paragraph_7"
-        ],
-        "id": 646
-    },
-    {
-        "question": "Which sound in the sixth book's tower, when connected to a Patronus in the seventh book, hints at a protector's arrival?",
-        "answer": "The phoenix song ties to Dumbledore's influence.",
-        "list of reference": [
-            "book_6, chapter_27, paragraph_3",
-            "book_7, chapter_19, paragraph_3"
-        ],
-        "id": 647
-    },
-    {
-        "question": "What specific detail about a ring in the sixth book, paired with a tale in the seventh book, uncovers a Hallow's origin?",
-        "answer": "The black stone ties to the Resurrection Stone.",
-        "list of reference": [
-            "book_6, chapter_13, paragraph_5",
-            "book_7, chapter_21, paragraph_6"
-        ],
-        "id": 648
-    },
-    {
-        "question": "Which creature's behavior in the sixth book's cave, when linked to a battle in the seventh book, suggests a recurring defense?",
-        "answer": "The Inferi's fire fear ties to the Fiendfyre escape.",
-        "list of reference": [
-            "book_6, chapter_26, paragraph_8",
-            "book_7, chapter_31, paragraph_5"
-        ],
-        "id": 649
-    },
-    {
-        "question": "What overlooked detail about a necklace in the sixth book, combined with a curse in the seventh book, reveals a Horcrux's danger?",
-        "answer": "The opal's glow ties to the locket's influence.",
-        "list of reference": [
-            "book_6, chapter_12, paragraph_6",
-            "book_7, chapter_14, paragraph_4"
-        ],
-        "id": 650
-    },
-    {
-        "question": "What specific detail about a forest shadow in the seventh book, when paired with a spell in the third book, hints at a protector's identity?",
-        "answer": "The doe Patronus ties to Snape's Expecto Patronum.",
-        "list of reference": [
-            "book_7, chapter_19, paragraph_3",
-            "book_3, chapter_20, paragraph_5"
-        ],
-        "id": 651
-    },
-    {
-        "question": "Which object in the seventh book's vault, combined with a trap in the fourth book, suggests a shared magical defense?",
-        "answer": "The multiplying gold ties to the maze's obstacles.",
-        "list of reference": [
-            "book_7, chapter_26, paragraph_5",
-            "book_4, chapter_31, paragraph_4"
-        ],
-        "id": 652
-    },
-    {
-        "question": "What minor comment about a wand in the seventh book, paired with a duel in the fifth book, reveals a core's power?",
-        "answer": "The Elder Wand's resistance ties to Harry's Priori Incantatem.",
-        "list of reference": [
-            "book_7, chapter_5, paragraph_3",
-            "book_5, chapter_35, paragraph_6"
-        ],
-        "id": 653
-    },
-    {
-        "question": "Which sound in the seventh book's manor, when connected to a charm in the fourth book, predicts an elf's rescue?",
-        "answer": "The creaking floor ties to Dobby's Apparition.",
-        "list of reference": [
-            "book_7, chapter_23, paragraph_4",
-            "book_4, chapter_28, paragraph_5"
-        ],
-        "id": 654
-    },
-    {
-        "question": "What specific detail about a tale in the seventh book, paired with a memory in the sixth book, uncovers a Hallow's purpose?",
-        "answer": "The Deathly Hallows tale ties to the ring memory.",
-        "list of reference": [
-            "book_7, chapter_21, paragraph_6",
-            "book_6, chapter_13, paragraph_5"
-        ],
-        "id": 655
-    },
-    {
-        "question": "Which creature's cry in the seventh book's battle, when linked to a song in the fourth book, suggests a recurring savior?",
-        "answer": "The phoenix song ties to Fawkes's aid.",
-        "list of reference": [
-            "book_7, chapter_31, paragraph_9",
-            "book_4, chapter_34, paragraph_6"
-        ],
-        "id": 656
-    },
-    {
-        "question": "What overlooked detail about a cloak in the seventh book, combined with a gift in the first book, reveals its true nature?",
-        "answer": "The Invisibility Cloak's silver thread ties to Dumbledore's gift.",
-        "list of reference": [
-            "book_7, chapter_21, paragraph_3",
-            "book_1, chapter_12, paragraph_8"
-        ],
-        "id": 657
-    },
-    {
-        "question": "What detail about a trap in the first book's underground chamber, when paired with a spell in the fifth book, suggests a shared defensive strategy?",
-        "answer": "The Devil's Snare's light weakness ties to Hermione's Lumos in the Ministry.",
-        "list of reference": [
-            "book_1, chapter_16, paragraph_6",
-            "book_5, chapter_35, paragraph_7"
-        ],
-        "id": 658
-    },
-    {
-        "question": "Which professor's remark about a creature in the first book, combined with a forest encounter in the third book, hints at a hidden protector?",
-        "answer": "Hagrid's Fluffy comment ties to Firenze's rescue.",
-        "list of reference": [
-            "book_1, chapter_11, paragraph_3",
-            "book_3, chapter_15, paragraph_9"
-        ],
-        "id": 659
-    },
-    {
-        "question": "What object in the first book's Christmas scene, when linked to a creature's behavior in the sixth book, reveals a recurring savior?",
-        "answer": "The flute from Hagrid ties to Fawkes's healing tears.",
-        "list of reference": [
-            "book_1, chapter_10, paragraph_8",
-            "book_6, chapter_27, paragraph_3"
-        ],
-        "id": 660
-    },
-    {
-        "question": "Which detail about a mirror's frame in the first book, paired with a family artifact in the seventh book, suggests a legacy's origin?",
-        "answer": "The Mirror of Erised's gold trim ties to the Invisibility Cloak.",
-        "list of reference": [
-            "book_1, chapter_12, paragraph_2",
-            "book_7, chapter_21, paragraph_3"
-        ],
-        "id": 661
-    },
-    {
-        "question": "What specific phrase in a potions lesson in the first book, when connected to a Horcrux clue in the sixth book, hints at a soul's division?",
-        "answer": "'Essence divided' ties to Slughorn's memory.",
-        "list of reference": [
-            "book_1, chapter_8, paragraph_4",
-            "book_6, chapter_23, paragraph_7"
-        ],
-        "id": 662
-    },
-    {
-        "question": "Which creature's shadow in the first book's corridor, paired with a spell in the fourth book, predicts a champion's tactic?",
-        "answer": "Fluffy's shadow ties to Harry's Summoning Charm.",
-        "list of reference": [
-            "book_1, chapter_11, paragraph_5",
-            "book_4, chapter_20, paragraph_7"
-        ],
-        "id": 663
-    },
-    {
-        "question": "What minor detail about a feast in the first book, when linked to a betrayal in the third book, suggests a hidden identity?",
-        "answer": "The rat at the table ties to Pettigrew's presence.",
-        "list of reference": [
-            "book_1, chapter_7, paragraph_5",
-            "book_3, chapter_19, paragraph_11"
-        ],
-        "id": 664
-    },
-    {
-        "question": "What detail about a diary in the second book, when paired with a memory in the sixth book, reveals a dark object's creation?",
-        "answer": "The ink's permanence ties to Riddle's Horcrux process.",
-        "list of reference": [
-            "book_2, chapter_13, paragraph_6",
-            "book_6, chapter_23, paragraph_5"
-        ],
-        "id": 665
-    },
-    {
-        "question": "Which sound in the second book's bathroom, combined with a spell in the seventh book, hints at a linguistic key?",
-        "answer": "The basilisk's hiss ties to Harry's Parseltongue.",
-        "list of reference": [
-            "book_2, chapter_12, paragraph_8",
-            "book_7, chapter_19, paragraph_3"
-        ],
-        "id": 666
-    },
-    {
-        "question": "What object in the second book's shop, when linked to a curse in the fifth book, suggests a recurring danger?",
-        "answer": "The Hand of Glory ties to the Peruvian Darkness Powder.",
-        "list of reference": [
-            "book_2, chapter_4, paragraph_3",
-            "book_5, chapter_31, paragraph_6"
-        ],
-        "id": 667
-    },
-    {
-        "question": "Which phrase in the second book's riddle, paired with a prophecy in the fourth book, predicts a nemesis's return?",
-        "answer": "'Heir will rise' ties to 'servant will join.'",
-        "list of reference": [
-            "book_2, chapter_15, paragraph_5",
-            "book_4, chapter_33, paragraph_7"
-        ],
-        "id": 668
-    },
-    {
-        "question": "What detail about a plant in the second book, when connected to a trap in the sixth book, reveals a shared vulnerability?",
-        "answer": "The Whomping Willow's movement ties to the Inferi's fire fear.",
-        "list of reference": [
-            "book_2, chapter_5, paragraph_7",
-            "book_6, chapter_26, paragraph_8"
-        ],
-        "id": 669
-    },
-    {
-        "question": "Which student's remark in the second book's duel, combined with a battle in the seventh book, hints at a rivalry's end?",
-        "answer": "Malfoy's wand taunt ties to his disarming.",
-        "list of reference": [
-            "book_2, chapter_10, paragraph_7",
-            "book_7, chapter_36, paragraph_5"
-        ],
-        "id": 670
-    },
-    {
-        "question": "What minor detail about a feather in the second book, when paired with a wand in the fourth book, uncovers a magical bond?",
-        "answer": "Fawkes's feather ties to Voldemort's wand core.",
-        "list of reference": [
-            "book_2, chapter_12, paragraph_6",
-            "book_4, chapter_34, paragraph_6"
-        ],
-        "id": 671
-    },
-    {
-        "question": "What detail about a map in the third book, when linked to a room in the sixth book, suggests a hidden flaw?",
-        "answer": "The Marauder's Map's blind spot ties to the Room of Requirement.",
-        "list of reference": [
-            "book_3, chapter_10, paragraph_9",
-            "book_6, chapter_20, paragraph_4"
-        ],
-        "id": 672
-    },
-    {
-        "question": "Which creature's cry in the third book's forest, paired with a Patronus in the fifth book, hints at a protector's identity?",
-        "answer": "The owl's hoot ties to Harry's stag.",
-        "list of reference": [
-            "book_3, chapter_15, paragraph_9",
-            "book_5, chapter_35, paragraph_5"
-        ],
-        "id": 673
-    },
-    {
-        "question": "What object in the third book's gift, when combined with a revelation in the seventh book, reveals a benefactor's motive?",
-        "answer": "The Firebolt's speed ties to Sirius's escape plan.",
-        "list of reference": [
-            "book_3, chapter_11, paragraph_3",
-            "book_7, chapter_4, paragraph_5"
-        ],
-        "id": 674
-    },
-    {
-        "question": "Which spell in the third book's class, paired with a duel in the sixth book, predicts a teacher's skill?",
-        "answer": "Lupin's Riddikulus ties to his tower defense.",
-        "list of reference": [
-            "book_3, chapter_7, paragraph_5",
-            "book_6, chapter_27, paragraph_4"
-        ],
-        "id": 675
-    },
-    {
-        "question": "What detail about a shack in the third book, when linked to a memory in the fifth book, hints at a past betrayal?",
-        "answer": "The Shrieking Shack's echoes tie to Sirius's tale.",
-        "list of reference": [
-            "book_3, chapter_17, paragraph_4",
-            "book_5, chapter_22, paragraph_6"
-        ],
-        "id": 676
-    },
-    {
-        "question": "Which phrase in the third book's escape, combined with a prophecy in the seventh book, suggests a traitor's fate?",
-        "answer": "'The servant flees' ties to 'neither can live.'",
-        "list of reference": [
-            "book_3, chapter_19, paragraph_11",
-            "book_7, chapter_36, paragraph_7"
-        ],
-        "id": 677
-    },
-    {
-        "question": "What minor detail about a clock in the third book, when paired with a spell in the fourth book, reveals a time manipulation?",
-        "answer": "The Time-Turner's chime ties to Hermione's Accio.",
-        "list of reference": [
-            "book_3, chapter_21, paragraph_6",
-            "book_4, chapter_20, paragraph_5"
-        ],
-        "id": 678
-    },
-    {
-        "question": "What detail about a tent in the fourth book's World Cup, when linked to a ritual in the sixth book, hints at a dark allegiance?",
-        "answer": "The silver trim ties to the Death Eaters' masks.",
-        "list of reference": [
-            "book_4, chapter_8, paragraph_9",
-            "book_6, chapter_1, paragraph_4"
-        ],
-        "id": 679
-    },
-    {
-        "question": "Which creature's behavior in the fourth book's task, paired with a spell in the seventh book, suggests a shared defense?",
-        "answer": "The dragon's fire ties to Hermione's Protego.",
-        "list of reference": [
-            "book_4, chapter_20, paragraph_7",
-            "book_7, chapter_9, paragraph_5"
-        ],
-        "id": 680
-    },
-    {
-        "question": "What object in the fourth book's lake, when combined with a rescue in the fifth book, predicts a friend's loyalty?",
-        "answer": "The gillyweed ties to Ron's Ministry effort.",
-        "list of reference": [
-            "book_4, chapter_26, paragraph_5",
-            "book_5, chapter_35, paragraph_7"
-        ],
-        "id": 681
-    },
-    {
-        "question": "Which phrase in the fourth book's vision, paired with a memory in the sixth book, reveals a family's curse?",
-        "answer": "'Bone of the father' ties to the Gaunt ring.",
-        "list of reference": [
-            "book_4, chapter_33, paragraph_7",
-            "book_6, chapter_10, paragraph_6"
-        ],
-        "id": 682
-    },
-    {
-        "question": "What detail about a maze plant in the fourth book, when linked to a trap in the seventh book, hints at a magical obstacle?",
-        "answer": "The trembling vine ties to the multiplying gold.",
-        "list of reference": [
-            "book_4, chapter_31, paragraph_4",
-            "book_7, chapter_26, paragraph_5"
-        ],
-        "id": 683
-    },
-    {
-        "question": "Which spell in the fourth book's duel, combined with a revelation in the seventh book, uncovers a wand's loyalty?",
-        "answer": "Priori Incantatem ties to the Elder Wand's shift.",
-        "list of reference": [
-            "book_4, chapter_34, paragraph_6",
-            "book_7, chapter_36, paragraph_5"
-        ],
-        "id": 684
-    },
-    {
-        "question": "What minor detail about a badge in the fourth book, when paired with a betrayal in the sixth book, suggests a hidden agenda?",
-        "answer": "The Potter Stinks badge ties to Draco's plot.",
-        "list of reference": [
-            "book_4, chapter_18, paragraph_3",
-            "book_6, chapter_27, paragraph_4"
-        ],
-        "id": 685
-    },
-    {
-        "question": "What detail about a dream in the fifth book, when linked to a creature in the seventh book, hints at a mental connection?",
-        "answer": "The snake's slither ties to Nagini's attack.",
-        "list of reference": [
-            "book_5, chapter_21, paragraph_5",
-            "book_7, chapter_10, paragraph_4"
-        ],
-        "id": 686
-    },
-    {
-        "question": "Which object in the fifth book's headquarters, paired with a spell in the sixth book, reveals a family's magic?",
-        "answer": "The Black tapestry ties to Sirius's Stupefy.",
-        "list of reference": [
-            "book_5, chapter_6, paragraph_3",
-            "book_6, chapter_27, paragraph_5"
-        ],
-        "id": 687
-    },
-    {
-        "question": "What phrase in the fifth book's prophecy, when combined with a memory in the sixth book, predicts a chosen one's burden?",
-        "answer": "'The one with power' ties to Dumbledore's Horcrux talk.",
-        "list of reference": [
-            "book_5, chapter_37, paragraph_5",
-            "book_6, chapter_23, paragraph_7"
-        ],
-        "id": 688
-    },
-    {
-        "question": "Which creature's behavior in the fifth book's forest, paired with a battle in the seventh book, suggests a late alliance?",
-        "answer": "The centaurs' retreat ties to their Hogwarts charge.",
-        "list of reference": [
-            "book_5, chapter_30, paragraph_8",
-            "book_7, chapter_31, paragraph_9"
-        ],
-        "id": 689
-    },
-    {
-        "question": "What detail about a quill in the fifth book, when linked to a curse in the seventh book, hints at a teacher's malice?",
-        "answer": "The blood quill ties to Umbridge's Imperius attempt.",
-        "list of reference": [
-            "book_5, chapter_13, paragraph_8",
-            "book_7, chapter_13, paragraph_6"
-        ],
-        "id": 690
-    },
-    {
-        "question": "Which spell in the fifth book's DA meeting, combined with a duel in the sixth book, reveals a student's growth?",
-        "answer": "Neville's Expelliarmus ties to his tower fight.",
-        "list of reference": [
-            "book_5, chapter_18, paragraph_9",
-            "book_6, chapter_27, paragraph_4"
-        ],
-        "id": 691
-    },
-    {
-        "question": "What minor detail about a portrait in the fifth book, when paired with a message in the seventh book, suggests a hidden ally?",
-        "answer": "Phineas's smirk ties to his Snape report.",
-        "list of reference": [
-            "book_5, chapter_22, paragraph_7",
-            "book_7, chapter_12, paragraph_5"
-        ],
-        "id": 692
-    },
-    {
-        "question": "What detail about a potion in the sixth book, when linked to a trap in the seventh book, hints at a Horcrux's defense?",
-        "answer": "The Felix Felicis glow ties to the cave potion's haze.",
-        "list of reference": [
-            "book_6, chapter_9, paragraph_5",
-            "book_7, chapter_10, paragraph_6"
-        ],
-        "id": 693
-    },
-    {
-        "question": "Which object in the sixth book's memory, paired with a tale in the seventh book, reveals a Hallow's origin?",
-        "answer": "The Gaunt ring ties to the Resurrection Stone.",
-        "list of reference": [
-            "book_6, chapter_10, paragraph_6",
-            "book_7, chapter_21, paragraph_6"
-        ],
-        "id": 694
-    },
-    {
-        "question": "What phrase in the sixth book's lesson, when combined with a duel in the seventh book, suggests a spell's true purpose?",
-        "answer": "'For enemies' ties to Snape's Sectumsempra defense.",
-        "list of reference": [
-            "book_6, chapter_12, paragraph_4",
-            "book_7, chapter_32, paragraph_7"
-        ],
-        "id": 695
-    },
-    {
-        "question": "Which creature's behavior in the sixth book's cave, paired with a spell in the fifth book, predicts a recurring weakness?",
-        "answer": "The Inferi's fire fear ties to Dumbledore's Incendio.",
-        "list of reference": [
-            "book_6, chapter_26, paragraph_8",
-            "book_5, chapter_35, paragraph_6"
-        ],
-        "id": 696
-    },
-    {
-        "question": "What detail about a necklace in the sixth book, when linked to a curse in the seventh book, hints at a Horcrux's influence?",
-        "answer": "The opal's shimmer ties to the locket's possession.",
-        "list of reference": [
-            "book_6, chapter_12, paragraph_6",
-            "book_7, chapter_14, paragraph_4"
-        ],
-        "id": 697
-    },
-    {
-        "question": "Which sound in the sixth book's tower, paired with a Patronus in the seventh book, suggests a mentor's legacy?",
-        "answer": "The phoenix cry ties to Dumbledore's doe signal.",
-        "list of reference": [
-            "book_6, chapter_27, paragraph_3",
-            "book_7, chapter_19, paragraph_3"
-        ],
-        "id": 698
-    },
-    {
-        "question": "What minor detail about a textbook in the sixth book, when combined with a battle in the seventh book, reveals a student's ingenuity?",
-        "answer": "The Half-Blood Prince's notes tie to Hermione's Fiendfyre.",
-        "list of reference": [
-            "book_6, chapter_9, paragraph_4",
-            "book_7, chapter_31, paragraph_5"
-        ],
-        "id": 699
-    },
-    {
-        "question": "What detail about a forest shadow in the seventh book, when linked to a spell in the third book, uncovers a protector's identity?",
-        "answer": "The doe Patronus ties to Snape's Expecto Patronum.",
-        "list of reference": [
-            "book_7, chapter_19, paragraph_3",
-            "book_3, chapter_20, paragraph_5"
-        ],
-        "id": 700
-    },
-    {
-        "question": "Which object in the seventh book's tent, paired with a gift in the first book, suggests a friend's return?",
-        "answer": "The broken wand ties to Ron's flute legacy.",
-        "list of reference": [
-            "book_7, chapter_15, paragraph_4",
-            "book_1, chapter_10, paragraph_8"
-        ],
-        "id": 701
-    },
-    {
-        "question": "What phrase in the seventh book's tale, when combined with a memory in the sixth book, reveals a Hallow's power?",
-        "answer": "'Master of Death' ties to the ring's curse.",
-        "list of reference": [
-            "book_7, chapter_21, paragraph_6",
-            "book_6, chapter_13, paragraph_5"
-        ],
-        "id": 702
-    },
-    {
-        "question": "Which creature's cry in the seventh book's battle, paired with a song in the fourth book, hints at a recurring rescue?",
-        "answer": "The phoenix song ties to Fawkes's aid.",
-        "list of reference": [
-            "book_7, chapter_31, paragraph_9",
-            "book_4, chapter_34, paragraph_6"
-        ],
-        "id": 703
-    },
-    {
-        "question": "What detail about a vault trap in the seventh book, when linked to a spell in the fifth book, suggests a shared magic?",
-        "answer": "The multiplying gold ties to Hermione's Gemino.",
-        "list of reference": [
-            "book_7, chapter_26, paragraph_5",
-            "book_5, chapter_35, paragraph_7"
-        ],
-        "id": 704
-    },
-    {
-        "question": "Which sound in the seventh book's manor, paired with a charm in the fourth book, predicts an elf's loyalty?",
-        "answer": "The creaking floor ties to Dobby's Disapparition.",
-        "list of reference": [
-            "book_7, chapter_23, paragraph_4",
-            "book_4, chapter_28, paragraph_5"
-        ],
-        "id": 705
-    },
-    {
-        "question": "What minor detail about a wand in the seventh book, when combined with a duel in the fifth book, reveals a core's strength?",
-        "answer": "The Elder Wand's hum ties to Harry's Priori Incantatem.",
-        "list of reference": [
-            "book_7, chapter_5, paragraph_3",
-            "book_5, chapter_35, paragraph_6"
-        ],
-        "id": 706
-    }
+    } 
 ]
