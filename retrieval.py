@@ -1,9 +1,16 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from rank_bm25 import BM25Okapi
 import nltk
+import numpy as np
+import os
+import json
 nltk.download('punkt')
 nltk.download('punkt_tab')
 from nltk.tokenize import word_tokenize
+
+DATA_PATH = "./data"
+QA_FILE = f"{DATA_PATH}/QA_set/easy_single.json"
+ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # Dense retrieval
 def dense_retrieval_subqueries(queries, model, faiss_index, passages, chunk_ids, top_k=5):
