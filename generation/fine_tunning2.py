@@ -49,10 +49,16 @@ wandb.init(project="pythia_finetuning", entity="aaron-cui990810-ucl")
 
 
 # Set your Pythia model identifier (example model used below)
+
 model_name = "EleutherAI/pythia-1b"
+
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    trust_remote_code=True,
+    use_safetensors=True
+)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token  # Set pad token to the EOS token
-model = AutoModelForCausalLM.from_pretrained(model_name)
 
 if torch.cuda.is_available():
     model = model.to("cuda")
