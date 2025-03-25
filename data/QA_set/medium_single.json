@@ -548,7 +548,7 @@
     {
         "question": "Who is the ghost of Slytherin house?",
         "answer": "Bloody Baron",
-        "list of reference": "Book 1, Chapter 7, Paragraph 5",
+        "list of reference": [282],
         "id": 394
     },
     {

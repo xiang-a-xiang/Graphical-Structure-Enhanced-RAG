@@ -2,67 +2,67 @@
     {
         "question": "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?",
         "answer": "Hagrid's mention of Fluffy's weakness to music foreshadows Quirrell's knowledge.",
-        "list of reference": "book_1, chapter_11, paragraph_3",
+        "list of reference": [425,426],
         "id": 511
     },
     {
         "question": "Which object in Dumbledore's office during Harry's first visit hints at a secret kept until the final book?",
         "answer": "The Pensieve.",
-        "list of reference": "book_1, chapter_12, paragraph_5",
+        "list of reference": [3809],
         "id": 512
     },
     {
         "question": "What seemingly trivial gift given at Christmas in the first year later aids in a life-saving escape?",
         "answer": "The flute from Hagrid.",
-        "list of reference": "book_1, chapter_10, paragraph_8",
+        "list of reference": [443, 627, 635],
         "id": 513
     },
     {
         "question": "Which chess piece's movement in the underground chamber mirrors a character's sacrifice in the final book?",
         "answer": "The knight, reflecting Ron's bravery.",
-        "list of reference": "book_1, chapter_16, paragraph_12",
+        "list of reference": [654, 656, 657],
         "id": 514
     },
     {
-        "question": "What specific phrase used by a professor in the first book reappears as a clue in the sixth?",
+        "question": "What cryptic phrase used by Dumbledore in Book 5 foreshadows the nature of Horcruxes revealed in Book 6?",
         "answer": "'In essence divided.'",
-        "list of reference": "book_1, chapter_15, paragraph_4; book_6, chapter_23, paragraph_7",
+        "list of reference": [5235],
         "id": 515
     },
     {
         "question": "Which creature's behavior in the forest contradicts its usual nature, hinting at a hidden protector?",
         "answer": "The centaurs, influenced by Firenze's actions.",
-        "list of reference": "book_1, chapter_15, paragraph_9",
+        "list of reference": [590, 593],
         "id": 516
     },
     {
-        "question": "What minor detail about a mirror's inscription connects it to a revelation about a family member?",
-        "answer": "The backwards writing ties to Sirius's lineage.",
-        "list of reference": "book_1, chapter_12, paragraph_2",
+        "question": "What minor detail about the Mirror of Erised makes its meaning a puzzle to solve??",
+        "answer": "Its inscription is written backwards.",
+        "list of reference": [464],
         "id": 517
     },
     {
         "question": "What overlooked comment about a pet in the second book foreshadows a character's true identity?",
         "answer": "Scabbers' unusually long lifespan hints at Peter Pettigrew.",
-        "list of reference": "book_2, chapter_4, paragraph_6",
+        "list of reference": [2306],
         "id": 518
     },
     {
-        "question": "Which potion ingredient mentioned in class subtly relates to a diary's preservation?",
+        "question": "What substance, introduced through an ancient creature’s attack, is later revealed to bypass magical self-repair and destroy a Horcrux?",
         "answer": "Basilisk venom.",
-        "list of reference": "book_2, chapter_9, paragraph_3",
+        "list of reference": [1431, 7797],
         "id": 519
     },
     {
-        "question": "What specific sound in the pipes misleads Harry about the creature's nature?",
-        "answer": "The hissing, suggesting a snake over a basilisk.",
-        "list of reference": "book_2, chapter_11, paragraph_5",
+        "question": "What specific phrase in a prophecy-like warning hints at a traitor's identity?",
+        "answer": "The servant returns' points to Pettigrew.",
+        "list of reference": [2473],
         "id": 520
     },
     {
         "question": "Which Slytherin student's remark during a Quidditch match hints at a family secret?",
         "answer": "Draco's taunt about heritage ties to Salazar.",
-        "list of reference": "book_2, chapter_7, paragraph_8",
+        "list of reference": [956],
         "id": 521
     },
     {
