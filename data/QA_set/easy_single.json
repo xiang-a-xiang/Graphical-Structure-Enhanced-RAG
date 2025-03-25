@@ -2,81 +2,61 @@
     {
         "question": "On which street do the Dursleys live at the beginning of the story?",
         "answer": "They live at Number Four, Privet Drive.",
-        "list of reference": [
-            1
-        ],
+        "list of reference": [1],
         "id": 1
     },
     {
         "question": "What is the name of the wizarding bank Harry visits with Hagrid?",
         "answer": "The bank is called Gringotts.",
-        "list of reference": [
-            138
-        ],
+        "list of reference": [138],
         "id": 2
     },
     {
         "question": "Which Hogwarts house does Harry get sorted into?",
         "answer": "Harry is sorted into Gryffindor.",
-        "list of reference": [
-            271
-        ],
+        "list of reference": [271],
         "id": 3
     },
     {
         "question": "Who is the Keeper of Keys and Grounds at Hogwarts?",
         "answer": "Rubeus Hagrid holds that position.",
-        "list of reference": [
-            101
-        ],
+        "list of reference": [101],
         "id": 4
     },
     {
         "question": "What is the name of the house-elf who warns Harry not to return to Hogwarts?",
         "answer": "That house-elf is Dobby.",
-        "list of reference": [
-            750
-        ],
+        "list of reference": [750],
         "id": 5
     },
     {
         "question": "Who is widely believed to be the Heir of Slytherin responsible for the attacks at Hogwarts?",
         "answer": "Many suspect that Harry is the Heir of Slytherin.",
-        "list of reference": [
-            1158
-        ],
+        "list of reference": [1158],
         "id": 6
     },
     {
         "question": "Which language does Harry discover he can speak, shocking his classmates?",
         "answer": "Harry can speak Parseltongue, the language of snakes.",
-        "list of reference": [
-            1151
-        ],
+        "list of reference": [1151],
         "id": 7
     },
     {
         "question": "Which teacher accidentally removes all the bones from Harry's arm while trying to fix it?",
         "answer": "Gilderoy Lockhart causes that mishap.",
-        "list of reference": [
-            1103
-        ],
+        "list of reference": [1103],
         "id": 8
     },
     {
         "question": "Who is the supposed criminal believed to be after Harry?",
         "answer": "People think Sirius Black is after him.",
-        "list of reference": [
-            1634
-        ],
+        "list of reference": [1634],
         "id": 9
     },
     {
         "question": "Which new Defense Against the Dark Arts teacher is actually a werewolf?",
         "answer": "Remus Lupin is the werewolf teacher.",
-        "list of reference": [
-            2262
-        ],
+        "list of reference": [2262],
         "id": 10
     },
     {
