@@ -1,0 +1,161 @@
+[
+    {
+        "question": "What is the name of the magical candy that makes you smoke at mouth?",
+        "answer": "Pepper Imps",
+        "list of reference": [
+            1638
+        ],
+        "id": 293
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be tortured?",
+        "answer": "Crucio",
+        "list of reference": [
+            2955
+        ],
+        "id": 76
+    },
+    {
+        "question": "What does Harry find in the locket in the seventh book, and how does it relate to the fifth book?",
+        "answer": "Harry uncovers a message inside a dark artifact, which echoes a prophecy he heard years earlier.",
+        "list of reference": [
+            "Book 7, Chapter 10, Paragraph 5",
+            "Book 5, Chapter 37, Paragraph 3"
+        ],
+        "id": 451
+    },
+    {
+        "question": "What is the name of the spell that reveals hidden messages?",
+        "answer": "Aparecium",
+        "list of reference": [
+            1230
+        ],
+        "id": 89
+    },
+    {
+        "question": "Who is the supposed criminal believed to be after Harry?",
+        "answer": "People think Sirius Black is after him.",
+        "list of reference": [
+            1634
+        ],
+        "id": 9
+    },
+    {
+        "question": "What is the name of the spell that creates a magical barrier?",
+        "answer": "Protego",
+        "list of reference": [
+            5540
+        ],
+        "id": 87
+    },
+    {
+        "question": "What is the name of the forest near Hogwarts?",
+        "answer": "The Forbidden Forest",
+        "list of reference": [
+            309
+        ],
+        "id": 147
+    },
+    {
+        "question": "Which magical object in Moody's possession hints at his true identity?",
+        "answer": "The foe-glass showing shadows of the trio.",
+        "list of reference": "book_4, chapter_13, paragraph_8",
+        "id": 537
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be revealed?",
+        "answer": "Homenum Revelio",
+        "list of reference": [
+            7947
+        ],
+        "id": 69
+    },
+    {
+        "question": "What is the name of the spell that causes a person to be burned?",
+        "answer": "Incendio",
+        "list of reference": [
+            2584
+        ],
+        "id": 59
+    },
+    {
+        "question": "Who is the Keeper of Keys and Grounds at Hogwarts?",
+        "answer": "Rubeus Hagrid holds that position.",
+        "list of reference": [
+            101
+        ],
+        "id": 4
+    },
+    {
+        "question": "What is the name of the potion that heals wounds?",
+        "answer": "Essence of Dittany",
+        "list of reference": [
+            8142
+        ],
+        "id": 136
+    },
+    {
+        "question": "What is the name of the candy that makes your tongue grow?",
+        "answer": "Ton-Tongue Toffee",
+        "list of reference": [
+            2591
+        ],
+        "id": 139
+    },
+    {
+        "question": "In the fourth book, what does Harry use to breathe underwater, and how does this connect to the seventh book?",
+        "answer": "Harry employs a magical aid to survive submersion, a skill that echoes a later underwater retrieval.",
+        "list of reference": [
+            "Book 4, Chapter 26, Paragraph 9",
+            "Book 7, Chapter 19, Paragraph 4"
+        ],
+        "id": 468
+    },
+    {
+        "question": "What is the name of the spell that controls fire?",
+        "answer": "Flame Freezing Charm",
+        "list of reference": [
+            1478
+        ],
+        "id": 99
+    },
+    {
+        "question": "Who is the leader of the Order of the Phoenix?",
+        "answer": "Albus Dumbledore",
+        "list of reference": [
+            7624
+        ],
+        "id": 196
+    },
+    {
+        "question": "What is the name of the potion that causes a person to grow bones?",
+        "answer": "Skele-Gro",
+        "list of reference": [
+            1237
+        ],
+        "id": 93
+    },
+    {
+        "question": "Which spell's mispronunciation in a classroom scene later causes a critical error?",
+        "answer": "'Wingardium Leviosa' as 'Leviosar.'",
+        "list of reference": "book_4, chapter_15, paragraph_3",
+        "id": 535
+    },
+    {
+        "question": "Who teaches Harry the Patronus Charm in the third book, and how does this person relate to Harry's father?",
+        "answer": "Professor Remus Lupin teaches Harry the Patronus Charm (Expecto Patronum). Remus Lupin was one of James Potter's best friends at Hogwarts. Along with Sirius Black and Peter Pettigrew, they formed a tight-knit group known as the Marauders.",
+        "list of reference": [
+            2006,
+            2284
+        ],
+        "id": 409
+    },
+    {
+        "question": "What magical object helps Harry find the Room of Requirement?",
+        "answer": "Marauder's Map",
+        "list of reference": [
+            5054
+        ],
+        "id": 344
+    }
+]
