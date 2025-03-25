@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from typing import List, Dict, Any, Tuple
 import re
 import nltk
+import cohere
 nltk.download('punkt_tab')
 from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer
@@ -82,7 +83,24 @@ class NER(NLPBase):
         print(f"Evaluation results: {results}")
         return results
 
+class MyLLM:
+    def __init__(self, api_key):
+        self.api_key = api_key
+        if not self.api_key:
+            raise ValueError("Please set the COHERE_API_KEY environment variable")
 
+    def generate(self, prompt: str) -> str:
+        co = cohere.ClientV2(api_key=self.api_key)
+        res = co.chat(
+            model="command-a-03-2025",
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+        )
+        return res.message.content[0].text
 
 class QA(NLPBase):
     def __init__(self, model_name):
