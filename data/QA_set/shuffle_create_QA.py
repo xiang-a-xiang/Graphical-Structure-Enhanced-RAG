@@ -10,7 +10,6 @@ reference_file = "NLP_project/data/chunked_text_all_together_cleaned.json"  # Pa
 
 # Find all JSON files in the specified folder
 files = glob.glob(f"{input_folder}/*.json")
-
 all_items = []
 
 # Load items from each JSON file
@@ -56,17 +55,17 @@ except Exception as e:
     print(f"Error reading reference file {reference_file}: {e}")
     exit()
 
-# Replace reference IDs with actual passages in each question
+# Replace reference IDs with a list of dictionaries where each contains a numeric ref_id and its passage
 for item in selected_items:
     references = item.get("list of reference", [])
-    actual_passages = []
+    actual_references = []
     for ref_id in references:
         passage = ref_mapping.get(ref_id)
         if passage:
-            actual_passages.append(passage)
+            actual_references.append({"ref_id": ref_id, "passage": passage})
         else:
-            actual_passages.append(f"Reference id {ref_id} not found")
-    item["list of reference"] = actual_passages
+            actual_references.append({"ref_id": ref_id, "passage": f"Reference id {ref_id} not found"})
+    item["list of reference"] = actual_references
 
 # Write the selected items to the output JSON file
 with open(output_file, 'w', encoding='utf-8') as out_f:
