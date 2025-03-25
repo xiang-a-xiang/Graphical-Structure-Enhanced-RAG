@@ -218,6 +218,135 @@ class QO:
 ##  Query Optimalization trail version 1.0 END
 
 
+## Advanced Query Optimalization trail
+import re
+from typing import List, Dict
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
+class QOAdvanced:
+    def __init__(self, embedding_model_name: str = "sentence-transformers/all-mpnet-base-v1", llm=None):
+        self.embedding_model = SentenceTransformer(embedding_model_name)
+        self.llm = llm  # Language model for text generation (HyDE, Step-Back, advanced subquestions)
+
+    def hyde(self, query: str) -> np.ndarray:
+        if self.llm is None:
+            raise ValueError("LLM model is required for HyDE transformation.")
+        hypothetical_doc = self.llm.generate(query)
+        embedding = self.embedding_model.encode(hypothetical_doc)
+        return embedding
+
+    def step_back(self, query: str) -> str:
+        if self.llm is None:
+            raise ValueError("LLM model is required for Step-Back Prompting.")
+        prompt = f"Rephrase the query into a more abstract question about its core concept:\nQuery: \"{query}\""
+        abstract_question = self.llm.generate(prompt)
+        return abstract_question
+
+    def semantic_routing(self, query: str, sources: Dict[str, Dict]) -> str:
+        query_lower = query.lower()
+        for source_name, info in sources.items():
+            for kw in info.get("keywords", []):
+                if kw in query_lower:
+                    return source_name
+        # Default fallback source
+        return list(sources.keys())[0]
+
+    def metadata_filter(self, query: str, available_meta: Dict[str, Dict] = None) -> Dict[str, any]:
+        filters = {}
+        year_match = re.search(r"\b(19|20)\d{2}\b", query)
+        if year_match:
+            filters["year"] = int(year_match.group(0))
+        if available_meta and "book" in available_meta:
+            for book_id, title in available_meta["book"].items():
+                if title.lower() in query.lower():
+                    filters["book"] = book_id
+                    break
+        return filters
+
+    def multi_query(self, query: str) -> List[str]:
+        
+        if self.llm is not None:
+            # Generate paraphrased versions of the query using the language model.
+            paraphrases = self.llm.generate(f"Paraphrase the query: '{query}'")
+            # Extract paraphrased versions enclosed in double quotes.
+            import re
+            paraphrase_list = re.findall(r'"([^"]+)"', paraphrases)
+            # If no quoted paraphrases are found, split the output by newlines as a fallback.
+            if not paraphrase_list:
+                paraphrase_list = [line.strip() for line in paraphrases.split('\n') if line.strip()]
+            # Deduplicate and return the paraphrased versions.
+            return list(dict.fromkeys(paraphrase_list))
+        else:
+            # If no language model is available, return the original query as a single-item list.
+            return [query]
+
+
+    def sub_questions(self, query: str) -> List[str]:
+        """
+        Generate subquestions from a complex query using advanced techniques.
+        
+        If an LLM is available, it leverages the model to extract distinct sub-questions.
+        Otherwise, it falls back to heuristic splitting based on punctuation and conjunctions,
+        and applies a simple pronoun resolution strategy using a main subject inferred from the query.
+        """
+        subqs = []
+        
+        # Use LLM to extract subquestions if available
+        if self.llm is not None:
+            prompt = (
+                "Extract a list of three easier individual sub-questions from the following Harry Potter query. "
+                "Each sub-question should be a standalone question capturing a distinct aspect of the original query. "
+                "Provide each sub-question on a new line.\n\n"
+                f"Query: \"{query}\""
+            )
+            llm_response = self.llm.generate(prompt)
+            # Split the LLM response into lines (supports bullet points and newlines)
+            potential_subqs = re.split(r'[\n•\-]+', llm_response)
+            for sub in potential_subqs:
+                sub = sub.strip()
+                if sub:
+                    # Ensure a proper ending punctuation
+                    if not sub.endswith('?'):
+                        sub = sub.rstrip('.') + '?'
+                    subqs.append(sub)
+            if subqs:
+                return list(dict.fromkeys(subqs))  # deduplicate while preserving order
+        
+        # Fallback: heuristic-based splitting
+        # First, split on typical sentence delimiters
+        parts = re.split(r'[?;]', query)
+        for part in parts:
+            part = part.strip()
+            if not part:
+                continue
+            # Further split on conjunctions like " and " to capture multiple sub-questions
+            subparts = re.split(r'\band\b', part, flags=re.IGNORECASE)
+            for sub in subparts:
+                sub = sub.strip()
+                if sub:
+                    if not sub.endswith('?'):
+                        sub = sub + '?'
+                    subqs.append(sub)
+        
+        # Simple pronoun resolution: infer main subject from the query
+        main_subject = None
+        subject_match = re.search(r'\b([A-Z][a-zA-Z]+)\b', query)
+        if subject_match:
+            main_subject = subject_match.group(1)
+        
+        processed_subqs = []
+        for idx, q in enumerate(subqs):
+            # For subsequent subquestions, if they start with a pronoun, replace it with the main subject
+            if idx > 0 and main_subject:
+                q = re.sub(r'^(It|They|He|She|His|Her|Their)\b', main_subject, q, flags=re.IGNORECASE)
+            processed_subqs.append(q)
+        
+        # Remove duplicate subquestions while keeping the original order
+        return list(dict.fromkeys(processed_subqs))
+## Advanced QO END
+
+
 num2title = {
     1: "Harry Potter and the Philosopher's Stone",
     2: "Harry Potter and the Chamber of Secrets",
