@@ -265,7 +265,7 @@ class QOAdvanced:
         return filters
 
     def multi_query(self, query: str) -> List[str]:
-        
+
         if self.llm is not None:
             # Generate paraphrased versions of the query using the language model.
             paraphrases = self.llm.generate(f"Paraphrase the query: '{query}'")
@@ -295,6 +295,7 @@ class QOAdvanced:
         # Use LLM to extract subquestions if available
         if self.llm is not None:
             prompt = (
+                "If the query is simple then output the query, if the query is not simple then do the following."
                 "Extract a list of three easier individual sub-questions from the following Harry Potter query. "
                 "Each sub-question should be a standalone question capturing a distinct aspect of the original query. "
                 "Provide each sub-question on a new line.\n\n"
