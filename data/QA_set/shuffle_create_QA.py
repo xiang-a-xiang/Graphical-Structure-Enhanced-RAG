@@ -4,13 +4,23 @@ import glob
 
 # Hardcoded values
 input_folder = "NLP_project/data/QA_set_Clean"  # Adjust path as needed
-output_file = "NLP_project/data/QA_set_Clean/shuffled_QA.json"  # Adjust path as needed
+output_file = "NLP_project/data/shuffled_QA.json"  # Adjust path as needed
 num_questions = 60
 reference_file = "NLP_project/data/chunked_text_all_together_cleaned.json"  # Path to the reference file
 
 # Find all JSON files in the specified folder
 files = glob.glob(f"{input_folder}/*.json")
 all_items = []
+# count the number of items in each file, and the total number of items. return file name and number of items
+for file in files:
+    with open(file , 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        if isinstance(data, list):
+            all_items.extend(data)
+        else:
+            print(f"Warning: File {file} does not contain a list. Skipping.")
+    print(f"Number of items in {file}: {len(data)}")
+print(f"Total number of items in the folder: {len(all_items)}")
 
 # Load items from each JSON file
 for file in files:
