@@ -1,7 +1,7 @@
 import json
 import random
 import glob
-
+# this new version of the script will shuffle the questions and answers and create a new json file with the shuffled questions and answers
 # Hardcoded values
 input_folder = "NLP_project/data/QA_set_Clean"  # Adjust path as needed
 output_file = "NLP_project/data/shuffled_QA.json"  # Adjust path as needed
