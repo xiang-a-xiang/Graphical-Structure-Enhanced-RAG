@@ -16,7 +16,7 @@ ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 device = "cpu"
 
 # Load models on GPU
-bge_model = SentenceTransformer("BAAI/bge-large-en", device=device)
+bge_model = SentenceTransformer("BAAI/bge-large-en-v1.5", device=device)
 mpnet_model = SentenceTransformer("all-mpnet-base-v2", device=device)
 
 # Load all passages from the unified file
