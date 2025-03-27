@@ -7,6 +7,7 @@ from embedding.embedding import bge_model, store_faiss_index
 import json
 
 
+
 def clean_subquestions(raw_list):
     """
     Cleans and extracts proper sub-questions from a messy list of strings.
@@ -52,11 +53,13 @@ if __name__ == "__main__":
     # vectorizer = TfidfVectorizer(stop_words='english')
     # doc_matrix = vectorizer.fit_transform(passages)
     passages, chunk_ids = load_passages_and_chunk_ids()
-    faiss_index_stored = store_faiss_index(bge_model, filename='./faiss_index')
+    # faiss_index_stored = store_faiss_index(bge_model, filename='./faiss_index')
     # tokenized_passages = [word_tokenize(doc.lower()) for doc in passages]
     # bm25 = BM25Okapi(tokenized_passages)
 
-    retrieve_results = dense_retrieval_subqueries(sub_questions, sge_embedding,faiss_index_stored, passages, chunk_ids, top_k=5)
+    index_file = 'hp_all_bge.index'
+
+    retrieve_results = dense_retrieval_subqueries(sub_questions, bge_model ,index_file, passages, chunk_ids, top_k=5)
 
     out_file = "evaluation/sub_queries_retrieval_example.json"
 
