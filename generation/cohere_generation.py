@@ -11,7 +11,7 @@ class CohereGenerator:
         self.client = cohere.ClientV2(api_key=api_key)
         self.model = model
 
-    def generation_answer(self, subquestions, retrieval_results, top_k=5, max_tokens=60):
+    def generation_answer(self, origin_question, subquestions, retrieval_results, top_k=5, max_tokens=60):
         previous_qa = []
 
         for i, sub_query in enumerate(subquestions):
@@ -72,4 +72,33 @@ Answer:"""
             print(f"A{i+1}: {answer}")
             previous_qa.append((sub_query, answer))
 
-        return previous_qa
+        print('\n\nProcess original Question')
+        prev_qa_str_final = "\n".join([f"Q: {q}\nA: {a}" for q, a in previous_qa])
+
+        prompt = f'''You are an assistant with expert knowledge of the Harry Potter series.
+Use the previous answers and the context below to answer the next question concisely.
+
+Question: {origin_question}
+
+Previous Q&A:
+{prev_qa_str_final}
+
+Answer: 
+'''
+        print(prompt)
+        response = self.client.chat(
+                model=self.model,
+                # prompt=prompt,
+                # max_tokens=max_tokens,
+                # temperature=0.3,
+                # stop_sequences=["\nQ:"]
+                messages = [{
+                    "role": "user",
+                    "content": prompt
+                }]
+            )
+        final_answer = response.message.content[0].text.strip()
+        print(f"Question: {origin_question}")
+        print(f"Answer: {final_answer}")
+
+        return previous_qa, final_answer

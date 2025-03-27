@@ -3,6 +3,7 @@ from retrieval import *
 from dotenv import load_dotenv
 from generation.pythia_generation import generation_answer, load_model_and_tokenizer
 from generation.cohere_generation import CohereGenerator
+from embedding.embedding import bge_model, store_faiss_index
 import json
 
 
@@ -51,15 +52,16 @@ if __name__ == "__main__":
     # vectorizer = TfidfVectorizer(stop_words='english')
     # doc_matrix = vectorizer.fit_transform(passages)
     passages, chunk_ids = load_passages_and_chunk_ids()
-    tokenized_passages = [word_tokenize(doc.lower()) for doc in passages]
-    bm25 = BM25Okapi(tokenized_passages)
+    faiss_index_stored = store_faiss_index(bge_model, filename='./faiss_index')
+    # tokenized_passages = [word_tokenize(doc.lower()) for doc in passages]
+    # bm25 = BM25Okapi(tokenized_passages)
 
-    retrieve_results = dense_retrieval_subqueries(sub_questions, bm25, passages, chunk_ids, top_k=5)
+    retrieve_results = dense_retrieval_subqueries(sub_questions, sge_embedding,faiss_index_stored, passages, chunk_ids, top_k=5)
 
     out_file = "evaluation/sub_queries_retrieval_example.json"
 
-    with open(out_file, "w") as out_f:
-        json.dump(retrieve_results, out_f, indent=4)
+    # with open(out_file, "w") as out_f:
+    #     json.dump(retrieve_results, out_f, indent=4)
 
     # for item in results:
     #     print(item, '\n\n')
@@ -67,7 +69,7 @@ if __name__ == "__main__":
 
     try:
         generator = CohereGenerator(api_key=api_key)
-        generated_results = generator.generation_answer(sub_questions, retrieve_results)
+        generated_results,final_answer = generator.generation_answer(query1, sub_questions, retrieve_results)
     except Exception as e:
         print("Generation Error:", e)
         
