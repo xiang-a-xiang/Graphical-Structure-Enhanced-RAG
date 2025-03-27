@@ -6,12 +6,25 @@ from dataclasses import dataclass
 from typing import List, Dict, Any, Tuple
 import re
 import nltk
-nltk.download('punkt_tab')
+import cohere
+import os
 from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 import json
+
+def ensure_nltk_data():
+    """Ensure all required NLTK data is downloaded."""
+    required_data = ['punkt', 'punkt_tab']
+    for data in required_data:
+        try:
+            nltk.data.find(f'tokenizers/{data}')
+        except LookupError:
+            nltk.download(data, quiet=True)
+
+# Ensure NLTK data is downloaded
+ensure_nltk_data()
 
 class NLPBase:
     def __init__(self, model_name):
@@ -82,7 +95,24 @@ class NER(NLPBase):
         print(f"Evaluation results: {results}")
         return results
 
+class MyLLM:
+    def __init__(self, api_key):
+        self.api_key = api_key
+        if not self.api_key:
+            raise ValueError("Please set the COHERE_API_KEY environment variable")
 
+    def generate(self, prompt: str) -> str:
+        co = cohere.ClientV2(api_key=self.api_key)
+        res = co.chat(
+            model="command-a-03-2025",
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt,
+                }
+            ],
+        )
+        return res.message.content[0].text
 
 class QA(NLPBase):
     def __init__(self, model_name):
@@ -265,7 +295,7 @@ class QOAdvanced:
         return filters
 
     def multi_query(self, query: str) -> List[str]:
-        
+
         if self.llm is not None:
             # Generate paraphrased versions of the query using the language model.
             paraphrases = self.llm.generate(f"Paraphrase the query: '{query}'")
@@ -295,6 +325,7 @@ class QOAdvanced:
         # Use LLM to extract subquestions if available
         if self.llm is not None:
             prompt = (
+                "If the query is simple then output the query, if the query is not simple then do the following."
                 "Extract a list of three easier individual sub-questions from the following Harry Potter query. "
                 "Each sub-question should be a standalone question capturing a distinct aspect of the original query. "
                 "Provide each sub-question on a new line.\n\n"

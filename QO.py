@@ -5,7 +5,7 @@ import cohere
 from dotenv import load_dotenv
 import os
 
-load_dotenv("/Users/yandu/NLP_project/key.env")  # Loads variables from .env into the environment
+load_dotenv("key.env")  # Loads variables from .env into the environment
 # print(os.environ) 
 api_key = os.environ.get('COHERE_API_KEY')
 # print(api_key)  # Verify that the key is loaded
@@ -43,8 +43,9 @@ qo_a = QOAdvanced(embedding_model_name="sentence-transformers/all-mpnet-base-v1"
 # Example query needs optimization
 # query = "When was Hogwarts founded and who founded it?"
 # query = 'Which of the following is NOT one of Albus Dumbledore\'s titles?'
-# query = 'has Dumbledore visited Dursleys and sat down?'
-query = 'Did Harry Potter defeat lord Voldemort?'      #######################################################
+# query = 'Who teaches History of Magic at Hogwarts?'
+# query = 'Did Harry Potter defeat lord Voldemort?'      #######################################################
+query = "What subtle hint in a conversation about a magical creature suggests a future betrayal in the first book?"
 
 # --- Query Transformation ---
 # 1. Use HyDE to generate an embedding from a hypothetical document
