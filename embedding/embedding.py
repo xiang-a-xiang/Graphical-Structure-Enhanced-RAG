@@ -13,7 +13,7 @@ QA_FILE = f"{DATA_PATH}/QA_set/easy_single.json"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # Use CUDA
-device = "cuda"
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load models on GPU
 bge_model = SentenceTransformer("BAAI/bge-large-en", device=device)

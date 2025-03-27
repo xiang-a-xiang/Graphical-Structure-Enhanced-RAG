@@ -1,92 +1,92 @@
 [
     {
-        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
-        "chunk_id": 5315,
-        "passage": "His heart swelled with happiness and relief, and he felt like joining in as they heard Sirius tramping past their door toward Buckbeak's room, singing \"God Rest Ye Merry, Hippogriffs\" at the top of his voice. How could he have dreamed of returning to Privet Drive for Christmas? Sirius's delight at having the house full again, and especially at having Harry back, was infectious. He was no longer their sullen host of the summer; now he seemed determined that everyone should enjoy themselves as much, if not more, than they would have done at Hogwarts, and he worked tirelessly in the run-up to Christmas Day, cleaning and decorating with their help, so that by the time they all went to bed on Christmas Eve the house was barely recognizable. The tarnished chandeliers were no longer hung with cobwebs but with garlands of holly and gold and silver streamers; magical snow glittered in heaps over the threadbare carpets; a great Christmas tree, obtained by Mundungus and decorated with live fairies, blocked Sirius's family tree from view; and even the stuffed elf heads on the hall wall wore Father Christmas hats and beards. Harry awoke on Christmas morning to find a stack of presents at the foot of his bed and Ron already halfway through opening his own, rather larger, pile. \"Good haul this year,\" he informed Harry through a cloud of paper. \"Thanks for the Broom Compass, it's excellent, beats Hermione's - she's got me a homework planner -\"\nHarry sorted through his presents and found one with Hermione's handwriting on it. She had given him too a book that resembled a diary, except that it said things like \"Do it today or later you'll pay!\" every time he opened a page. Sirius and Lupin had given Harry a set of excellent books entitled Practical Defensive Magic and Its Use Against the Dark Arts, which had superb, moving color illustrations of all the counterjinxes and hexes it described. Harry flicked through the first volume eagerly; he could see it was going to be highly useful in his plans for the D.A. Hagrid had sent a furry brown wallet that had fangs, which were presumably supposed to be an antitheft device, but unfortunately prevented Harry putting any money in without getting his fingers ripped off.",
-        "score": 29.07651561181817
+        "sub_query": "1. What is the species of Voldemort's snake?",
+        "chunk_id": 1340,
+        "passage": "Harry smoothed it out eagerly and Ron leaned close to read it, too. Of the many fearsome beasts and monsters that roam our land, there is none more curious or more deadly than the Basilisk, known also as the King of Serpents. This snake, which may reach gigantic size and live many hundreds of years, is born from a chicken's egg, hatched beneath a toad. Its methods of killing are most wondrous, for aside from its deadly and venomous fangs, the Basilisk has a murderous stare, and all who are fixed with the beam of its eye shall suffer instant death. Spiders flee before the Basilisk, for it is their mortal enemy, and the Basilisk flees only from the crowing of the rooster, which is fatal to it. And beneath this, a single word had been written, in a hand Harry recognized as Hermione's. Pipes. It was as though somebody had just flicked a light on in his brain. \"Ron,\" he breathed. \"This is it. This is the answer.",
+        "score": 0.3301285207271576
     },
     {
-        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
-        "chunk_id": 7713,
-        "passage": "\"Le' go of him! Le' go of Harry!\" Lupin ignored him. \"What creature sat in the corner the first time that Harry Potter visited my office at Hogwarts?\" he said, giving Harry a small shake. \"Answer me!\" \"A - a grindylow in a tank, wasn't it?\" Lupin released Harry and fell back against a kitchen cupboard. \"Wha' was tha' about?\"",
-        "score": 26.699891873012692
+        "sub_query": "1. What is the species of Voldemort's snake?",
+        "chunk_id": 3815,
+        "passage": "\"Please continue.\" \"Voldemort got a letter from an owl. He said something like, Wormtail's blunder had been repaired. He said someone was dead. Then he said, Wormtail wouldn't be fed to the snake - there was a snake beside his chair. He said - he said he'd be feeding me to it, instead. Then he did the Cruciatus Curse on Wormtail - and my scar hurt,\" Harry said. \"It woke me up, it hurt so badly.\" Dumbledore merely looked at him. \"Er - that's all,\" said Harry. \"I see,\" said Dumbledore quietly. \"I see. Now, has your scar hurt at any other time this year, excepting the time it woke you up over the summer?\" \"No, I - how did you know it woke me up over the summer?\" said Harry, astonished. \"You are not Sirius's only correspondent,\" said Dumbledore. \"I have also been in contact with him ever since he left Hogwarts last year. It was I who suggested the mountainside cave as the safest place for him to stay.\"",
+        "score": 0.3433714509010315
     },
     {
-        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
-        "chunk_id": 442,
-        "passage": "When he woke early in the morning, however, the first thing he saw was a small pile of packages at the foot of his bed. \"Merry Christmas,\" said Ron sleepily as Harry scrambled out of bed and pulled on his bathrobe. \"You, too,\" said Harry. \"Will you look at this? I've got some presents!\" \"What did you expect, turnips?\" said Ron, turning to his own pile, which was a lot bigger than Harry's.",
-        "score": 26.332959708297246
+        "sub_query": "1. What is the species of Voldemort's snake?",
+        "chunk_id": 7284,
+        "passage": "\"I think I know what the sixth Horcrux is. I wonder what you will say when I confess that I have been curious for a while about the behavior of the snake, Nagini?\" \"The snake?\" said Harry, startled. \"You can use animals as Horcruxes?\" \"Well, it is inadvisable to do so,\" said Dumbledore, \"because to confide a part of your soul to something that can think and move for itself is obviously a very risky business.",
+        "score": 0.34488749504089355
     },
     {
-        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
-        "chunk_id": 3533,
-        "passage": "Could Moody possibly mean what Harry thought he meant? \"And now I want to ask you a question, Potter,\" said Moody in a more businesslike tone. Harry's heart sank; he had thought this was coming. Moody was going to ask where he had got this map, which was a very dubious magical object - and the story of how it had fallen into his hands incriminated not only him, but his own father, Fred and George Weasley, and Professor Lupin, their last Defense Against the Dark Arts teacher. Moody waved the map in front of Harry, who braced himself -\n\"Can I borrow this?\" \"Oh!\" said Harry. He was very fond of his map, but on the other hand, he was extremely relieved that Moody wasn't asking where he'd got it, and there was no doubt that he owed Moody a favor. \"Yeah, okay.\"",
-        "score": 26.149826914074886
+        "sub_query": "1. What is the species of Voldemort's snake?",
+        "chunk_id": 9113,
+        "passage": "Neville looked suddenly scared. \"Harry, you're not thinking of handing yourself over?\" \"No,\" Harry lied easily. \" 'Course not ... this is something else. But I might be out of sight for a while. You know Voldemort's snake, Neville? He's got a huge snake. ... Calls it Nagini ...\"\n\"I've heard, yeah.",
+        "score": 0.34492599964141846
     },
     {
-        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
-        "chunk_id": 1187,
-        "passage": "Hagrid had sent him a large tin of treacle toffee, which Harry decided to soften by the fire before eating; Ron had given him a book called Flying with the Cannons, a book of interesting facts about his favorite Quidditch team, and Hermione had bought him a luxury eagle-feather quill. Harry opened the last present to find a new, hand-knitted sweater from Mrs. Weasley and a large plum cake. He read her card with a fresh surge of guilt, thinking about Mr. Weasley's car (which hadn't been seen since its crash with the Whomping Willow), and the bout of rule-breaking he and Ron were planning next. No one, not even someone dreading taking Polyjuice Potion later, could fail to enjoy Christmas dinner at Hogwarts. The Great Hall looked magnificent. Not only were there a dozen frost-covered Christmas trees and thick streamers of holly and mistletoe crisscrossing the ceiling, but enchanted snow was falling, warm and dry, from the ceiling. Dumbledore led them in a few of his favorite carols, Hagrid booming more and more loudly with every goblet of eggnog he consumed.",
-        "score": 26.143114286496015
+        "sub_query": "1. What is the species of Voldemort's snake?",
+        "chunk_id": 9093,
+        "passage": "\"But what must he do?\" \"That is between Harry and me. Now listen closely, Severus. There will come a time - after my death - do not argue, do not interrupt! There will come a time when Lord Voldemort will seem to fear for the life of his snake.\" \"For Nagini?\" Snape looked astonished. \"Precisely. If there comes a time when Lord Voldemort stops sending that snake forth to do his bidding, but keeps it safe beside him under magical protection, then, I think, it will be safe to tell Harry.\" \"Tell him what?\" Dumbledore took a deep breath and closed his eyes.",
+        "score": 0.34498298168182373
     },
     {
-        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
-        "chunk_id": 1316,
-        "passage": "They believed that I was the monster that dwells in what they call the Chamber of Secrets. They thought that Hagrid had opened the Chamber and set me free.\" \"And you ... you didn't come from the Chamber of Secrets?\" said Harry, who could feel cold sweat on his forehead. \"I!\" said Aragog, clicking angrily. \"I was not born in the castle. I come from a distant land.",
-        "score": 30.908735539430047
+        "sub_query": "2. What is the name of Voldemort's pet snake?",
+        "chunk_id": 1340,
+        "passage": "Harry smoothed it out eagerly and Ron leaned close to read it, too. Of the many fearsome beasts and monsters that roam our land, there is none more curious or more deadly than the Basilisk, known also as the King of Serpents. This snake, which may reach gigantic size and live many hundreds of years, is born from a chicken's egg, hatched beneath a toad. Its methods of killing are most wondrous, for aside from its deadly and venomous fangs, the Basilisk has a murderous stare, and all who are fixed with the beam of its eye shall suffer instant death. Spiders flee before the Basilisk, for it is their mortal enemy, and the Basilisk flees only from the crowing of the rooster, which is fatal to it. And beneath this, a single word had been written, in a hand Harry recognized as Hermione's. Pipes. It was as though somebody had just flicked a light on in his brain. \"Ron,\" he breathed. \"This is it. This is the answer.",
+        "score": 0.2540299892425537
     },
     {
-        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
-        "chunk_id": 1246,
-        "passage": "Do you know anything about the Chamber of Secrets?\" His heart was hammering. Riddle's reply came quickly, his writing becoming untidier, as though he was hurrying to tell all he knew. \"Of course I know about the Chamber of Secrets. In my day, they told us it was a legend, that it did not exist.",
-        "score": 30.285765468543012
+        "sub_query": "2. What is the name of Voldemort's pet snake?",
+        "chunk_id": 5291,
+        "passage": "Here he began to pace up and down, past the two beds and Phineas Nigellus's empty portrait, his brain teeming and seething with questions and ever more dreadful ideas. ...\nHow had he become a snake? Perhaps he was an Animagus. ... No, he couldn't be, he would know. ... perhaps Voldemort was an Animagus. ... Yes, thought Harry, that would fit, he would turn into a snake of course ... and when he's possessing me, then we both transform. ... That still doesn't explain how come I got to London and back to my bed in the space of about five minutes, though. ... But then Voldemort's about the most powerful wizard in the world, apart from Dumbledore, it's probably no problem at all to him to transport people like that. ...\nAnd then, with a terrible stab of panic he thought, but this is insane - if Voldemort's possessing me, I'm giving him a clear view into the headquarters of the Order of the Phoenix right now! He'll know who's in the Order and where Sirius is ... and I've heard loads of stuff I shouldn't have, everything Sirius told me the first night I was here.",
+        "score": 0.2638571262359619
     },
     {
-        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
-        "chunk_id": 1048,
-        "passage": "He disliked taking students of Muggle parentage, believing them to be untrustworthy. After a while, there was a serious argument on the subject between Slytherin and Gryffindor, and Slytherin left the school.\" Professor Binns paused again, pursing his lips, looking like a wrinkled old tortoise. \"Reliable historical sources tell us this much,\" he said. \"But these honest facts have been obscured by the fanciful legend of the Chamber of Secrets. The story goes that Slytherin had built a hidden chamber in the castle, of which the other founders knew nothing. \"Slytherin, according to the legend, sealed the Chamber of Secrets so that none would be able to open it until his own true heir arrived at the school.",
-        "score": 29.5159313710826
+        "sub_query": "2. What is the name of Voldemort's pet snake?",
+        "chunk_id": 9093,
+        "passage": "\"But what must he do?\" \"That is between Harry and me. Now listen closely, Severus. There will come a time - after my death - do not argue, do not interrupt! There will come a time when Lord Voldemort will seem to fear for the life of his snake.\" \"For Nagini?\" Snape looked astonished. \"Precisely. If there comes a time when Lord Voldemort stops sending that snake forth to do his bidding, but keeps it safe beside him under magical protection, then, I think, it will be safe to tell Harry.\" \"Tell him what?\" Dumbledore took a deep breath and closed his eyes.",
+        "score": 0.26937687397003174
     },
     {
-        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
-        "chunk_id": 1353,
-        "passage": "Taken into the Chamber of Secrets itself. Your moment has come at last.\" Lockhart blanched. \"That's right, Gilderoy,\" chipped in Professor Sprout. \"Weren't you saying just last night that you've known all along where the entrance to the Chamber of Secrets is?\"",
-        "score": 28.58165406160726
+        "sub_query": "2. What is the name of Voldemort's pet snake?",
+        "chunk_id": 8995,
+        "passage": "Voldemort continued to stand there, twirling the wand between his fingers, staring at it. \"It is the only way, Nagini,\" he whispered, and he looked around, and there was the great thick snake, now suspended in midair, twisting gracefully within the enchanted, protected space he had made for her, a starry, transparent sphere somewhere between glittering cage and tank. With a gasp, Harry pulled back and opened his eyes; at the same moment his ears were assaulted with the screeches and cries, the smashes and bangs of battle. \"He's in the Shrieking Shack. The snake's with him, it's got some sort of magical protection around it. He's just sent Lucius Malfoy to find Snape.\" \"Voldemort's sitting in the Shrieking Shack?\"",
+        "score": 0.271722674369812
     },
     {
-        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
-        "chunk_id": 1050,
-        "passage": "\"Naturally, the school has been searched for evidence of such a chamber, many times, by the most learned witches and wizards. It does not exist. A tale told to frighten the gullible.\" Hermione's hand was back in the air. \"Sir - what exactly do you mean by the 'horror within' the Chamber?\" \"That is believed to be some sort of monster, which the Heir of Slytherin alone can control,\" said Professor Binns in his dry, reedy voice. The class exchanged nervous looks.",
-        "score": 28.19842830589865
+        "sub_query": "2. What is the name of Voldemort's pet snake?",
+        "chunk_id": 3815,
+        "passage": "\"Please continue.\" \"Voldemort got a letter from an owl. He said something like, Wormtail's blunder had been repaired. He said someone was dead. Then he said, Wormtail wouldn't be fed to the snake - there was a snake beside his chair. He said - he said he'd be feeding me to it, instead. Then he did the Cruciatus Curse on Wormtail - and my scar hurt,\" Harry said. \"It woke me up, it hurt so badly.\" Dumbledore merely looked at him. \"Er - that's all,\" said Harry. \"I see,\" said Dumbledore quietly. \"I see. Now, has your scar hurt at any other time this year, excepting the time it woke you up over the summer?\" \"No, I - how did you know it woke me up over the summer?\" said Harry, astonished. \"You are not Sirius's only correspondent,\" said Dumbledore. \"I have also been in contact with him ever since he left Hogwarts last year. It was I who suggested the mountainside cave as the safest place for him to stay.\"",
+        "score": 0.27484163641929626
     },
     {
-        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
-        "chunk_id": 935,
-        "passage": "What is Gilderoy Lockhart's favorite color? 2. What is Gilderoy Lockhart's secret ambition? 3. What, in your opinion, is Gilderoy Lockhart's\ngreatest achievement to date? On and on it went, over three sides of paper, right down to:\n54. When is Gilderoy Lockhart's birthday, and what\nwould his ideal gift be? Half an hour later, Lockhart collected the papers and rifled through them in front of the class. \"Tut, tut - hardly any of you remembered that my favorite color is lilac. I say so in Year with the Yeti. And a few of you need to read Wanderings with Werewolves more carefully - I clearly state in chapter twelve that my ideal birthday gift would be harmony between all magic and non-magic peoples - though I wouldn't say no to a large bottle of Ogden's Old Firewhisky!\" He gave them another roguish wink.",
-        "score": 40.35773418221512
+        "sub_query": "3. In which Harry Potter book does Voldemort's snake first appear?",
+        "chunk_id": 6088,
+        "passage": "A long thin flame flew from the tip; it wrapped itself around Voldemort, shield and all. For a moment, it seemed Dumbledore had won, but then the fiery rope became a serpent, which relinquished its hold upon Voldemort at once and turned, hissing furiously, to face Dumbledore. Voldemort vanished. The snake reared from the floor, ready to strike -\nThere was a burst of flame in midair above Dumbledore just as Voldemort reappeared, standing on the plinth in the middle of the pool where so recently the five statues had stood. \"Look out!\" Harry yelled. But even as he shouted, one more jet of green light had flown at Dumbledore from Voldemort's wand and the snake had struck -\nFawkes swooped down in front of Dumbledore, opened his beak wide, and swallowed the jet of green light whole. He burst into flame and fell to the floor, small, wrinkled, and flightless. At the same moment, Dumbledore brandished his wand in one, long, fluid movement - the snake, which had been an instant from sinking its fangs into him, flew high into the air and vanished in a wisp of dark smoke; the water in the pool rose up and covered Voldemort like a cocoon of molten glass -\nFor a few seconds Voldemort was visible only as a dark, rippling, faceless figure, shimmering and indistinct upon the plinth, clearly struggling to throw off the suffocating mass -\nThen he was gone, and the water fell with a crash back into its pool, slopping wildly over the sides, drenching the polished floor.",
+        "score": 0.27120241522789
     },
     {
-        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
-        "chunk_id": 8783,
-        "passage": "... He paced the room, kicking aside the goblin's corpse as he passed, and the pictures blurred and burned in his boiling brain: the lake, the shack, and Hogwarts -\nA modicum of calm cooled his rage now: How could the boy know that he had hidden the ring in the Gaunt shack? No one had ever known him to be related to the Gaunts, he had hidden the connection, the killings had never been traced to him: The ring, surely, was safe. And how could the boy, or anybody else, know about the cave or penetrate its protection? The idea of the locket being stolen was absurd. ...\nAs for the school: He alone knew where in Hogwarts he had stowed the Horcrux, because he alone had plumbed the deepest secrets of that place. ...\nAnd there was still Nagini, who must remain close now, no longer sent to do his bidding, under his protection. ... But to be sure, to be utterly sure, he must return to each of his hiding places, he must redouble protection around each of his Horcruxes. ... A job, like the quest for the Elder Wand, that he must undertake alone ... Which should he visit first, which was in most danger?",
-        "score": 40.12521569510459
+        "sub_query": "3. In which Harry Potter book does Voldemort's snake first appear?",
+        "chunk_id": 1340,
+        "passage": "Harry smoothed it out eagerly and Ron leaned close to read it, too. Of the many fearsome beasts and monsters that roam our land, there is none more curious or more deadly than the Basilisk, known also as the King of Serpents. This snake, which may reach gigantic size and live many hundreds of years, is born from a chicken's egg, hatched beneath a toad. Its methods of killing are most wondrous, for aside from its deadly and venomous fangs, the Basilisk has a murderous stare, and all who are fixed with the beam of its eye shall suffer instant death. Spiders flee before the Basilisk, for it is their mortal enemy, and the Basilisk flees only from the crowing of the rooster, which is fatal to it. And beneath this, a single word had been written, in a hand Harry recognized as Hermione's. Pipes. It was as though somebody had just flicked a light on in his brain. \"Ron,\" he breathed. \"This is it. This is the answer.",
+        "score": 0.288682758808136
     },
     {
-        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
-        "chunk_id": 1316,
-        "passage": "They believed that I was the monster that dwells in what they call the Chamber of Secrets. They thought that Hagrid had opened the Chamber and set me free.\" \"And you ... you didn't come from the Chamber of Secrets?\" said Harry, who could feel cold sweat on his forehead. \"I!\" said Aragog, clicking angrily. \"I was not born in the castle. I come from a distant land.",
-        "score": 39.920408675359255
+        "sub_query": "3. In which Harry Potter book does Voldemort's snake first appear?",
+        "chunk_id": 8995,
+        "passage": "Voldemort continued to stand there, twirling the wand between his fingers, staring at it. \"It is the only way, Nagini,\" he whispered, and he looked around, and there was the great thick snake, now suspended in midair, twisting gracefully within the enchanted, protected space he had made for her, a starry, transparent sphere somewhere between glittering cage and tank. With a gasp, Harry pulled back and opened his eyes; at the same moment his ears were assaulted with the screeches and cries, the smashes and bangs of battle. \"He's in the Shrieking Shack. The snake's with him, it's got some sort of magical protection around it. He's just sent Lucius Malfoy to find Snape.\" \"Voldemort's sitting in the Shrieking Shack?\"",
+        "score": 0.29003071784973145
     },
     {
-        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
-        "chunk_id": 1327,
-        "passage": "All those times we were in that bathroom, and she was just three toilets away,\" said Ron bitterly at breakfast next day, \"and we could've asked her, and now ...\"\nIt had been hard enough trying to look for spiders. Escaping their teachers long enough to sneak into a girls' bathroom, the girls' bathroom, moreover, right next to the scene of the first attack, was going to be almost impossible. But something happened in their first lesson, Transfiguration, that drove the Chamber of Secrets out of their minds for the first time in weeks. Ten minutes into the class, Professor McGonagall told them that their exams would start on the first of June, one week from today. \"Exams?\"",
-        "score": 39.81933447702771
+        "sub_query": "3. In which Harry Potter book does Voldemort's snake first appear?",
+        "chunk_id": 5389,
+        "passage": "I mean ... I saw that snake attack Mr. Weasley and if I hadn't, Professor Dumbledore wouldn't have been able to save him, would he? Sir?\" Snape stared at Harry for a few moments, still tracing his mouth with his finger. When he spoke again, it was slowly and deliberately, as though he weighed every word. \"It appears that the Dark Lord has been unaware of the connection between you and himself until very recently. Up till now it seems that you have been experiencing his emotions and sharing his thoughts without his being any the wiser. However, the vision you had shortly before Christmas -\"\n\"The one with the snake and Mr. Weasley?\" \"Do not interrupt me, Potter,\" said Snape in a dangerous voice. \"As I was saying ... the vision you had shortly before Christmas represented such a powerful incursion upon the Dark Lord's thoughts -\"\n\"I saw inside the snake's head, not his!\" \"I thought I just told you not to interrupt me, Potter?\" But Harry did not care if Snape was angry; at last he seemed to be getting to the bottom of this business. He had moved forward in his chair so that, without realizing it, he was perched on the very edge, tense as though poised for flight. \"How come I saw through the snake's eyes if it's Voldemort's thoughts I'm sharing?\"",
+        "score": 0.29827356338500977
     },
     {
-        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
-        "chunk_id": 1246,
-        "passage": "Do you know anything about the Chamber of Secrets?\" His heart was hammering. Riddle's reply came quickly, his writing becoming untidier, as though he was hurrying to tell all he knew. \"Of course I know about the Chamber of Secrets. In my day, they told us it was a legend, that it did not exist.",
-        "score": 39.307454679019926
+        "sub_query": "3. In which Harry Potter book does Voldemort's snake first appear?",
+        "chunk_id": 5287,
+        "passage": "Was this why Dumbledore would no longer meet Harry's eyes? Did he expect to see Voldemort staring out of them, afraid, perhaps, that their vivid green might turn suddenly to scarlet, with catlike slits for pupils? Harry remembered how the snakelike face of Voldemort had once forced itself out of the back of Professor Quirrell's head, and he ran his hand over the back of his own, wondering what it would feel like if Voldemort burst out of his skull. ... He felt dirty, contaminated, as though he were carrying some deadly germ, unworthy to sit on the underground train back from the hospital with innocent, clean people whose minds and bodies were free of the taint of Voldemort. ... He had not merely seen the snake, he had been the snake, he knew it now. ...\nAnd then a truly terrible thought occurred to him, a memory bobbing to the surface of his mind, one that made his insides writhe and squirm like serpents. ...\n\"What's he after apart from followers?\"",
+        "score": 0.2987459897994995
     }
 ]
