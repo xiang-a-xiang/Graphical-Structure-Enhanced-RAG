@@ -13,7 +13,7 @@ QA_FILE = f"{DATA_PATH}/QA_set/easy_single.json"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # Use CUDA
-device = "cpu"
+device = "cuda"
 
 # Load models on GPU
 bge_model = SentenceTransformer("BAAI/bge-large-en", device=device)
