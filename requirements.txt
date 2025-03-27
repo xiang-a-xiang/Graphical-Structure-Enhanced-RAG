@@ -1,19 +1,10 @@
-# Core dependencies
-numpy>=1.21.6,<1.28        # Ensure compatibility with SciPy/Sklearn
-torch>=2.1.0,<2.7.0         # Avoid hash mismatch, stay within stable versions
-
-# GPU-enhanced similarity search
-faiss-gpu>=1.7.4,<1.8.0     # Latest stable GPU version (ensure CUDA compatibility)
-
-# Text embeddings
-sentence-transformers>=2.2.2,<3.0.0
-
-# ML utilities
-scikit-learn>=1.2,<1.5      # Avoid NumPy 2.x issues in some releases
-tqdm>=4.64,<5.0             # Progress bars
-transformers>=4.37,<4.39    # Stable, compatible with torch 2.1+
-pandas>=1.5,<2.3            # Data manipulation
-datasets>=2.10,<3.0         # HuggingFace datasets
-
-# Ranking
-rank-bm25>=0.2.2,<0.3.0
+numpy
+torch
+faiss-gpu
+sentence-transformers
+scikit-learn
+tqdm
+transformers
+pandas
+datasets
+rank-bm25
