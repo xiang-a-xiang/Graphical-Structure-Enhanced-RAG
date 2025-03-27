@@ -1,0 +1,92 @@
+[
+    {
+        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
+        "chunk_id": 5315,
+        "passage": "His heart swelled with happiness and relief, and he felt like joining in as they heard Sirius tramping past their door toward Buckbeak's room, singing \"God Rest Ye Merry, Hippogriffs\" at the top of his voice. How could he have dreamed of returning to Privet Drive for Christmas? Sirius's delight at having the house full again, and especially at having Harry back, was infectious. He was no longer their sullen host of the summer; now he seemed determined that everyone should enjoy themselves as much, if not more, than they would have done at Hogwarts, and he worked tirelessly in the run-up to Christmas Day, cleaning and decorating with their help, so that by the time they all went to bed on Christmas Eve the house was barely recognizable. The tarnished chandeliers were no longer hung with cobwebs but with garlands of holly and gold and silver streamers; magical snow glittered in heaps over the threadbare carpets; a great Christmas tree, obtained by Mundungus and decorated with live fairies, blocked Sirius's family tree from view; and even the stuffed elf heads on the hall wall wore Father Christmas hats and beards. Harry awoke on Christmas morning to find a stack of presents at the foot of his bed and Ron already halfway through opening his own, rather larger, pile. \"Good haul this year,\" he informed Harry through a cloud of paper. \"Thanks for the Broom Compass, it's excellent, beats Hermione's - she's got me a homework planner -\"\nHarry sorted through his presents and found one with Hermione's handwriting on it. She had given him too a book that resembled a diary, except that it said things like \"Do it today or later you'll pay!\" every time he opened a page. Sirius and Lupin had given Harry a set of excellent books entitled Practical Defensive Magic and Its Use Against the Dark Arts, which had superb, moving color illustrations of all the counterjinxes and hexes it described. Harry flicked through the first volume eagerly; he could see it was going to be highly useful in his plans for the D.A. Hagrid had sent a furry brown wallet that had fangs, which were presumably supposed to be an antitheft device, but unfortunately prevented Harry putting any money in without getting his fingers ripped off.",
+        "score": 29.07651561181817
+    },
+    {
+        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
+        "chunk_id": 7713,
+        "passage": "\"Le' go of him! Le' go of Harry!\" Lupin ignored him. \"What creature sat in the corner the first time that Harry Potter visited my office at Hogwarts?\" he said, giving Harry a small shake. \"Answer me!\" \"A - a grindylow in a tank, wasn't it?\" Lupin released Harry and fell back against a kitchen cupboard. \"Wha' was tha' about?\"",
+        "score": 26.699891873012692
+    },
+    {
+        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
+        "chunk_id": 442,
+        "passage": "When he woke early in the morning, however, the first thing he saw was a small pile of packages at the foot of his bed. \"Merry Christmas,\" said Ron sleepily as Harry scrambled out of bed and pulled on his bathrobe. \"You, too,\" said Harry. \"Will you look at this? I've got some presents!\" \"What did you expect, turnips?\" said Ron, turning to his own pile, which was a lot bigger than Harry's.",
+        "score": 26.332959708297246
+    },
+    {
+        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
+        "chunk_id": 3533,
+        "passage": "Could Moody possibly mean what Harry thought he meant? \"And now I want to ask you a question, Potter,\" said Moody in a more businesslike tone. Harry's heart sank; he had thought this was coming. Moody was going to ask where he had got this map, which was a very dubious magical object - and the story of how it had fallen into his hands incriminated not only him, but his own father, Fred and George Weasley, and Professor Lupin, their last Defense Against the Dark Arts teacher. Moody waved the map in front of Harry, who braced himself -\n\"Can I borrow this?\" \"Oh!\" said Harry. He was very fond of his map, but on the other hand, he was extremely relieved that Moody wasn't asking where he'd got it, and there was no doubt that he owed Moody a favor. \"Yeah, okay.\"",
+        "score": 26.149826914074886
+    },
+    {
+        "sub_query": "1. What object was given as a Christmas gift in the first Harry Potter book?",
+        "chunk_id": 1187,
+        "passage": "Hagrid had sent him a large tin of treacle toffee, which Harry decided to soften by the fire before eating; Ron had given him a book called Flying with the Cannons, a book of interesting facts about his favorite Quidditch team, and Hermione had bought him a luxury eagle-feather quill. Harry opened the last present to find a new, hand-knitted sweater from Mrs. Weasley and a large plum cake. He read her card with a fresh surge of guilt, thinking about Mr. Weasley's car (which hadn't been seen since its crash with the Whomping Willow), and the bout of rule-breaking he and Ron were planning next. No one, not even someone dreading taking Polyjuice Potion later, could fail to enjoy Christmas dinner at Hogwarts. The Great Hall looked magnificent. Not only were there a dozen frost-covered Christmas trees and thick streamers of holly and mistletoe crisscrossing the ceiling, but enchanted snow was falling, warm and dry, from the ceiling. Dumbledore led them in a few of his favorite carols, Hagrid booming more and more loudly with every goblet of eggnog he consumed.",
+        "score": 26.143114286496015
+    },
+    {
+        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
+        "chunk_id": 1316,
+        "passage": "They believed that I was the monster that dwells in what they call the Chamber of Secrets. They thought that Hagrid had opened the Chamber and set me free.\" \"And you ... you didn't come from the Chamber of Secrets?\" said Harry, who could feel cold sweat on his forehead. \"I!\" said Aragog, clicking angrily. \"I was not born in the castle. I come from a distant land.",
+        "score": 30.908735539430047
+    },
+    {
+        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
+        "chunk_id": 1246,
+        "passage": "Do you know anything about the Chamber of Secrets?\" His heart was hammering. Riddle's reply came quickly, his writing becoming untidier, as though he was hurrying to tell all he knew. \"Of course I know about the Chamber of Secrets. In my day, they told us it was a legend, that it did not exist.",
+        "score": 30.285765468543012
+    },
+    {
+        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
+        "chunk_id": 1048,
+        "passage": "He disliked taking students of Muggle parentage, believing them to be untrustworthy. After a while, there was a serious argument on the subject between Slytherin and Gryffindor, and Slytherin left the school.\" Professor Binns paused again, pursing his lips, looking like a wrinkled old tortoise. \"Reliable historical sources tell us this much,\" he said. \"But these honest facts have been obscured by the fanciful legend of the Chamber of Secrets. The story goes that Slytherin had built a hidden chamber in the castle, of which the other founders knew nothing. \"Slytherin, according to the legend, sealed the Chamber of Secrets so that none would be able to open it until his own true heir arrived at the school.",
+        "score": 29.5159313710826
+    },
+    {
+        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
+        "chunk_id": 1353,
+        "passage": "Taken into the Chamber of Secrets itself. Your moment has come at last.\" Lockhart blanched. \"That's right, Gilderoy,\" chipped in Professor Sprout. \"Weren't you saying just last night that you've known all along where the entrance to the Chamber of Secrets is?\"",
+        "score": 28.58165406160726
+    },
+    {
+        "sub_query": "2. In which book does the Chamber of Secrets play a significant role?",
+        "chunk_id": 1050,
+        "passage": "\"Naturally, the school has been searched for evidence of such a chamber, many times, by the most learned witches and wizards. It does not exist. A tale told to frighten the gullible.\" Hermione's hand was back in the air. \"Sir - what exactly do you mean by the 'horror within' the Chamber?\" \"That is believed to be some sort of monster, which the Heir of Slytherin alone can control,\" said Professor Binns in his dry, reedy voice. The class exchanged nervous looks.",
+        "score": 28.19842830589865
+    },
+    {
+        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
+        "chunk_id": 935,
+        "passage": "What is Gilderoy Lockhart's favorite color? 2. What is Gilderoy Lockhart's secret ambition? 3. What, in your opinion, is Gilderoy Lockhart's\ngreatest achievement to date? On and on it went, over three sides of paper, right down to:\n54. When is Gilderoy Lockhart's birthday, and what\nwould his ideal gift be? Half an hour later, Lockhart collected the papers and rifled through them in front of the class. \"Tut, tut - hardly any of you remembered that my favorite color is lilac. I say so in Year with the Yeti. And a few of you need to read Wanderings with Werewolves more carefully - I clearly state in chapter twelve that my ideal birthday gift would be harmony between all magic and non-magic peoples - though I wouldn't say no to a large bottle of Ogden's Old Firewhisky!\" He gave them another roguish wink.",
+        "score": 40.35773418221512
+    },
+    {
+        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
+        "chunk_id": 8783,
+        "passage": "... He paced the room, kicking aside the goblin's corpse as he passed, and the pictures blurred and burned in his boiling brain: the lake, the shack, and Hogwarts -\nA modicum of calm cooled his rage now: How could the boy know that he had hidden the ring in the Gaunt shack? No one had ever known him to be related to the Gaunts, he had hidden the connection, the killings had never been traced to him: The ring, surely, was safe. And how could the boy, or anybody else, know about the cave or penetrate its protection? The idea of the locket being stolen was absurd. ...\nAs for the school: He alone knew where in Hogwarts he had stowed the Horcrux, because he alone had plumbed the deepest secrets of that place. ...\nAnd there was still Nagini, who must remain close now, no longer sent to do his bidding, under his protection. ... But to be sure, to be utterly sure, he must return to each of his hiding places, he must redouble protection around each of his Horcruxes. ... A job, like the quest for the Elder Wand, that he must undertake alone ... Which should he visit first, which was in most danger?",
+        "score": 40.12521569510459
+    },
+    {
+        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
+        "chunk_id": 1316,
+        "passage": "They believed that I was the monster that dwells in what they call the Chamber of Secrets. They thought that Hagrid had opened the Chamber and set me free.\" \"And you ... you didn't come from the Chamber of Secrets?\" said Harry, who could feel cold sweat on his forehead. \"I!\" said Aragog, clicking angrily. \"I was not born in the castle. I come from a distant land.",
+        "score": 39.920408675359255
+    },
+    {
+        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
+        "chunk_id": 1327,
+        "passage": "All those times we were in that bathroom, and she was just three toilets away,\" said Ron bitterly at breakfast next day, \"and we could've asked her, and now ...\"\nIt had been hard enough trying to look for spiders. Escaping their teachers long enough to sneak into a girls' bathroom, the girls' bathroom, moreover, right next to the scene of the first attack, was going to be almost impossible. But something happened in their first lesson, Transfiguration, that drove the Chamber of Secrets out of their minds for the first time in weeks. Ten minutes into the class, Professor McGonagall told them that their exams would start on the first of June, one week from today. \"Exams?\"",
+        "score": 39.81933447702771
+    },
+    {
+        "sub_query": "3. How does the Christmas gift from the first book aid in decoding a clue related to the Chamber of Secrets?",
+        "chunk_id": 1246,
+        "passage": "Do you know anything about the Chamber of Secrets?\" His heart was hammering. Riddle's reply came quickly, his writing becoming untidier, as though he was hurrying to tell all he knew. \"Of course I know about the Chamber of Secrets. In my day, they told us it was a legend, that it did not exist.",
+        "score": 39.307454679019926
+    }
+]
