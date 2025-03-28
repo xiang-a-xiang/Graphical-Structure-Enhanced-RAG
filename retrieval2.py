@@ -11,7 +11,6 @@ from rank_bm25 import BM25Okapi
 # -----------------------------
 DATA_PATH = "./data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
-
 # -----------------------------
 # Utility function to load passages
 # -----------------------------
@@ -24,7 +23,6 @@ def load_passages_and_chunk_ids():
     chunk_ids = [entry["chunk_id"] for entry in data if "chunk_id" in entry]
     print(f"Loaded {len(passages)} passages with chunk IDs")
     return passages, chunk_ids
-
 # -----------------------------
 # TF-IDF Retrieval
 # -----------------------------
@@ -45,7 +43,6 @@ def tfidf_retrieval(query, vectorizer, doc_matrix, passages, chunk_ids, top_k=5)
         }
         for i in sorted_indices
     ]
-
 # -----------------------------
 # BM25 Retrieval
 # -----------------------------
@@ -92,3 +89,48 @@ def dense_retrieval_subqueries(queries, model, faiss_index, passages, chunk_ids,
             } for j, i in enumerate(indices[0])
         ])
     return results
+# -----------------------------
+# Hybrid retrieval
+# -----------------------------
+def hybrid_retrieval(
+    queries,
+    sparse_model,
+    dense_model,
+    passages,
+    chunk_ids,
+    sparse_retrieval_func,
+    top_k=5,
+    intermediate_k=1000
+):
+    if isinstance(queries, str):
+        queries = [queries]
+    
+    intermediate_k = min(intermediate_k, len(passages))
+    all_results = []
+    for query in queries:
+        # Sparse retrieval
+        if isinstance(sparse_model, tuple):
+            vectorizer, doc_matrix = sparse_model
+            candidates = sparse_retrieval_func(query, vectorizer, doc_matrix, passages, chunk_ids, top_k=intermediate_k)
+        else:
+            candidates = sparse_retrieval_func(query, sparse_model, passages, chunk_ids, top_k=intermediate_k)
+        
+        # Dense re-ranking
+        query_emb = dense_model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+        candidate_passages = [c["passage"] for c in candidates]
+        candidate_embs = dense_model.encode(candidate_passages, convert_to_numpy=True, normalize_embeddings=True)
+        similarities = candidate_embs @ query_emb
+        
+        # Rerank
+        sorted_idxs = np.argsort(similarities)[::-1][:top_k]
+        for idx in sorted_idxs:
+            candidate = candidates[idx]
+            all_results.append({
+                "sub_query": query,
+                "chunk_id": candidate["chunk_id"],
+                "passage": candidate["passage"],
+                "sparse_score": float(candidate["score"]),
+                "dense_score": float(similarities[idx])
+            })
+    
+    return sorted(all_results, key=lambda x: x["dense_score"], reverse=True)[:top_k]
