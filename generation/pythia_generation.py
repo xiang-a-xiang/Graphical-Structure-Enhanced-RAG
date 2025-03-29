@@ -63,7 +63,7 @@ Context:
 Answer:"""
         else:
             prompt = f"""You are an assistant with expert knowledge of the Harry Potter series.
-Answer the question below using the provided context.
+Answer the question consicely.
 
 Question: {sub_query}
 

@@ -156,6 +156,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from rank_bm25 import BM25Okapi
+import faiss
 
 # -----------------------------
 # Config paths
@@ -226,20 +227,56 @@ def bm25_retrieval_subqueries(queries, bm25, passages, chunk_ids, top_k=5):
 # -----------------------------
 # Dense Retrieval
 # -----------------------------
-def dense_retrieval_subqueries(queries, model, faiss_index, passages, chunk_ids, top_k=5):
+
+def query_embed_search(query, all_queries_list, index):
+    try:
+        # Find the position (index) of the query in the list of all queries
+        position = all_queries_list.index(query)
+        print(f'Found Position: {position}')
+        
+        # Reconstruct and return the vector at the given position in the index
+        return index.reconstruct(position)
+    except ValueError:
+        print(f"Query '{query}' not found in the list.")
+        return None
+    
+
+def dense_retrieval_subqueries(queries, all_queries_list, sub_queries_index, faiss_index, passages, chunk_ids, top_k=5):
     if isinstance(queries, str):
         queries = [queries]
 
     results = []
     for query in queries:
-        query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
-        distances, indices = faiss_index.search(np.expand_dims(query_emb, axis=0), top_k)
+        #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+        query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
+        query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
+        distances, indices = faiss_index.search(query_emb, top_k)
         results.extend([
-            {
-                "sub_query": query,
-                "chunk_id": chunk_ids[i],
-                "passage": passages[i],
-                "score": distances[0][j]
-            } for j, i in enumerate(indices[0])
+        {
+            "sub_query": query,
+            "chunk_id": chunk_ids[i],
+            "passage": passages[i],
+            "score": float(distances[0][j])
+        } for j, i in enumerate(indices[0])
         ])
     return results
+
+if __name__ == "__main__":
+    file_path = 'bge_qa_subqueries.index'
+    index = faiss.read_index(file_path)
+    embeding_dimension = index.ntotal
+    print(embeding_dimension)
+
+    qa_path = 'data/QO_set/medium_single_QO.json'
+    with open(qa_path, 'r') as f:
+        qa_data = json.load(f)
+
+    subquestion_list = []
+    for i, item in enumerate(qa_data):
+        tmp = item['sub_questions']
+        for j, sub in enumerate(tmp):
+            subquestion_list.append(sub)
+
+    print(len(subquestion_list))
+
+    
