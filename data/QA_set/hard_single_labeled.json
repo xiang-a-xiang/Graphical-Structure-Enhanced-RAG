@@ -17,11 +17,11 @@
             }
         ],
         "id": 1,
-        "question_variants": "'In the first book, what inconspicuous clue during a discussion about a magical being foreshadows an impending act of treachery?'",
+        "question_variants": "In the narrative about a magical creature, what subtle hint in a conversation foreshadows a future betrayal in the first book?",
         "sub_questions": [
-            "What magical creature is discussed in a conversation in the first Harry Potter book?",
-            "Which character(s) are involved in the conversation about the magical creature in the first book?",
-            "How does the conversation about the magical creature foreshadow a future betrayal in the first book?"
+            "Who is the character that mentions the magical creature?",
+            "What is the name of the magical creature being discussed?",
+            "What specific detail about the creature's nature or behavior is revealed that could indicate a future betrayal?"
         ],
         "category": "hard_single_labeled"
     },
@@ -37,11 +37,11 @@
             }
         ],
         "id": 2,
-        "question_variants": "What item in Dumbledore's office, seen during Harry's initial visit, foreshadows a mystery revealed only in the last installment of the series?",
+        "question_variants": "What item in Dumbledore's office during Harry's initial visit suggests a secret that remains undisclosed until the final book?",
         "sub_questions": [
-            "What object in Dumbledore's office is mentioned during Harry's first visit?",
-            "What secret is hinted at by the object in Dumbledore's office?",
-            "In which book is the secret hinted by the object in Dumbledore's office fully revealed?"
+            "What specific object in Dumbledore's office was the first to reveal a hidden secret?",
+            "How does this object's presence relate to the final book's events?",
+            "Can you identify any other items in the office that might also hold a secret?"
         ],
         "category": "hard_single_labeled"
     },
@@ -69,12 +69,11 @@
             }
         ],
         "id": 3,
-        "question_variants": "'Which insignificant Christmas present from the initial year ultimately plays a crucial role in facilitating a life-saving getaway?'",
+        "question_variants": "What seemingly insignificant present, exchanged during the first Christmas celebration, later becomes a crucial factor in a life-saving escape?",
         "sub_questions": [
-            "What gift was given at Christmas in the first year of Harry Potter's time at Hogwarts?",
-            "How did the Christmas gift from the first year contribute to a life?",
-            "saving escape?",
-            "In which situation or event did the seemingly trivial Christmas gift play a crucial role in Harry Potter's story?"
+            "What is the seemingly trivial gift given at Christmas in the first year?",
+            "How does this gift later aid in a life-saving escape?",
+            "Can you identify the character who received this gift and how it impacted their life?"
         ],
         "category": "hard_single_labeled"
     },
@@ -102,13 +101,11 @@
             }
         ],
         "id": 4,
-        "question_variants": "'In the final book, which chess piece's underground chamber movement symbolizes a character's sacrifice?'",
+        "question_variants": "What chess piece's unique movement pattern in the underground chamber symbolizes a character's self-sacrifice in the final book?",
         "sub_questions": [
-            "Here are three easier individual sub?",
-            "questions extracted from the original query:?",
-            "What chess piece is mentioned in the context of the underground chamber in the Harry Potter series?",
-            "Which character makes a significant sacrifice in the final book of the Harry Potter series?",
-            "How does the movement of a specific chess piece symbolize a character's sacrifice in the story?"
+            "What chess piece's movement is described in the underground chamber?",
+            "How does this movement relate to a character's sacrifice in the final book?",
+            "Which character made the sacrifice, and what was the nature of their sacrifice?"
         ],
         "category": "hard_single_labeled"
     },
@@ -124,11 +121,11 @@
             }
         ],
         "id": 5,
-        "question_variants": "'Which enigmatic statement made by Dumbledore in the fifth installment of the series hints at the concept of Horcruxes, later explained in detail in the sixth book?'",
+        "question_variants": "Which enigmatic statement, uttered by Dumbledore in the fifth book, hints at the true nature of Horcruxes as unveiled in the sixth installment?",
         "sub_questions": [
-            "What specific phrase did Dumbledore use in Book 5 that relates to Horcruxes?",
-            "In which context or scene did Dumbledore utter this cryptic phrase in Book 5?",
-            "How does the phrase from Book 5 foreshadow the concept of Horcruxes revealed in Book 6?"
+            "What is the specific phrase that Dumbledore used in Book 5?",
+            "How does this phrase relate to the concept of Horcruxes?",
+            "Can you identify the foreshadowing elements in the phrase that were later confirmed in Book 6?"
         ],
         "category": "hard_single_labeled"
     },
@@ -150,11 +147,11 @@
             }
         ],
         "id": 6,
-        "question_variants": "'What forest-dwelling creature is acting out of character, suggesting the presence of a secret guardian?'",
+        "question_variants": "What animal's actions in the woods stand out as unusual, suggesting a secret guardian?",
         "sub_questions": [
-            "What creature in the forest exhibits behavior that contradicts its usual nature?",
-            "What is the usual nature or typical behavior of this creature?",
-            "Who or what is the hidden protector hinted at by the creature's unusual behavior?"
+            "What creature's behavior in the forest is unusual and suggests a hidden protector?",
+            "How does this creature's behavior contradict its typical behavior in a forest setting?",
+            "Can you identify the creature and its usual nature, and explain how its behavior in the forest might indicate a protector?"
         ],
         "category": "hard_single_labeled"
     },
@@ -170,11 +167,11 @@
             }
         ],
         "id": 7,
-        "question_variants": "What subtle aspect of the Mirror of Erised complicates the understanding of its significance?",
+        "question_variants": "What subtle element of the Mirror of Erised's description makes deciphering its true meaning a challenging task?",
         "sub_questions": [
             "What is the Mirror of Erised?",
-            "What does the Mirror of Erised show to those who look into it?",
-            "Why is the name \"Erised\" significant in understanding the mirror's meaning?"
+            "How does the Mirror of Erised reveal hidden truths?",
+            "What specific detail about the Mirror of Erised makes its meaning ambiguous?"
         ],
         "category": "hard_single_labeled"
     },
@@ -190,16 +187,16 @@
             }
         ],
         "id": 8,
-        "question_variants": "'Which subtle remark about a pet in the sequel hints at a character's hidden identity?'",
+        "question_variants": "How does a seemingly insignificant remark about a pet in the second book hint at a character's hidden identity?",
         "sub_questions": [
-            "What pet is mentioned in the second Harry Potter book?",
-            "Which character's true identity is foreshadowed by a comment about a pet in the second book?",
-            "What specific comment about a pet in the second book is often overlooked as foreshadowing?"
+            "Who made the comment about a pet in the second book?",
+            "What was the specific comment about a pet?",
+            "How does this comment foreshadow a character's true identity?"
         ],
         "category": "hard_single_labeled"
     },
     {
-        "question": "What substance, introduced through an ancient creature’s attack, is later revealed to bypass magical self-repair and destroy a Horcrux?",
+        "question": "What substance, introduced through an ancient creature's attack, is later revealed to bypass magical self-repair and destroy a Horcrux?",
         "answer": "Basilisk venom.",
         "list of reference": [
             {
@@ -216,12 +213,11 @@
             }
         ],
         "id": 9,
-        "question_variants": "Which material, delivered by the assault of a mythical beast, is subsequently found to circumvent magical healing and annihilate a Horcrux?",
+        "question_variants": "Which element, introduced during an ancient creature's assault, is capable of overcoming magical self-repair and annihilating a Horcrux?",
         "sub_questions": [
-            "What ancient creature is associated with the substance that can destroy a Horcrux?",
-            "How does the substance introduced by this creature bypass magical self?",
-            "repair?",
-            "What specific role does the substance play in the destruction of a Horcrux?"
+            "What is the substance that was introduced through an ancient creature's attack?",
+            "How does this substance affect magical self-repair?",
+            "Can you identify the Horcrux that was destroyed by this substance?"
         ],
         "category": "hard_single_labeled"
     },
@@ -237,13 +233,11 @@
             }
         ],
         "id": 10,
-        "question_variants": "'Which particular expression within a prophetic caution subtly reveals the identity of a betrayer?'",
+        "question_variants": "Which particular phrase within a prophetic warning suggests the identity of a traitor?",
         "sub_questions": [
-            "What is the exact wording of the prophecy?",
-            "like warning mentioned in the Harry Potter series?",
-            "How does the phrase in the warning relate to the identity of the traitor?",
-            "In which book or context does the prophecy?",
-            "like warning about the traitor appear?"
+            "What is the exact phrase in the prophecy that suggests a traitor is among the characters?",
+            "How does this phrase reveal the identity of the traitor?",
+            "Are there any other clues or hints in the prophecy that support the idea of a traitor?"
         ],
         "category": "hard_single_labeled"
     },
@@ -259,11 +253,11 @@
             }
         ],
         "id": 11,
-        "question_variants": "'What comment made by a Slytherin student during a Quidditch game suggests a hidden family mystery?'",
+        "question_variants": "Who is the Slytherin student whose comment during a Quidditch match suggests a hidden family history?",
         "sub_questions": [
-            "Which Slytherin student made a remark during a Quidditch match?",
-            "What was the nature of the remark made by the Slytherin student during the Quidditch match?",
-            "What family secret is hinted at by the Slytherin student's remark during the Quidditch match?"
+            "Who is the Slytherin student who made the remark?",
+            "What was the specific remark made during the Quidditch match?",
+            "How does this remark hint at a family secret?"
         ],
         "category": "hard_single_labeled"
     }

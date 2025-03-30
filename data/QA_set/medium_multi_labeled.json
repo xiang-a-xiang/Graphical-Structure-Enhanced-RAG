@@ -23,11 +23,11 @@
             }
         ],
         "id": 1,
-        "question_variants": "In the fifth installment of the series, which spell does Harry cast to rescue his cousin Dudley from harm, and what is the significance of this act in relation to an incident that occurred in the second book?",
+        "question_variants": "In the fifth book, Harry employs a specific spell to rescue his cousin Dudley from a perilous situation. Can you explain how this spell is linked to an incident that occurred in the second book?",
         "sub_questions": [
-            "What spell does Harry use to save Dudley in the fifth book?",
-            "What specific danger does Harry save Dudley from in the fifth book?",
-            "What event in the second book connects to Harry's use of the spell in the fifth book?"
+            "What spell does Harry use to save his cousin Dudley in the fifth book?",
+            "How does this spell relate to an event in the second book?",
+            "Can you provide a detailed explanation of the connection between the spell and the event in the second book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -49,11 +49,11 @@
             }
         ],
         "id": 2,
-        "question_variants": "In the third installment of the series, which character instructs Harry on the Patronus Charm, and what is their connection to Harry's father?",
+        "question_variants": "In the third book, who is the instructor for Harry's Patronus Charm, and what is the connection between this individual and Harry's father?",
         "sub_questions": [
-            "Who teaches Harry the Patronus Charm in the third book?",
-            "What is the relationship between Harry's father and the person who teaches him the Patronus Charm?",
-            "In which book does Harry learn the Patronus Charm?"
+            "Who is the teacher who introduces Harry to the Patronus Charm in *Harry Potter and the Prisoner of Azkaban*?",
+            "What is the name of the person who teaches Harry this charm?",
+            "How is this teacher connected to Harry's father, James Potter?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -81,11 +81,11 @@
             }
         ],
         "id": 3,
-        "question_variants": "In the third book, what item does Hermione employ to manage her overloaded class schedule, and how does this same object subsequently assist Harry in rescuing someone's life?",
+        "question_variants": "In the third book, what device does Hermione employ to attend various classes, and how does it assist Harry in saving someone's life?",
         "sub_questions": [
-            "What object does Hermione use to attend multiple classes in the third Harry Potter book?",
-            "How does Hermione's object help Harry save a life later in the story?",
-            "In which specific situation does Harry use Hermione's object to save a life?"
+            "What object does Hermione use to attend multiple classes in the third book?",
+            "How does the object function in the context of the third book?",
+            "How does this object later contribute to Harry saving a life?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -107,11 +107,11 @@
             }
         ],
         "id": 4,
-        "question_variants": "In the initial installment of the series, which creature protects the Philosopher's Stone, and what vulnerability does it possess?",
+        "question_variants": "In the initial book, what animal is tasked with protecting the Philosopher's Stone, and what is its vulnerability?",
         "sub_questions": [
             "What creature guards the Philosopher's Stone in the first Harry Potter book?",
-            "What is the weakness of the creature guarding the Philosopher's Stone?",
-            "In which location is the Philosopher's Stone guarded by the creature in the first book?"
+            "How does this creature protect the Philosopher's Stone?",
+            "What is the creature's weakness, and how can it be exploited?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -145,11 +145,11 @@
             }
         ],
         "id": 5,
-        "question_variants": "In the first book, what does Ron give up during the chess match, and how does this act foreshadow his significance in the final installment of the series?",
+        "question_variants": "In the first book, what is the nature of Ron's sacrifice during the chess game, and how does this act symbolize his significance in the seventh book?",
         "sub_questions": [
-            "What does Ron sacrifice during the chess game in the first Harry Potter book?",
-            "What is Ron's role in the seventh Harry Potter book?",
-            "How does Ron's sacrifice in the chess game reflect his character development by the seventh book?"
+            "What is the nature of the sacrifice Ron makes during the chess game in the first Harry Potter book?",
+            "How does this sacrifice impact Ron's character development throughout the series?",
+            "Can the sacrifice be linked to his actions and decisions in the seventh book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -177,11 +177,11 @@
             }
         ],
         "id": 6,
-        "question_variants": "In the second installment of the series, which character does Harry rescue from the Chamber of Secrets, and what role does this individual play in aiding him during the events of the seventh book?",
+        "question_variants": "In the second installment of the series, Harry Potter rescues a specific individual from the Chamber of Secrets. In the final book, this person plays a crucial role in Harry's journey, offering significant assistance.",
         "sub_questions": [
             "Who does Harry save from the Chamber of Secrets in the second book?",
-            "What specific assistance does the person saved from the Chamber of Secrets provide to Harry in the seventh book?",
-            "In which book does Harry save someone from the Chamber of Secrets, and in which book does this person assist him?"
+            "How does the person Harry saves in the second book assist him in the seventh book?",
+            "What is the significance of this assistance in the seventh book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -245,11 +245,11 @@
             }
         ],
         "id": 7,
-        "question_variants": "In the fifth installment of the series, what prediction is unveiled to Harry, and how is it connected to a significant occurrence in the previous book?",
+        "question_variants": "In the fifth installment of the series, what specific prophecy is unveiled to Harry, and how does it connect to an incident that occurred in the fourth book?",
         "sub_questions": [
             "What prophecy is revealed to Harry in the fifth book?",
-            "What specific event in the fourth book ties to the prophecy revealed in the fifth book?",
-            "How does the prophecy in the fifth book relate to the event in the fourth book?"
+            "How does this prophecy relate to an event in the fourth book?",
+            "Can you provide a detailed explanation of the connection between the two events?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -283,11 +283,11 @@
             }
         ],
         "id": 8,
-        "question_variants": "In the third installment of the series, which creature does Hagrid bring into the story, and what significance does it hold in the events of the fifth book?",
+        "question_variants": "In the third installment of the series, what animal does Hagrid present, and how does its presence influence the events of the fifth book?",
         "sub_questions": [
             "What creature does Hagrid introduce in the third Harry Potter book?",
-            "What is the name of the creature introduced by Hagrid in the third book?",
-            "How does the creature introduced by Hagrid in the third book play a role in the fifth Harry Potter book?"
+            "How does this creature appear in the fifth book?",
+            "What is the significance of this creature's appearance in the fifth installment?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -345,11 +345,11 @@
             }
         ],
         "id": 9,
-        "question_variants": "Which potion does Harry demonstrate exceptional skill in preparing during the events of the sixth installment?",
+        "question_variants": "In the sixth installment of the series, which potion does Harry demonstrate exceptional skill in creating?",
         "sub_questions": [
-            "What is the name of the potion Harry excels at brewing in the sixth book?",
-            "Which book in the Harry Potter series features Harry excelling at brewing a specific potion?",
-            "What subject or skill does Harry demonstrate excellence in during the sixth book?"
+            "What potion does Harry brew in the sixth book of the Harry Potter series?",
+            "How does Harry's potion-brewing skill progress in the sixth installment?",
+            "Can Harry's potion-making abilities be compared to those of other characters in the series?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -413,11 +413,11 @@
             }
         ],
         "id": 10,
-        "question_variants": "In the seventh installment of the series, what item does Dumbledore bequeath to Hermione in his will, and how is it symbolically linked to a lesson or theme introduced in the first book?",
+        "question_variants": "In the final installment of the series, what item does Dumbledore leave for Hermione in his will, and how does it relate to a key lesson learned in the first book?",
         "sub_questions": [
-            "What object does Dumbledore leave to Hermione in his will in the seventh book?",
-            "What lesson does Hermione learn in the first book that connects to Dumbledore's gift?",
-            "How does the object Dumbledore leaves to Hermione in the seventh book relate to her character development?"
+            "What object does Albus Dumbledore leave to Hermione Granger in his will in *Harry Potter and the Deathly Hallows*?",
+            "How does the object left by Dumbledore in his will to Hermione connect to a lesson about the power of knowledge and its protection, as seen in *Harry Potter and the Sorcerer's Stone*?",
+            "What significance does this object hold in the context of the Deathly Hallows and the wizarding world's fight against Voldemort?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -445,11 +445,11 @@
             }
         ],
         "id": 11,
-        "question_variants": "In the fifth book, where does Harry flee to following his escape from Privet Drive, and what significance does this location hold in relation to the events of the sixth installment?",
+        "question_variants": "What location did Harry visit following his escape from Privet Drive in the fifth book, and how is this place relevant to the events of the sixth book?",
         "sub_questions": [
-            "Where did Harry go after escaping from Privet Drive in the fifth book?",
-            "What is the name of the place Harry went to after leaving Privet Drive in the fifth book?",
-            "How does the place Harry went to in the fifth book connect to the events of the sixth book?"
+            "What location did Harry Potter visit after his escape from Privet Drive in the fifth book?",
+            "How did the events in this new location influence the plot of the sixth book?",
+            "Can you provide details about the significance of this place in the Harry Potter series?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -483,11 +483,11 @@
             }
         ],
         "id": 12,
-        "question_variants": "In the first book, what does Harry learn about the Mirror of Erised, and how is this discovery connected to a significant revelation in the seventh installment of the series?",
+        "question_variants": "In the first installment of the series, Harry learns about the Mirror of Erised and its unique properties. This discovery is then connected to a significant revelation made in the final book, where the true nature of the mirror's power is unveiled.",
         "sub_questions": [
-            "What does Harry discover about the Mirror of Erised in the first book?",
-            "What revelation occurs in the seventh book that relates to the Mirror of Erised?",
-            "How does Harry's discovery about the Mirror of Erised in the first book connect to the revelation in the seventh book?"
+            "What is the significance of the Mirror of Erised in the first Harry Potter book?",
+            "How does Harry's discovery about the mirror in the first book connect to a key revelation in the seventh book?",
+            "Can the Mirror of Erised be used to predict the future?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -533,11 +533,11 @@
             }
         ],
         "id": 13,
-        "question_variants": "In the fourth installment, what challenge involves Harry recovering an object from the lake, and what enables him to breathe underwater during this task?",
+        "question_variants": "In the fourth installment of the series, Harry is tasked with retrieving an item from a lake. What tool or device does he employ to breathe underwater?",
         "sub_questions": [
-            "What task in the fourth Harry Potter book requires Harry to retrieve something from the lake?",
-            "What does Harry use to breathe underwater during this task?",
-            "What specific item does Harry need to retrieve from the lake in the fourth book?"
+            "What task in the fourth book involves Harry retrieving an object from a lake?",
+            "How does Harry manage to breathe underwater during this task?",
+            "Can you name the specific item Harry retrieves from the lake?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -565,11 +565,11 @@
             }
         ],
         "id": 14,
-        "question_variants": "In the second book, what hidden truth about Tom Riddle does Harry discover, and how does this revelation influence his behavior in the sixth installment of the series?",
+        "question_variants": "In the second installment, what hidden truth does Harry learn about Tom Riddle? How does this revelation influence his decisions and actions in the final book?",
         "sub_questions": [
             "What secret does Harry uncover about Tom Riddle in the second book?",
-            "How does the secret about Tom Riddle from the second book influence Harry's actions in the sixth book?",
-            "What specific events in the sixth book are directly impacted by Harry's knowledge of Tom Riddle's secret?"
+            "How does this secret impact Harry's actions in the sixth book?",
+            "Can you provide a detailed account of the events in the sixth book that are influenced by this revelation?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -633,11 +633,11 @@
             }
         ],
         "id": 15,
-        "question_variants": "In the fifth book, who is responsible for the betrayal of Dumbledore's Army, and in the seventh book, which individual betrays the Death Eaters?",
+        "question_variants": "In the fifth book, who is the betrayer of Dumbledore's Army, and in the seventh book, who betrays the Death Eaters?",
         "sub_questions": [
-            "Who betrays Dumbledore's Army in the fifth Harry Potter book?",
-            "Who betrays a Death Eater in the seventh Harry Potter book?",
-            "In which Harry Potter book does the betrayal of Dumbledore's Army occur?"
+            "Who is the character who betrays Dumbledore's Army in the fifth book?",
+            "What is the nature of the betrayal in the fifth book?",
+            "How does the betrayal in the fifth book compare to the betrayal of a Death Eater in the seventh book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -665,11 +665,11 @@
             }
         ],
         "id": 16,
-        "question_variants": "In the seventh book, which magical creature does Harry use for his escape, and is the Ukrainian Ironbelly dragon featured in the initial challenge of the Triwizard Tournament in the fourth installment?",
+        "question_variants": "In the seventh book, what magical creature does Harry ride to escape? Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
         "sub_questions": [
             "What magical creature does Harry ride to escape in the seventh book?",
-            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament?",
-            "In which book does the first task of the Triwizard Tournament take place?"
+            "Does the Ukrainian Ironbelly dragon appear in the first task of the Triwizard Tournament in the fourth book?",
+            "How does Harry's escape in the seventh book differ from the first task of the Triwizard Tournament in the fourth book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -703,11 +703,11 @@
             }
         ],
         "id": 17,
-        "question_variants": "In the sixth installment, what recollection does Harry extract from Slughorn, and what is its relevance to the events of the second book?",
+        "question_variants": "In the sixth installment, what specific memory does Harry uncover from Slughorn, and how does it relate back to the events of the second book?",
         "sub_questions": [
-            "What memory does Harry retrieve from Slughorn in the sixth book?",
-            "What significant event from the second book is connected to the memory retrieved from Slughorn?",
-            "How does the memory retrieved from Slughorn in the sixth book relate to the plot of the second book?"
+            "What specific memory does Harry retrieve from Slughorn in the sixth book?",
+            "How does this retrieved memory relate to the events of the second book?",
+            "Can you identify any characters or locations mentioned in the retrieved memory that were also significant in the second book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -741,11 +741,11 @@
             }
         ],
         "id": 18,
-        "question_variants": "In the second book, what object does Harry employ to destroy the diary, and in what manner does this same object resurface in the seventh installment of the series?",
+        "question_variants": "In the second book, what tool does Harry employ to destroy the diary, and how does this same tool resurface in the seventh installment?",
         "sub_questions": [
-            "What object does Harry use to destroy the diary in the second book?",
-            "How does the object used to destroy the diary reappear in the seventh book?",
-            "In which book does Harry first encounter the diary that he later destroys?"
+            "What object does Harry use to destroy the diary in *Harry Potter and the Chamber of Secrets*?",
+            "How does this object reappear in *Harry Potter and the Deathly Hallows*?",
+            "Can you describe the significance of this object in the context of the seventh book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -785,11 +785,11 @@
             }
         ],
         "id": 19,
-        "question_variants": "In the first book, who presents Harry with a broomstick, and what is the lasting impact of this character's actions in the third installment of the series?",
+        "question_variants": "In the first book, who provides Harry with a broomstick, and how does this individual's influence manifest in the third book?",
         "sub_questions": [
-            "Who gives Harry a broomstick in the first Harry Potter book?",
-            "What is the name of the broomstick Harry receives in the first book?",
-            "How does the person who gives Harry the broomstick influence events in the third book?"
+            "Who is the character that provides Harry with his first broomstick in the first Harry Potter book?",
+            "What is the name of the broomstick Harry receives from this character?",
+            "How does the influence of this character from the first book impact the events and characters in the third book of the series?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -955,11 +955,11 @@
             }
         ],
         "id": 20,
-        "question_variants": "In the fourth installment of the series, what events does Harry observe in the Pensieve, and how do these visions predict or hint at a significant occurrence in the sixth book?",
+        "question_variants": "In the fourth book, what exactly does Harry see in the Pensieve, and how does this vision foreshadow a significant event that occurs in the sixth book?",
         "sub_questions": [
-            "What specific events does Harry witness in the Pensieve in the fourth Harry Potter book?",
-            "Which event in the sixth Harry Potter book is foreshadowed by what Harry sees in the Pensieve?",
-            "How does the content of the Pensieve in the fourth book connect to the foreshadowed event in the sixth book?"
+            "What is the content of the memory Harry witnesses in the Pensieve in the fourth book?",
+            "How does this memory relate to the event in the sixth book?",
+            "Can you identify the specific foreshadowing elements in the memory and their connection to the sixth book's event?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -987,11 +987,11 @@
             }
         ],
         "id": 21,
-        "question_variants": "In the seventh installment of the series, what revelation does Harry gain regarding Snape's true allegiance, and how is this tied to events from the third book?",
+        "question_variants": "In the seventh installment, Harry discovers something about Snape's loyalty. This revelation is linked to an event that occurred in the third book, and it provides insight into Snape's true nature and his relationship with Harry and the other characters.",
         "sub_questions": [
-            "What does Harry learn about Snape's loyalty in the seventh book?",
-            "What specific event or revelation in the seventh book clarifies Snape's true allegiance?",
-            "How does Snape's loyalty in the seventh book connect to events in the third book?"
+            "What specific event or revelation in the seventh book changes Harry's perception of Snape's loyalty?",
+            "How does this new information about Snape's loyalty relate to or impact the events of the third book?",
+            "Are there any similarities or connections between the actions or motivations of Snape in the third book and the seventh book that can be attributed to this newfound understanding of his loyalty?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1013,11 +1013,11 @@
             }
         ],
         "id": 22,
-        "question_variants": "In the sixth installment, what object does Harry employ to surveil Draco, and what connection does it have to the events or elements introduced in the inaugural book of the series?",
+        "question_variants": "In the sixth installment of the series, what device does Harry employ to observe Draco, and how does it connect to the events of the first book?",
         "sub_questions": [
             "What object does Harry use to spy on Draco in the sixth book?",
-            "How does the object Harry uses to spy on Draco relate to events in the first book?",
-            "What specific event or detail from the first book is connected to the object Harry uses in the sixth book?"
+            "How does this object relate to the events of the first book?",
+            "Can you provide a specific example of this connection?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1039,11 +1039,11 @@
             }
         ],
         "id": 23,
-        "question_variants": "In the second book, who does Harry encounter at the Burrow, and what role does this individual play in assisting him during the events of the seventh installment?",
+        "question_variants": "In the second book, Harry encounters a specific individual at the Burrow. This person plays a crucial role in the seventh book, providing significant assistance.",
         "sub_questions": [
-            "Who does Harry meet in the Burrow in the second book?",
-            "What specific role does the person Harry met in the Burrow play in the seventh book?",
-            "How does the person Harry met in the Burrow assist him in the seventh book?"
+            "Who is the character that Harry meets in The Burrow in the second book?",
+            "How does this person contribute to the events of the seventh book?",
+            "What is the significance of this character's role in the final installment of the series?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1065,11 +1065,11 @@
             }
         ],
         "id": 24,
-        "question_variants": "In the seventh installment of the series, what object or means does Harry employ to vanquish Voldemort, and what is its significance or link to the events of the fourth book?",
+        "question_variants": "In the final book, what weapon does Harry employ to vanquish Voldemort, and how does this weapon relate to the events of the fourth installment?",
         "sub_questions": [
-            "What does Harry use to defeat Voldemort in the seventh book?",
-            "What specific event or object from the fourth book connects to Harry's victory in the seventh book?",
-            "How does the connection between the fourth and seventh books influence the outcome of Harry's final battle with Voldemort?"
+            "What is the specific object or item that Harry uses to defeat Voldemort in the seventh book?",
+            "How does this item relate to or connect with an event or object from the fourth book?",
+            "Can you provide details about the significance of this connection in the context of the Harry Potter series?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1091,11 +1091,11 @@
             }
         ],
         "id": 25,
-        "question_variants": "In the third installment of the series, what knowledge does Harry gain regarding the map, and how does this information prove beneficial to him in the sixth book?",
+        "question_variants": "In the third installment, what does Harry discover about the map, and how does it assist him in the final book?",
         "sub_questions": [
-            "What does Harry learn about the map in the third book?",
-            "How does the map aid Harry in the sixth book?",
-            "What specific features or functions of the map are highlighted in the third and sixth books?"
+            "What is the nature of the map that Harry discovers in the third book?",
+            "How does the map's ability to show hidden passages and secret rooms benefit Harry in the sixth book?",
+            "Are there any other magical items or artifacts that Harry uses alongside the map in the sixth book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1117,11 +1117,11 @@
             }
         ],
         "id": 26,
-        "question_variants": "In the sixth installment of the series, what does Harry discover within the potion, and how is this discovery connected to the events of the second book?",
+        "question_variants": "In the sixth installment, what is the nature of the potion Harry discovers, and how does it connect to the events of the second book?",
         "sub_questions": [
-            "What does Harry find in the potion in the sixth Harry Potter book?",
-            "Which potion is Harry referring to in the sixth Harry Potter book?",
-            "How does the potion Harry finds in the sixth book relate to the events of the second book?"
+            "What potion does Harry find in the sixth book?",
+            "How does the potion in the sixth book relate to the events of the second book?",
+            "Can you identify any specific characters or items mentioned in the second book that are connected to the potion found in the sixth book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1143,11 +1143,11 @@
             }
         ],
         "id": 27,
-        "question_variants": "In the first book, what does Harry discover about the invisibility cloak, and how does this newfound understanding influence his decisions and behavior in the seventh installment of the series?",
+        "question_variants": "In the first book, what specific information does Harry discover about the invisibility cloak? How does this newfound knowledge influence his behavior and decisions in the seventh book?",
         "sub_questions": [
-            "What does Harry learn about the invisibility cloak in the first book?",
-            "How does Harry use the invisibility cloak in the seventh book?",
-            "What significance does the invisibility cloak hold for Harry in the seventh book compared to the first?"
+            "What is the nature of the invisibility cloak that Harry discovers in the first book?",
+            "How does Harry's initial understanding of the cloak's abilities influence his behavior and decisions in the final book?",
+            "Can Harry's knowledge of the cloak's power in the first book be linked to his actions and choices in the seventh installment?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1169,11 +1169,11 @@
             }
         ],
         "id": 28,
-        "question_variants": "In the second installment of the series, what being does Harry come across in the plumbing, and how does its demise relate to a revelation in the sixth volume?",
+        "question_variants": "In the second installment of the series, Harry meets a creature lurking in the pipes. The creature's defeat is linked to a significant revelation made in the sixth book.",
         "sub_questions": [
             "What creature does Harry encounter in the pipes in the second book?",
-            "How is the creature defeated in the second book?",
-            "What discovery in the sixth book is connected to the defeat of the creature from the second book?"
+            "How is this creature defeated?",
+            "What discovery in the sixth book is connected to this creature's defeat?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1195,11 +1195,11 @@
             }
         ],
         "id": 29,
-        "question_variants": "In the third installment of the series, which character is rescued by Harry from a Dementor, and what impact does this rescue have on a significant event in the fifth book?",
+        "question_variants": "In the third book, who is Harry's first rescue from a Dementor, and how does this action impact a significant event in the fifth book?",
         "sub_questions": [
             "Who does Harry save from a Dementor in the third book?",
-            "What specific event in the fifth book is influenced by Harry's act of saving someone from a Dementor?",
-            "How does Harry's act of saving someone from a Dementor in the third book impact the influenced event in the fifth book?"
+            "How does the act of saving this person influence Harry's actions in the subsequent books?",
+            "What specific event in the fifth book is directly impacted by this act?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1221,11 +1221,11 @@
             }
         ],
         "id": 30,
-        "question_variants": "In the fifth installment of the series, what vision does Harry witness in the flames at Grimmauld Place, and how does this event foreshadow or relate to a specific scene in the subsequent book?",
+        "question_variants": "In the fifth installment, what vision does Harry witness in the flames at Grimmauld Place, and how does it relate to a pivotal scene in the sixth book?",
         "sub_questions": [
             "What does Harry see in the fire at Grimmauld Place in the fifth book?",
-            "Which specific moment in the sixth book connects to Harry's vision from the fire?",
-            "How does the vision Harry sees in the fire relate to events in the sixth book?"
+            "How does the vision in the fire relate to a specific moment in the sixth book?",
+            "Can you identify the character or object Harry sees in the fire and its significance?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1247,14 +1247,11 @@
             }
         ],
         "id": 31,
-        "question_variants": "In the sixth installment of the series, what revelations does Harry uncover regarding the Half-Blood Prince's book, and how do these discoveries connect to a pivotal confrontation that occurred in the second book?",
+        "question_variants": "In the sixth book, what revelation does Harry uncover about the Half-Blood Prince's book, and how does this knowledge connect to a pivotal confrontation that occurred in the second book?",
         "sub_questions": [
-            "What does Harry learn about the Half?",
-            "Blood Prince's book in the sixth Harry Potter book?",
-            "Who is the Half?",
-            "Blood Prince, and what significance does this identity hold in the story?",
-            "How does the Half?",
-            "Blood Prince's book tie to a confrontation in the second Harry Potter book?"
+            "What is the content of the Half-Blood Prince's book that Harry discovers in the sixth book?",
+            "How does the information in the book relate to a significant event in the second book?",
+            "Can Harry's knowledge from the sixth book be traced back to a confrontation in the second book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1282,11 +1279,11 @@
             }
         ],
         "id": 32,
-        "question_variants": "In the seventh installment, what object aids Harry in finding Gryffindor's sword, and how is this linked to a present he received in the third book?",
+        "question_variants": "In the seventh installment, Harry employs a specific object to find the sword of Gryffindor. This object is linked to a gift he received in the third book.",
         "sub_questions": [
-            "What does Harry use to locate the sword of Gryffindor in the seventh book?",
-            "What gift did Harry receive in the third book that connects to the sword of Gryffindor?",
-            "How does the gift from the third book help Harry locate the sword of Gryffindor in the seventh book?"
+            "What object does Harry use to locate the sword of Gryffindor in the seventh book?",
+            "How does this object relate to a gift received in the third book?",
+            "Can you explain the significance of this connection in the context of the story?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1308,11 +1305,11 @@
             }
         ],
         "id": 33,
-        "question_variants": "In the first book, what does Harry learn about the Philosopher's Stone, and how is this discovery connected to a later revelation in the fifth installment of the series?",
+        "question_variants": "In the first installment, what exactly does Harry uncover about the Philosopher's Stone? How does this newfound knowledge connect to a significant revelation presented in the fifth book?",
         "sub_questions": [
-            "What does Harry discover about the Philosopher's Stone in the first book?",
-            "What specific revelation occurs in the fifth book related to the Philosopher's Stone?",
-            "How does Harry's discovery in the first book connect to the revelation in the fifth book?"
+            "What is the nature of the Philosopher's Stone as revealed to Harry in the first book?",
+            "How does the information Harry learns about the Stone in the first book differ from what he discovers in the fifth book?",
+            "Can the revelation in the fifth book be considered a sequel to the discovery in the first book?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1340,11 +1337,11 @@
             }
         ],
         "id": 34,
-        "question_variants": "In the fourth installment of the series, who does Harry encounter in the forest, and how does this meeting hint at a future partnership in the final book?",
+        "question_variants": "In the fourth installment, Harry encounters a character in the forest, and this meeting sets the stage for a significant alliance in the seventh book. How does this early interaction hint at their future collaboration?",
         "sub_questions": [
-            "Who does Harry meet in the forest in the fourth book?",
-            "What happens during Harry's encounter in the forest in the fourth book?",
-            "How does the forest encounter in the fourth book foreshadow an alliance in the seventh book?"
+            "Who is the character that Harry meets in the forest in the fourth book?",
+            "How does this encounter in the fourth book set the stage for an alliance in the seventh book?",
+            "What specific event or conversation during this forest meeting foreshadows the alliance?"
         ],
         "category": "medium_multi_labeled"
     },
@@ -1366,11 +1363,11 @@
             }
         ],
         "id": 35,
-        "question_variants": "In the sixth installment, what memories related to Voldemort's mother does Harry witness in the Pensieve, and how do these revelations tie back to the events of the second book?",
+        "question_variants": "In the sixth installment, Harry observes a memory in the Pensieve regarding Voldemort's mother, and this memory reveals a crucial link to an event from the second book.",
         "sub_questions": [
             "What does Harry see in the Pensieve about Voldemort's mother in the sixth book?",
-            "Who was Voldemort's mother, and what was her significance in his backstory?",
-            "How does the information Harry learns in the Pensieve about Voldemort's mother connect to the events of the second book?"
+            "How does the information Harry sees in the Pensieve relate to the events of the second book?",
+            "Can the connection between the sixth book and the second book be traced back to Voldemort's mother?"
         ],
         "category": "medium_multi_labeled"
     }

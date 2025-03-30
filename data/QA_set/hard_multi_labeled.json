@@ -17,11 +17,11 @@
             }
         ],
         "id": 1,
-        "question_variants": "In the first book, a Christmas gift is given, which later becomes instrumental in deciphering a clue within the Chamber in the second book. What is this object?",
+        "question_variants": "In the first book, what item presented as a Christmas gift becomes crucial in deciphering a hidden message within the Chamber of the second book?",
         "sub_questions": [
             "What object was given as a Christmas gift in the first Harry Potter book?",
-            "How does the object from the first book aid in decoding a clue in the second book?",
-            "What specific clue in the Chamber of Secrets is decoded with the help of this object?"
+            "How does this object aid in decoding a clue in the second book's Chamber?",
+            "Can you identify the specific clue in the Chamber that this object helps to decipher?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -43,11 +43,11 @@
             }
         ],
         "id": 2,
-        "question_variants": "'In the first book, which professor's offhand comment about a potion component ties to an ingredient used in a trap during the tournament in the fourth book?'",
+        "question_variants": "Can you identify the professor whose casual mention of a potion ingredient in the first book is linked to the ingredient of a trap mentioned in the fourth book's tournament?",
         "sub_questions": [
-            "What potion ingredient is casually mentioned by a professor in the first Harry Potter book?",
-            "What ingredient is associated with a trap in the fourth Harry Potter book's tournament?",
-            "Which professor made the casual remark about the potion ingredient in the first book?"
+            "Who is the professor who made the casual remark about a potion ingredient in the first book?",
+            "What specific ingredient did the professor mention in their casual remark?",
+            "How does this ingredient mentioned in the first book connect to the trap's ingredient in the fourth book's tournament?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -69,11 +69,11 @@
             }
         ],
         "id": 3,
-        "question_variants": "'How does a particular detail regarding a mirror from the initial book, combined with a family secret unveiled in the fifth installment, imply a concealed ancestral link?'",
+        "question_variants": "How does a particular detail about a mirror in the first installment, when combined with a family secret unveiled in the fifth book, hint at a concealed lineage link?",
         "sub_questions": [
-            "What specific detail about a mirror is mentioned in the first Harry Potter book?",
-            "What family revelation occurs in the fifth Harry Potter book?",
-            "How might the mirror detail from the first book and the family revelation in the fifth book relate to a hidden bloodline connection?"
+            "What is the specific detail about a mirror in the first Harry Potter book?",
+            "How does this detail relate to a family revelation in the fifth book?",
+            "What does this connection imply about a hidden bloodline?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -95,11 +95,11 @@
             }
         ],
         "id": 4,
-        "question_variants": "'Which piece of information about a pet from the second book, when paired with a map-related detail from the third book, reveals the identity of a concealed traitor?'",
+        "question_variants": "How does a specific pet-related revelation in the second book, when paired with a particular map detail in the third book, expose a secret traitor?",
         "sub_questions": [
-            "What detail about a pet is mentioned in the second Harry Potter book?",
-            "What specific map detail is introduced in the third Harry Potter book?",
-            "How do the pet detail from the second book and the map detail from the third book together reveal a hidden traitor?"
+            "What pet appears in the second book of the Harry Potter series?",
+            "What specific map detail is mentioned in the third book?",
+            "How does the information from the pet and the map detail reveal a hidden traitor?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -121,11 +121,11 @@
             }
         ],
         "id": 5,
-        "question_variants": "In the third book, a magical object is introduced that can map all of Hogwarts, but in the fifth book, it is revealed that this object cannot detect certain hidden locations. Which object is this?",
+        "question_variants": "What magical artifact, introduced in the third installment, can map out the entire Hogwarts castle but still misses specific secret areas mentioned in the fifth book?",
         "sub_questions": [
-            "What magical object was introduced in the third Harry Potter book?",
-            "What are the hidden locations in Hogwarts that remain unrevealed by the magical object in the fifth book?",
-            "In which Harry Potter book does the magical object fail to map certain hidden locations in Hogwarts?"
+            "What is the name of the magical object introduced in the third Harry Potter book?",
+            "How does this object function and what is its purpose?",
+            "In the fifth book, why does this object fail to reveal certain hidden locations?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -147,16 +147,16 @@
             }
         ],
         "id": 6,
-        "question_variants": "As the series progresses, it is revealed that a character's patronus takes the form of a doe. How does this seemingly minor detail tie into earlier clues scattered throughout the books, and what insights does it provide into the character's background and personal journey?",
+        "question_variants": "In the later installments of the series, a character's patronus is revealed to be a doe. This seemingly minor detail is a clever reference to earlier book hints, shedding light on his personal history and providing a deeper understanding of his character.",
         "sub_questions": [
-            "Which character in the Harry Potter series has a patronus that is a doe?",
-            "What earlier hints in the books foreshadow the revelation of this character's patronus?",
-            "What does the doe patronus reveal about the character's personal history?"
+            "What is the significance of a doe as a patronus charm in the Harry Potter series?",
+            "How does this specific patronus detail relate to the character's earlier experiences and background?",
+            "Can you identify any earlier hints or clues in the books that foreshadow this particular connection?"
         ],
         "category": "hard_multi_labeled"
     },
     {
-        "question": "In Half-Blood Prince, students learn about the complexities of Apparition. What are the three “D's” they must remember when Apparating, and how do these principles symbolize the series' broader themes of control and determination?",
+        "question": "In Half-Blood Prince, students learn about the complexities of Apparition. What are the three D's they must remember when Apparating, and how do these principles symbolize the series' broader themes of control and determination?",
         "answer": "The three D's that students must remember when learning to Apparate are Destination, Determination, and Deliberation.",
         "list of reference": [
             {
@@ -175,10 +175,9 @@
         "id": 7,
         "question_variants": "D's",
         "sub_questions": [
-            "What are the three \"D's\" that students must remember when Apparating in *Half?",
-            "Blood Prince*?",
-            "How does the principle of control relate to the process of Apparition in the Harry Potter series?",
-            "In what way does the concept of determination tie into the act of Apparating and its challenges?"
+            "What are the three \"D's\" that students must remember when practicing Apparition in *Harry Potter and the Half-Blood Prince*?",
+            "How do these three \"D's\" (Dare, Distance, and Direction) relate to the broader themes of control and determination present in the Harry Potter series?",
+            "Can the principles of \"Dare,\" \"Distance,\" and \"Direction\" be applied to other magical abilities or situations in the series, and if so, how?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -200,11 +199,11 @@
             }
         ],
         "id": 8,
-        "question_variants": "The query can be paraphrased as: 'Why is Harry Potter's lightning bolt scar important, and what role does it play in his connection to Voldemort?'",
+        "question_variants": "How does the distinctive lightning bolt scar on Harry Potter's forehead symbolize his connection to Lord Voldemort, and what does it signify in the context of their rivalry?",
         "sub_questions": [
             "What is the origin of Harry Potter's lightning bolt scar?",
-            "How does Harry Potter's scar act as a connection to Voldemort?",
-            "What specific events or abilities are tied to Harry Potter's scar throughout the series?"
+            "How does the scar physically manifest on Harry's forehead?",
+            "In what way does the scar symbolize Harry's connection to Voldemort?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -226,11 +225,11 @@
             }
         ],
         "id": 9,
-        "question_variants": "In what ways does the arrival of the Hogwarts acceptance letter transform Harry's life and uncover his genuine lineage?",
+        "question_variants": "What transformative events occur in Harry's life upon receiving the Hogwarts acceptance letter, and how does it unveil his hidden lineage?",
         "sub_questions": [
-            "What is the immediate impact of receiving the Hogwarts acceptance letter on Harry's daily life?",
-            "How does the letter reveal Harry's connection to the wizarding world and his family history?",
-            "In what ways does the acceptance letter mark the beginning of Harry's journey to discovering his true identity?"
+            "What is the significance of the Hogwarts acceptance letter in Harry's life?",
+            "How does this letter impact Harry's family background and reveal his true identity?",
+            "Can the letter's arrival be linked to any specific events or changes in Harry's life?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -252,11 +251,11 @@
             }
         ],
         "id": 10,
-        "question_variants": "'How does Hagrid influence the course of Harry's destiny, and in what manner is his character first presented in the story?'",
+        "question_variants": "How does Hagrid's character serve as a pivotal figure in altering Harry's destiny, and what is the narrative's initial portrayal of him?",
         "sub_questions": [
-            "What specific actions does Hagrid take that influence Harry's fate?",
-            "How is Hagrid's character first introduced in the Harry Potter narrative?",
-            "What role does Hagrid play in Harry's initial journey to Hogwarts?"
+            "What is Hagrid's role in Harry's life and how does it impact his journey?",
+            "How is Hagrid's character first introduced to the readers or viewers?",
+            "Can you describe the significance of Hagrid's appearance in the story and its impact on Harry's destiny?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -278,11 +277,11 @@
             }
         ],
         "id": 11,
-        "question_variants": "In what ways does the depiction of the Dursley family differ from the magical world, and how does this contrast shape Harry's development as a character?",
+        "question_variants": "What is the contrast between the Dursley family and the magical world, and how does this difference shape Harry's personality?",
         "sub_questions": [
-            "How is the Dursley family portrayed in the Harry Potter series?",
-            "What are the key characteristics of the magical world in contrast to the Dursleys' environment?",
-            "How does Harry's upbringing with the Dursleys influence his character development?"
+            "What specific elements of the Dursley family's behavior and environment stand out as contrasting with the magical world?",
+            "How does the Dursley family's treatment of Harry contribute to his character development and personality?",
+            "Are there any specific magical creatures or beings that the Dursleys interact with, and how do these encounters influence Harry's perception of the magical realm?"
         ],
         "category": "hard_multi_labeled"
     },
@@ -304,11 +303,11 @@
             }
         ],
         "id": 12,
-        "question_variants": "How do the perspectives of Professor McGonagall and Dumbledore on magic contrast with those of the Dursleys, and what impact do these contrasting views have on the story's development?",
+        "question_variants": "How do the contrasting magical philosophies of Professor McGonagall and Albus Dumbledore, as opposed to the Dursleys' mundane and prejudiced views, shape the plot and character development in the story?",
         "sub_questions": [
-            "How do Professor McGonagall and Dumbledore view the use and purpose of magic?",
-            "What is the Dursleys' attitude towards magic, and how does it contrast with that of the wizarding community?",
-            "In what specific ways do the differing attitudes towards magic between the Dursleys and the wizarding community impact Harry Potter's journey and the overall narrative?"
+            "What is the nature of the Dursleys' attitude towards magic?",
+            "How does Professor McGonagall's attitude towards magic differ from that of the Dursleys?",
+            "In what ways does Dumbledore's perspective on magic contrast with that of the Dursleys?"
         ],
         "category": "hard_multi_labeled"
     }
