@@ -10,7 +10,7 @@ reference_file = "data/chunked_text_all_together_cleaned.json"  # Path to the re
 
 # Find all JSON files in the specified folder without _data in the name
 files = glob.glob(f"{input_folder}/*.json")
-files = [file for file in files if "_data" not in file]
+files = [file for file in files if "_labeled" not in file and "_unlabeled" not in file]
 
 qo_files = glob.glob(f"{qo_folder}/*.json")
 
