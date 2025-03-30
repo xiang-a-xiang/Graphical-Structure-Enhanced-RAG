@@ -8,3 +8,5 @@ transformers
 pandas
 datasets
 rank-bm25
+huggingface-hub
+cohere
