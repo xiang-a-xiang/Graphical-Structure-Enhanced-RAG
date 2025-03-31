@@ -81,13 +81,12 @@ def query_embed_search(query, all_queries_list, index):
     try:
         # Find the position (index) of the query in the list of all queries
         position = all_queries_list.index(query)
-        print(f'Found Position: {position}')
+        # print(f'Found Position: {position}')
         
         # Reconstruct and return the vector at the given position in the index
         return index.reconstruct(position)
     except ValueError:
-        print(f"Query '{query}' not found in the list.")
-        return None
+        raise ValueError(f"Query '{query}' not found in the list of all queries.")
     
 
 def dense_retrieval_subqueries(queries, all_queries_list, sub_queries_index, faiss_index, passages, chunk_ids, top_k=5):

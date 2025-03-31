@@ -14,49 +14,55 @@ from utils import create_logger
 import time
 from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subqueries
 import faiss
+from typing import List
 
 notebook_login()
 
 # File Paths
 DATA_PATH = "./data"
-EASY = f"{DATA_PATH}/QA_set/easy_single_labeled.json"
-MEDIUM_S = f"{DATA_PATH}/QA_set/medium_single_labeled.json"
-MEDIUM_M = f"{DATA_PATH}/QA_set/medium_multi_labeled.json"
-HARD_S = f"{DATA_PATH}/QA_set/hard_single_labeled.json"
-HARD_M = f"{DATA_PATH}/QA_set/hard_multi_labeled.json"
+QA_PATH = f"{DATA_PATH}/QA_set"
+QA_EMBEDDED_PATH = f"{DATA_PATH}/QA_set_embedded"
+
+EASY = f"{QA_PATH}/easy_single_labeled.json"
+MEDIUM_S = f"{QA_PATH}/medium_single_labeled.json"
+MEDIUM_M = f"{QA_PATH}/medium_multi_labeled.json"
+HARD_S = f"{QA_PATH}/hard_single_labeled.json"
+HARD_M = f"{QA_PATH}/hard_multi_labeled.json"
+
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # ALL subquery List
-EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
-MEDIUM_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_single_labeled.json")
-MEDIUM_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_multi_labeled.json")
-HARD_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_single_labeled.json")
-HARD_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_multi_labeled.json")
+subqueries_easy = retrieve_all_subqueries(EASY)
+subqueries_medium_s = retrieve_all_subqueries(MEDIUM_S)
+subqueries_medium_m = retrieve_all_subqueries(MEDIUM_M)
+subqueries_hard_s = retrieve_all_subqueries(HARD_S)
+subqueries_hard_m = retrieve_all_subqueries(HARD_M)
 
 # ALL Index Files
-EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
-MEDIUM_S_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_medium_single_labeled.index")
-MEDIUM_M_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_medium_multi_labeled.index")
-HARD_S_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_hard_single_labeled.index")
-HARD_M_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_hard_multi_labeled.index")
+index_easy = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_easy_single_labeled.index")
+index_medium_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_single_labeled.index")
+index_medium_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_medium_multi_labeled.index")
+index_hard_s = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_single_labeled.index")
+index_hard_m = faiss.read_index(f"{QA_EMBEDDED_PATH}/bge_hard_multi_labeled.index")
+
 # Load all bge embedding
-CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+corpus_index = faiss.read_index('hp_all_bge.index')
 with open(CORPUS_FILE, 'r') as f:
-    CORPUS_DATA = json.load(f)
+    corpus = json.load(f)
 
 
 def load_index_and_all_subqueries(category):
     match category:
         case "easy_single_labeled":
-            return EASY_INDEX, EASY_ALL_SUB
+            return index_easy, subqueries_easy
         case "medium_single_labeled":
-            return MEDIUM_S_INDEX, MEDIUM_S_ALL_SUB
+            return index_medium_s, subqueries_medium_s
         case "medium_multi_labeled":
-            return MEDIUM_M_INDEX, MEDIUM_M_ALL_SUB
+            return index_medium_m, subqueries_medium_m
         case "hard_single_labeled":
-            return HARD_S_INDEX, HARD_S_ALL_SUB
+            return index_hard_s, subqueries_hard_s
         case "hard_multi_labeled":
-            return HARD_M_INDEX, HARD_M_ALL_SUB
+            return index_hard_m, subqueries_hard_m
         case _:
             raise ValueError("Unknown category")
         
@@ -86,8 +92,11 @@ args = {
     "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "xchen-catkin-ucl",
-    "epochs": 10,
-    "margin": 0.3
+    "epochs": 1,
+    "margin": 0.3,
+    "test_size": 0.2,
+    "random_state": 42,
+    "top_k": 5,
 }
 
 def parse_args():
@@ -131,13 +140,12 @@ def hard_negative_mining(item):
         sub_questions = item["sub_questions"]
         index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
-        top_k = 5
-        for sub_question in sub_questions:
-            top_k_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, CORPUS_EMBEDDING, CORPUS_DATA,top_k=5)
-            negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
+        top_k_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, corpus_index, corpus, top_k=args.top_k)
+        negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
         negative_retrieval_list = list(negative_retrieval_set)
-        assert len(negative_retrieval_list) >= 1, f"Not enough negative samples found for item: {item}"
-        return negative_retrieval_list
+        negative_retrievals = [corpus[int(neg_id) - 1] for neg_id in negative_retrieval_list]
+        assert len(negative_retrievals) >= 1, f"Not enough negative samples found for item: {item}"
+        return negative_retrievals
     except KeyError:
         raise (f"KeyError: 'list of reference' not found in item: {item}")
     except Exception as e:
@@ -219,18 +227,18 @@ def train(args, logger: logging.Logger):
     hard_single = load_json_data(args.hard_single_file)
     hard_multi = load_json_data(args.hard_multi_file)
 
-    train_data_easy, test_data_easy = train_test_split(easy, test_size=0.2, random_state=42)
-    train_data_medium_single, test_data_medium_single = train_test_split(medium_single, test_size=0.2, random_state=42)
-    train_data_medium_multi, test_data_medium_multi = train_test_split(medium_multi, test_size=0.2, random_state=42)
-    train_data_hard_single, test_data_hard_single = train_test_split(hard_single, test_size=0.2, random_state=42)
-    train_data_hard_multi, test_data_hard_multi = train_test_split(hard_multi, test_size=0.2, random_state=42)
+    train_data_easy, test_data_easy = train_test_split(easy, test_size=args.test_size, random_state=args.random_state)
+    train_data_medium_single, test_data_medium_single = train_test_split(medium_single, test_size=args.test_size, random_state=args.random_state)
+    train_data_medium_multi, test_data_medium_multi = train_test_split(medium_multi, test_size=args.test_size, random_state=args.random_state)
+    train_data_hard_single, test_data_hard_single = train_test_split(hard_single, test_size=args.test_size, random_state=args.random_state)
+    train_data_hard_multi, test_data_hard_multi = train_test_split(hard_multi, test_size=args.test_size, random_state=args.random_state)
     train_data = train_data_easy + train_data_medium_single + train_data_medium_multi + train_data_hard_single + train_data_hard_multi
     test_data = test_data_easy + test_data_medium_single + test_data_medium_multi + test_data_hard_single + test_data_hard_multi
     
     # save down train and test data
-    with open(f"data/{args.experiment_name}_train_data.json", "w") as f:
+    with open(f"data/finetune_train_data_test_size_{args.test_size}_random_state_{args.random_state}.json", "w") as f:
         json.dump(train_data, f, indent=4)
-    with open(f"data/{args.experiment_name}_test_data.json", "w") as f:
+    with open(f"data/finetune_test_data_test_size_{args.test_size}_random_state_{args.random_state}.json", "w") as f:
         json.dump(test_data, f, indent=4)
     logger.info(f"Loaded {len(train_data)} training examples and {len(test_data)} test examples")
 
