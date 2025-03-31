@@ -110,6 +110,31 @@ def dense_retrieval_subqueries(queries, all_queries_list, sub_queries_index, fai
         ])
     return results
 
+def retrieve_all_subqueries(file_path):
+    with open(file_path, 'r') as f:
+        qa_data = json.load(f)
+
+    subquestion_list = []
+    for i, item in enumerate(qa_data):
+        tmp = item['sub_questions']
+        for j, sub in enumerate(tmp):
+            subquestion_list.append(sub)
+    return subquestion_list
+
+
+def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index, all_chucks, top_k=5):
+    if isinstance(queries, str):
+        queries = [queries]
+
+    results = []
+    for query in queries:
+        #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+        query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
+        query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
+        distances, indices = faiss_index.search(query_emb, top_k)
+        results.extend([ all_chucks[i] for _, i in enumerate(indices[0]) ])
+    return results
+
 if __name__ == "__main__":
     file_path = 'bge_qa_subqueries.index'
     index = faiss.read_index(file_path)

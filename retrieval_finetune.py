@@ -12,6 +12,8 @@ from sentence_transformers.evaluation import TripletEvaluator, InformationRetrie
 import logging
 from utils import create_logger
 import time
+from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subqueries
+import faiss
 
 notebook_login()
 
@@ -23,6 +25,43 @@ MEDIUM_M = f"{DATA_PATH}/QA_set/medium_multi_data_labeled.json"
 HARD_S = f"{DATA_PATH}/QA_set/hard_single_data_labeled.json"
 HARD_M = f"{DATA_PATH}/QA_set/hard_multi_data_labeled.json"
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
+
+# ALL subquery List
+EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_data_labeled.json")
+MEDIUM_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_single_data_labeled.json")
+MEDIUM_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_multi_data_labeled.json")
+HARD_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_single_data_labeled.json")
+HARD_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_multi_data_labeled.json")
+
+# ALL Index Files
+EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
+MEDIUM_S_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_medium_single_labeled.index")
+MEDIUM_M_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_medium_multi_labeled.index")
+HARD_S_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_hard_single_labeled.index")
+HARD_M_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_hard_multi_labeled.index")
+# Load all bge embedding
+CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+with open(CORPUS_FILE, 'r') as f:
+    CORPUS_DATA = json.load(f)
+
+
+def load_index_and_all_subqueries(category):
+    match category:
+        case "easy_single_labeled":
+            return EASY_INDEX, EASY_ALL_SUB
+        case "medium_single_labeled":
+            return MEDIUM_S_INDEX, MEDIUM_S_ALL_SUB
+        case "medium_multi_labeled":
+            return MEDIUM_M_INDEX, MEDIUM_M_ALL_SUB
+        case "hard_single_labeled":
+            return HARD_S_INDEX, HARD_S_ALL_SUB
+        case "hard_multi_labeled":
+            return HARD_M_INDEX, HARD_M_ALL_SUB
+        case _:
+            raise ValueError("Unknown category")
+        
+
+
 
 model_list = [
     "BAAI/bge-base-en-v1.5",
@@ -90,11 +129,11 @@ def hard_negative_mining(item):
             reference_ids = [ref["ref_id"] for ref in references]
         reference_ids = set(reference_ids)
         sub_questions = item["sub_questions"]
+        index_file, all_subquestion_list = load_index_and_all_subqueries(item["category"])
         negative_retrieval_set = set()
         top_k = 5
-        # TODO: retrieve top_k for each sub question
         for sub_question in sub_questions:
-            top_k_retrieval = [] # TODO: replace with some retrieval function, same format as chunk
+            top_k_retrieval = dense_retrieval_subqueries_for_finetune(sub_questions, all_subquestion_list, index_file, CORPUS_EMBEDDING, CORPUS_DATA,top_k=5)
             negative_retrieval_set.update([negative_retrieval['chunk_id'] for negative_retrieval in top_k_retrieval if negative_retrieval['chunk_id'] not in reference_ids])
         negative_retrieval_list = list(negative_retrieval_set)
         assert len(negative_retrieval_list) >= 1, f"Not enough negative samples found for item: {item}"
