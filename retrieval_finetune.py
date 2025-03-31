@@ -92,7 +92,7 @@ args = {
     "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "xchen-catkin-ucl",
-    "epochs": 1,
+    "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
     "random_state": 42,
@@ -271,9 +271,9 @@ def train(args, logger: logging.Logger):
     model.fit(
         train_objectives=[(train_dataloader, train_loss)],
         epochs=args.epochs,
-        warmup_steps=10,
+        warmup_steps=2,
         evaluator=evaluator,
-        evaluation_steps=10,
+        evaluation_steps=5,
         save_best_model=True,
         show_progress_bar=True,
         callback=TimedCallback()
