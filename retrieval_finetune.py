@@ -19,19 +19,19 @@ notebook_login()
 
 # File Paths
 DATA_PATH = "./data"
-EASY = f"{DATA_PATH}/QA_set/easy_single_data_labeled.json"
-MEDIUM_S = f"{DATA_PATH}/QA_set/medium_single_data_labeled.json"
-MEDIUM_M = f"{DATA_PATH}/QA_set/medium_multi_data_labeled.json"
-HARD_S = f"{DATA_PATH}/QA_set/hard_single_data_labeled.json"
-HARD_M = f"{DATA_PATH}/QA_set/hard_multi_data_labeled.json"
+EASY = f"{DATA_PATH}/QA_set/easy_single_labeled.json"
+MEDIUM_S = f"{DATA_PATH}/QA_set/medium_single_labeled.json"
+MEDIUM_M = f"{DATA_PATH}/QA_set/medium_multi_labeled.json"
+HARD_S = f"{DATA_PATH}/QA_set/hard_single_labeled.json"
+HARD_M = f"{DATA_PATH}/QA_set/hard_multi_labeled.json"
 CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # ALL subquery List
-EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_data_labeled.json")
-MEDIUM_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_single_data_labeled.json")
-MEDIUM_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_multi_data_labeled.json")
-HARD_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_single_data_labeled.json")
-HARD_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_multi_data_labeled.json")
+EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
+MEDIUM_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_single_labeled.json")
+MEDIUM_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/medium_multi_labeled.json")
+HARD_S_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_single_labeled.json")
+HARD_M_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/hard_multi_labeled.json")
 
 # ALL Index Files
 EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")

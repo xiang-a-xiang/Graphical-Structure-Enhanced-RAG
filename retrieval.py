@@ -10,7 +10,7 @@ import faiss
 # -----------------------------
 # Config paths
 # -----------------------------
-DATA_PATH = "./data"
+DATA_PATH = "data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # -----------------------------
@@ -136,21 +136,31 @@ def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queri
     return results
 
 if __name__ == "__main__":
-    file_path = 'bge_qa_subqueries.index'
-    index = faiss.read_index(file_path)
-    embeding_dimension = index.ntotal
-    print(embeding_dimension)
-
-    qa_path = 'data/QO_set/medium_single_QO.json'
-    with open(qa_path, 'r') as f:
-        qa_data = json.load(f)
-
-    subquestion_list = []
-    for i, item in enumerate(qa_data):
-        tmp = item['sub_questions']
-        for j, sub in enumerate(tmp):
-            subquestion_list.append(sub)
-
-    print(len(subquestion_list))
+    data = {
+        "question": "On which street do the Dursleys live at the beginning of the story?",
+        "answer": "They live at Number Four, Privet Drive.",
+        "list of reference": [
+            {
+                "ref_id": 1,
+                "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+                "book": 1,
+                "chapter": 1
+            }
+        ],
+        "id": 1,
+        "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+        "sub_questions": [
+            "On which street do the Dursleys live at the beginning of the story?"
+        ],
+        "category": "easy_single_labeled"
+    }
+    EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
+    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
+    CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+    CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
+    with open(CORPUS_FILE, 'r') as f:
+        CORPUS_DATA = json.load(f)
+    result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
+    print(result)
 
     
