@@ -2,7 +2,8 @@ import json
 import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer, InputExample, losses
-from types import SimpleNamespace
+from sentence_transformers.datasets import NoDuplicatesDataLoader
+from types import SimpleNamespacere
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from datetime import datetime
@@ -52,19 +53,18 @@ with open(CORPUS_FILE, 'r') as f:
 
 
 def load_index_and_all_subqueries(category):
-    match category:
-        case "easy_single_labeled":
-            return index_easy, subqueries_easy
-        case "medium_single_labeled":
-            return index_medium_s, subqueries_medium_s
-        case "medium_multi_labeled":
-            return index_medium_m, subqueries_medium_m
-        case "hard_single_labeled":
-            return index_hard_s, subqueries_hard_s
-        case "hard_multi_labeled":
-            return index_hard_m, subqueries_hard_m
-        case _:
-            raise ValueError("Unknown category")
+    if category == "easy_single_labeled":
+        return index_easy, subqueries_easy
+    elif category == "medium_single_labeled":
+        return index_medium_s, subqueries_medium_s
+    elif category == "medium_multi_labeled":
+        return index_medium_m, subqueries_medium_m
+    elif category == "hard_single_labeled":
+        return index_hard_s, subqueries_hard_s
+    elif category == "hard_multi_labeled":
+        return index_hard_m, subqueries_hard_m
+    else:
+        raise ValueError("Unknown category")
         
 
 
