@@ -3,7 +3,7 @@ import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer, InputExample, losses
 from sentence_transformers.datasets import NoDuplicatesDataLoader
-from types import SimpleNamespacere
+from types import SimpleNamespace
 from sklearn.model_selection import train_test_split
 from torch.utils.data import DataLoader
 from datetime import datetime
@@ -91,7 +91,7 @@ args = {
     "hard_multi_file": HARD_M,
     "batch_size": 16,
     "huggingfaceusername": "CatkinChen",
-    "wandbusername": "xchen-catkin-ucl",
+    "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
     "margin": 0.3,
     "test_size": 0.2,
@@ -187,9 +187,9 @@ def process_data(data):
         relevant_map[query_id] = set([str(ref['ref_id']) for ref in refs])
         
         negative_list = hard_negative_mining(item)
-        negative_samples = np.random.choice(np.array(negative_list), min(1, ref_len), replace=True)
-        
-        for i in range(len(negative_samples)):
+        # negative_samples = np.random.choice(np.array(negative_list), min(1, ref_len), replace=True)
+
+        for i in range(ref_len):
             if len(refs) == 0:
                 positive_enhanced = ''
             else:
@@ -200,14 +200,37 @@ def process_data(data):
                     f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
                     f"Passage: {passage_text}"
                 )
-            neg_book_id = negative_samples[i]['title_num']
-            neg_chapter_id = negative_samples[i]['chapter_num']
-            neg_passage_text = negative_samples[i]['passage']
-            negative_enhanced = (
-                f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
-                f"Passage: {neg_passage_text}"
-            )
-            examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
+            for j in range(len(negative_list)):
+                neg_book_id = negative_list[j]['title_num']
+                neg_chapter_id = negative_list[j]['chapter_num']
+                neg_passage_text = negative_list[j]['passage']
+                negative_enhanced = (
+                    f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    f"Passage: {neg_passage_text}"
+                )
+                examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
+
+
+        
+        # for i in range(len(negative_samples)):
+        #     if len(refs) == 0:
+        #         positive_enhanced = ''
+        #     else:
+        #         pos_book_id = refs[i]['book']
+        #         pos_chapter_id = refs[i]['chapter']
+        #         passage_text = refs[i]['passage']
+        #         positive_enhanced = (
+        #             f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+        #             f"Passage: {passage_text}"
+        #         )
+        #     neg_book_id = negative_samples[i]['title_num']
+        #     neg_chapter_id = negative_samples[i]['chapter_num']
+        #     neg_passage_text = negative_samples[i]['passage']
+        #     negative_enhanced = (
+        #         f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+        #         f"Passage: {neg_passage_text}"
+        #     )
+        #     examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
     return examples, query_map, relevant_map
     
 def train(args, logger: logging.Logger):
