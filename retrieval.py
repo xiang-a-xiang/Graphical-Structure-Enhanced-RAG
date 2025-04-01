@@ -10,7 +10,7 @@ import faiss
 # -----------------------------
 # Config paths
 # -----------------------------
-DATA_PATH = "./data"
+DATA_PATH = "data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
 
 # -----------------------------
@@ -81,13 +81,12 @@ def query_embed_search(query, all_queries_list, index):
     try:
         # Find the position (index) of the query in the list of all queries
         position = all_queries_list.index(query)
-        print(f'Found Position: {position}')
+        # print(f'Found Position: {position}')
         
         # Reconstruct and return the vector at the given position in the index
         return index.reconstruct(position)
     except ValueError:
-        print(f"Query '{query}' not found in the list.")
-        return None
+        raise ValueError(f"Query '{query}' not found in the list of all queries.")
     
 
 def dense_retrieval_subqueries(queries, all_queries_list, sub_queries_index, faiss_index, passages, chunk_ids, top_k=5):
@@ -110,14 +109,8 @@ def dense_retrieval_subqueries(queries, all_queries_list, sub_queries_index, fai
         ])
     return results
 
-if __name__ == "__main__":
-    file_path = 'bge_qa_subqueries.index'
-    index = faiss.read_index(file_path)
-    embeding_dimension = index.ntotal
-    print(embeding_dimension)
-
-    qa_path = 'data/QO_set/medium_single_QO.json'
-    with open(qa_path, 'r') as f:
+def retrieve_all_subqueries(file_path):
+    with open(file_path, 'r') as f:
         qa_data = json.load(f)
 
     subquestion_list = []
@@ -125,7 +118,48 @@ if __name__ == "__main__":
         tmp = item['sub_questions']
         for j, sub in enumerate(tmp):
             subquestion_list.append(sub)
+    return subquestion_list
 
-    print(len(subquestion_list))
+
+def dense_retrieval_subqueries_for_finetune(queries, all_queries_list, sub_queries_index, faiss_index, all_chucks, top_k=5):
+    if isinstance(queries, str):
+        queries = [queries]
+
+    results = []
+    for query in queries:
+        #query_emb = model.encode(query, convert_to_numpy=True, normalize_embeddings=True)
+        query_emb = query_embed_search(query, all_queries_list, sub_queries_index)
+        query_emb = query_emb.reshape(1, -1)  # Reshapes to (1, d)
+        distances, indices = faiss_index.search(query_emb, top_k)
+        results.extend([ all_chucks[i] for _, i in enumerate(indices[0]) ])
+    return results
+
+if __name__ == "__main__":
+    data = {
+        "question": "On which street do the Dursleys live at the beginning of the story?",
+        "answer": "They live at Number Four, Privet Drive.",
+        "list of reference": [
+            {
+                "ref_id": 1,
+                "passage": "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much. They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense. Mr. Dursley was the director of a firm called Grunnings, which made drills. He was a big, beefy man with hardly any neck, although he did have a very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbors.",
+                "book": 1,
+                "chapter": 1
+            }
+        ],
+        "id": 1,
+        "question_variants": "On which street do the Dursleys live at the beginning of the story?",
+        "sub_questions": [
+            "On which street do the Dursleys live at the beginning of the story?"
+        ],
+        "category": "easy_single_labeled"
+    }
+    EASY_INDEX = faiss.read_index(f"{DATA_PATH}/QA_set_embedded/bge_easy_single_labeled.index")
+    EASY_ALL_SUB = retrieve_all_subqueries(f"{DATA_PATH}/QA_set/easy_single_labeled.json")
+    CORPUS_EMBEDDING = faiss.read_index('hp_all_bge.index')
+    CORPUS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
+    with open(CORPUS_FILE, 'r') as f:
+        CORPUS_DATA = json.load(f)
+    result = dense_retrieval_subqueries_for_finetune(data['sub_questions'], EASY_ALL_SUB, EASY_INDEX, CORPUS_EMBEDDING,CORPUS_DATA , top_k=5)
+    print(result)
 
     
