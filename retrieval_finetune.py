@@ -243,6 +243,10 @@ def train(args, logger: logging.Logger):
     logger.info(f"Loaded {len(train_data)} training examples and {len(test_data)} test examples")
 
     train_examples, train_query_map, train_relevant_map = process_data(train_data)
+    train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
+    with open (f"data/finetune_train_triplets_test_size_{args.test_size}_random_state_{args.random_state}_processed.json", "w") as f:
+        json.dump(train_examples_dict, f, indent=4)
+    logger.info(f"Processed {len(train_examples)} training examples")
     test_examples, test_query_map, test_relevant_map = process_data(test_data)
         
     train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
