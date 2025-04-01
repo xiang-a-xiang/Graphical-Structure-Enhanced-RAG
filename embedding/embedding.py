@@ -9,14 +9,14 @@ from tqdm import tqdm
 import glob
 
 # Use CUDA if available
-device = "cuda" if torch.cuda.is_available() else "cpu"
+#device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Define paths
-EMBEDDING_PATH = "./embedding/"
+EMBEDDING_PATH = "./embedding"
 DATA_PATH = "./data"
 ALL_CHUNKS_FILE = f"{DATA_PATH}/chunked_text_all_together_cleaned.json"
-QA_PATH = f"{DATA_PATH}/QA_set/"
-qa_files = [glob.glob(f"{QA_PATH}/*.json")]
+QA_PATH = f"{DATA_PATH}/QA_set"
+qa_files = glob.glob(f"{QA_PATH}/*.json")
 qa_files = [file for file in qa_files if "_labeled" in file]
 
 # Use CUDA
@@ -90,11 +90,11 @@ def process_all_hp_passages(model, model_name):
         print("No passages to embed.")
         return
     embeddings = embed_texts(passages, model)
-    os.makedirs(DATA_PATH, exist_ok=True)
-    index_path = f"{DATA_PATH}/hp_all_{model_name}.index"
-    emb_path = f"{DATA_PATH}/hp_all_{model_name}_embeddings.npy"
+    os.makedirs(EMBEDDING_PATH, exist_ok=True)
+    index_path = f"{EMBEDDING_PATH}/hp_all_{model_name}.index"
+    #emb_path = f"{EMBEDDING_PATH}/hp_all_{model_name}_embeddings.npy"
     store_faiss_index(embeddings, index_path)
-    np.save(emb_path, embeddings)
+    #np.save(emb_path, embeddings)
     print(f"Embeddings and FAISS index saved for {model_name}")
 
 # -----------------------------
@@ -117,17 +117,20 @@ def load_qa_subqueries(file):
     return sub_queries
 
 # Unified QA processing for subqueries
-def process_qa_subqueries(model, model_name):
+def process_qa_subqueries(model, model_name, file):
     print(f"\nProcessing QA embeddings for subqueries with model: {model_name}")
-    sub_queries = load_qa_subqueries()
+    sub_queries = load_qa_subqueries(file)
     if not sub_queries:
         print("No subqueries found.")
         return
+    
+    base_name = os.path.splitext(os.path.basename(file))[0]
+    
     embeddings = embed_texts(sub_queries, model)
-    index_path = f"{DATA_PATH}/{model_name}_qa_subqueries.index"
-    emb_path = f"{DATA_PATH}/qa_subquery_embeddings_{model_name}.npy"
+    index_path = f"{EMBEDDING_PATH}/{base_name}_embeddings.index"
+    #emb_path = f"{EMBEDDING_PATH}/qa_subquery_embeddings_{model_name}.npy"
     store_faiss_index(embeddings, index_path)
-    np.save(emb_path, embeddings)
+    #np.save(emb_path, embeddings)
     print(f"QA subquery embeddings and FAISS index saved for {model_name}")
 
 # -----------------------------
@@ -140,5 +143,6 @@ if __name__ == "__main__":
     #process_all_hp_passages(mpnet_model, "mpnet")
     
     # Process QA subqueries for each model
-    process_qa_subqueries(bge_model, "bge")
+    for file in qa_files:
+        process_qa_subqueries(bge_model, "bge", file)
     #process_qa_subqueries(mpnet_model, "mpnet")
