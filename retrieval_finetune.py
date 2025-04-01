@@ -17,6 +17,8 @@ from retrieval import dense_retrieval_subqueries_for_finetune, retrieve_all_subq
 import faiss
 from typing import List
 
+
+
 notebook_login()
 
 # File Paths
@@ -89,7 +91,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 16,
+    "batch_size": 8,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
@@ -357,6 +359,7 @@ def train(args, logger: logging.Logger):
         evaluation_steps=5,
         save_best_model=True,
         show_progress_bar=True,
+        use_amp=True,
         callback=TimedCallback()
     )
     
@@ -377,6 +380,7 @@ def train(args, logger: logging.Logger):
     )
     
 if __name__ == "__main__":
+    torch.cuda.empty_cache()
     args = parse_args()
     wandb.init(project=args.project, name=args.experiment_name, entity=args.wandbusername)
     logger = create_logger(args.experiment_name, console_output=True)
