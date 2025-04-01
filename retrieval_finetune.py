@@ -102,8 +102,8 @@ args = {
 def parse_args():
     this_args = args.copy()
     this_args['project'] = f"{this_args['model_name'].split('/')[-1]}-finetune-project"
-    this_args['experiment_name'] = f"{this_args['model_name'].split('/')[-1]}-finetune-run-{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}"
-    this_args["model_repo_id"] = f"{this_args['huggingfaceusername']}/{this_args['model_name'].replace('/', '_')}_retrieval_finetuned_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}"
+    this_args['experiment_name'] = f"{this_args['model_name'].split('/')[-1]}-finetune-run-{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
+    this_args["model_repo_id"] = f"{this_args['huggingfaceusername']}/{this_args['model_name'].replace('/', '_')}_retrieval_finetuned_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
     simple_name_args = SimpleNamespace(**this_args)
     return simple_name_args
 

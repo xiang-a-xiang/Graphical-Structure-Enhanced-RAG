@@ -10,3 +10,4 @@ datasets
 rank-bm25
 huggingface-hub
 cohere
+nltk
