@@ -309,13 +309,22 @@ def train(args, logger: logging.Logger):
 
     train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
     train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
+
+    # train_examples, train_query_map, train_relevant_map = process_data(train_data)
+    # train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
+
+
+
     with open (f"data/finetune_train_triplets_test_size_{args.test_size}_random_state_{args.random_state}_processed.json", "w") as f:
         json.dump(train_examples_dict, f, indent=4)
     logger.info(f"Processed {len(train_examples)} training examples")
     test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
+    # test_examples, test_query_map, test_relevant_map = process_data(test_data)
+
     
    
     train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
+    # train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
     evaluator = InformationRetrievalEvaluator(
         test_query_map,
         corpus_map,
@@ -323,7 +332,9 @@ def train(args, logger: logging.Logger):
         len(corpus_map)
     )
 
-    train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+    # train_loss = losses.TripletLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
+
+    train_loss = losses.MultipleNegativesRankingLoss(model, distance_metric=losses.TripletDistanceMetric.COSINE, triplet_margin=args.margin)
 
     logger.info(f"Training with {len(train_examples)} training examples and {len(test_examples)} test examples")
 
