@@ -91,7 +91,7 @@ args = {
     "medium_multi_file": MEDIUM_M,
     "hard_single_file": HARD_S,
     "hard_multi_file": HARD_M,
-    "batch_size": 8,
+    "batch_size": 4,
     "huggingfaceusername": "CatkinChen",
     "wandbusername": "aaron-cui990810-ucl",
     "epochs": 5,
