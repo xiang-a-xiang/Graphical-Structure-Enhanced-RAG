@@ -197,7 +197,7 @@ def process_data(data):
                 pos_chapter_id = refs[i]['chapter']
                 passage_text = refs[i]['passage']
                 positive_enhanced = (
-                    f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+                    # f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
                     f"Passage: {passage_text}"
                 )
             for j in range(len(negative_list)):
@@ -205,13 +205,10 @@ def process_data(data):
                 neg_chapter_id = negative_list[j]['chapter_num']
                 neg_passage_text = negative_list[j]['passage']
                 negative_enhanced = (
-                    f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    # f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
                     f"Passage: {neg_passage_text}"
                 )
                 examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
-
-
-        
         # for i in range(len(negative_samples)):
         #     if len(refs) == 0:
         #         positive_enhanced = ''
@@ -232,6 +229,51 @@ def process_data(data):
         #     )
         #     examples.append(InputExample(texts=[question, positive_enhanced, negative_enhanced]))
     return examples, query_map, relevant_map
+
+
+def process_data_MNRL(data):
+    examples = []
+    query_map = {}
+    relevant_map = {}
+    for item in data:
+        question = item["question"]
+        
+        refs = item["list of reference"]
+        ref_len = len(refs)
+        
+        query_id = item['category'] + '_' + str(item['id'])
+        
+        query_map[query_id] = question
+        relevant_map[query_id] = set([str(ref['ref_id']) for ref in refs])
+        
+        negative_list = hard_negative_mining(item)
+        # negative_samples = np.random.choice(np.array(negative_list), min(1, ref_len), replace=True)
+
+        for i in range(ref_len):
+            if len(refs) == 0:
+                positive_enhanced = ''
+            else:
+                pos_book_id = refs[i]['book']
+                pos_chapter_id = refs[i]['chapter']
+                passage_text = refs[i]['passage']
+                positive_enhanced = (
+                    # f"Book: {pos_book_id}, Chapter: {pos_chapter_id}\n"
+                    f"Passage: {passage_text}"
+                )
+            negative_enhanced = []
+            for j in range(len(negative_list)):
+                neg_book_id = negative_list[j]['title_num']
+                neg_chapter_id = negative_list[j]['chapter_num']
+                neg_passage_text = negative_list[j]['passage']
+                negative_enhanced.append(
+                    # f"Book: {neg_book_id}, Chapter: {neg_chapter_id}\n"
+                    f"Passage: {neg_passage_text}"
+                )
+            examples.append(InputExample(texts=[question, positive_enhanced]+ negative_enhanced))
+    return examples, query_map, relevant_map
+
+
+
     
 def train(args, logger: logging.Logger):
     # Use CUDA
@@ -265,14 +307,15 @@ def train(args, logger: logging.Logger):
         json.dump(test_data, f, indent=4)
     logger.info(f"Loaded {len(train_data)} training examples and {len(test_data)} test examples")
 
-    train_examples, train_query_map, train_relevant_map = process_data(train_data)
+    train_examples, train_query_map, train_relevant_map = process_data_MNRL(train_data)
     train_examples_dict = [ {"question": example.texts[0], "positive": example.texts[1], "negative": example.texts[2]} for example in train_examples ]
     with open (f"data/finetune_train_triplets_test_size_{args.test_size}_random_state_{args.random_state}_processed.json", "w") as f:
         json.dump(train_examples_dict, f, indent=4)
     logger.info(f"Processed {len(train_examples)} training examples")
-    test_examples, test_query_map, test_relevant_map = process_data(test_data)
-        
-    train_dataloader = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
+    test_examples, test_query_map, test_relevant_map = process_data_MNRL(test_data)
+    
+   
+    train_dataloader = NoDuplicatesDataLoader(train_examples,batch_size=args.batch_size)
     evaluator = InformationRetrievalEvaluator(
         test_query_map,
         corpus_map,
