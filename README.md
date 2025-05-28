@@ -1,2 +1,1 @@
-# NLP_project
-Natural Language Processing Project from COMP0087
+# Graphical RAG for Unstructured style information
